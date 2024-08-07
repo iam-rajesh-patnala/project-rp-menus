@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+/* HomePage Container Starts -----------------------*/
+.home-page {
+    min-height: 100vh;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Background Container Starts -----------------------*/
+.background-container {
+    position: relative;
+    background-color: #ffffff;
+    min-height: 100vh;
+    width: 100%;
+    max-width: 1100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15px 8px 15px;
+    user-select: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    z-index: 1;
+}
+
+.background-container::before {
+    position: absolute;
+    content: "";
+    background-image: url(../../assets/icons/restaurant_icons.png);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.06;
+    inset: 0;
+    z-index: -1;
+}
+
+/* Logo Container Starts -----------------------*/
+.logo-container {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border: 1px solid #000000;
+    background-image: url('../../assets/icons/logo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    margin-top: 80px;
+}
+
+/* Text Container Starts -----------------------*/
+.text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 10px;
+    margin-top: 80px;
+}
+
+.welcome-text {
+    font-family: "Merriwather", serif;
+    color: #000000;
+    font-size: min(24px, 10vw);
+    font-weight: 700;
+}
+
+.sub-text {
+    font-family: "Noto Serif", serif;
+    color: #000000;
+    font-size: min(18px, 5vw);
+    font-weight: 500;
+}
+
+/* Buttons Container Starts -----------------------*/
+
+.button-container {
+    border-radius: 10px;
+    margin-top: 120px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.copyright {
+    font-family: "Noto Serif", serif;
+    color: #000000;
+    font-size: min(14px, 5vw);
+    font-weight: 400;
+    padding-top: 80px;
+    margin-top: auto;
+}

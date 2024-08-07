@@ -1,0 +1,59 @@
+.order-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: flex-end;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 14px 40px 14px 20px;
+    width: 100%;
+    column-gap: min(20px, 5vw);
+    background-color: #ffffff;
+    outline: 1px solid #00000023;
+    outline-offset: -1px;
+    box-shadow: 1px 1px 5px #0000004b;
+    -webkit-box-shadow: 1px 1px 5px #0000004b;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    -webkit-transition: 400ms;
+    transition: 400ms;
+}
+
+.order-btn:active {
+    transform: scale(0.96);
+}
+
+.order-btn-text {
+    color: #000000;
+    font-family: "Noto Serif", serif;
+    font-size: min(20px, 5vw);
+    font-weight: bold;
+    transition: 400ms;
+    -webkit-transition: 400ms;
+}
+
+.order-btn svg path {
+    -webkit-transition: 400ms;
+    transition: 400ms;
+}
+
+.order-btn:hover {
+    background-color: #000000;
+}
+
+.order-btn:hover .order-btn-text {
+    color: #ffffff;
+}
+
+.order-btn:hover svg path {
+    fill: #ffffff;
+}
+
+/* SVG Icon */
+.order-icon {
+    width: min(40px, 10vw);
+}

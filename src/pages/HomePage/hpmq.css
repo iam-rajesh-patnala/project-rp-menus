@@ -1,0 +1,415 @@
+/* iPhone Screen Sizes and Media Queries */
+
+/* iPhone SE Screen Size: 320 x 568 pixels 326ppi */
+@media only screen and (min-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+    .logo-container {
+        width: 150px;
+        height: 150px;
+        margin-top: 30px;
+        background-color: #8f7b39;
+    }
+
+    .text-container {
+        margin-top: 60px;
+    }
+
+    .welcome-text {
+        font-size: 20px;
+    }
+
+    .sub-text {
+        font-size: 16px;
+    }
+
+    .button-container {
+        margin-top: 50px;
+    }
+}
+
+/* iPhone SE 2020, iPhone 6s/7/8 (Retina) - Screen Size: 375 x 667 pixels 326ppi */
+@media only screen and (min-width: 375px) and (-webkit-min-device-pixel-ratio: 2) {
+
+    .logo-container {
+        width: 155px;
+        height: 155px;
+        margin-top: 40px;
+        background-color: #3aa0ff;
+    }
+
+    .text-container {
+        margin-top: 60px;
+    }
+
+    .welcome-text {
+        font-size: 22px;
+    }
+
+    .sub-text {
+        font-size: 16px;
+    }
+
+    .button-container {
+        margin-top: 60px;
+    }
+}
+
+/* iPhone X, iPhone XS, iPhone 11 Pro, iPhone 12 Mini, iPhone 13 Mini - Screen Size: 360 x 780 pixels */
+@media only screen and (min-width: 375px) and (-webkit-min-device-pixel-ratio: 3) {
+    .logo-container {
+        width: 158px;
+        height: 158px;
+        margin-top: 50px;
+        background-color: #653aff;
+    }
+
+    .text-container {
+        margin-top: 60px;
+    }
+
+    .welcome-text {
+        font-size: 24px;
+    }
+
+    .sub-text {
+        font-size: 16px;
+    }
+
+    .button-container {
+        margin-top: 65px;
+    }
+}
+
+/*  iPhone 12/12 Pro, iPhone 13/13 Pro, iPhone 14,  - Screen Size: 390 x 844 pixels */
+@media only screen and (min-width: 390px) and (-webkit-min-device-pixel-ratio: 3) {
+    .logo-container {
+        width: 158px;
+        height: 158px;
+        margin-top: 52px;
+        background-color: #834f72;
+    }
+
+    .text-container {
+        margin-top: 62px;
+    }
+
+    .welcome-text {
+        font-size: 26px;
+    }
+
+    .sub-text {
+        font-size: 16px;
+    }
+
+    .button-container {
+        margin-top: 65px;
+    }
+}
+
+/* 20. iPhone 14 Pro, iPhone 15/15 Pro - Screen Size: 430 x 1290 pixels */
+@media only screen and (min-width: 393px) and (-webkit-min-device-pixel-ratio: 3) {
+    .logo-container {
+        width: 158px;
+        height: 158px;
+        margin-top: 54px;
+        background-color: #4f8360;
+    }
+
+    .text-container {
+        margin-top: 64px;
+    }
+
+    .welcome-text {
+        font-size: 27px;
+    }
+
+    .sub-text {
+        font-size: 17px;
+    }
+
+    .button-container {
+        margin-top: 66px;
+    }
+}
+
+/* iPhone XR, iPhone 11 (Retina) - Screen Size: 414 x 896 pixels 326ppi*/
+@media only screen and (min-width: 414px) and (-webkit-min-device-pixel-ratio: 2) {
+    .logo-container {
+        width: 160px;
+        height: 160px;
+        margin-top: 54px;
+        background-color: #ff7a7a;
+    }
+
+    .text-container {
+        margin-top: 65px;
+    }
+
+    .welcome-text {
+        font-size: 27px;
+    }
+
+    .sub-text {
+        font-size: 17px;
+    }
+
+    .button-container {
+        margin-top: 68px;
+    }
+}
+
+/* 7.iPhone XS Max/11 Pro Max, iPhone 8 Plus, iPhone 7 Plus, iPhone 6s Plus (Super Retina) - Screen Size: 414 x 896 pixels */
+@media only screen and (min-width: 414px) and (-webkit-min-device-pixel-ratio: 3) {
+    .logo-container {
+        width: 160px;
+        height: 160px;
+        margin-top: 54px;
+        background-color: #ccff7a;
+    }
+
+    .text-container {
+        margin-top: 65px;
+    }
+
+    .welcome-text {
+        font-size: 27px;
+    }
+
+    .sub-text {
+        font-size: 17px;
+    }
+
+    .button-container {
+        margin-top: 68px;
+    }
+}
+
+/* 15. iPhone 12 Pro Max, iPhone 13 Pro Max, iPhone 14 Plus - Screen Size: 430 x 1100 pixels */
+@media only screen and (min-width: 428px) and (-webkit-min-device-pixel-ratio: 3) {
+    .logo-container {
+        width: 170px;
+        height: 170px;
+        margin-top: 56px;
+        background-color: #ff0000;
+    }
+
+    .text-container {
+        margin-top: 66px;
+    }
+
+    .welcome-text {
+        font-size: 28px;
+    }
+
+    .sub-text {
+        font-size: 18px;
+    }
+
+    .button-container {
+        margin-top: 70px;
+    }
+}
+
+/* 21. iPhone 14 Pro Max, iPhone 15 Plus, iPhone 15 Pro Max  - Screen Size: 430 x 1290 pixels */
+@media only screen and (min-width: 430px) and (-webkit-min-device-pixel-ratio: 3) {
+    .logo-container {
+        width: 175px;
+        height: 176px;
+        margin-top: 58px;
+        background-color: #220072;
+    }
+
+    .text-container {
+        margin-top: 67px;
+    }
+
+    .welcome-text {
+        font-size: 30px;
+    }
+
+    .sub-text {
+        font-size: 18px;
+    }
+
+    .button-container {
+        margin-top: 72px;
+    }
+}
+
+/* ----------------------------------------------------------------- */
+
+/* Media Queries ----------------------------------------- */
+
+/* 1. Small Mobile Screens (320px): */
+
+@media only screen and (min-width: 320px) {
+    /* Styles for screens 320px and wider */
+}
+
+/* 2. Large Mobile Screens (360px): */
+@media only screen and (min-width: 360px) {
+    /* Styles for screens 360px and wider */
+}
+
+/* 3. Small Tablets (480px): */
+@media only screen and (min-width: 480px) {
+
+    /* Styles for screens 480px and wider */
+    .logo-container {
+        width: 180px;
+        height: 180px;
+        margin-top: 60px;
+        background-color: palegreen;
+    }
+
+    .text-container {
+        margin-top: 82px;
+    }
+
+    .welcome-text {
+        font-size: 28px;
+    }
+
+    .sub-text {
+        font-size: 18px;
+    }
+
+    .button-container {
+        margin-top: 90px;
+    }
+
+}
+
+/* 4. Tablets (600px): */
+@media only screen and (min-width: 600px) {
+
+    /* Styles for screens 600px and wider */
+    .logo-container {
+        width: 180px;
+        height: 180px;
+        background-color: violet;
+    }
+
+    .text-container {
+        margin-top: 80px;
+    }
+
+    .welcome-text {
+        font-size: 29px;
+    }
+
+    .sub-text {
+        font-size: 16px;
+    }
+
+    .button-container {
+        margin-top: 90px;
+    }
+}
+
+/* 5. Large Tablets (768px): */
+@media only screen and (min-width: 768px) {
+
+    /* Styles for screens 768px and wider */
+    .logo-container {
+        width: 185px;
+        height: 185px;
+        background-color: palegreen;
+    }
+
+    .text-container {
+        margin-top: 85px;
+    }
+
+    .welcome-text {
+        font-size: 32px;
+    }
+
+    .sub-text {
+        font-size: 17px;
+    }
+
+    .button-container {
+        margin-top: 95px;
+    }
+}
+
+/* 6. Small Desktop Monitors (992px): */
+@media only screen and (min-width: 992px) {
+
+    /* Styles for screens 992px and wider */
+    .logo-container {
+        width: 190px;
+        height: 190px;
+        background-color: aqua;
+    }
+
+    .text-container {
+        margin-top: 90px;
+    }
+
+    .welcome-text {
+        font-size: 34px;
+    }
+
+    .sub-text {
+        font-size: 18px;
+    }
+
+    .button-container {
+        margin-top: 100px;
+    }
+}
+
+/* 7. Medium Desktop Monitors (1200px): */
+@media only screen and (min-width: 1200px) {
+
+    /* Styles for screens 1200px and wider */
+    .logo-container {
+        width: 200px;
+        height: 200px;
+        background-color: burlywood;
+    }
+
+    .text-container {
+        margin-top: 95px;
+    }
+
+    .welcome-text {
+        font-size: 34px;
+    }
+
+    .sub-text {
+        font-size: 19px;
+    }
+
+    .button-container {
+        margin-top: 110px;
+    }
+}
+
+/* 8. Large Desktop Monitors (1400px): */
+@media only screen and (min-width: 1400px) {
+    /* Styles for screens 1400px and wider */
+
+    .logo-container {
+        width: 200px;
+        height: 200px;
+        background-color: chocolate;
+    }
+
+    .text-container {
+        margin-top: 100px;
+    }
+
+    .welcome-text {
+        font-size: 36px;
+    }
+
+    .sub-text {
+        font-size: 20px;
+    }
+
+    .button-container {
+        margin-top: 120px;
+    }
+}
