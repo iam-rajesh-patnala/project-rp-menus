@@ -31,7 +31,6 @@ import Noodles from "../pages/MenuPages/Noodles";
 import PizzasBurgers from "../pages/MenuPages/PizzasBurgers";
 
 // Router -------------------------------------------------------------------
-
 const router = createBrowserRouter([
 	{
 		path: "/",

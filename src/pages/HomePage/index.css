@@ -21,7 +21,7 @@
 }
 
 /* Background Container Starts -----------------------*/
-.background-container {
+.home-page-background-container {
     position: relative;
     background-color: #ffffff;
     min-height: 100vh;
@@ -41,7 +41,7 @@
     z-index: 1;
 }
 
-.background-container::before {
+.home-page-background-container::before {
     position: absolute;
     content: "";
     background-image: url(../../assets/icons/restaurant_icons.png);

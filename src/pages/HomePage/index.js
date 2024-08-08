@@ -10,7 +10,7 @@ const HomePage = () => {
 
 	return (
 		<section className="home-page">
-			<div className="background-container">
+			<div className="home-page-background-container">
 				{/* Logo & Text Container */}
 				<div className="logo-container"></div>
 

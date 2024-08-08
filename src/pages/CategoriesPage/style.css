@@ -1,3 +1,101 @@
 :root {
     --siteBackgroundColor: #ffffff;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.categories-page {
+    min-height: 100vh;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.categories-page-background-container {
+    min-height: 100vh;
+    width: 100%;
+    max-width: 1100px;
+    background-color: #f3acac;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.title-container{
+    margin-top: 15px;
+}
+
+.title {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+
+.categories-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 30px;
+    transition: 400ms;
+    -webkit-transition: 400ms;
+}
+
+.category-btn {
+    width: 250px;
+    height: 120px;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    background-color: black;
+    cursor: pointer;
+}
+
+.veg {
+    background-image: url(../../assets/photos/Category_Page/veg.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.non-veg {
+    background-image: url(../../assets/photos/Category_Page/non-veg.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.desserts {
+    background-image: url(../../assets/photos/Category_Page/desserts.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.beverages {
+    background-image: url(../../assets/photos/Category_Page/beverages.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.category-text {
+    display: inline-block;
+    width: 160px;
+    padding: 2px 0;
+    background-color: #00000057;
+    border: 2px solid #ffffffb4;
+    border-radius: 5px;
+}
