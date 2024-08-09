@@ -1,0 +1,422 @@
+/* iPhone Screen Sizes and Media Queries */
+
+/* iPhone SE Screen Size: 320 x 568 pixels 326ppi */
+@media only screen and (min-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+    .title-container {
+        margin-top: 10px;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+
+    .categories-container {
+        margin-top: 30px;
+    }
+
+    .category-btn {
+        width: 200px;
+        height: 95px;
+    }
+
+    .category-text {
+        font-size: 18px;
+        width: 120px;
+        padding: 6px 0;
+        border-radius: 4px;
+    }
+}
+
+/* iPhone SE 2020, iPhone 6s/7/8 (Retina) - Screen Size: 375 x 667 pixels 326ppi */
+@media only screen and (min-width: 375px) and (-webkit-min-device-pixel-ratio: 2) {
+    .title-container {
+        margin-top: 10px;
+    }
+
+    .title {
+        font-size: 22px;
+    }
+
+    .categories-container {
+        margin-top: 32px;
+    }
+
+    .category-btn {
+        width: 210px;
+        height: 100px;
+    }
+
+    .category-text {
+        font-size: 20px;
+        width: 130px;
+        padding: 8px 0;
+        border-radius: 6px;
+    }
+}
+
+/* iPhone X, iPhone XS, iPhone 11 Pro, iPhone 12 Mini, iPhone 13 Mini - Screen Size: 360 x 780 pixels */
+@media only screen and (min-width: 375px) and (-webkit-min-device-pixel-ratio: 3) {
+    .title-container {
+        margin-top: 12px;
+    }
+
+    .title {
+        font-size: 24px;
+    }
+
+    .categories-container {
+        margin-top: 34px;
+    }
+
+    .category-btn {
+        width: 220px;
+        height: 110px;
+    }
+
+    .category-text {
+        font-size: 22px;
+        width: 140px;
+        padding: 9px 0;
+        border-radius: 8px;
+    }
+}
+
+/*  iPhone 12/12 Pro, iPhone 13/13 Pro, iPhone 14,  - Screen Size: 390 x 844 pixels */
+@media only screen and (min-width: 390px) and (-webkit-min-device-pixel-ratio: 3) {
+    .title-container {
+        margin-top: 14px;
+    }
+
+    .title {
+        font-size: 26px;
+    }
+
+    .categories-container {
+        margin-top: 36px;
+    }
+
+    .category-btn {
+        width: 230px;
+        height: 120px;
+    }
+
+    .category-text {
+        font-size: 22px;
+        width: 145px;
+        padding: 9px 0;
+    }
+}
+
+/* 20. iPhone 14 Pro, iPhone 15/15 Pro - Screen Size: 430 x 1290 pixels */
+@media only screen and (min-width: 393px) and (-webkit-min-device-pixel-ratio: 3) {
+    .title-container {
+        margin-top: 16px;
+    }
+
+    .title {
+        font-size: 26px;
+    }
+
+    .categories-container {
+        margin-top: 38px;
+    }
+
+    .category-btn {
+        width: 232px;
+        height: 120px;
+    }
+
+    .category-text {
+        font-size: 22px;
+        width: 145px;
+        padding: 9px 0;
+    }
+}
+
+/* iPhone XR, iPhone 11 (Retina) - Screen Size: 414 x 896 pixels 326ppi*/
+@media only screen and (min-width: 414px) and (-webkit-min-device-pixel-ratio: 2) {
+    .title-container {
+        margin-top: 16px;
+    }
+
+    .title {
+        font-size: 26px;
+    }
+
+    .categories-container {
+        margin-top: 38px;
+    }
+
+    .category-btn {
+        width: 225px;
+        height: 115px;
+    }
+
+    .category-text {
+        font-size: 22px;
+        width: 140px;
+        padding: 9px 0;
+    }
+}
+
+/* 7.iPhone XS Max/11 Pro Max, iPhone 8 Plus, iPhone 7 Plus, iPhone 6s Plus (Super Retina) - Screen Size: 414 x 896 pixels */
+@media only screen and (min-width: 414px) and (-webkit-min-device-pixel-ratio: 3) {
+    .title-container {
+        margin-top: 16px;
+    }
+
+    .title {
+        font-size: 26px;
+    }
+
+    .categories-container {
+        margin-top: 40px;
+    }
+
+    .category-btn {
+        width: 232px;
+        height: 120px;
+    }
+
+    .category-text {
+        font-size: 22px;
+        width: 145px;
+        padding: 9px 0;
+    }
+}
+
+/* 15. iPhone 12 Pro Max, iPhone 13 Pro Max, iPhone 14 Plus - Screen Size: 430 x 1100 pixels */
+@media only screen and (min-width: 428px) and (-webkit-min-device-pixel-ratio: 3) {
+    .title-container {
+        margin-top: 18px;
+    }
+
+    .title {
+        font-size: 28px;
+    }
+
+    .categories-container {
+        margin-top: 42px;
+    }
+
+    .category-btn {
+        width: 235px;
+        height: 125px;
+    }
+
+    .category-text {
+        font-size: 22px;
+        width: 146px;
+        padding: 9px 0;
+    }
+}
+
+/* 21. iPhone 14 Pro Max, iPhone 15 Plus, iPhone 15 Pro Max  - Screen Size: 430 x 1290 pixels */
+@media only screen and (min-width: 430px) and (-webkit-min-device-pixel-ratio: 3) {
+    .title-container {
+        margin-top: 20px;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .categories-container {
+        margin-top: 44px;
+    }
+
+    .category-btn {
+        width: 240px;
+        height: 130px;
+    }
+
+    .category-text {
+        font-size: 23px;
+        width: 152px;
+        padding: 9px 0;
+    }
+}
+
+/* ----------------------------------------------------------------- */
+
+/* Media Queries ----------------------------------------- */
+
+/* 1. Small Mobile Screens (320px): */
+
+@media only screen and (min-width: 320px) {
+    /* Styles for screens 320px and wider */
+}
+
+/* 2. Large Mobile Screens (360px): */
+@media only screen and (min-width: 360px) {
+    /* Styles for screens 360px and wider */
+}
+
+/* 3. Small Tablets (480px): */
+@media only screen and (min-width: 480px) {
+
+    /* Styles for screens 480px and wider */
+    .title-container {
+        margin-top: 20px;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .categories-container {
+        margin-top: 44px;
+    }
+
+    .category-btn {
+        width: 260px;
+        height: 130px;
+    }
+
+    .category-text {
+        font-size: 24px;
+        width: 156px;
+        padding: 9px 0;
+        border-radius: 8px;
+    }
+}
+
+/* 4. Tablets (600px): */
+@media only screen and (min-width: 600px) {
+
+    /* Styles for screens 600px and wider */
+    .title-container {
+        margin-top: 20px;
+    }
+
+    .title {
+        font-size: 28px;
+    }
+
+    .categories-container {
+        margin-top: 44px;
+    }
+
+    .category-btn {
+        width: 240px;
+        height: 125px;
+    }
+
+    .category-text {
+        font-size: 22px;
+        width: 146px;
+        padding: 9px 0;
+    }
+}
+
+/* 5. Large Tablets (768px): */
+@media only screen and (min-width: 768px) {
+
+    /* Styles for screens 768px and wider */
+    .title-container {
+        margin-top: 20px;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .categories-container {
+        margin-top: 46px;
+    }
+
+    .category-btn {
+        width: 246px;
+        height: 127px;
+    }
+
+    .category-text {
+        font-size: 22px;
+        width: 146px;
+        padding: 9px 0;
+    }
+}
+
+/* 6. Small Desktop Monitors (992px): */
+@media only screen and (min-width: 992px) {
+
+    /* Styles for screens 992px and wider */
+    .title-container {
+        margin-top: 20px;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .categories-container {
+        margin-top: 46px;
+    }
+
+    .category-btn {
+        width: 248px;
+        height: 129px;
+    }
+
+    .category-text {
+        font-size: 22px;
+        width: 148px;
+        padding: 9px 0;
+    }
+}
+
+/* 7. Medium Desktop Monitors (1200px): */
+@media only screen and (min-width: 1200px) {
+
+    /* Styles for screens 1200px and wider */
+    .title-container {
+        margin-top: 22px;
+    }
+
+    .title {
+        font-size: 32px;
+    }
+
+    .categories-container {
+        margin-top: 48px;
+    }
+
+    .category-btn {
+        width: 248px;
+        height: 131px;
+    }
+
+    .category-text {
+        font-size: 22px;
+        width: 148px;
+        padding: 9px 0;
+    }
+}
+
+/* 8. Large Desktop Monitors (1400px): */
+@media only screen and (min-width: 1400px) {
+
+    /* Styles for screens 1400px and wider */
+    .title-container {
+        margin-top: 26px;
+    }
+
+    .title {
+        font-size: 34px;
+    }
+
+    .categories-container {
+        margin-top: 50px;
+    }
+
+    .category-btn {
+        width: 250px;
+        height: 132px;
+    }
+
+    .category-text {
+        font-size: 22px;
+        width: 148px;
+        padding: 9px 0;
+    }
+}

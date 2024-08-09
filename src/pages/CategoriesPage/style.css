@@ -1,6 +1,5 @@
-:root {
-    --siteBackgroundColor: #ffffff;
-}
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
     margin: 0;
@@ -16,7 +15,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     text-align: center;
     user-select: none;
     -webkit-user-select: none;
@@ -27,25 +26,38 @@
 }
 
 .categories-page-background-container {
-    min-height: 100vh;
+    position: relative;
+    min-height: 92vh;
     width: 100%;
     max-width: 1100px;
     background-color: #ffffff;
-    padding: 16px;
+    padding: 20px 16px 35px 16px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+    z-index: 1;
+}
+
+.categories-page-background-container::before {
+    position: absolute;
+    content: "";
+    background-image: url("../../assets/patterns/pat2.webp");
+    background-position: center;
+    background-size: initial;
+    opacity: 0.5;
+    inset: 0;
+    z-index: -1;
 }
 
 .title-container {
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 .title {
     text-align: center;
-    font-size: 32px;
-    margin-bottom: 50px;
+    font-family: "Merriweather", serif;
+    font-size: 15px;
 }
 
 .categories-container {
@@ -56,21 +68,29 @@
     row-gap: 30px;
     transition: 400ms;
     -webkit-transition: 400ms;
+    margin-top: 60px;
 }
 
 .category-btn {
-    width: 250px;
-    height: 120px;
-    color: #ffffff;
-    font-size: 25px;
-    font-weight: bold;
+    width: 160px;
+    height: 80px;
     outline: none;
     border: none;
     border-radius: 10px;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
-    background-color: black;
     cursor: pointer;
+    background-color: transparent;
+    transition: 300ms;
+    -webkit-transition: 300ms;
+    -moz-transition: 300ms;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.623) 0px 5px 15px 0px;
+    overflow: hidden;
+}
+
+.category-btn:hover {
+    transform: scale(0.98);
 }
 
 .veg {
@@ -99,9 +119,24 @@
 
 .category-text {
     display: inline-block;
-    width: 160px;
+    font-family: "Noto Serif", serif;
+    font-size: 16px;
+    font-weight: bold;
+    width: 110px;
     padding: 2px 0;
-    background-color: #00000057;
+    color: #ffffff;
+    background-color: #00000080;
     border: 2px solid #ffffffb4;
-    border-radius: 5px;
+    border-radius: 4px;
+    transition: 300ms;
+}
+
+.category-text:hover {
+    width: 100%;
+    height: auto;
+    border-radius: 0;
+    text-align: center;
+    transition: 300ms;
+    -webkit-transition: 300ms;
+    -moz-transition: 300ms;
 }

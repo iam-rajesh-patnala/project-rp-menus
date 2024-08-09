@@ -38,7 +38,7 @@
     -moz-user-select: none;
     -ms-user-select: none;
     -webkit-tap-highlight-color: transparent;
-    z-index: 1;
+    z-index: 999;
 }
 
 .home-page-background-container::before {

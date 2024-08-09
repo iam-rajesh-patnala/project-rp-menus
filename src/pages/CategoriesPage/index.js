@@ -1,10 +1,12 @@
 import "./style.css";
+import "./cpmq.css";
 import { Link } from "react-router-dom";
-import BackToHome from "../../utils/BackToHome";
+import Header from "../../components/Header";
 
 const CategoriesPage = () => {
 	return (
 		<section className="categories-page">
+			<Header />
 			<div className="categories-page-background-container">
 				<div className="title-container">
 					<h1 className="title">Select the Categories</h1>
@@ -33,9 +35,6 @@ const CategoriesPage = () => {
 					</Link>
 				</div>
 			</div>
-
-			{/* Back Button To Home Page */}
-			<BackToHome />
 		</section>
 	);
 };
