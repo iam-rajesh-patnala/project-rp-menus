@@ -1,0 +1,597 @@
+{
+	"Beverages": {
+		"Hot Beverages": {
+			"Tea": [
+				{
+					"id": 227,
+					"item_name": "Chai",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 228,
+					"item_name": "Lemon Tea",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 229,
+					"item_name": "Green Tea",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 230,
+					"item_name": "Herbal Tea",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 231,
+					"item_name": "Black Tea",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 232,
+					"item_name": "White Tea",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 233,
+					"item_name": "Oolong Tea",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				}
+			],
+			"Coffee": [
+				{
+					"id": 234,
+					"item_name": "Filter Coffee",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 235,
+					"item_name": "Cappuccino",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 236,
+					"item_name": "Espresso",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 237,
+					"item_name": "Macchiato",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 238,
+					"item_name": "Latte",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 239,
+					"item_name": "Mocha",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 240,
+					"item_name": "Americano",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 241,
+					"item_name": "Turkish Coffee",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				}
+			],
+			"Extras": [
+				{
+					"id": 242,
+					"item_name": "Hot Chocolate",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 243,
+					"item_name": "Warm Milk",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 244,
+					"item_name": "Matcha Latte",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 245,
+					"item_name": "Hot Lemon Water",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				}
+			]
+		},
+		"Cold Beverages": {
+			"Juices": [
+				{
+					"id": 246,
+					"item_name": "Orange Juice",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 247,
+					"item_name": "Apple Juice",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 248,
+					"item_name": "Mango Juice",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 249,
+					"item_name": "Grape Juice",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 250,
+					"item_name": "Pineapple Juice",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 251,
+					"item_name": "Watermelon Juice",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 252,
+					"item_name": "Pomegranate Juice",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 253,
+					"item_name": "Cranberry Juice",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 254,
+					"item_name": "Carrot Juice",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				}
+			],
+			"Soft Drinks": [
+				{
+					"id": 255,
+					"item_name": "Coca-Cola",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 256,
+					"item_name": "Pepsi",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 257,
+					"item_name": "Sprite",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 258,
+					"item_name": "Thums Up",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 259,
+					"item_name": "Lemon-Lime Soda",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 260,
+					"item_name": "Root Beer",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 261,
+					"item_name": "Ginger Ale",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				}
+			],
+			"Mocktails": [
+				{
+					"id": 262,
+					"item_name": "Virgin Mojito",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 263,
+					"item_name": "Shirley Temple",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 264,
+					"item_name": "Nojito",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 265,
+					"item_name": "Virgin Mary",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 266,
+					"item_name": "Pina Colada (non-alcoholic)",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 267,
+					"item_name": "Fruit Punch",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 268,
+					"item_name": "Blue Lagoon",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				}
+			],
+			"Smoothies": [
+				{
+					"id": 269,
+					"item_name": "Fruit Smoothies",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 270,
+					"item_name": "Green Smoothies",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 271,
+					"item_name": "Protein Smoothies",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 272,
+					"item_name": "Yogurt Smoothies",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				}
+			],
+			"Milkshakes": [
+				{
+					"id": 273,
+					"item_name": "Chocolate Milkshake",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 274,
+					"item_name": "Vanilla Milkshake",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 275,
+					"item_name": "Strawberry Milkshake",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 276,
+					"item_name": "Banana Milkshake",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				}
+			],
+			"Iced Tea": [
+				{
+					"id": 277,
+					"item_name": "Lemon Iced Tea",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 278,
+					"item_name": "Peach Iced Tea",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 279,
+					"item_name": "Green Iced Tea",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 280,
+					"item_name": "Thai Iced Tea",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				}
+			],
+			"Iced Coffee": [
+				{
+					"id": 281,
+					"item_name": "Cold Brew",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 282,
+					"item_name": "Iced Latte",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 283,
+					"item_name": "Iced Americano",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 284,
+					"item_name": "Frappuccino",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				}
+			],
+			"Extras": [
+				{
+					"id": 246,
+					"item_name": "Lemonade",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 246,
+					"item_name": "Infused Water",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 246,
+					"item_name": "Kombucha",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 246,
+					"item_name": "Sparkling Water",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 246,
+					"item_name": "Coconut Water",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				}
+			]
+		}
+	}
+}

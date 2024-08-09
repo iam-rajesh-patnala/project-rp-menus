@@ -1,8 +1,6 @@
 import "./index.css";
 import "./hpmq.css";
-
 import OrderNowBtn from "../../components/OrderNowBtn";
-
 import { Link } from "react-router-dom";
 
 const HomePage = () => {

@@ -1,0 +1,34 @@
+1. Slide right to left -------
+
+initial={{ x: "100%" }}
+animate={{ x: 0 }}
+exit={{ x: "-100%" }}
+transition={{ duration: 0.5 }}
+
+2. Slide left to right -------
+
+initial={{ x: "-100%" }}
+animate={{ x: 0 }}
+exit={{ x: "100%" }}
+transition={{ duration: 0.5 }}
+
+3. Zoom out to in -------
+
+initial={{ scale: 0 }}
+animate={{ scale: 1 }}
+exit={{ scale: 0 }}
+transition={{ duration: 0.5 }}
+
+
+initial={{ opacity: 0, scale: 0 }}
+animate={{ opacity: 1, scale: 1 }}
+exit={{ opacity: 0, scale: 0 }}
+transition={{ ease: "easeInOut", duration: 0.4 }}
+
+
+4. Fade In and Out -------
+
+initial={{ opacity: 0 }}
+animate={{ opacity: 1 }}
+exit={{ opacity: 0 }}
+transition={{ease: "easeInOut", duration: 0.5 }}
