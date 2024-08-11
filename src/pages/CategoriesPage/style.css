@@ -87,13 +87,15 @@
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
     -webkit-box-shadow: rgba(0, 0, 0, 0.623) 0px 5px 15px 0px;
     overflow: hidden;
+    background-size: cover;
+    background-position: center;
 }
 
 .category-btn:hover {
     transform: scale(0.98);
 }
 
-.veg {
+/* .veg {
     background-image: url(../../assets/photos/Category_Page/veg.webp);
     background-size: cover;
     background-position: center;
@@ -115,7 +117,7 @@
     background-image: url(../../assets/photos/Category_Page/beverages.webp);
     background-size: cover;
     background-position: center;
-}
+} */
 
 .category-text {
     display: inline-block;
@@ -139,4 +141,24 @@
     transition: 300ms;
     -webkit-transition: 300ms;
     -moz-transition: 300ms;
+}
+
+
+.r {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.p {
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.7;
 }

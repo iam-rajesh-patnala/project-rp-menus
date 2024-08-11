@@ -3,6 +3,11 @@ import "./cpmq.css";
 import { Link } from "react-router-dom";
 import Header from "../../components/Header";
 
+import veg from "../../assets/photos/Category_Page/veg.webp"
+import nonVeg from "../../assets/photos/Category_Page/non-veg.webp"
+import desserts from "../../assets/photos/Category_Page/desserts.webp"
+import beverages from "../../assets/photos/Category_Page/beverages.webp"
+
 const CategoriesPage = () => {
 	return (
 		<section className="categories-page">
@@ -14,22 +19,22 @@ const CategoriesPage = () => {
 
 				<div className="categories-container">
 					<Link to={"/categories/veg"}>
-						<button className="category-btn veg">
-							<span className="category-text">Veg</span>
+						<button className="category-btn" style={{backgroundImage: `url(${veg})`}}>
+							<span className="category-text" >Veg</span>
 						</button>
 					</Link>
 					<Link to={"/categories/non-veg"}>
-						<button className="category-btn  non-veg">
+						<button className="category-btn" style={{backgroundImage: `url(${nonVeg})`}}>
 							<span className="category-text">Non-Veg</span>
 						</button>
 					</Link>
 					<Link to={"/categories/desserts"}>
-						<button className="category-btn  desserts">
+						<button className="category-btn" style={{backgroundImage: `url(${desserts})`}}>
 							<span className="category-text">Desserts</span>
 						</button>
 					</Link>
 					<Link to={"/categories/beverages"}>
-						<button className="category-btn beverages">
+						<button className="category-btn" style={{backgroundImage: `url(${beverages})`}}>
 							<span className="category-text">Beverages</span>
 						</button>
 					</Link>
