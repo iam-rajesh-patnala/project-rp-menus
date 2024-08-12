@@ -1,0 +1,824 @@
+{
+    "non-veg" :[
+		{
+			"Soups": [
+				{
+					"id": 103,
+					"item_name": "Chicken Manchow Soup",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 104,
+					"item_name": "Chicken Sweet Corn Soup",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 105,
+					"item_name": "Chicken Hot & Sour Soup",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 106,
+					"item_name": "Chicken Pepper Lemon Soup",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 107,
+					"item_name": "Chicken Clear Bamboo Shoot Soup",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 108,
+					"item_name": "Chicken Lung Fung Soup",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 109,
+					"item_name": "Chicken Thai Tom Yum Soup",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 110,
+					"item_name": "Chicken Thukpa Soup",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 111,
+					"item_name": "Mutton Bone Soup",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 112,
+					"item_name": "Prawns Manchow Soup",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				}
+			]
+		},
+		{
+			"Staters": [
+				{
+					"id": 113,
+					"item_name": "Chilli Chicken",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 114,
+					"item_name": "Chicken 65",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 115,
+					"item_name": "Chicken Tikka Kabab",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 116,
+					"item_name": "Chicken Reshmi Kabab",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 117,
+					"item_name": "Chicken Manchurian",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 118,
+					"item_name": "Chicken Drumstick",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 119,
+					"item_name": "Chicken Spring Rolls",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 120,
+					"item_name": "Chicken Kemma Balls",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 121,
+					"item_name": "Lemon Chicken",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 122,
+					"item_name": "Chicken Lollipop",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 123,
+					"item_name": "Chicken Nuggets",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 124,
+					"item_name": "Pepper Chicken",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 125,
+					"item_name": "Mutton Kabab",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 126,
+					"item_name": "Mutton Cutlets",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 127,
+					"item_name": "Apollo Fish",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 128,
+					"item_name": "Fish Tacos",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 129,
+					"item_name": "Fish Rost",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 130,
+					"item_name": "Prawns 65",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 131,
+					"item_name": "Garlic Butter Crablets",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				}
+			]
+		},
+		{
+			"Rice": [
+				{
+					"id": 132,
+					"item_name": "Chicken Fried Rice",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 133,
+					"item_name": "Schezwan Chicken Fried Rice",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 134,
+					"item_name": "Mixed Fired Rice",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 135,
+					"item_name": "Classic Non-Veg Fired Rice",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 136,
+					"item_name": "Thai Chicken Fired Rice",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 137,
+					"item_name": "Shanghai Chicken Fired Rice",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 138,
+					"item_name": "Mutton Fired Rice",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 139,
+					"item_name": "Prawns Fired Rice",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 140,
+					"item_name": "Fish Fired Rice",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 141,
+					"item_name": "Schezwan Mixed Fired Rice",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				}
+			]
+		},
+		{
+			"Curries": [
+				{
+					"id": 142,
+					"item_name": "Butter Chicken",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 143,
+					"item_name": "Kadai Chicken",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 144,
+					"item_name": "Chicken Chatpat",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 145,
+					"item_name": "Chicken Tikka Masala",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 146,
+					"item_name": "Afghani Chicken",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 147,
+					"item_name": "Moghlai Chicken Curry",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 148,
+					"item_name": "Andhra Chicken Curry",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 149,
+					"item_name": "Mutton Korama",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 150,
+					"item_name": "Mutton Boti",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 151,
+					"item_name": "Fry Fish Curry",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 152,
+					"item_name": "Prawns Masala",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				}
+			]
+		},
+		{
+			"Biryani": [
+				{
+					"id": 153,
+					"item_name": "Hyderabadi Dum Biryani",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 154,
+					"item_name": "Special Chicken Biryani",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 155,
+					"item_name": "Chicken Fry Piece Biryani",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 156,
+					"item_name": "Chicken Moghalai Biryani",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 157,
+					"item_name": "Mixed Moghalai Biryani",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 158,
+					"item_name": "Tandoori Chicken Mandi",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 159,
+					"item_name": "Pachi Mirchi Kodi Pulav",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 160,
+					"item_name": "Nalli Gosth Biryani",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 161,
+					"item_name": "Mandi Biriyani Full",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 162,
+					"item_name": "Mutton Kheema Biryani",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 163,
+					"item_name": "Mutton Fry Piece Biryani",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 164,
+					"item_name": "Fish Fry Piece Biryani",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 165,
+					"item_name": "Prawns Biryani",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				}
+			]
+		},
+		{
+			"Noodles": [
+				{
+					"id": 166,
+					"item_name": "Chicken Soft Noodles",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 167,
+					"item_name": "Chicken Schezwan Noodles",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 168,
+					"item_name": "Chicken Hukka Noodles",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 169,
+					"item_name": "Chicken Manchurian Noodles",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 170,
+					"item_name": "Chinese Chopsuey Noodles",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 171,
+					"item_name": "American Chopsuey Noodles",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 172,
+					"item_name": "Mixed Noodles",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 173,
+					"item_name": "Mutton Noodles",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 174,
+					"item_name": "Fish Noodles",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 175,
+					"item_name": "Prawns Noodles",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				}
+			]
+		},
+		{
+			"Pizza & Burgers & Wraps": [
+				{
+					"id": 176,
+					"item_name": "Chicken Tikka Pizza",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 177,
+					"item_name": "Chicken Majestic Pizza",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 178,
+					"item_name": "BBQ Chicken Pizza",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 179,
+					"item_name": "Malai Chicken Pizza",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 180,
+					"item_name": "Chicken Overloaded Pizza",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 181,
+					"item_name": "Chicken Pepperoni Pizza",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 182,
+					"item_name": "Crispy Chicken Burger",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 183,
+					"item_name": "Chicken Double Patty Burger",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 184,
+					"item_name": "Classic Chicken Burger",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 185,
+					"item_name": "Chicken Maharaja Mac Burger",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 186,
+					"item_name": "Chicken Classic Roll",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 187,
+					"item_name": "Peri Peri Shawarma Chicken Roll",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 188,
+					"item_name": "Tandoori Grilled Chicken Shawarma",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 189,
+					"item_name": "Fiery Chicken Wrap",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				},
+				{
+					"id": 190,
+					"item_name": "Crunchy Chicken Taco",
+					"price": 120,
+					"rating": 4.5,
+					"availability": true,
+					"image": "",
+					"description": ""
+				}
+			]
+		}
+	]
+}

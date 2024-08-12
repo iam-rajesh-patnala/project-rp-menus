@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.menu-card {
+    background-color: #ffbbbb;
+    width: 200px;
+    margin: 10px;
+    border-radius: 8px;
+    padding: 8px;
+    transition: 200ms;
+    -webkit-transition: 200ms;
+}
+
+.menu-card:hover{
+    background-color: #c98f8f;
+    padding: 0 0 8px 0;
+}
+
+.card-item {
+    text-decoration: none;
+}
+
+.card-img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+
+
+.card-text {
+    font-family: "Noto Serif", serif;
+    color: #000000;
+    font-size: min(20px, 6vw);
+    font-weight: 600;
+    text-align: center;
+    margin: 8px 0;
+}
