@@ -97,24 +97,28 @@
     background-image: url(../../assets/photos/Category_Page/veg.webp);
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 .non-veg {
     background-image: url(../../assets/photos/Category_Page/non-veg.webp);
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 .desserts {
     background-image: url(../../assets/photos/Category_Page/desserts.webp);
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 .beverages {
     background-image: url(../../assets/photos/Category_Page/beverages.webp);
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 .category-text {

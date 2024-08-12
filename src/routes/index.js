@@ -1,8 +1,6 @@
 import React from "react";
 import { createBrowserRouter } from "react-router-dom";
 
-// Components
-
 // Error Page
 import ErrorPage from "../pages/ErrorPage";
 
@@ -30,10 +28,10 @@ import Biryani from "../pages/MenuPages/Biryani";
 import Noodles from "../pages/MenuPages/Noodles";
 import PizzasBurgers from "../pages/MenuPages/PizzasBurgers";
 
+// Page Transition Component
 import PageTransition from "../components/PageTransition";
 
 // Router
-
 const router = createBrowserRouter([
 	// Home Page
 	{

@@ -1,61 +1,65 @@
+import React from "react";
+import PropTypes from "prop-types"; // Import PropTypes
 import "./index.css";
-import { Link } from "react-router-dom";
 import BackToCategories from "../../../utils/BackToCategories";
+import { v4 as uuid } from "uuid";
+import mdb from "../../../data/MenuData/menu.json";
 
+// Menu Card Component
+import MenuCard from "../../../components/MenuCard";
+
+// Main Veg Component
 const Veg = () => {
+	const vegData =
+		mdb[0]?.veg.map((item) => ({
+			...item,
+			id: uuid(),
+		})) || []; // Optional chaining to prevent errors
+
 	return (
-		<>
-			<div>
-				<h1>This is Veg Section</h1>
+		<section className="veg-menu-page">
+			<MenuHeader title="Choose Menu" />
+			<div className="veg-menu-cards-container">
+				{vegData.length > 0 ? (
+					vegData.map((item) => (
+						<MenuCard key={item.id || item.name} item={item} />
+					))
+				) : (
+					<NoDataMessage message="No menu items available" />
+				)}
 			</div>
-			<div>
-				<button>
-					<Link to="/categories/veg/soups">Soups</Link>
-				</button>
-
-				<button>
-					<Link to="/categories/veg/starters">Starters</Link>
-				</button>
-
-				<button>
-					<Link to="/categories/veg/salads">Salads</Link>
-				</button>
-
-				<button>
-					<Link to="/categories/veg/naans-breads">
-						Naans & Breads
-					</Link>
-				</button>
-
-				<button>
-					<Link to="/categories/veg/curries">Curries</Link>
-				</button>
-
-				<button>
-					<Link to="/categories/veg/rice">Rice</Link>
-				</button>
-
-				<button>
-					<Link to="/categories/veg/fired-rice">FiredRice</Link>
-				</button>
-
-				<button>
-					<Link to="/categories/veg/biryani">Biryani</Link>
-				</button>
-				<button>
-					<Link to="/categories/veg/noodles">Noodles</Link>
-				</button>
-				<button>
-					<Link to="/categories/veg/pizzas-burgers">
-						Pizzas & Burgers
-					</Link>
-				</button>
-			</div>
-
-			{/* Back Button To Categories Page */}
 			<BackToCategories />
-		</>
+		</section>
 	);
+};
+
+// Header Component for Menu Title
+const MenuHeader = ({ title }) => (
+	<header className="menu-header">
+		<h1>{title}</h1>
+	</header>
+);
+
+MenuHeader.propTypes = {
+	title: PropTypes.string.isRequired,
+};
+
+// Component for Displaying No Data Message
+const NoDataMessage = ({ message }) => (
+	<p className="no-data-message">{message}</p>
+);
+
+NoDataMessage.propTypes = {
+	message: PropTypes.string.isRequired,
+};
+
+// Component for Displaying Error Message (not used in this snippet, but defined)
+const ErrorMessage = ({ message }) => (
+	<p className="error-message">{message}</p>
+);
+
+ErrorMessage.propTypes = {
+	message: PropTypes.string.isRequired,
 };
 
 export default Veg;
