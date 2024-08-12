@@ -4,70 +4,70 @@
 			{
 				"id": 1,
 				"name": "Soups",
-				"image": "/static/media/1__Tomato_Basil_Soup.d034a7148b152990c500.webp",
+				"image": "/static/media/Tomato_Basil_Soup.61bb3ec1ad8e0fa683d2.webp",
 				"link": "/categories/veg/soups",
 				"category": "Veg"
 			},
 			{
 				"id": 2,
 				"name": "Starters",
-				"image": "/static/media/1__Vegetable_Spring_Rolls.51ad5c12da2deab69987.webp",
+				"image": "/static/media/Vegetable_Spring_Rolls.5654bf6ed6b33a397768.webp",
 				"link": "/categories/veg/starters",
 				"category": "Veg"
 			},
 			{
 				"id": 3,
 				"name": "Salads",
-				"image": "/static/media/2__Garden_Salad.690e8db90350dd91f04d.webp",
+				"image": "/static/media/Garden_Salad.41b1e643381b534770a1.webp",
 				"link": "/categories/veg/salads",
 				"category": "Veg"
 			},
 			{
 				"id": 4,
 				"name": "Naans & Breads",
-				"image": "/static/media/1__Plain_Naan.b49331906133215218de.webp",
+				"image": "/static/media/Plain_Naan.43c7bb5ad72e283978ff.webp",
 				"link": "/categories/veg/naans-breads",
 				"category": "Veg"
 			},
 			{
 				"id": 5,
 				"name": "Curries",
-				"image": "/static/media/7__Mutter_Panner.c84c0a0b160a117cb4d4.webp",
+				"image": "/static/media/Mutter_Panner.8d4f3af9705a448ed599.webp",
 				"link": "/categories/veg/curries",
 				"category": "Veg"
 			},
 			{
 				"id": 6,
 				"name": "Rice",
-				"image": "/static/media/1__Lemon_Rice.41e62ba083ae4c429238.webp",
+				"image": "/static/media/Lemon_Rice.6bb71649cc302b107093.webp",
 				"link": "/categories/veg/rice",
 				"category": "Veg"
 			},
 			{
 				"id": 7,
 				"name": "Fired Rice",
-				"image": "/static/media/1__Veg_Fried_Rice.035c7dbe0679cfdddeac.webp",
+				"image": "/static/media/Veg_Fried_Rice.30bad074e552afe72ff3.webp",
 				"link": "/categories/veg/fried-rice",
 				"category": "Veg"
 			},
 			{
 				"id": 8,
 				"name": "Biryani",
-				"image": "/static/media/1__Vegetable_Biryani.43bfd4615f266a3762cf.webp",
+				"image": "/static/media/Vegetable_Biryani.72336f79be5e6ad71015.webp",
 				"link": "/categories/veg/biryani",
 				"category": "Veg"
 			},
 			{
 				"id": 9,
 				"name": "Noodles",
-				"image": "/static/media/2__Egg_Noodles.47d86a4e65d398e1d98b.webp",
+				"image": "/static/media/Egg_Noodles.72b8cd64b4ba7d6cb247.webp",
 				"link": "/categories/veg/noodles",
 				"category": "Veg"
 			},
 			{
 				"id": 10,
 				"name": "Pizzas & Burgers",
-				"image": "/static/media/2__Pepperoni_Pizza.3dfcfe22e54c02bcf141.webp",
+				"image": "/static/media/Pepperoni_Pizza.8f5d944776d34594456b.webp",
 				"link": "/categories/veg/pizzas-burgers",
 				"category": "Veg"
 			}

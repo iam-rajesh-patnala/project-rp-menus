@@ -6,10 +6,10 @@ import { Link } from "react-router-dom";
 import Header from "../../components/Header";
 
 // images
-import veg from "../../assets/photos/Category_Page/veg.webp";
-import nonVeg from "../../assets/photos/Category_Page/non-veg.webp";
-import desserts from "../../assets/photos/Category_Page/desserts.webp";
-import beverages from "../../assets/photos/Category_Page/beverages.webp";
+import veg from "../../assets/photos/CategoryPage/veg.webp";
+import nonVeg from "../../assets/photos/CategoryPage/non-veg.webp";
+import desserts from "../../assets/photos/CategoryPage/desserts.webp";
+import beverages from "../../assets/photos/CategoryPage/beverages.webp";
 
 const CategoriesPage = () => {
 

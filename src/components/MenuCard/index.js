@@ -5,8 +5,9 @@ import "./style.css";
 
 import defaultImage from "../../assets/default.webp";
 
-const images = require.context("../../assets/photos/Veg/10__Pizza_& _Burgers_&_Wraps", true);
-const imageList = images.keys().map((image) => images(image));
+require.context("../../assets/photos/MenuPage", true);
+
+// const imageList = images.keys().map((image) => images(image));
 
 const MenuCard = ({ item }) => {
 	const { link, image, name, id } = item;
@@ -24,10 +25,6 @@ const MenuCard = ({ item }) => {
 				/>
 				<p className="card-text">{name || "Unnamed Item"}</p>
 			</Link>
-
-			{imageList.map((image) => {
-				return console.log(image);
-			})}
 		</div>
 	);
 };
