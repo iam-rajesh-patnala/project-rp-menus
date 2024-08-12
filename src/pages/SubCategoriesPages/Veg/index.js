@@ -3,7 +3,7 @@ import PropTypes from "prop-types"; // Import PropTypes
 import "./index.css";
 import BackToCategories from "../../../utils/BackToCategories";
 import { v4 as uuid } from "uuid";
-import mdb from "../../../data/MenuData/menu.json";
+import menuDB from "../../../data/MenuData/menu.json";
 
 // Menu Card Component
 import MenuCard from "../../../components/MenuCard";
@@ -11,7 +11,7 @@ import MenuCard from "../../../components/MenuCard";
 // Main Veg Component
 const Veg = () => {
 	const vegData =
-		mdb[0]?.veg.map((item) => ({
+		menuDB[0]?.veg.map((item) => ({
 			...item,
 			id: uuid(),
 		})) || []; // Optional chaining to prevent errors
