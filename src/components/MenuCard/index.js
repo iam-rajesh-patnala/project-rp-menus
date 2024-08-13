@@ -6,7 +6,6 @@ import "./style.css";
 import defaultImage from "../../assets/default.webp";
 
 require.context("../../assets/photos/MenuPage", true);
-
 // const imageList = images.keys().map((image) => images(image));
 
 const MenuCard = ({ item }) => {
@@ -23,7 +22,7 @@ const MenuCard = ({ item }) => {
 						e.target.onerror = null; // Prevent infinite loop in case the fallback image fails
 					}}
 				/>
-				<p className="card-text">{name || "Unnamed Item"}</p>
+				<span className="card-text">{name || "Unnamed Item"}</span>
 			</Link>
 		</div>
 	);

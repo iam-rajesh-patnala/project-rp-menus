@@ -1,3 +1,64 @@
-.veg-menu-cards-container{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+/* Veg Menu Page Container */
+.veg-menu-page {
     background-color: antiquewhite;
+    min-height: 100vh;
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+/* Title Container */
+.title-container {
+    width: 100%;
+    max-width: 1100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: pink; */
+}
+
+.title {
+    font-family: "Noto Serif", serif;
+    font-size: min(30px, 5vw);
+    color: #000000;
+    margin-left: 20px;
+}
+
+/* Back Button Container */
+.back-btn-container {
+    position: fixed;
+    width: 100%;
+    max-width: 1100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    z-index: 999;
+    /* background-color: #1100ff66; */
+}
+
+
+/* Cards Container */
+.veg-menu-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 26px;
+    padding: 30px;
+    /* background-color: #00000066; */
 }

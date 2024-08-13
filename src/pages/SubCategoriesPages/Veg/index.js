@@ -1,12 +1,23 @@
 import React from "react";
-import PropTypes from "prop-types"; // Import PropTypes
 import "./index.css";
-import BackToCategories from "../../../utils/BackToCategories";
 import { v4 as uuid } from "uuid";
+
+
+//Database
 import menuDB from "../../../data/MenuData/menu.json";
+
+//Header Component
+import Header from "../../../components/Header";
+
+// Back Button
+import BackToCategories from "../../../utils/BackToCategories";
 
 // Menu Card Component
 import MenuCard from "../../../components/MenuCard";
+
+// Component for Displaying No Data Message
+import NoDataMessage from "../../../components/NoDataMessage";
+
 
 // Main Veg Component
 const Veg = () => {
@@ -18,48 +29,24 @@ const Veg = () => {
 
 	return (
 		<section className="veg-menu-page">
-			<MenuHeader title="Choose Menu" />
+			<Header />
+			<div className="title-container">
+				<h1 className="title">Choose Your Menu</h1>
+				<div className="back-btn-container">
+					<BackToCategories />
+				</div>
+			</div>
 			<div className="veg-menu-cards-container">
 				{vegData.length > 0 ? (
 					vegData.map((item) => (
 						<MenuCard key={item.id || item.name} item={item} />
 					))
 				) : (
-					<NoDataMessage message="No menu items available" />
+					<NoDataMessage/>
 				)}
 			</div>
-			<BackToCategories />
 		</section>
 	);
-};
-
-// Header Component for Menu Title
-const MenuHeader = ({ title }) => (
-	<header className="menu-header">
-		<h1>{title}</h1>
-	</header>
-);
-
-MenuHeader.propTypes = {
-	title: PropTypes.string.isRequired,
-};
-
-// Component for Displaying No Data Message
-const NoDataMessage = ({ message }) => (
-	<p className="no-data-message">{message}</p>
-);
-
-NoDataMessage.propTypes = {
-	message: PropTypes.string.isRequired,
-};
-
-// Component for Displaying Error Message (not used in this snippet, but defined)
-const ErrorMessage = ({ message }) => (
-	<p className="error-message">{message}</p>
-);
-
-ErrorMessage.propTypes = {
-	message: PropTypes.string.isRequired,
 };
 
 export default Veg;
