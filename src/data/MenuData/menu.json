@@ -1,6 +1,77 @@
 [
 	{
-		"veg": [],
+		"veg": [
+			{
+				"id": 1,
+				"name": "Soups",
+				"image": "/static/media/Tomato_Basil_Soup.61bb3ec1ad8e0fa683d2.webp",
+				"link": "/categories/veg/soups",
+				"category": "Veg"
+			},
+			{
+				"id": 2,
+				"name": "Starters",
+				"image": "/static/media/Vegetable_Spring_Rolls.5654bf6ed6b33a397768.webp",
+				"link": "/categories/veg/starters",
+				"category": "Veg"
+			},
+			{
+				"id": 3,
+				"name": "Salads",
+				"image": "/static/media/Garden_Salad.41b1e643381b534770a1.webp",
+				"link": "/categories/veg/salads",
+				"category": "Veg"
+			},
+			{
+				"id": 4,
+				"name": "Naans & Breads",
+				"image": "/static/media/Plain_Naan.43c7bb5ad72e283978ff.webp",
+				"link": "/categories/veg/naans-breads",
+				"category": "Veg"
+			},
+			{
+				"id": 5,
+				"name": "Curries",
+				"image": "/static/media/Mutter_Panner.8d4f3af9705a448ed599.webp",
+				"link": "/categories/veg/curries",
+				"category": "Veg"
+			},
+			{
+				"id": 6,
+				"name": "Rice",
+				"image": "/static/media/Lemon_Rice.6bb71649cc302b107093.webp",
+				"link": "/categories/veg/rice",
+				"category": "Veg"
+			},
+			{
+				"id": 7,
+				"name": "Fired Rice",
+				"image": "/static/media/Veg_Fried_Rice.30bad074e552afe72ff3.webp",
+				"link": "/categories/veg/fried-rice",
+				"category": "Veg"
+			},
+			{
+				"id": 8,
+				"name": "Biryani",
+				"image": "/static/media/Vegetable_Biryani.72336f79be5e6ad71015.webp",
+				"link": "/categories/veg/biryani",
+				"category": "Veg"
+			},
+			{
+				"id": 9,
+				"name": "Noodles",
+				"image": "/static/media/Egg_Noodles.72b8cd64b4ba7d6cb247.webp",
+				"link": "/categories/veg/noodles",
+				"category": "Veg"
+			},
+			{
+				"id": 10,
+				"name": "Pizzas & Burgers",
+				"image": "/static/media/Pepperoni_Pizza.8f5d944776d34594456b.webp",
+				"link": "/categories/veg/pizzas-burgers",
+				"category": "Veg"
+			}
+		],
 		"nonVeg": [
 			{
 				"id": 1,
