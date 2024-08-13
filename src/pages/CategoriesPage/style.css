@@ -2,8 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
 }
 
 .categories-page {
@@ -42,6 +40,7 @@
     background-image: url("../../assets/patterns/pat2.webp");
     background-position: center;
     background-size: initial;
+    background-repeat: repeat;
     opacity: 0.5;
     inset: 0;
     z-index: -1;
@@ -84,38 +83,21 @@
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
     -webkit-box-shadow: rgba(0, 0, 0, 0.623) 0px 5px 15px 0px;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
 
 .category-btn:hover {
     transform: scale(0.98);
 }
 
-.veg {
-    background-image: url(../../assets/photos/CategoryPage/veg.webp);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.non-veg {
-    background-image: url(../../assets/photos/CategoryPage/non-veg.webp);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.desserts {
-    background-image: url(../../assets/photos/CategoryPage/desserts.webp);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.beverages {
-    background-image: url(../../assets/photos/CategoryPage/beverages.webp);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.bg-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .category-text {
@@ -130,6 +112,8 @@
     border: 2px solid #ffffffb4;
     border-radius: 4px;
     transition: 300ms;
+    position: absolute;
+    z-index: 999;
 }
 
 .category-text:hover {

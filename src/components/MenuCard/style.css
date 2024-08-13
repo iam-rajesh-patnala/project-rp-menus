@@ -8,8 +8,9 @@
 .menu-card {
     background-color: #ffffff;
     width: 200px;
+    height: 210px;
     border-radius: 6px;
-    padding: 8px 8px 16px 8px ;
+    padding: 8px 8px 10px 8px ;
     text-align: center;
     user-select: none;
     -webkit-user-select: none;
@@ -27,7 +28,7 @@
 }
 
 .menu-card:hover {
-    padding: 0 0 16px 0;
+    padding: 0 0 10px 0;
 }
 
 /* Link Tag */
@@ -53,7 +54,7 @@
     color: #000000;
     font-size: min(20px, 6vw);
     font-weight: 600;
-    margin: 8px 0;
+    margin: 16px 0;
 }
 
 .card-text::after {

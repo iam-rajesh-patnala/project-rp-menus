@@ -1,7 +1,6 @@
 import React from "react";
-import "./index.css";
+import "./style.css";
 import { v4 as uuid } from "uuid";
-
 
 //Database
 import menuDB from "../../../data/MenuData/menu.json";
@@ -18,7 +17,6 @@ import MenuCard from "../../../components/MenuCard";
 // Component for Displaying No Data Message
 import NoDataMessage from "../../../components/NoDataMessage";
 
-
 // Main Veg Component
 const Veg = () => {
 	const vegData =
@@ -30,21 +28,25 @@ const Veg = () => {
 	return (
 		<section className="veg-menu-page">
 			<Header />
-			<div className="title-container">
-				<h1 className="title">Choose Your Menu</h1>
-				<div className="back-btn-container">
-					<BackToCategories />
-				</div>
-			</div>
-			<div className="veg-menu-cards-container">
-				{vegData.length > 0 ? (
-					vegData.map((item) => (
-						<MenuCard key={item.id || item.name} item={item} />
-					))
-				) : (
-					<NoDataMessage/>
-				)}
-			</div>
+			{/* Checking if data is available else displaying no data message */}
+			{vegData.length > 0 ? (
+				<>
+					<div className="title-container">
+						<h1 className="title">Choose Your Menu</h1>
+						<div className="back-btn-container">
+							<BackToCategories />
+						</div>
+					</div>
+					{/* Veg Menu Cards */}
+					<div className="veg-menu-cards-container">
+						{vegData.map((item) => (
+							<MenuCard key={item.id || item.name} item={item} />
+						))}
+					</div>
+				</>
+			) : (
+				<NoDataMessage />
+			)}
 		</section>
 	);
 };

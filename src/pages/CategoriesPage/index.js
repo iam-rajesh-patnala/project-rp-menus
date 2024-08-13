@@ -12,45 +12,50 @@ import desserts from "../../assets/photos/CategoryPage/desserts.webp";
 import beverages from "../../assets/photos/CategoryPage/beverages.webp";
 
 const CategoriesPage = () => {
-
 	return (
 		<section className="categories-page">
 			<Header />
 			<div className="categories-page-background-container">
+				{/* Title Container */}
 				<div className="title-container">
 					<h1 className="title">Select the Categories</h1>
 				</div>
 
+				{/* Cards Container */}
 				<div className="categories-container">
 					<Link to={"/categories/veg"}>
-						<button
-							className="category-btn veg"
-							style={{ backgroundImage: `url(${veg})` }}
-						>
+						<button className="category-btn">
+							<img src={veg} alt="Veg" className="bg-img" />
 							<span className="category-text">Veg</span>
 						</button>
 					</Link>
 					<Link to={"/categories/non-veg"}>
-						<button
-							className="category-btn  non-veg"
-							style={{ backgroundImage: `url(${nonVeg})` }}
-						>
+						<button className="category-btn  non-veg">
+							<img
+								src={nonVeg}
+								alt="Non-Veg"
+								className="bg-img"
+							/>
 							<span className="category-text">Non-Veg</span>
 						</button>
 					</Link>
 					<Link to={"/categories/desserts"}>
-						<button
-							className="category-btn  desserts"
-							style={{ backgroundImage: `url(${desserts})` }}
-						>
+						<button className="category-btn  desserts">
+							<img
+								src={desserts}
+								alt="Desserts"
+								className="bg-img"
+							/>
 							<span className="category-text">Desserts</span>
 						</button>
 					</Link>
 					<Link to={"/categories/beverages"}>
-						<button
-							className="category-btn beverages"
-							style={{ backgroundImage: `url(${beverages})` }}
-						>
+						<button className="category-btn beverages">
+							<img
+								src={beverages}
+								alt="Beverages"
+								className="bg-img"
+							/>
 							<span className="category-text">Beverages</span>
 						</button>
 					</Link>

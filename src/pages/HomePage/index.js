@@ -1,6 +1,7 @@
 import "./index.css";
 import "./hpmq.css";
 import OrderNowBtn from "../../components/OrderNowBtn";
+import logo from "../../assets/icons/logo.png";
 import { Link } from "react-router-dom";
 
 const HomePage = () => {
@@ -9,8 +10,10 @@ const HomePage = () => {
 	return (
 		<section className="home-page">
 			<div className="home-page-background-container">
-				{/* Logo & Text Container */}
-				<div className="logo-container"></div>
+				{/* Logo Container */}
+				<div className="logo-container">
+					<img alt="logo" src={logo} className="restaurant-logo" />
+				</div>
 
 				{/* Text Container */}
 				<div className="text-container">
