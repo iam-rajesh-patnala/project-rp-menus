@@ -7,7 +7,7 @@
 					"item_name": "Chai",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -16,7 +16,7 @@
 					"item_name": "Lemon Tea",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -25,7 +25,7 @@
 					"item_name": "Green Tea",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -34,7 +34,7 @@
 					"item_name": "Herbal Tea",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -43,7 +43,7 @@
 					"item_name": "Black Tea",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -52,7 +52,7 @@
 					"item_name": "White Tea",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -61,7 +61,7 @@
 					"item_name": "Oolong Tea",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				}
@@ -72,7 +72,7 @@
 					"item_name": "Filter Coffee",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -81,7 +81,7 @@
 					"item_name": "Cappuccino",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -90,7 +90,7 @@
 					"item_name": "Espresso",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -99,7 +99,7 @@
 					"item_name": "Macchiato",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -108,7 +108,7 @@
 					"item_name": "Latte",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -117,7 +117,7 @@
 					"item_name": "Mocha",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -126,7 +126,7 @@
 					"item_name": "Americano",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -135,7 +135,7 @@
 					"item_name": "Turkish Coffee",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				}
@@ -146,7 +146,7 @@
 					"item_name": "Hot Chocolate",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -155,7 +155,7 @@
 					"item_name": "Warm Milk",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -164,7 +164,7 @@
 					"item_name": "Matcha Latte",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -173,7 +173,7 @@
 					"item_name": "Hot Lemon Water",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				}
@@ -186,7 +186,7 @@
 					"item_name": "Orange Juice",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -195,7 +195,7 @@
 					"item_name": "Apple Juice",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -204,7 +204,7 @@
 					"item_name": "Mango Juice",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -213,7 +213,7 @@
 					"item_name": "Grape Juice",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -222,7 +222,7 @@
 					"item_name": "Pineapple Juice",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -231,7 +231,7 @@
 					"item_name": "Watermelon Juice",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -240,7 +240,7 @@
 					"item_name": "Pomegranate Juice",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -249,7 +249,7 @@
 					"item_name": "Cranberry Juice",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -258,7 +258,7 @@
 					"item_name": "Carrot Juice",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				}
@@ -269,7 +269,7 @@
 					"item_name": "Coca-Cola",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -278,7 +278,7 @@
 					"item_name": "Pepsi",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -287,7 +287,7 @@
 					"item_name": "Sprite",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -296,7 +296,7 @@
 					"item_name": "Thums Up",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -305,7 +305,7 @@
 					"item_name": "Lemon-Lime Soda",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -314,7 +314,7 @@
 					"item_name": "Root Beer",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -323,7 +323,7 @@
 					"item_name": "Ginger Ale",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				}
@@ -334,7 +334,7 @@
 					"item_name": "Virgin Mojito",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -343,7 +343,7 @@
 					"item_name": "Shirley Temple",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -352,7 +352,7 @@
 					"item_name": "Nojito",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -361,7 +361,7 @@
 					"item_name": "Virgin Mary",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -370,7 +370,7 @@
 					"item_name": "Pina Colada (non-alcoholic)",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -379,7 +379,7 @@
 					"item_name": "Fruit Punch",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -388,7 +388,7 @@
 					"item_name": "Blue Lagoon",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				}
@@ -399,7 +399,7 @@
 					"item_name": "Fruit Smoothies",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -408,7 +408,7 @@
 					"item_name": "Green Smoothies",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -417,7 +417,7 @@
 					"item_name": "Protein Smoothies",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -426,7 +426,7 @@
 					"item_name": "Yogurt Smoothies",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				}
@@ -437,7 +437,7 @@
 					"item_name": "Chocolate Milkshake",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -446,7 +446,7 @@
 					"item_name": "Vanilla Milkshake",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -455,7 +455,7 @@
 					"item_name": "Strawberry Milkshake",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -464,7 +464,7 @@
 					"item_name": "Banana Milkshake",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				}
@@ -475,7 +475,7 @@
 					"item_name": "Lemon Iced Tea",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -484,7 +484,7 @@
 					"item_name": "Peach Iced Tea",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -493,7 +493,7 @@
 					"item_name": "Green Iced Tea",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -502,7 +502,7 @@
 					"item_name": "Thai Iced Tea",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				}
@@ -513,7 +513,7 @@
 					"item_name": "Cold Brew",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -522,7 +522,7 @@
 					"item_name": "Iced Latte",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -531,7 +531,7 @@
 					"item_name": "Iced Americano",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -540,7 +540,7 @@
 					"item_name": "Frappuccino",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				}
@@ -551,7 +551,7 @@
 					"item_name": "Lemonade",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -560,7 +560,7 @@
 					"item_name": "Infused Water",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -569,7 +569,7 @@
 					"item_name": "Kombucha",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -578,7 +578,7 @@
 					"item_name": "Sparkling Water",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -587,7 +587,7 @@
 					"item_name": "Coconut Water",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				}

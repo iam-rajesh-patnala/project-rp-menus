@@ -17,13 +17,29 @@ import MenuCard from "../../../components/MenuCard";
 // Component for Displaying No Data Message
 import NoDataMessage from "../../../components/NoDataMessage";
 
+// ----------------------------------------------------------------
+
 // Main Veg Component
 const Veg = () => {
-	const vegData =
-		menuDB[0]?.veg.map((item) => ({
-			...item,
-			id: uuid(),
-		})) || []; // Optional chaining to prevent errors
+	// Easy way to fetch the data ---------
+
+	// const vegData =
+	// 	menuDB[0]?.veg.map((item) => ({
+	// 		...item,
+	// 		id: uuid(),
+	// 	})) || []; // Optional chaining to prevent errors
+
+	// Extracting veg data from the JSON data ---------
+	const vegData = menuDB.reduce((accumulator, currentItem) => {
+		if (currentItem.veg) {
+			let data = currentItem.veg.map((item) => ({
+				...item,
+				id: uuid(),
+			}));
+			return accumulator.concat(data);
+		}
+		return accumulator;
+	}, []);
 
 	return (
 		<section className="veg-menu-page">

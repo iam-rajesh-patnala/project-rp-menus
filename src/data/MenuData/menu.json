@@ -74,26 +74,163 @@
 		],
 		"nonVeg": [
 			{
-				"id": 1,
-				"name": "Non-Veg",
+				"id": 11,
+				"name": "Soups",
 				"image": "",
-				"link": "/categories/non-veg"
+				"link": "/categories/non-veg/soups",
+				"category": "Non-Veg"
+			},
+			{
+				"id": 12,
+				"name": "Starters",
+				"image": "",
+				"link": "/categories/non-veg/starters",
+				"category": "Non-Veg"
+			},
+			{
+				"id": 13,
+				"name": "Curries",
+				"image": "",
+				"link": "/categories/non-veg/curries",
+				"category": "Non-Veg"
+			},
+			{
+				"id": 14,
+				"name": "Fired Rice",
+				"image": "",
+				"link": "/categories/non-veg/fired-rice",
+				"category": "Non-Veg"
+			},
+			{
+				"id": 15,
+				"name": "Biryani",
+				"image": "",
+				"link": "/categories/non-veg/biryani",
+				"category": "Non-Veg"
+			},
+			{
+				"id": 16,
+				"name": "Noodles",
+				"image": "",
+				"link": "/categories/non-veg/noodles",
+				"category": "Non-Veg"
+			},
+			{
+				"id": 17,
+				"name": "Pizzas & Burgers",
+				"image": "",
+				"link": "/categories/non-veg/pizzas-burgers",
+				"category": "Non-Veg"
 			}
 		],
 		"desserts": [
 			{
-				"id": 1,
-				"name": "Desserts",
+				"id": 18,
+				"name": "Sweets",
 				"image": "",
-				"link": "/categories/desserts"
+				"link": "/categories/desserts/sweets",
+				"category": "Desserts"
+			},
+			{
+				"id": 19,
+				"name": "Pastries",
+				"image": "",
+				"link": "/categories/desserts/pastries",
+				"category": "Desserts"
+			},
+			{
+				"id": 20,
+				"name": "Cakes",
+				"image": "",
+				"link": "/categories/desserts/cakes",
+				"category": "Desserts"
+			},
+			{
+				"id": 21,
+				"name": "Ice Creams",
+				"image": "",
+				"link": "/categories/desserts/ice-creams",
+				"category": "Desserts"
 			}
+			
 		],
 		"beverages": [
 			{
-				"id": 1,
-				"name": "Beverages",
+				"id": 22,
+				"name": "Juices",
 				"image": "",
-				"link": "/categories/beverages"
+				"link": "/categories/beverages/juices",
+				"category": "cold"
+			},
+			{
+				"id": 23,
+				"name": "Soft Drinks",
+				"image": "",
+				"link": "/categories/beverages/soft-drinks",
+				"category": "cold"
+			},
+			{
+				"id": 24,
+				"name": "Mocktails",
+				"image": "",
+				"link": "/categories/beverages/mocktails",
+				"category": "cold"
+			},
+			{
+				"id": 25,
+				"name": "Smoothies",
+				"image": "",
+				"link": "/categories/beverages/smoothies",
+				"category": "cold"
+			},
+			{
+				"id": 26,
+				"name": "Milkshakes",
+				"image": "",
+				"link": "/categories/beverages/milkshakes",
+				"category": "cold"
+			},
+			{
+				"id": 27,
+				"name": "Iced Tea",
+				"image": "",
+				"link": "/categories/beverages/iced-tea",
+				"category": "cold"
+			},
+			{
+				"id": 28,
+				"name": "Iced Coffee",
+				"image": "",
+				"link": "/categories/beverages/iced-coffee",
+				"category": "cold"
+			},
+			{
+				"id": 29,
+				"name": "Cold Extras",
+				"image": "",
+				"link": "/categories/beverages/cold-extras",
+				"category": "cold"
+			},
+			{
+				"id": 30,
+				"name": "Tea",
+				"image": "",
+				"link": "/categories/beverages/tea",
+				"category": "hot"
+			},
+			{
+				"id": 31,
+				"name": "Coffee",
+				"image": "",
+				"link": "/categories/beverages/coffee",
+				"category": "hot"
+			},
+			{
+				"id": 32,
+				"name": "Hot Extras",
+				"image": "",
+				"link": "/categories/beverages/hot-extras",
+				"category": "hot"
 			}
 		]
 	}

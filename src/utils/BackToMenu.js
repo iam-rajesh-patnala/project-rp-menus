@@ -3,12 +3,12 @@ import { useNavigate } from "react-router-dom";
 import "./btn-style.css";	
 import BackIcon from "./BackIcon";
 
-const BackToMenu = () => {
+const BackToMenu = ({viewUrl}) => {
 	const navigate = useNavigate();
 
 	return (
 		<button
-			onClick={() => navigate("/categories/veg")}
+			onClick={() => navigate(viewUrl)}
 			className="back-btn"
 		>
 			<BackIcon />

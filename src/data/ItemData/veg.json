@@ -7,8 +7,8 @@
 					"item_name": "Tomato Basil Soup",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
-					"image": "./Image_Sources/Veg/1__Veg-Soups/1__Tomato_Basil_Soup.webp",
+					"isAvailable": true,
+					"image": "/static/media/1__Tomato_Basil_Soup.d034a7148b152990c500.webp",
 					"description": "This is a delicious vegetarian soup"
 				},
 				{
@@ -16,8 +16,8 @@
 					"item_name": "Cream of Mushroom Soup",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
-					"image": "./Image_Sources/Veg/1__Veg-Soups/2__Cream_of_Mushroom_Soup.webp",
+					"isAvailable": true,
+					"image": "/static/media/2__Cream_of_Mushroom_Soup.f77cf5dc4fecb551b7cd.webp",
 					"description": "This is a delicious vegetarian soup"
 				},
 				{
@@ -25,8 +25,8 @@
 					"item_name": "Vegetable Clear Soup",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
-					"image": "./Image_Sources/Veg/1__Veg-Soups/3__Vegetable_Clear_Soup.webp",
+					"isAvailable": true,
+					"image": "/static/media/3__Vegetable_Clear_Soup.23597813596189d1f84b.webp",
 					"description": "This is a delicious vegetarian soup"
 				},
 				{
@@ -34,8 +34,8 @@
 					"item_name": "Sweet Corn Soup",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
-					"image": "./Image_Sources/Veg/1__Veg-Soups/4__Sweet_Corn_Soup.webp",
+					"isAvailable": true,
+					"image": "/static/media/4__Sweet_Corn_Soup.a566eb82e1eb4895ebdb.webp",
 					"description": "This is a delicious vegetarian soup"
 				},
 				{
@@ -43,8 +43,8 @@
 					"item_name": "Minestrone Soup",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
-					"image": "./Image_Sources/Veg/1__Veg-Soups/5__Minestrone_Soup.webp",
+					"isAvailable": true,
+					"image": "/static/media/5__Minestrone_Soup.9edc7b5a9463137be7a4.webp",
 					"description": "This is a delicious vegetarian soup"
 				},
 				{
@@ -52,8 +52,8 @@
 					"item_name": "Lentil Soup (Dal Shorba)",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
-					"image": "./Image_Sources/Veg/1__Veg-Soups/6__Lentil_Soup.webp",
+					"isAvailable": true,
+					"image": "/static/media/6__Lentil_Soup.69aacf5968bf335b3fa8.webp",
 					"description": "This is a delicious vegetarian soup"
 				},
 				{
@@ -61,8 +61,8 @@
 					"item_name": "Spinach Soup",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
-					"image": "./Image_Sources/Veg/1__Veg-Soups/7__Spinach_Soup.webp",
+					"isAvailable": true,
+					"image": "/static/media/7__Spinach_Soup.b998adad412e7fbcb22f.webp",
 					"description": "This is a delicious vegetarian soup"
 				},
 				{
@@ -70,8 +70,8 @@
 					"item_name": "Carrot and Ginger Soup",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
-					"image": "./Image_Sources/Veg/1__Veg-Soups/8__Carrot_and_Ginger_Soup.webp",
+					"isAvailable": true,
+					"image": "/static/media/8__Carrot_and_Ginger_Soup.513bcaf69f4cd05e23c0.webp",
 					"description": "This is a delicious vegetarian soup"
 				},
 				{
@@ -79,8 +79,8 @@
 					"item_name": "Broccoli and Almond Soup",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
-					"image": "./Image_Sources/Veg/1__Veg-Soups/9__Broccoli_and_Almond_Soup.webp",
+					"isAvailable": true,
+					"image": "/static/media/9__Broccoli_and_Almond_Soup.45cdbcbeec6dbb2e94af.webp",
 					"description": "This is a delicious vegetarian soup"
 				},
 				{
@@ -88,8 +88,8 @@
 					"item_name": "Hot and Sour Soup",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
-					"image": "./Image_Sources/Veg/1__Veg-Soups/10__Hot_and_Sour_Soup.webp",
+					"isAvailable": true,
+					"image": "/static/media/10__Hot_and_Sour_Soup.ea745ed71ded2878e7c4.webp",
 					"description": "This is a delicious vegetarian soup"
 				}
 			]
@@ -101,7 +101,7 @@
 					"item_name": "Vegetable Spring Rolls",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -110,7 +110,7 @@
 					"item_name": "Paneer Tikka",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -119,7 +119,7 @@
 					"item_name": "Veg Manchurian",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -128,7 +128,7 @@
 					"item_name": "Gobi Manchurian",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -137,7 +137,7 @@
 					"item_name": "Aloo Tikki",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -146,7 +146,7 @@
 					"item_name": "Paneer 65",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -155,7 +155,7 @@
 					"item_name": "Baby Corn 65",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -164,7 +164,7 @@
 					"item_name": "Crispy Corn",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -173,7 +173,7 @@
 					"item_name": "Veg Samosa",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -182,7 +182,7 @@
 					"item_name": "Stuffed Mushrooms",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				}
@@ -195,7 +195,7 @@
 					"item_name": "Caesar Salad (Vegetarian)",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -204,7 +204,7 @@
 					"item_name": "Garden Salad",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -213,7 +213,7 @@
 					"item_name": "Caprese Salad",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -222,7 +222,7 @@
 					"item_name": "Beetroot and Feta Salad",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -231,7 +231,7 @@
 					"item_name": "Waldorf Salad",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -240,7 +240,7 @@
 					"item_name": "Quinoa Salad",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -249,7 +249,7 @@
 					"item_name": "Chickpea Salad",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -258,7 +258,7 @@
 					"item_name": "Avocado Salad",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -267,7 +267,7 @@
 					"item_name": "Cucumber and Tomato Salad",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -276,7 +276,7 @@
 					"item_name": "Roasted Vegetable Salad",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				}
@@ -289,7 +289,7 @@
 					"item_name": "Plain Naan",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -298,7 +298,7 @@
 					"item_name": "Butter Naan",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -307,7 +307,7 @@
 					"item_name": "Garlic Naan",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -316,7 +316,7 @@
 					"item_name": "Cheese Naan",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -325,7 +325,7 @@
 					"item_name": "Paneer Keema Naan",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -334,7 +334,7 @@
 					"item_name": "Roti / Chapati",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -343,7 +343,7 @@
 					"item_name": "Roomali Roti",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -352,7 +352,7 @@
 					"item_name": "Phulka",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -361,7 +361,7 @@
 					"item_name": "Missi Roti",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -370,7 +370,7 @@
 					"item_name": "Aloo Paratha",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -379,7 +379,7 @@
 					"item_name": "Garlic Bread",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				}
@@ -392,7 +392,7 @@
 					"item_name": "Chana Masala",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -401,7 +401,7 @@
 					"item_name": "Palak Paneer",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -410,7 +410,7 @@
 					"item_name": "Paneer Butter Masala",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -419,7 +419,7 @@
 					"item_name": "Kaju Tomato Curry",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -428,7 +428,7 @@
 					"item_name": "Kadai Paneer",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -437,7 +437,7 @@
 					"item_name": "Kaju Paneer Curry",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -446,7 +446,7 @@
 					"item_name": "Matar Paneer",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -455,7 +455,7 @@
 					"item_name": "Malai Kofta",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -464,7 +464,7 @@
 					"item_name": "Methi Chaman",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -473,7 +473,7 @@
 					"item_name": "Vegetable Kurma",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -482,7 +482,7 @@
 					"item_name": "Aloo Gobhi",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				}
@@ -495,7 +495,7 @@
 					"item_name": "Lemon Rice",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -504,7 +504,7 @@
 					"item_name": "Tomato Rice",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -513,7 +513,7 @@
 					"item_name": "Curd Rice",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -522,7 +522,7 @@
 					"item_name": "Tamarind Rice",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -531,7 +531,7 @@
 					"item_name": "Mint Rice (Pudina Rice)",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -540,7 +540,7 @@
 					"item_name": "Mango Rice",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -549,7 +549,7 @@
 					"item_name": "Jeera Rice",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -558,7 +558,7 @@
 					"item_name": "Carrot Rice",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -567,7 +567,7 @@
 					"item_name": "Capsicum Rice",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -576,7 +576,7 @@
 					"item_name": "Beetroot Rice",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				}
@@ -589,7 +589,7 @@
 					"item_name": "Veg Fried Rice",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -598,7 +598,7 @@
 					"item_name": "Veg Schezwan Fried Rice",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -607,7 +607,7 @@
 					"item_name": "Paneer Fried Rice",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -616,7 +616,7 @@
 					"item_name": "Mushroom Fried Rice",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -625,7 +625,7 @@
 					"item_name": "Gobbi Fried Rice",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -634,7 +634,7 @@
 					"item_name": "Dal Kihichdi",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -643,7 +643,7 @@
 					"item_name": "Egg Fried Rice",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -652,7 +652,7 @@
 					"item_name": "Veg Mixed Fried Rice",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				}
@@ -665,7 +665,7 @@
 					"item_name": "Vegetable Biryani",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -674,7 +674,7 @@
 					"item_name": "Paneer Biryani",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -683,7 +683,7 @@
 					"item_name": "Mushroom Biryani",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -692,7 +692,7 @@
 					"item_name": "Egg Biryani",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -701,7 +701,7 @@
 					"item_name": "Kaju Biryani",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -710,7 +710,7 @@
 					"item_name": "Ulavacharu Biryani",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				}
@@ -723,7 +723,7 @@
 					"item_name": "Veg Noodles",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -732,7 +732,7 @@
 					"item_name": "Egg Noodles",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -741,7 +741,7 @@
 					"item_name": "Chilli Garlic Veg Noodles",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -750,7 +750,7 @@
 					"item_name": "Veg Schezwan Noodles",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -759,7 +759,7 @@
 					"item_name": "Veg Manchurian Noodles",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -768,7 +768,7 @@
 					"item_name": "Sweet Potato Noodles",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -777,7 +777,7 @@
 					"item_name": "Gobi Noodles",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -786,7 +786,7 @@
 					"item_name": "Mushroom Noodles",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -795,7 +795,7 @@
 					"item_name": "Paneer Noodles",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -804,7 +804,7 @@
 					"item_name": "Veg Mixed Noodles",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				}
@@ -817,7 +817,7 @@
 					"item_name": "Margherita Pizza",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -826,7 +826,7 @@
 					"item_name": "Pepperoni Pizza",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -835,7 +835,7 @@
 					"item_name": "Paneer Pizza",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -844,7 +844,7 @@
 					"item_name": "Corn & Cheese Pizza",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -853,7 +853,7 @@
 					"item_name": "Classic Cheese Burger",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -862,7 +862,7 @@
 					"item_name": "Veggie Burger",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -871,7 +871,7 @@
 					"item_name": "Double Patty Burger",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -880,7 +880,7 @@
 					"item_name": "Paneer Grilled Sandwich",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -889,7 +889,7 @@
 					"item_name": "Veg Grilled Sandwich",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -898,7 +898,7 @@
 					"item_name": "Corn Grilled Sandwich",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -907,7 +907,7 @@
 					"item_name": "Veg Wrap",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -916,7 +916,7 @@
 					"item_name": "Egg Wrap",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -925,7 +925,7 @@
 					"item_name": "French Fries",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -934,7 +934,7 @@
 					"item_name": "Peri Peri Fries",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -943,7 +943,7 @@
 					"item_name": "Veg Pasta",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				},
@@ -952,7 +952,7 @@
 					"item_name": "Creamy Mushroom Pasta",
 					"price": 120,
 					"rating": 4.5,
-					"availability": true,
+					"isAvailable": true,
 					"image": "",
 					"description": ""
 				}

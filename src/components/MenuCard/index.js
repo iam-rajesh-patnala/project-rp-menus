@@ -5,13 +5,19 @@ import "./style.css";
 
 import defaultImage from "../../assets/default.webp";
 
+// Importing Images
 require.context("../../assets/photos/MenuPage", true);
-// const imageList = images.keys().map((image) => images(image));
 
+// ----------------------------------------------------------------
+
+// Menu Card Component
 const MenuCard = ({ item }) => {
-	const { link, image, name, id } = item;
+	// Javascript code Goes here
+
+	const { link, image, name } = item;
+	
 	return (
-		<div className="menu-card" key={id}>
+		<div className="menu-card">
 			<Link to={link} className="card-item">
 				<img
 					className="card-img"

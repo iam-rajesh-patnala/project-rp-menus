@@ -16,24 +16,53 @@ import NonVeg from "../pages/SubCategoriesPages/NonVeg";
 import Desserts from "../pages/SubCategoriesPages/Desserts";
 import Beverages from "../pages/SubCategoriesPages/Beverages";
 
-// Menu Pages
-import Soups from "../pages/MenuPages/Soups";
-import Starters from "../pages/MenuPages/Starters";
-import Salads from "../pages/MenuPages/Salads";
-import NaansBreads from "../pages/MenuPages/NaansBreads";
-import Curries from "../pages/MenuPages/Curries";
-import Rice from "../pages/MenuPages/Rice";
-import FriedRice from "../pages/MenuPages/FriedRice"; // Corrected the typo
-import Biryani from "../pages/MenuPages/Biryani";
-import Noodles from "../pages/MenuPages/Noodles";
-import PizzasBurgers from "../pages/MenuPages/PizzasBurgers";
+// Veg Menu Pages
+import VegSoups from "../pages/MenuPages/Veg/Soups";
+import VegStarters from "../pages/MenuPages/Veg/Starters";
+import VegSalads from "../pages/MenuPages/Veg/Salads";
+import VegNaansBreads from "../pages/MenuPages/Veg/NaansBreads";
+import VegCurries from "../pages/MenuPages/Veg/Curries";
+import VegRice from "../pages/MenuPages/Veg/Rice";
+import VegFriedRice from "../pages/MenuPages/Veg/FriedRice";
+import VegBiryani from "../pages/MenuPages/Veg/Biryani";
+import VegNoodles from "../pages/MenuPages/Veg/Noodles";
+import VegPizzasBurgers from "../pages/MenuPages/Veg/PizzasBurgers";
+
+// Non-Veg Menu Pages
+import NonVegSoups from "../pages/MenuPages/NonVeg/Soups";
+import NonVegStarters from "../pages/MenuPages/NonVeg/Starters";
+import NonVegCurries from "../pages/MenuPages/NonVeg/Curries";
+import NonVegFriedRice from "../pages/MenuPages/NonVeg/FriedRice";
+import NonVegBiryani from "../pages/MenuPages/NonVeg/Biryani";
+import NonVegNoodles from "../pages/MenuPages/NonVeg/Noodles";
+import NonVegPizzasBurgers from "../pages/MenuPages/NonVeg/PizzasBurgers";
+
+// Desserts Menu Pages
+import Sweets from "../pages/MenuPages/Desserts/Sweets";
+import Pastries from "../pages/MenuPages/Desserts/Pastries";
+import Cakes from "../pages/MenuPages/Desserts/Cakes";
+import IceCreams from "../pages/MenuPages/Desserts/IceCreams";
+
+// Beverages Menu Pages
+import Juices from "../pages/MenuPages/Beverages/Juices";
+import SoftDrinks from "../pages/MenuPages/Beverages/SoftDrinks";
+import Mocktails from "../pages/MenuPages/Beverages/Mocktails";
+import Smoothies from "../pages/MenuPages/Beverages/Smoothies";
+import Milkshakes from "../pages/MenuPages/Beverages/Milkshakes";
+import IcedTea from "../pages/MenuPages/Beverages/IcedTea";
+import IcedCoffee from "../pages/MenuPages/Beverages/IcedCoffee";
+import ColdExtras from "../pages/MenuPages/Beverages/ColdExtras";
+
+import Tea from "../pages/MenuPages/Beverages/Tea";
+import Coffee from "../pages/MenuPages/Beverages/Coffee";
+import HotExtras from "../pages/MenuPages/Beverages/HotExtras";
 
 // Page Transition Component
 import PageTransition from "../components/PageTransition";
 
 // Router
 const router = createBrowserRouter([
-	// Home Page
+	// Home Page ---------------------------------
 	{
 		path: "/",
 		element: (
@@ -55,7 +84,7 @@ const router = createBrowserRouter([
 		errorElement: <ErrorPage />,
 	},
 
-	// SubCategories Pages
+	// SubCategories Pages ---------------------------------
 	{
 		path: "/categories/veg",
 		element: (
@@ -96,12 +125,12 @@ const router = createBrowserRouter([
 		errorElement: <ErrorPage />,
 	},
 
-	// Menu Pages
+	// Veg Menu Pages ---------------------------------
 	{
 		path: "/categories/veg/soups",
 		element: (
 			<PageTransition>
-				<Soups />
+				<VegSoups />
 			</PageTransition>
 		),
 		errorElement: <ErrorPage />,
@@ -110,7 +139,7 @@ const router = createBrowserRouter([
 		path: "/categories/veg/starters",
 		element: (
 			<PageTransition>
-				<Starters />
+				<VegStarters />
 			</PageTransition>
 		),
 		errorElement: <ErrorPage />,
@@ -119,7 +148,7 @@ const router = createBrowserRouter([
 		path: "/categories/veg/salads",
 		element: (
 			<PageTransition>
-				<Salads />
+				<VegSalads />
 			</PageTransition>
 		),
 		errorElement: <ErrorPage />,
@@ -128,7 +157,7 @@ const router = createBrowserRouter([
 		path: "/categories/veg/naans-breads",
 		element: (
 			<PageTransition>
-				<NaansBreads />
+				<VegNaansBreads />
 			</PageTransition>
 		),
 		errorElement: <ErrorPage />,
@@ -137,7 +166,7 @@ const router = createBrowserRouter([
 		path: "/categories/veg/curries",
 		element: (
 			<PageTransition>
-				<Curries />
+				<VegCurries />
 			</PageTransition>
 		),
 		errorElement: <ErrorPage />,
@@ -146,7 +175,7 @@ const router = createBrowserRouter([
 		path: "/categories/veg/rice",
 		element: (
 			<PageTransition>
-				<Rice />
+				<VegRice />
 			</PageTransition>
 		),
 		errorElement: <ErrorPage />,
@@ -155,7 +184,7 @@ const router = createBrowserRouter([
 		path: "/categories/veg/fried-rice",
 		element: (
 			<PageTransition>
-				<FriedRice />
+				<VegFriedRice />
 			</PageTransition>
 		),
 		errorElement: <ErrorPage />,
@@ -164,7 +193,7 @@ const router = createBrowserRouter([
 		path: "/categories/veg/biryani",
 		element: (
 			<PageTransition>
-				<Biryani />
+				<VegBiryani />
 			</PageTransition>
 		),
 		errorElement: <ErrorPage />,
@@ -173,7 +202,7 @@ const router = createBrowserRouter([
 		path: "/categories/veg/noodles",
 		element: (
 			<PageTransition>
-				<Noodles />
+				<VegNoodles />
 			</PageTransition>
 		),
 		errorElement: <ErrorPage />,
@@ -182,11 +211,215 @@ const router = createBrowserRouter([
 		path: "/categories/veg/pizzas-burgers",
 		element: (
 			<PageTransition>
-				<PizzasBurgers />
+				<VegPizzasBurgers />
 			</PageTransition>
 		),
 		errorElement: <ErrorPage />,
 	},
+	// NonVeg Menu Pages ---------------------------------
+	{
+		path: "/categories/non-veg/soups",
+		element: (
+			<PageTransition>
+				<NonVegSoups />
+			</PageTransition>
+		),
+		errorElement: <ErrorPage />,	
+	},
+	{
+		path: "/categories/non-veg/starters",
+		element: (
+			<PageTransition>
+				<NonVegStarters />
+			</PageTransition>
+		),
+		errorElement: <ErrorPage />,
+	},
+	{
+		path: "/categories/non-veg/curries",
+		element: (
+			<PageTransition>
+				<NonVegCurries />
+			</PageTransition>
+		),
+		errorElement: <ErrorPage />,
+	},
+	{
+		path: "/categories/non-veg/fired-rice",
+		element: (
+			<PageTransition>
+				<NonVegFriedRice />
+			</PageTransition>
+		),
+		errorElement: <ErrorPage />,
+	},
+	{
+		path: "/categories/non-veg/biryani",
+		element: (
+			<PageTransition>
+				<NonVegBiryani />
+			</PageTransition>
+		),
+		errorElement: <ErrorPage />,
+	},
+	{
+		path: "/categories/non-veg/noodles",
+		element: (
+			<PageTransition>
+				<NonVegNoodles />
+			</PageTransition>
+		),
+		errorElement: <ErrorPage />,
+	},
+	{
+		path: "/categories/non-veg/pizzas-burgers",
+		element: (
+			<PageTransition>
+				<NonVegPizzasBurgers />
+			</PageTransition>
+		),
+		errorElement: <ErrorPage />,
+	},
+	// Desserts Menu Pages ---------------------------------
+	{
+		path: "/categories/desserts/sweets",
+		element: (
+			<PageTransition>
+				<Sweets />
+			</PageTransition>
+		),
+		errorElement: <ErrorPage />,
+	},
+	{
+		path: "/categories/desserts/pastries",
+		element: (
+			<PageTransition>
+				<Pastries />
+			</PageTransition>
+		),
+		errorElement: <ErrorPage />,
+	},
+	{
+		path: "/categories/desserts/cakes",
+		element: (
+			<PageTransition>
+				<Cakes />
+			</PageTransition>
+		),
+		errorElement: <ErrorPage />,
+	},
+	{
+		path: "/categories/desserts/ice-creams",
+		element: (
+			<PageTransition>
+				<IceCreams />
+			</PageTransition>
+		),
+		errorElement: <ErrorPage />,
+	},
+	// Beverages Menu Pages ---------------------------------
+	{
+		path: "/categories/beverages/juices",
+		element: (
+			<PageTransition>
+				<Juices />
+			</PageTransition>
+		),
+		errorElement: <ErrorPage />,
+	},
+	{
+		path: "/categories/beverages/soft-drinks",
+		element: (
+			<PageTransition>
+				<SoftDrinks />
+			</PageTransition>
+		),
+		errorElement: <ErrorPage />,
+	},
+	{
+		path: "/categories/beverages/mocktails",
+		element: (
+			<PageTransition>
+				<Mocktails />
+			</PageTransition>
+		),
+		errorElement: <ErrorPage />,
+	},
+	{
+		path: "/categories/beverages/smoothies",
+		element: (
+			<PageTransition>
+				<Smoothies />
+			</PageTransition>
+		),
+		errorElement: <ErrorPage />,
+	},
+	{
+		path: "/categories/beverages/milkshakes",
+		element: (
+			<PageTransition>
+				<Milkshakes />
+			</PageTransition>
+		),
+		errorElement: <ErrorPage />,
+	},
+	{
+		path: "/categories/beverages/iced-tea",
+		element: (
+			<PageTransition>
+				<IcedTea />
+			</PageTransition>
+		),
+		errorElement: <ErrorPage />,
+	},
+	{
+		path: "/categories/beverages/iced-coffee",
+		element: (
+			<PageTransition>
+				<IcedCoffee />
+			</PageTransition>
+		),
+		errorElement: <ErrorPage />,
+	},
+	{
+		path: "/categories/beverages/cold-extras",
+		element: (
+			<PageTransition>
+				<ColdExtras />
+			</PageTransition>
+		),
+		errorElement: <ErrorPage />,
+	},
+
+	{
+		path: "/categories/beverages/tea",
+		element: (
+			<PageTransition>
+				<Tea />
+			</PageTransition>
+		),
+		errorElement: <ErrorPage />,
+	},
+	{
+		path: "/categories/beverages/coffee",
+		element: (
+			<PageTransition>
+				<Coffee />
+			</PageTransition>
+		),
+		errorElement: <ErrorPage />,
+	},
+	{
+		path: "/categories/beverages/hot-extras",
+		element: (
+			<PageTransition>
+				<HotExtras />
+			</PageTransition>
+		),
+		errorElement: <ErrorPage />,
+	},
+
+	//
 ]);
 
 export default router;
