@@ -6,7 +6,11 @@ import "./style.css";
 import defaultImage from "../../assets/default.webp";
 
 // Importing Images
-require.context("../../assets/photos/MenuPage", true);
+require.context("../../assets/photos/MenuPage/Veg", true);
+require.context("../../assets/photos/MenuPage/NonVeg", true);
+require.context("../../assets/photos/MenuPage/Desserts", true);
+require.context("../../assets/photos/MenuPage/Beverages", true);
+
 
 // ----------------------------------------------------------------
 
@@ -15,12 +19,13 @@ const MenuCard = ({ item }) => {
 	// Javascript code Goes here
 
 	const { link, image, name } = item;
-	
+
 	return (
 		<div className="menu-card">
 			<Link to={link} className="card-item">
 				<img
 					className="card-img"
+					loading="lazy"
 					src={image || defaultImage} // Ensure you have a valid path for the default image
 					alt={name || "Veg Menu Item"}
 					onError={(e) => {

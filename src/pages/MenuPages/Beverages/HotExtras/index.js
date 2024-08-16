@@ -1,7 +1,8 @@
 import React from "react";
+import DisplayData from "../../../../components/DisplayData";
 
 const HotExtras = () => {
-	return <div>HotExtras</div>;
+	return <DisplayData dbCategory={"beverages"} itemCategory={"Hot Extras"} />;
 };
 
 export default HotExtras;

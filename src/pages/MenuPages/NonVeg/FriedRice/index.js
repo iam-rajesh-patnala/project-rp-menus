@@ -1,10 +1,8 @@
 import React from "react";
-import BackToMenu from "../../../../utils/BackToMenu";
+import DisplayData from "../../../../components/DisplayData";
 
-const FiredRice = () => {
-	return <div>NonVeg FiredRice Page
-		<BackToMenu viewUrl="/categories/non-veg" />
-	</div>;
+const FriedRice = () => {
+	return <DisplayData dbCategory={"non-veg"} itemCategory={"Fried Rice"} />;
 };
 
-export default FiredRice;
+export default FriedRice;

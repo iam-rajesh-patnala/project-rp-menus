@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 
 require.context("../../assets/photos/NoDataFound", true);
 
-const NoDataMessage = () => {
+const NoDataMessage = ({message, backTo, backUrlPath}) => {
 	const navigate = useNavigate();
 	return (
 		<div className="no-data-message-container">
@@ -16,7 +16,7 @@ const NoDataMessage = () => {
 					draggable="false"
 				/>
 			</div>
-			<h1 className="no-data-message">No data found</h1>
+			<h1 className="no-data-message">{message || "No data found"}</h1>
 			<p className="no-data-sub-message">
 				Please contact your restaurant administrator <br /> for
 				assistance.
@@ -24,10 +24,10 @@ const NoDataMessage = () => {
 
 			<div className="buttons-container">
 				<button
-					onClick={() => navigate("/categories")}
+					onClick={() => navigate(backUrlPath)}
 					className="back-button btn"
 				>
-					Back to Categories
+					{`Back to ${backTo }`}
 				</button>
 			</div>
 		</div>

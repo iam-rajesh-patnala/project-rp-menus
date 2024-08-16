@@ -1,5 +1,5 @@
 import React from "react";
-import { createBrowserRouter } from "react-router-dom";
+import { createBrowserRouter, ScrollRestoration } from "react-router-dom";
 
 // Error Page
 import ErrorPage from "../pages/ErrorPage";
@@ -78,6 +78,7 @@ const router = createBrowserRouter([
 		path: "/categories",
 		element: (
 			<PageTransition>
+				<ScrollRestoration />
 				<CategoriesPage />
 			</PageTransition>
 		),
@@ -224,7 +225,7 @@ const router = createBrowserRouter([
 				<NonVegSoups />
 			</PageTransition>
 		),
-		errorElement: <ErrorPage />,	
+		errorElement: <ErrorPage />,
 	},
 	{
 		path: "/categories/non-veg/starters",

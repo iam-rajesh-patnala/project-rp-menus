@@ -25,7 +25,12 @@ const CategoriesPage = () => {
 				<div className="categories-container">
 					<Link to={"/categories/veg"}>
 						<button className="category-btn">
-							<img src={veg} alt="Veg" className="bg-img" />
+							<img
+								src={veg}
+								alt="Veg"
+								className="bg-img"
+								loading="lazy"
+							/>
 							<span className="category-text">Veg</span>
 						</button>
 					</Link>
@@ -35,6 +40,7 @@ const CategoriesPage = () => {
 								src={nonVeg}
 								alt="Non-Veg"
 								className="bg-img"
+								loading="lazy"
 							/>
 							<span className="category-text">Non-Veg</span>
 						</button>
@@ -45,6 +51,7 @@ const CategoriesPage = () => {
 								src={desserts}
 								alt="Desserts"
 								className="bg-img"
+								loading="lazy"
 							/>
 							<span className="category-text">Desserts</span>
 						</button>
@@ -55,6 +62,7 @@ const CategoriesPage = () => {
 								src={beverages}
 								alt="Beverages"
 								className="bg-img"
+								loading="lazy"
 							/>
 							<span className="category-text">Beverages</span>
 						</button>

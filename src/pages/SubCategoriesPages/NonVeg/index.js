@@ -60,7 +60,10 @@ const NonVeg = () => {
 					</div>
 				</>
 			) : (
-				<NoDataMessage />
+				<NoDataMessage
+					backTo={"Categories"}
+					backUrlPath={"/categories"}
+				/>
 			)}
 		</section>
 	);

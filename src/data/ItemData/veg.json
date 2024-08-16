@@ -9,7 +9,8 @@
 					"rating": 4.5,
 					"isAvailable": true,
 					"image": "/static/media/1__Tomato_Basil_Soup.d034a7148b152990c500.webp",
-					"description": "This is a delicious vegetarian soup"
+					"description": "This is a delicious vegetarian soup",
+					"category": "veg"
 				},
 				{
 					"id": 2,
@@ -18,7 +19,8 @@
 					"rating": 4.5,
 					"isAvailable": true,
 					"image": "/static/media/2__Cream_of_Mushroom_Soup.f77cf5dc4fecb551b7cd.webp",
-					"description": "This is a delicious vegetarian soup"
+					"description": "This is a delicious vegetarian soup",
+					"category": "veg"
 				},
 				{
 					"id": 3,
@@ -27,7 +29,8 @@
 					"rating": 4.5,
 					"isAvailable": true,
 					"image": "/static/media/3__Vegetable_Clear_Soup.23597813596189d1f84b.webp",
-					"description": "This is a delicious vegetarian soup"
+					"description": "This is a delicious vegetarian soup",
+					"category": "veg"
 				},
 				{
 					"id": 4,
@@ -36,7 +39,8 @@
 					"rating": 4.5,
 					"isAvailable": true,
 					"image": "/static/media/4__Sweet_Corn_Soup.a566eb82e1eb4895ebdb.webp",
-					"description": "This is a delicious vegetarian soup"
+					"description": "This is a delicious vegetarian soup",
+					"category": "veg"
 				},
 				{
 					"id": 5,
@@ -45,7 +49,8 @@
 					"rating": 4.5,
 					"isAvailable": true,
 					"image": "/static/media/5__Minestrone_Soup.9edc7b5a9463137be7a4.webp",
-					"description": "This is a delicious vegetarian soup"
+					"description": "This is a delicious vegetarian soup",
+					"category": "veg"
 				},
 				{
 					"id": 6,
@@ -54,7 +59,8 @@
 					"rating": 4.5,
 					"isAvailable": true,
 					"image": "/static/media/6__Lentil_Soup.69aacf5968bf335b3fa8.webp",
-					"description": "This is a delicious vegetarian soup"
+					"description": "This is a delicious vegetarian soup",
+					"category": "veg"
 				},
 				{
 					"id": 7,
@@ -63,7 +69,8 @@
 					"rating": 4.5,
 					"isAvailable": true,
 					"image": "/static/media/7__Spinach_Soup.b998adad412e7fbcb22f.webp",
-					"description": "This is a delicious vegetarian soup"
+					"description": "This is a delicious vegetarian soup",
+					"category": "veg"
 				},
 				{
 					"id": 8,
@@ -72,7 +79,8 @@
 					"rating": 4.5,
 					"isAvailable": true,
 					"image": "/static/media/8__Carrot_and_Ginger_Soup.513bcaf69f4cd05e23c0.webp",
-					"description": "This is a delicious vegetarian soup"
+					"description": "This is a delicious vegetarian soup",
+					"category": "veg"
 				},
 				{
 					"id": 9,
@@ -81,7 +89,8 @@
 					"rating": 4.5,
 					"isAvailable": true,
 					"image": "/static/media/9__Broccoli_and_Almond_Soup.45cdbcbeec6dbb2e94af.webp",
-					"description": "This is a delicious vegetarian soup"
+					"description": "This is a delicious vegetarian soup",
+					"category": "veg"
 				},
 				{
 					"id": 10,
@@ -90,7 +99,8 @@
 					"rating": 4.5,
 					"isAvailable": true,
 					"image": "/static/media/10__Hot_and_Sour_Soup.ea745ed71ded2878e7c4.webp",
-					"description": "This is a delicious vegetarian soup"
+					"description": "This is a delicious vegetarian soup",
+					"category": "veg"
 				}
 			]
 		},
@@ -102,8 +112,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/1__Vegetable_Spring_Rolls.51ad5c12da2deab69987.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 12,
@@ -111,8 +122,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/2__Paneer_Tikka.8f06015d0b9af76a1958.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 13,
@@ -120,8 +132,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/3__Veg_Manchurian.760d90be928f0b22c8d0.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 14,
@@ -129,8 +142,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/4__Gobi_Manchurian.d1bc9b11d814aebfdbad.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 15,
@@ -138,8 +152,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/5__Aloo_Tikki.43872f731a38265009d9.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 16,
@@ -147,8 +162,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/6__Paneer_65.948a34684dd1bfe3ae32.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 17,
@@ -156,8 +172,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/7__Baby_Corn_65.3865202c01e5c55f4c17.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 18,
@@ -165,8 +182,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/8__Crispy_Corn.e218aff70a99e5615911.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 19,
@@ -174,8 +192,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/9__Veg_Samosa.e44c500f0334ba693050.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 20,
@@ -183,8 +202,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/10__Stuffed_Mushrooms.c2bc8cff0f46df1cf3b6.webp",
+					"description": "",
+					"category": "veg"
 				}
 			]
 		},
@@ -196,8 +216,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/1__Caesar_Salad.b4adda1c1aafbcf63b65.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 22,
@@ -205,8 +226,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/2__Garden_Salad.690e8db90350dd91f04d.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 23,
@@ -214,8 +236,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/3__Caprese_Salad.e3fcd32fffc9124f01f5.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 24,
@@ -223,8 +246,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/4__Beetroot_and_Feta_Salad.1d3ee9438e22e9892378.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 25,
@@ -232,8 +256,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/5__Waldorf_Salad.82672f70a2183e45b531.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 26,
@@ -241,8 +266,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/6__Quinoa_Salad.b91c3669babdf9112aaa.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 27,
@@ -250,8 +276,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/7__Chickpea_Salad.474f9641094e4ac01a1b.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 28,
@@ -259,8 +286,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/8__Avocado_Salad.c73e872fadf9521a8436.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 29,
@@ -268,8 +296,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/9__Cucumber_and_Tomato_Salad.2a36498d9ad8424e4776.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 30,
@@ -277,8 +306,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/10__Roasted_Vegetable_Salad.511600236ab593de4d95.webp",
+					"description": "",
+					"category": "veg"
 				}
 			]
 		},
@@ -290,8 +320,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/1__Plain_Naan.b49331906133215218de.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 32,
@@ -299,8 +330,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/2__Butter_Naan.2d2a1a50d6248efd8456.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 33,
@@ -308,8 +340,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/3__Garlic_Naan.421c14194f7dfc42c542.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 34,
@@ -317,8 +350,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/4__Cheese_Naan.f5d3b491c6f77e8ef8c1.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 35,
@@ -326,8 +360,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/5__Paneer_Keema_Naan.863da9757e9264d864c8.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 36,
@@ -335,8 +370,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/6__Roti_Chapati.6cbd8a6576a2183b253b.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 37,
@@ -344,8 +380,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/7__Roomali_Roti.36fbdaa6e6d7ca65810a.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 38,
@@ -353,8 +390,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/8__Phulka.b96d576d3db7cf8a9db8.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 39,
@@ -362,8 +400,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/9__Missi_Roti.ddf77bf7dc003fd2eada.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 40,
@@ -371,8 +410,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/10__Aloo_Paratha.8de437e9f924155f605c.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 41,
@@ -380,8 +420,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/11__Garlic_Bread.c59a2f54741128fba787.webp",
+					"description": "",
+					"category": "veg"
 				}
 			]
 		},
@@ -393,8 +434,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/1__Chana_Masala.cedaa2eed0145b4a7a15.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 43,
@@ -402,8 +444,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/2__Palak_Paneer.679a82c478729f07479e.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 44,
@@ -411,8 +454,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/3__Paneer_Butter_Masala.e6a13d350f951db447ce.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 45,
@@ -420,8 +464,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/4__Kaju_Tomato_Curry.a1b138aa41f9166e4c02.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 46,
@@ -429,8 +474,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/5__Kadai_Paneer.d36d26bec8992d076d9a.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 47,
@@ -438,8 +484,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/6__Kaju_Panner_Curry.2319cf94d6e2df9a52cb.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 48,
@@ -447,8 +494,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/7__Mutter_Panner.c84c0a0b160a117cb4d4.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 49,
@@ -456,8 +504,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/8__Malai_Kofta.e304ae27a5ac832e5c72.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 50,
@@ -465,8 +514,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/9__Methi_Chaman.6f403e27274a32409bfe.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 51,
@@ -474,8 +524,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/10__Vegetable_Kurma.ad5bdccd930983ee8124.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 52,
@@ -483,8 +534,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/11__Aloo_Gobhi.8ba05bc631362254d16f.webp",
+					"description": "",
+					"category": "veg"
 				}
 			]
 		},
@@ -496,8 +548,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/1__Lemon_Rice.41e62ba083ae4c429238.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 54,
@@ -505,8 +558,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/2__Tomato Rice.9a6e885fb1ecdc0098a9.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 55,
@@ -514,8 +568,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/3__Curd_Rice.592e8b786004dc80dc83.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 56,
@@ -523,8 +578,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/4__Tamarind_Rice.0dad11e6f889245ba674.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 57,
@@ -532,8 +588,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/5__Mint_Rice.d5555b6380dda483c60c.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 58,
@@ -541,8 +598,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/6__Mango_Rice.8ba6aa1eca70887ee449.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 59,
@@ -550,8 +608,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/7__Jeera_Rice.4f37bff0d54758428dd6.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 60,
@@ -559,8 +618,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/8__Carrot_Rice.f4801cada40c64ff22cf.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 61,
@@ -568,8 +628,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/9__Capsicum_Rice.85c0c34afd000132aef6.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 62,
@@ -577,8 +638,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/10__Beetroot_Rice.ea39a359c29d6d02e425.webp",
+					"description": "",
+					"category": "veg"
 				}
 			]
 		},
@@ -590,8 +652,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/1__Veg_Fried_Rice.035c7dbe0679cfdddeac.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 64,
@@ -599,8 +662,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/2__Veg_Schezwan_Fried_Rice.66bb788c9ccb38c3694f.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 65,
@@ -608,8 +672,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/3__Paneer_Fried_Rice.05d9ca0ef7a1ddec29fb.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 66,
@@ -617,8 +682,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/4__Mushroom_Fried_Rice.7c780032be2462520b7d.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 67,
@@ -626,8 +692,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/5__Gobbi_Fried_Rice.4d29d9c083ce5ae387ed.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 68,
@@ -635,8 +702,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/6__Dal_Kihichdi.dacabdfd779b691c2e8a.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 69,
@@ -644,8 +712,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/7__Egg_Fried_Rice.9f8d4f737cac4e06effa.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 70,
@@ -653,8 +722,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/8__Veg_Mixed_Fried_Rice.f5ac1dd3099e0bfac3ff.webp",
+					"description": "",
+					"category": "veg"
 				}
 			]
 		},
@@ -666,8 +736,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/1__Vegetable_Biryani.43bfd4615f266a3762cf.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 72,
@@ -675,8 +746,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/2__Paneer_Biryani.1f0ed6fbcdcc4c8e8c87.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 73,
@@ -684,8 +756,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/3__Mushroom_Biryani.c8a222049fedb26b92f5.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 74,
@@ -693,8 +766,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/4__Egg_Biryani.4b3e15433ab2ddaeb2e5.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 75,
@@ -702,8 +776,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/5__Kaju_Biryani.24a24c3901bfbcbb0df9.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 76,
@@ -711,8 +786,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/6__Ulavacharu_Biryani.9bf1394263d84d405ae4.webp",
+					"description": "",
+					"category": "veg"
 				}
 			]
 		},
@@ -724,8 +800,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/1__Veg_Noodles.9cb6e0cb0e12715b7af8.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 78,
@@ -733,8 +810,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/2__Egg_Noodles.47d86a4e65d398e1d98b.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 79,
@@ -742,8 +820,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/3__Chilli_Garlic_Veg_Noodles.fbf8e8906fbaadf1baec.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 80,
@@ -751,8 +830,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/4__Veg_Schezwan_Noodles.8b26479e432ad3cf15f9.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 81,
@@ -760,8 +840,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/5_Veg_Manchurian_Noodles.b86eb17f4679d938642f.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 82,
@@ -769,8 +850,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/6__Sweet_Potato_Noodles.d303db63420e05ee79bd.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 83,
@@ -778,8 +860,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/7__Gobi_Noodles.f6a0f3599060d8f9238f.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 84,
@@ -787,8 +870,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/8__Mushroom_Noodles.9825485a136e0ab73d61.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 85,
@@ -796,8 +880,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/9__Paneer_Noodles.1398c3995830e270e02b.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 86,
@@ -805,8 +890,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/10__Veg_Mixed_Noodles.e33523fc155986e9724c.webp",
+					"description": "",
+					"category": "veg"
 				}
 			]
 		},
@@ -818,8 +904,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/1__Margherita_Pizza.ea26d4bb5e01526012a0.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 88,
@@ -827,8 +914,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/2__Pepperoni_Pizza.3dfcfe22e54c02bcf141.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 89,
@@ -836,8 +924,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/3__Paneer_Pizza.0a15609cb362163d6688.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 90,
@@ -845,8 +934,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/4__Corn_&_Cheese_Pizza.801d35d8cd06b7557670.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 91,
@@ -854,8 +944,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/5__Classic_Cheese_Burger.f72a1ff7ce884493e872.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 92,
@@ -863,8 +954,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/6__Veggie_Burger.29f26b86deba58fd2dd8.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 93,
@@ -872,8 +964,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/7__Double_Patty_Burger.f1f6f1439b23efc51a20.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 94,
@@ -881,8 +974,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/8__Paneer_Grilled_Sandwich.0a2d41011f59b4437205.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 95,
@@ -890,8 +984,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/9__Veg_Grilled_Sandwich.c01719380c16fb155e6c.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 96,
@@ -900,7 +995,8 @@
 					"rating": 4.5,
 					"isAvailable": true,
 					"image": "",
-					"description": ""
+					"description": "/static/media/10__Corn_Grilled_Sandwich.6dd639f2b327faf49ca6.webp",
+					"category": "veg"
 				},
 				{
 					"id": 97,
@@ -908,8 +1004,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/11__Veg_Wrap.d4b60a3372ebf5f56fc2.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 98,
@@ -917,8 +1014,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/12__Egg_Wrap.e85bb55b5dbb2b4ff073.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 99,
@@ -926,8 +1024,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/13__French_Fries.4183cf0bef05cbf15cfd.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 100,
@@ -935,8 +1034,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/14__Periperi_Fries.9c429cd0b74d1c4f1c4d.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 101,
@@ -944,8 +1044,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/15__Veg_Pasta.4c180c0e70d230982b67.webp",
+					"description": "",
+					"category": "veg"
 				},
 				{
 					"id": 102,
@@ -953,8 +1054,9 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/16__Creamy_Mushroom_Pasta.997220033bc26f8003dc.webp",
+					"description": "",
+					"category": "veg"
 				}
 			]
 		}

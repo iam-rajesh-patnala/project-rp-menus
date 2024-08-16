@@ -1,7 +1,10 @@
 import React from "react";
+import DisplayData from "../../../../components/DisplayData";
 
-const Tea = () => {
-	return <div>Tea</div>;
+const SoftDrinks = () => {
+	return (
+		<DisplayData dbCategory={"beverages"} itemCategory={"Tea"} />
+	);
 };
 
-export default Tea;
+export default SoftDrinks;

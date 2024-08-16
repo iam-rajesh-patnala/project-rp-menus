@@ -1,18 +1,32 @@
 import "./style.css";
 import defaultImage from "../../assets/default.webp";
 
-// VEG Icon
-import icon from "../../assets/svg/Veg/veg.svg";
+// Icons
+import vegIcon from "../../assets/svg/Veg/veg.svg";
+import nonVegIcon from "../../assets/svg/Non-Veg/non-veg.svg";
 
 // Importing Images
-require.context("../../assets/photos/Veg/1__Veg-Soups", true);
 
+// ----------------VEG-------------------------------
+require.context("../../assets/photos/Veg", true);
+
+// ----------------NON-VEG-------------------------------
+require.context("../../assets/photos/Non-Veg", true);
+
+// ------------------DESERTS-------------------------------
+require.context("../../assets/photos/Desserts/", true);
+
+// ------------------BEVERAGES-------------------------------
+require.context("../../assets/photos/Beverages", true);
+
+// ----------------------------------------------------------------
 const ItemCard = ({
 	image,
 	item_name,
 	isAvailable,
 	price,
 	viewButtonClick,
+	category,
 }) => {
 	// Javascript code Goes here
 
@@ -22,6 +36,7 @@ const ItemCard = ({
 				src={image || defaultImage}
 				alt="img"
 				className="item-img"
+				loading="lazy"
 				onError={(e) => {
 					e.target.src = defaultImage;
 					e.target.onerror = null;
@@ -31,7 +46,23 @@ const ItemCard = ({
 			{/* Item Info Container Starts*/}
 			<div className="item-info-container">
 				<div className="item-info">
-					<img src={icon} alt="icon" className="category-icon" />
+					{category === "veg" ? (
+						<img
+							src={vegIcon}
+							alt="icon"
+							className="category-icon"
+							loading="lazy"
+						/>
+					) : category === "non-veg" ? (
+						<img
+							src={nonVegIcon}
+							alt="icon"
+							className="category-icon"
+							loading="lazy"
+						/>
+					) : (
+						""
+					)}
 					<h3 className="item-title">{item_name}</h3>
 				</div>
 
@@ -48,7 +79,10 @@ const ItemCard = ({
 						<button
 							type="button"
 							className="card-btn"
-							onClick={viewButtonClick}
+							onClick={(e) => {
+								e.preventDefault();
+								return viewButtonClick({ item_name });
+							}}
 						>
 							View
 						</button>

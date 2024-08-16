@@ -1,12 +1,12 @@
 import React from "react";
-import BackToMenu from "../../../../utils/BackToMenu";
+import DisplayData from "../../../../components/DisplayData";
 
 const PizzasBurgers = () => {
 	return (
-		<div>
-			<h1>This is PizzasBurgers Page</h1>
-			<BackToMenu viewUrl={"/categories/veg"} />
-		</div>
+		<DisplayData
+			dbCategory={"veg"}
+			itemCategory={"Pizza & Burgers & Wraps"}
+		/>
 	);
 };
 

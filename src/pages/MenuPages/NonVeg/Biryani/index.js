@@ -1,13 +1,8 @@
 import React from "react";
-import BackToMenu from "../../../../utils/BackToMenu";
+import DisplayData from "../../../../components/DisplayData";
 
 const Biryani = () => {
-	return (
-		<div>
-			NonVeg Biryani Page
-			<BackToMenu viewUrl={"/categories/non-veg"} />
-		</div>
-	);
+	return <DisplayData dbCategory={"non-veg"} itemCategory={"Biryani"} />;
 };
 
 export default Biryani;

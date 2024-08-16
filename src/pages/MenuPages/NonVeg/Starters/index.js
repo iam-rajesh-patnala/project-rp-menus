@@ -1,13 +1,8 @@
 import React from "react";
-import BackToMenu from "../../../../utils/BackToMenu";
+import DisplayData from "../../../../components/DisplayData";
 
-const Starters = () => {
-	return (
-		<div>
-			NonVeg Starters Page
-			<BackToMenu viewUrl="/categories/non-veg" />
-		</div>
-	);
+const Staters = () => {
+	return <DisplayData dbCategory={"non-veg"} itemCategory={"Staters"} />;
 };
 
-export default Starters;
+export default Staters;

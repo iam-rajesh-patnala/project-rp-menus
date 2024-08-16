@@ -1,13 +1,8 @@
 import React from "react";
-import BackToMenu from "../../../../utils/BackToMenu";
+import DisplayData from "../../../../components/DisplayData";
 
 const NaansBreads = () => {
-	return (
-		<div>
-			<h1>This is NaansBreads Page</h1>
-			<BackToMenu viewUrl={"/categories/veg"} />
-		</div>
-	);
+	return <DisplayData dbCategory={"veg"} itemCategory={"Naan & Bread"} />;
 };
 
 export default NaansBreads;

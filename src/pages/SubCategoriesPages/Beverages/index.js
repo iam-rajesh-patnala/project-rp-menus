@@ -60,7 +60,10 @@ const Beverages = () => {
 					</div>
 				</>
 			) : (
-				<NoDataMessage />
+				<NoDataMessage
+					backTo={"Categories"}
+					backUrlPath={"/categories"}
+				/>
 			)}
 		</section>
 	);

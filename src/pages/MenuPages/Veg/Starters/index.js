@@ -1,13 +1,8 @@
 import React from "react";
-import BackToMenu from "../../../../utils/BackToMenu";
+import DisplayData from "../../../../components/DisplayData";
 
 const Starters = () => {
-	return (
-		<div>
-			<h1>This is a Starters Page</h1>
-			<BackToMenu viewUrl={"/categories/veg"} />
-		</div>
-	);
+	return <DisplayData dbCategory={"veg"} itemCategory={"Starters"} />;
 };
 
 export default Starters;

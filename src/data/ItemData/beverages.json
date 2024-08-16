@@ -1,6 +1,6 @@
 {
-	"Beverages": {
-		"Hot Beverages": {
+	"beverages": [
+		{
 			"Tea": [
 				{
 					"id": 227,
@@ -8,8 +8,8 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/1__Chai.164c577e010daff3d3fd.webp",
+					"type": "hot"
 				},
 				{
 					"id": 228,
@@ -17,8 +17,8 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/2__Lemon Tea.d31c2741fdc72f70d335.webp",
+					"type": "hot"
 				},
 				{
 					"id": 229,
@@ -26,8 +26,8 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/3__Green_Tea.d5ea15a30e93db40e8f4.webp",
+					"type": "hot"
 				},
 				{
 					"id": 230,
@@ -35,8 +35,8 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/4__Herbal_Tea.ea77a96c0433e96f7e9b.webp",
+					"type": "hot"
 				},
 				{
 					"id": 231,
@@ -44,8 +44,8 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/5__Black_Tea.d0b05465193d10f46057.webp",
+					"type": "hot"
 				},
 				{
 					"id": 232,
@@ -53,8 +53,8 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/6__White_Tea.3fc5da40c7febe5c389d.webp",
+					"type": "hot"
 				},
 				{
 					"id": 233,
@@ -62,8 +62,8 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/7__Oolong_Tea.f82a1e50b9fa22d4f3ab.webp",
+					"type": "hot"
 				}
 			],
 			"Coffee": [
@@ -73,8 +73,8 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/1__Filter_Coffee.ae1ce9c0f0bf0fd663e2.webp",
+					"type": "hot"
 				},
 				{
 					"id": 235,
@@ -82,8 +82,8 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/2__Cappuccino.f68457999cf7d14bf2cc.webp",
+					"type": "hot"
 				},
 				{
 					"id": 236,
@@ -91,8 +91,8 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/3__Espresso.f5f2d488fc5cc66dea39.webp",
+					"type": "hot"
 				},
 				{
 					"id": 237,
@@ -100,8 +100,8 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/4__Macchiato.5207d695a7abcf330106.webp",
+					"type": "hot"
 				},
 				{
 					"id": 238,
@@ -109,8 +109,8 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/5__Latte.219298a9abc2b60cb035.webp",
+					"type": "hot"
 				},
 				{
 					"id": 239,
@@ -118,8 +118,8 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/6__Mocha.a58db866b623dd47ac71.webp",
+					"type": "hot"
 				},
 				{
 					"id": 240,
@@ -127,8 +127,8 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/7__Americano.403689b05f5f275b9763.webp",
+					"type": "hot"
 				},
 				{
 					"id": 241,
@@ -136,19 +136,19 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/8__Turkish_Coffee.2eb1d738ea72b8bff84d.webp",
+					"type": "hot"
 				}
 			],
-			"Extras": [
+			"Hot Extras": [
 				{
 					"id": 242,
 					"item_name": "Hot Chocolate",
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/1__Hot_Chocolate.0ddfc0f2af85be15fe18.webp",
+					"type": "hot"
 				},
 				{
 					"id": 243,
@@ -156,8 +156,8 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/2__Warm_Milk.f29fe8630ef1efda7c06.webp",
+					"type": "hot"
 				},
 				{
 					"id": 244,
@@ -165,8 +165,8 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/3__Matcha_Latte.eec36e0ef15dc68fcd0e.webp",
+					"type": "hot"
 				},
 				{
 					"id": 245,
@@ -174,12 +174,12 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/4__Hot_Lemon_Water.1a3c54b7bfe486de98d4.webp",
+					"type": "hot"
 				}
 			]
 		},
-		"Cold Beverages": {
+		{
 			"Juices": [
 				{
 					"id": 246,
@@ -187,8 +187,8 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/1__Orange_Juice.653884709c480b7ffda5.webp",
+					"type": "cold"
 				},
 				{
 					"id": 247,
@@ -196,8 +196,8 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/2__Apple_Juice.f8f95b98311eb894f28d.webp",
+					"type": "cold"
 				},
 				{
 					"id": 248,
@@ -205,8 +205,8 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/3__Mango_Juice.f29eac9e108d6695db7b.webp",
+					"type": "cold"
 				},
 				{
 					"id": 249,
@@ -214,8 +214,8 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/4__Grape_Juice.cfb132946041778709d8.webp",
+					"type": "cold"
 				},
 				{
 					"id": 250,
@@ -223,8 +223,8 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/5__Pineapple_Juice.9e4cd012adbedc0dd621.webp",
+					"type": "cold"
 				},
 				{
 					"id": 251,
@@ -232,8 +232,8 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/6__Watermelon_Juice.60269502ac98f0660e25.webp",
+					"type": "cold"
 				},
 				{
 					"id": 252,
@@ -241,8 +241,8 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/7__Pomegranate_Juice.0a596fc466357261f279.webp",
+					"type": "cold"
 				},
 				{
 					"id": 253,
@@ -250,8 +250,8 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/8__Cranberry_Juice.5fd92f570d631374d517.webp",
+					"type": "cold"
 				},
 				{
 					"id": 254,
@@ -259,8 +259,8 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/9__Carrot_Juice.078447b6e3b5b4fe509c.webp",
+					"type": "cold"
 				}
 			],
 			"Soft Drinks": [
@@ -270,8 +270,8 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/1__Coca-Cola.9b110d72f41693145598.webp",
+					"type": "cold"
 				},
 				{
 					"id": 256,
@@ -279,8 +279,8 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/2__Pepsi.d8dfe6af21f3050485cb.webp",
+					"type": "cold"
 				},
 				{
 					"id": 257,
@@ -288,8 +288,8 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/3__Sprite.391ad3f3bb040fe6450c.webp",
+					"type": "cold"
 				},
 				{
 					"id": 258,
@@ -297,8 +297,8 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/4__Thums_Up.62516a0e1d0e1ee282bd.webp",
+					"type": "cold"
 				},
 				{
 					"id": 259,
@@ -306,8 +306,8 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/5__Lemon-Lime_Soda.711a6c8bf3472006a42f.webp",
+					"type": "cold"
 				},
 				{
 					"id": 260,
@@ -315,8 +315,8 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/6__Root_Beer.3bf4e636de7ba0b427de.webp",
+					"type": "cold"
 				},
 				{
 					"id": 261,
@@ -324,8 +324,8 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/7__Ginger_Ale.bc506878ab434550971d.webp",
+					"type": "cold"
 				}
 			],
 			"Mocktails": [
@@ -335,8 +335,8 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/1__Virgin_Mojito.47a7c8e2c44dfba9fb49.webp",
+					"type": "cold"
 				},
 				{
 					"id": 263,
@@ -344,17 +344,17 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/2__Shirley_Temple.1db1981231c67a8d371f.webp",
+					"type": "cold"
 				},
 				{
 					"id": 264,
-					"item_name": "Nojito",
+					"item_name": "Mojito",
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/3__Mojito.21de1adb46f0a477765f.webp",
+					"type": "cold"
 				},
 				{
 					"id": 265,
@@ -362,8 +362,8 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/4__Virgin_Mary.061f2f7637f9dbf19d3d.webp",
+					"type": "cold"
 				},
 				{
 					"id": 266,
@@ -371,8 +371,8 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/5__Pina_Colada.8f79bf439f92cc145e4b.webp",
+					"type": "cold"
 				},
 				{
 					"id": 267,
@@ -380,8 +380,8 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/6__Fruit_Punch.4d7e52c3e2cc9cbd0999.webp",
+					"type": "cold"
 				},
 				{
 					"id": 268,
@@ -389,46 +389,46 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/7__Blue_Lagoon.1fa1b5fd7cc2219bc0c2.webp",
+					"type": "cold"
 				}
 			],
 			"Smoothies": [
 				{
 					"id": 269,
-					"item_name": "Fruit Smoothies",
+					"item_name": "Mixed Berry Smoothie",
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/1__Mixed_Berry_Smoothie.6066be2967e9984c4756.webp",
+					"type": "cold"
 				},
 				{
 					"id": 270,
-					"item_name": "Green Smoothies",
+					"item_name": "Rainbow Smoothie",
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/2__Rainbow_Smoothie.159b44c00b425f6a0662.webp",
+					"type": "cold"
 				},
 				{
 					"id": 271,
-					"item_name": "Protein Smoothies",
+					"item_name": "Strawberry Smoothie",
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/3__Strawberry_Smoothie.9423cd73fa9f37ef87f9.webp",
+					"type": "cold"
 				},
 				{
 					"id": 272,
-					"item_name": "Yogurt Smoothies",
+					"item_name": "Mango Smoothies",
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/4__Mango_Smoothies.601c18d40419d4d9874f.webp",
+					"type": "cold"
 				}
 			],
 			"Milkshakes": [
@@ -438,8 +438,8 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/1__Chocolate_Milkshake.9106703a2b41d8e10734.webp",
+					"type": "cold"
 				},
 				{
 					"id": 274,
@@ -447,8 +447,8 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/2__Vanilla_Milkshake.bc216b4ef5950cb7c85e.webp",
+					"type": "cold"
 				},
 				{
 					"id": 275,
@@ -456,8 +456,8 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/3__Strawberry_Milkshake.1225b1ae6a1bc0266047.webp",
+					"type": "cold"
 				},
 				{
 					"id": 276,
@@ -465,8 +465,8 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/4__Banana_Milkshak.6b1f53d8f6a99a05f85f.webp",
+					"type": "cold"
 				}
 			],
 			"Iced Tea": [
@@ -476,8 +476,8 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/1__Lemon_Iced_Tea.239cef45d8abac5f1965.webp",
+					"type": "cold"
 				},
 				{
 					"id": 278,
@@ -485,8 +485,8 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/2__Peach_Iced_Tea.c827343728bff70cd950.webp",
+					"type": "cold"
 				},
 				{
 					"id": 279,
@@ -494,8 +494,8 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/3__Green_Iced_Tea.2713b2445f9f24ffcf69.webp",
+					"type": "cold"
 				},
 				{
 					"id": 280,
@@ -503,8 +503,8 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/4__Thai_Iced_Tea.4542c1c7a69c32a6e1d8.webp",
+					"type": "cold"
 				}
 			],
 			"Iced Coffee": [
@@ -514,8 +514,8 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/1__Cold_Brew.9c54b3013facbc8a37b5.webp",
+					"type": "cold"
 				},
 				{
 					"id": 282,
@@ -523,8 +523,8 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/2__Iced_Latte.c88882e5a0be88f69b5c.webp",
+					"type": "cold"
 				},
 				{
 					"id": 283,
@@ -532,8 +532,8 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/3__Iced_Americano.9fa08ea2a878c0a4261d.webp",
+					"type": "cold"
 				},
 				{
 					"id": 284,
@@ -541,57 +541,48 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/4__Frappuccino.3a30e47f04a74802068a.webp",
+					"type": "cold"
 				}
 			],
-			"Extras": [
+			"Cold Extras": [
 				{
-					"id": 246,
+					"id": 285,
 					"item_name": "Lemonade",
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/1__Lemonade.6518a1a37db4465d9a55.webp",
+					"type": "cold"
 				},
 				{
-					"id": 246,
+					"id": 286,
 					"item_name": "Infused Water",
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/2__Infused_Water.9d763c29a2adb1db57ae.webp",
+					"type": "cold"
 				},
 				{
-					"id": 246,
+					"id": 287,
 					"item_name": "Kombucha",
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/3__Kombucha.7481cea7fa10fb8b40eb.webp",
+					"type": "cold"
 				},
 				{
-					"id": 246,
-					"item_name": "Sparkling Water",
-					"price": 120,
-					"rating": 4.5,
-					"isAvailable": true,
-					"image": "",
-					"description": ""
-				},
-				{
-					"id": 246,
+					"id": 288,
 					"item_name": "Coconut Water",
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": ""
+					"image": "/static/media/4__Coconut_Water.9931bc42b01aa142d318.webp",
+					"type": "cold"
 				}
 			]
 		}
-	}
+	]
 }

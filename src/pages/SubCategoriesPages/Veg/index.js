@@ -61,7 +61,10 @@ const Veg = () => {
 					</div>
 				</>
 			) : (
-				<NoDataMessage />
+				<NoDataMessage
+					backTo={"Categories"}
+					backUrlPath={"/categories"}
+				/>
 			)}
 		</section>
 	);
