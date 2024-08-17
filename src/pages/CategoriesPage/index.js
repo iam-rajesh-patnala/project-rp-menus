@@ -15,6 +15,9 @@ import nonVeg from "../../assets/photos/CategoryPage/non-veg.webp";
 import desserts from "../../assets/photos/CategoryPage/desserts.webp";
 import beverages from "../../assets/photos/CategoryPage/beverages.webp";
 
+// Default image
+import defaultImage from "../../assets/main-default.webp";
+
 const CategoriesPage = () => {
 	const [loading, setLoading] = useState(true);
 	const [fadeClass, setFadeClass] = useState("fade-out");
@@ -52,7 +55,7 @@ const CategoriesPage = () => {
 							<Link to={"/categories/veg"}>
 								<button className="category-btn">
 									<img
-										src={veg}
+										src={veg || defaultImage}
 										alt="Veg"
 										className="bg-img"
 										loading="lazy"
@@ -63,7 +66,7 @@ const CategoriesPage = () => {
 							<Link to={"/categories/non-veg"}>
 								<button className="category-btn  non-veg">
 									<img
-										src={nonVeg}
+										src={nonVeg || defaultImage}
 										alt="Non-Veg"
 										className="bg-img"
 										loading="lazy"
@@ -76,7 +79,7 @@ const CategoriesPage = () => {
 							<Link to={"/categories/desserts"}>
 								<button className="category-btn  desserts">
 									<img
-										src={desserts}
+										src={desserts || defaultImage}
 										alt="Desserts"
 										className="bg-img"
 										loading="lazy"
@@ -89,7 +92,7 @@ const CategoriesPage = () => {
 							<Link to={"/categories/beverages"}>
 								<button className="category-btn beverages">
 									<img
-										src={beverages}
+										src={beverages || defaultImage}
 										alt="Beverages"
 										className="bg-img"
 										loading="lazy"
