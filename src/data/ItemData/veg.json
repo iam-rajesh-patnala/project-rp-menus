@@ -994,8 +994,8 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "",
-					"description": "/static/media/10__Corn_Grilled_Sandwich.6dd639f2b327faf49ca6.webp",
+					"image": "/static/media/10__Corn_Grilled_Sandwich.6dd639f2b327faf49ca6.webp",
+					"description": "",
 					"category": "veg"
 				},
 				{

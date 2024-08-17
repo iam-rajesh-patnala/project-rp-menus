@@ -1,0 +1,65 @@
+/* Style for Radio Buttons  */
+.radio-inputs {
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 0.5rem;
+    background-color: #EEE;
+    box-shadow: 0 0 0px 1px rgba(0, 0, 0, 0.06);
+    padding: 0.25rem;
+    width: 300px;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.radio-inputs .radio {
+    flex: 1 1 auto;
+    text-align: center;
+}
+
+.radio-inputs .radio input {
+    display: none;
+}
+
+.radio-inputs .radio .name {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    border: none;
+    padding: .5rem 0;
+    color: rgba(51, 65, 85, 1);
+    transition: all .15s ease-in-out;
+}
+
+.radio-inputs .radio input:checked+.all {
+    background-color: #ffffff;
+    font-weight: 600;
+}
+
+.radio-inputs .radio input:checked+.cold {
+    background-color: #2bc3ff;
+    font-weight: 600;
+}
+
+.radio-inputs .radio input:checked+.hot {
+    background-color: #ff7a58;
+    font-weight: 600;
+}
+
+
+
+
+
+/* Items Transistion */
+.fade-out {
+    opacity: 0;
+    transition: opacity 0.3s ease-out;
+}
+
+.fade-in {
+    opacity: 1;
+    transition: opacity 0.3s ease-in;
+}
