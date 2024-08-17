@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./style.css";
 import "./cpmq.css";
 
@@ -20,29 +20,62 @@ import defaultImage from "../../assets/main-default.webp";
 
 const CategoriesPage = () => {
 	const [loading, setLoading] = useState(true);
-	const [fadeClass, setFadeClass] = useState("fade-out");
-	const location = useLocation();
+
+	// Function to check if all images are loaded
+	const checkImagesLoaded = (images, callback) => {
+		let loadedImages = 0;
+		const totalImages = images.length;
+
+		images.forEach((img) => {
+			const image = new Image();
+			image.src = img.src;
+			image.onload = () => {
+				loadedImages += 1;
+				if (loadedImages === totalImages) {
+					callback();
+				}
+			};
+			image.onerror = () => {
+				loadedImages += 1;
+				if (loadedImages === totalImages) {
+					callback();
+				}
+			};
+		});
+	};
 
 	useEffect(() => {
-		setLoading(true);
-		const timeoutId = setTimeout(() => {
+		const images = [
+			{ src: veg },
+			{ src: nonVeg },
+			{ src: desserts },
+			{ src: beverages },
+		];
+
+		// Start with a delay of 1.5 seconds
+		const minimumLoadingTime = 1500;
+
+		// Track when image loading completes
+		const imageLoadPromise = new Promise((resolve) => {
+			checkImagesLoaded(images, resolve);
+		});
+
+		// Use Promise.all to ensure minimum loading time is respected
+		const timeoutPromise = new Promise((resolve) => {
+			setTimeout(resolve, minimumLoadingTime);
+		});
+
+		// Show loader until either images are loaded or the minimum loading time is reached
+		Promise.all([imageLoadPromise, timeoutPromise]).then(() => {
 			setLoading(false);
-		}, 1500); // This should match the duration of pan animation
-		return () => clearTimeout(timeoutId);
-	}, [location]);
-
-	useEffect(() => {
-		if (!loading) {
-			setFadeClass("fade-in"); // Set fade-out before the component unmounts
-		}
-	}, [loading]);
+		});
+	}, []);
 
 	return (
 		<>
-			{loading ? (
-				<Loading />
-			) : (
-				<section className={`categories-page ${fadeClass}`}>
+			{loading && <Loading />}
+			{!loading && (
+				<section className="categories-page fade-in">
 					<Header />
 					<div className="categories-page-background-container">
 						{/* Title Container */}
@@ -64,7 +97,7 @@ const CategoriesPage = () => {
 								</button>
 							</Link>
 							<Link to={"/categories/non-veg"}>
-								<button className="category-btn  non-veg">
+								<button className="category-btn non-veg">
 									<img
 										src={nonVeg || defaultImage}
 										alt="Non-Veg"
@@ -77,7 +110,7 @@ const CategoriesPage = () => {
 								</button>
 							</Link>
 							<Link to={"/categories/desserts"}>
-								<button className="category-btn  desserts">
+								<button className="category-btn desserts">
 									<img
 										src={desserts || defaultImage}
 										alt="Desserts"

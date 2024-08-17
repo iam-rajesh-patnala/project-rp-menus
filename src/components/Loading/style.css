@@ -14,16 +14,17 @@
 }
 
 .loader {
-    background-color: var(--bg);
-    color: var(--fg);
-    display: flex;
-    align-items: center;
-    font: 1em/1.5 sans-serif;
     height: 100vh;
-    transition: background-color var(--trans-dur), color var(--trans-dur);
     width: 100%;
     max-width: 1100px;
     margin: auto;
+    background-color: var(--bg);
+    color: var(--fg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 1em/1.5 sans-serif;
+    transition: background-color var(--trans-dur), color var(--trans-dur);
 }
 
 .pl {
