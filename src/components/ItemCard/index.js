@@ -9,15 +9,81 @@ import nonVegIcon from "../../assets/svg/Non-Veg/non-veg.svg";
 
 // ----------------VEG-------------------------------
 require.context("../../assets/photos/Veg", true);
+require.context("../../assets/photos/Veg/1__Veg-Soups", true);
+require.context("../../assets/photos/Veg/2__Veg-Starters", true);
+require.context("../../assets/photos/Veg/3__Veg-Salads", true);
+require.context("../../assets/photos/Veg/4__Naan-&-Bread", true);
+require.context("../../assets/photos/Veg/5__Curries", true);
+require.context("../../assets/photos/Veg/6__Rice", true);
+require.context("../../assets/photos/Veg/7__Veg-Fired-Rice", true);
+require.context("../../assets/photos/Veg/8__Veg-Biryani", true);
+require.context("../../assets/photos/Veg/9__Noodles", true);
+require.context("../../assets/photos/Veg/10__Pizza_& _Burgers_&_Wraps", true);
 
 // ----------------NON-VEG-------------------------------
 require.context("../../assets/photos/Non-Veg", true);
+require.context("../../assets/photos/Non-Veg/1__Non-Veg-Soups", true);
+require.context("../../assets/photos/Non-Veg/2__Non-Veg-Starters", true);
+require.context("../../assets/photos/Non-Veg/3__Fried_Rice", true);
+require.context("../../assets/photos/Non-Veg/4__Curries", true);
+require.context("../../assets/photos/Non-Veg/5__Biryani", true);
+require.context("../../assets/photos/Non-Veg/6__Noodles", true);
+require.context("../../assets/photos/Non-Veg/7__Pizzas_&_Burgers", true);
 
 // ------------------DESERTS-------------------------------
 require.context("../../assets/photos/Desserts/", true);
+require.context("../../assets/photos/Desserts/1__Sweets", true);
+require.context("../../assets/photos/Desserts/2__Pastries", true);
+require.context("../../assets/photos/Desserts/3__Ice_Creams", true);
+require.context("../../assets/photos/Desserts/4__Cakes", true);
 
 // ------------------BEVERAGES-------------------------------
-require.context("../../assets/photos/Beverages", true);
+require.context("../../assets/photos/Beverages/Non-Alcoholic Beverages/", true);
+require.context(
+	"../../assets/photos/Beverages/Non-Alcoholic Beverages/Cold/1__Juices",
+	true
+);
+require.context(
+	"../../assets/photos/Beverages/Non-Alcoholic Beverages/Cold/2__Soft_Drinks",
+	true
+);
+require.context(
+	"../../assets/photos/Beverages/Non-Alcoholic Beverages/Cold/3__Mocktails",
+	true
+);
+require.context(
+	"../../assets/photos/Beverages/Non-Alcoholic Beverages/Cold/4__Smoothies",
+	true
+);
+require.context(
+	"../../assets/photos/Beverages/Non-Alcoholic Beverages/Cold/5__Milkshakes",
+	true
+);
+require.context(
+	"../../assets/photos/Beverages/Non-Alcoholic Beverages/Cold/6__Iced_Tea",
+	true
+);
+require.context(
+	"../../assets/photos/Beverages/Non-Alcoholic Beverages/Cold/7__Iced_Coffee",
+	true
+);
+require.context(
+	"../../assets/photos/Beverages/Non-Alcoholic Beverages/Cold/8__Extras",
+	true
+);
+
+require.context(
+	"../../assets/photos/Beverages/Non-Alcoholic Beverages/Hot/1__Tea",
+	true
+);
+require.context(
+	"../../assets/photos/Beverages/Non-Alcoholic Beverages/Hot/2__Coffee",
+	true
+);
+require.context(
+	"../../assets/photos/Beverages/Non-Alcoholic Beverages/Hot/3__Extras",
+	true
+);
 
 // ----------------------------------------------------------------
 const ItemCard = ({
