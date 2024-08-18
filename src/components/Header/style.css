@@ -11,7 +11,7 @@
     border-bottom: 1px solid #a8a8a873;
     position: sticky;
     top: 0;
-    z-index: 2;
+    z-index: 1000;
 }
 
 .logo {
@@ -24,12 +24,110 @@
     color: #000000;
     font-size: 10px;
     font-weight: bold;
+    text-align: left;
+    font-family: "Merriweather ", serif;
 }
 
 .logo-link {
     outline: none;
     border: none;
 }
+
+
+/* Search Bar Container Styles */
+.input-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.input {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 18px 16px;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+}
+
+.input::placeholder {
+    color: transparent;
+}
+
+.input:focus::placeholder {
+    color: #838080;
+}
+
+.input:focus,
+.input:not(:placeholder-shown) {
+    background-color: #fff;
+    border: 1px solid #6200ff;
+    width: 290px;
+    cursor: none;
+    padding: 18px 16px 18px 40px;
+}
+
+.icon {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 40px;
+    width: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    z-index: -1;
+    fill: rgb(98, 0, 255);
+    border: 1px solid rgb(98, 0, 255);
+    transition: .2s ease-in-out;
+}
+
+.input:hover+.icon {
+    transform: rotate(360deg);
+    transition: .2s ease-in-out;
+}
+
+.input:focus+.icon,
+.input:not(:placeholder-shown)+.icon {
+    z-index: 0;
+    background-color: transparent;
+    border: none;
+}
+
+/* Cross Icon Styles */
+.cross-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: none;
+    /* Hide cross icon by default */
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.input:focus~.cross-icon,
+.input:not(:placeholder-shown)~.cross-icon {
+    display: block;
+    /* Show cross icon when input is focused */
+}
+
+/* Handling the header sticky when search bar focus and stickey */
+.sticky-header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header.scrolled {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: sticky;
+}
+
+/* Media Queries --------------------------------------------------------------------- */
 
 /* iPhone SE Screen Size: 320 x 568 pixels 326ppi */
 @media only screen and (min-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {

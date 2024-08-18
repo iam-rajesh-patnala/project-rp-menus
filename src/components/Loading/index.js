@@ -5,7 +5,7 @@ const Loading = () => {
 	return (
 		<div className="loader">
 			<svg
-				class="pl"
+				className="pl"
 				viewBox="0 0 128 128"
 				width="128px"
 				height="128px"
@@ -17,8 +17,8 @@ const Loading = () => {
 				</clipPath>
 				<defs>
 					<linearGradient id="pl-grad" x1="0" y1="0" x2="0" y2="1">
-						<stop offset="0%" stop-color="#000" />
-						<stop offset="100%" stop-color="#fff" />
+						<stop offset="0%" stopColor="#000" />
+						<stop offset="100%" stopColor="#fff" />
 					</linearGradient>
 					<mask id="pl-mask">
 						<rect
@@ -33,14 +33,14 @@ const Loading = () => {
 				<g fill="currentColor">
 					<g
 						fill="none"
-						stroke-dasharray="20 221"
-						stroke-dashoffset="20"
-						stroke-linecap="round"
-						stroke-width="4"
+						strokeDasharray="20 221"
+						strokeDashoffset="20"
+						strokeLinecap="round"
+						strokeWidth="4"
 					>
 						<g stroke="hsl(38,90%,50%)">
 							<circle
-								class="pl__ring"
+								className="pl__ring"
 								cx="44"
 								cy="40"
 								r="35"
@@ -49,7 +49,7 @@ const Loading = () => {
 						</g>
 						<g stroke="hsl(8,90%,40%)" mask="url(#pl-mask)">
 							<circle
-								class="pl__ring"
+								className="pl__ring"
 								cx="44"
 								cy="40"
 								r="35"
@@ -58,48 +58,48 @@ const Loading = () => {
 						</g>
 					</g>
 					<g fill="hsla(223,10%,70%,0)">
-						<g class="pl__drop pl__drop--1">
+						<g className="pl__drop pl__drop--1">
 							<circle
-								class="pl__drop-inner"
+								className="pl__drop-inner"
 								cx="13"
 								cy="60"
 								r="2"
 							/>
 						</g>
-						<g class="pl__drop pl__drop--2">
+						<g className="pl__drop pl__drop--2">
 							<circle
-								class="pl__drop-inner"
+								className="pl__drop-inner"
 								cx="13"
 								cy="60"
 								r="2"
 							/>
 						</g>
-						<g class="pl__drop pl__drop--3">
+						<g className="pl__drop pl__drop--3">
 							<circle
-								class="pl__drop-inner"
+								className="pl__drop-inner"
 								cx="67"
 								cy="72"
 								r="2"
 							/>
 						</g>
-						<g class="pl__drop pl__drop--4">
+						<g className="pl__drop pl__drop--4">
 							<circle
-								class="pl__drop-inner"
+								className="pl__drop-inner"
 								cx="67"
 								cy="72"
 								r="2"
 							/>
 						</g>
-						<g class="pl__drop pl__drop--5">
+						<g className="pl__drop pl__drop--5">
 							<circle
-								class="pl__drop-inner"
+								className="pl__drop-inner"
 								cx="67"
 								cy="72"
 								r="2"
 							/>
 						</g>
 					</g>
-					<g class="pl__pan">
+					<g className="pl__pan">
 						<rect
 							rx="2"
 							ry="2"
@@ -107,7 +107,7 @@ const Loading = () => {
 							y="66"
 							width="68"
 							height="14"
-							clip-path="url(#pan-clip)"
+							clipPath="url(#pan-clip)"
 							id="pan"
 						/>
 						<rect
@@ -120,7 +120,7 @@ const Loading = () => {
 						/>
 					</g>
 					<rect
-						class="pl__shadow"
+						className="pl__shadow"
 						fill="hsla(223,10%,50%,0.2)"
 						rx="3.5"
 						ry="3.5"

@@ -4,7 +4,7 @@ import DisplayData from "../../../../components/DisplayData";
 const Soups = () => {
 
 	return (
-		<DisplayData dbCategory={"veg"} itemCategory={"Soups"} />
+		<DisplayData dbCategory={"veg"} itemCategory={"Soups"} placeholder={"Ex: Corn Soup"}/>
 	)
 }
 

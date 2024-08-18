@@ -1,9 +1,12 @@
-import "./index.css";
+import "./style.css";
 import { useState, useEffect } from "react";
 import { v4 as uuid } from "uuid";
 
 // Database
 import menuDB from "../../../data/MenuData/menu.json";
+
+//BeveragesDB
+import beveragesSearchData from "../../../data/SearchableData/beveragesSearch.json";
 
 // Header Component
 import Header from "../../../components/Header";
@@ -17,10 +20,20 @@ import MenuCard from "../../../components/MenuCard";
 // Component for Displaying No Data Message
 import NoDataMessage from "../../../components/NoDataMessage";
 
+// Component to display No Search Results
+import NoSearchResults from "../../../components/NoSearchResults";
+
+// Item Card
+import ItemCard from "../../../components/ItemCard";
+
+// ----------------------------------------------------------------
+
 // Main Beverages Component
 const Beverages = () => {
 	const [data, setData] = useState([]);
-	const [filteredData, setFilteredData] = useState([]);
+	const [searchQuery, setSearchQuery] = useState("");
+	const [radioFilteredData, setRadioFilteredData] = useState([]);
+	const [searchFilteredData, setSearchFilteredData] = useState([]);
 	const [transitioning, setTransitioning] = useState(false);
 
 	// Extracting beverages data from the JSON data and setting initial state
@@ -36,7 +49,7 @@ const Beverages = () => {
 			return accumulator;
 		}, []);
 		setData(beveragesData);
-		setFilteredData(beveragesData);
+		setRadioFilteredData(beveragesData);
 	}, []);
 
 	// Filtering the data based on the selected Radio Button with transition
@@ -51,68 +64,113 @@ const Beverages = () => {
 			} else {
 				newData = data;
 			}
-			setFilteredData(newData);
+			setRadioFilteredData(newData);
 			setTransitioning(false);
 		}, 200); // Delay for transition effect
 	};
 
+	// Filtering the data using Search Handler
+	const searchHandler = (event) => {
+		const query = event.target.value.toLowerCase().trim();
+		setSearchQuery(query);
+
+		const newData = query
+			? beveragesSearchData.filter((item) =>
+					item.item_name.toLowerCase().includes(query)
+			)
+			: [];
+		setSearchFilteredData(newData);
+		// console.log(newData);
+	};
+
 	return (
 		<section className="veg-menu-page">
-			<Header />
+			<Header data={true} searchHandler={searchHandler} />
 
-			{/* Radio Buttons Container */}
-			<div class="radio-inputs">
-				<label htmlFor="all" class="radio">
-					<input
-						type="radio"
-						id="all"
-						name="radio"
-						value="all"
-						defaultChecked
-						onChange={radioButtonOnChange}
-					/>
-					<span class="name all">All</span>
-				</label>
-
-				<label htmlFor="cold" class="radio">
-					<input
-						type="radio"
-						id="cold"
-						name="radio"
-						value="cold"
-						onChange={radioButtonOnChange}
-					/>
-					<span class="name cold">Cold</span>
-				</label>
-
-				<label htmlFor="hot" class="radio">
-					<input
-						type="radio"
-						id="hot"
-						name="radio"
-						value="hot"
-						onChange={radioButtonOnChange}
-					/>
-					<span class="name hot">Hot</span>
-				</label>
-			</div>
-			{filteredData.length > 0 ? (
+			{searchQuery.length > 0 ? (
 				<>
-					<div className="title-container">
-						<h1 className="title">Choose Your Menu</h1>
-						<div className="back-btn-container">
-							<BackToCategories />
+					{searchFilteredData.length > 0 ? (
+						<div className="items-container">
+							{searchFilteredData.map((item) => (
+								<ItemCard
+									key={item.id}
+									item_name={item.item_name}
+									price={item.price}
+									isAvailable={item.isAvailable}
+									viewButtonClick={() =>
+										console.log(item.item_name)
+									}
+									image={item.image}
+								/>
+							))}
 						</div>
+					) : (
+						<NoSearchResults message={"No search results found"} />
+					)}
+				</>
+			) : data.length > 0 ? (
+				<>
+					{/* Radio Buttons Container */}
+
+					<div class="radio-inputs">
+						<label htmlFor="all" class="radio">
+							<input
+								type="radio"
+								id="all"
+								name="radio"
+								value="all"
+								defaultChecked
+								onChange={radioButtonOnChange}
+							/>
+							<span class="name all">All</span>
+						</label>
+
+						<label htmlFor="cold" class="radio">
+							<input
+								type="radio"
+								id="cold"
+								name="radio"
+								value="cold"
+								onChange={radioButtonOnChange}
+							/>
+							<span class="name cold">Cold</span>
+						</label>
+
+						<label htmlFor="hot" class="radio">
+							<input
+								type="radio"
+								id="hot"
+								name="radio"
+								value="hot"
+								onChange={radioButtonOnChange}
+							/>
+							<span class="name hot">Hot</span>
+						</label>
 					</div>
-					<div
-						className={`veg-menu-cards-container ${
-							transitioning ? "fade-out" : "fade-in"
-						}`}
-					>
-						{filteredData.map((item) => (
-							<MenuCard key={item.id || item.name} item={item} />
-						))}
-					</div>
+					{radioFilteredData.length > 0 ? (
+						<>
+							<div className="title-container">
+								<h1 className="title">Choose Your Menu</h1>
+								<div className="back-btn-container">
+									<BackToCategories />
+								</div>
+							</div>
+							<div
+								className={`veg-menu-cards-container ${
+									transitioning ? "fade-out" : "fade-in"
+								}`}
+							>
+								{radioFilteredData.map((item) => (
+									<MenuCard
+										key={item.id || item.name}
+										item={item}
+									/>
+								))}
+							</div>
+						</>
+					) : (
+						<NoSearchResults message={"No Filter results found"} />
+					)}
 				</>
 			) : (
 				<NoDataMessage

@@ -1,8 +1,12 @@
-import "./index.css";
+import React, { useState, useEffect } from "react";
+import "./style.css";
 import { v4 as uuid } from "uuid";
 
 //Database
 import menuDB from "../../../data/MenuData/menu.json";
+
+//DessertsDB
+import dessertsSearchData from "../../../data/SearchableData/dessertsSearch.json";
 
 //Header Component
 import Header from "../../../components/Header";
@@ -16,35 +20,77 @@ import MenuCard from "../../../components/MenuCard";
 // Component for Displaying No Data Message
 import NoDataMessage from "../../../components/NoDataMessage";
 
+// Component to display No Search Results
+import NoSearchResults from "../../../components/NoSearchResults";
+
+// Item Card
+import ItemCard from "../../../components/ItemCard";
+
 // ----------------------------------------------------------------
 
-// Main Veg Component
+// Main Desserts Component
 const Desserts = () => {
-	// Easy way to fetch the data ---------
-
-	// const dessertsData =
-	// 	menuDB[0]?.desserts.map((item) => ({
-	// 		...item,
-	// 		id: uuid(),
-	// 	})) || []; // Optional chaining to prevent errors
+	const [data, setData] = useState([]);
+	const [searchQuery, setSearchQuery] = useState("");
+	const [filteredData, setFilteredData] = useState([]);
 
 	// Extracting veg data from the JSON data ---------
-	const dessertsData = menuDB.reduce((accumulator, currentItem) => {
-		if (currentItem.desserts) {
-			let data = currentItem.desserts.map((item) => ({
-				...item,
-				id: uuid(),
-			}));
-			return accumulator.concat(data);
-		}
-		return accumulator;
+	useEffect(() => {
+		const dessertsData = menuDB.reduce((accumulator, currentItem) => {
+			if (currentItem.desserts) {
+				let data = currentItem.desserts.map((item) => ({
+					...item,
+					id: uuid(),
+				}));
+				return accumulator.concat(data);
+			}
+			return accumulator;
+		}, []);
+		setData(dessertsData);
 	}, []);
+
+	// Filtering the data using Search Handler
+	const searchHandler = (event) => {
+		const query = event.target.value.toLowerCase().trim();
+		setSearchQuery(query);
+
+		const newData = query
+			? dessertsSearchData.filter((item) =>
+					item.item_name.toLowerCase().includes(query)
+			  )
+			: [];
+		setFilteredData(newData);
+		// console.log(newData);
+	};
 
 	return (
 		<section className="veg-menu-page">
-			<Header />
+			<Header data={true} searchHandler={searchHandler} />
+
 			{/* Checking if data is available else displaying no data message */}
-			{dessertsData.length > 0 ? (
+			{searchQuery.length > 0 ? (
+				<>
+					{filteredData.length > 0 ? (
+						<div className="items-container">
+							{filteredData.map((item) => (
+								<ItemCard
+									key={item.id}
+									item_name={item.item_name}
+									price={item.price}
+									isAvailable={item.isAvailable}
+									viewButtonClick={() =>
+										console.log(item.item_name)
+									}
+									category={"desserts"}
+									image={item.image}
+								/>
+							))}
+						</div>
+					) : (
+						<NoSearchResults message={"No search results found"} />
+					)}
+				</>
+			) : data.length > 0 ? (
 				<>
 					<div className="title-container">
 						<h1 className="title">Choose Your Menu</h1>
@@ -52,9 +98,9 @@ const Desserts = () => {
 							<BackToCategories />
 						</div>
 					</div>
-					{/* Veg Menu Cards */}
+					{/* Desserts Menu Cards */}
 					<div className="veg-menu-cards-container">
-						{dessertsData.map((item) => (
+						{data.map((item) => (
 							<MenuCard key={item.id || item.name} item={item} />
 						))}
 					</div>
