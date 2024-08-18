@@ -8,8 +8,7 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "/static/media/1__Tomato_Basil_Soup.d034a7148b152990c500.webp",
-					"description": "This is a delicious vegetarian soup",
+					"image": "../../assets/photos/Veg/1__Veg-Soups/1__Tomato_Basil_Soup.webp",
 					"category": "veg"
 				},
 				{
@@ -18,8 +17,7 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "/static/media/2__Cream_of_Mushroom_Soup.f77cf5dc4fecb551b7cd.webp",
-					"description": "This is a delicious vegetarian soup",
+					"image": "../../assets/photos/Veg/1__Veg-Soups/2__Cream_of_Mushroom_Soup.webp",
 					"category": "veg"
 				},
 				{
@@ -28,8 +26,7 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "/static/media/3__Vegetable_Clear_Soup.23597813596189d1f84b.webp",
-					"description": "This is a delicious vegetarian soup",
+					"image": "../../assets/photos/Veg/1__Veg-Soups/3__Vegetable_Clear_Soup.webp",
 					"category": "veg"
 				},
 				{
@@ -38,8 +35,7 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "/static/media/4__Sweet_Corn_Soup.a566eb82e1eb4895ebdb.webp",
-					"description": "This is a delicious vegetarian soup",
+					"image": "../../assets/photos/Veg/1__Veg-Soups/4__Sweet_Corn_Soup.webp",
 					"category": "veg"
 				},
 				{
@@ -48,8 +44,7 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "/static/media/5__Minestrone_Soup.9edc7b5a9463137be7a4.webp",
-					"description": "This is a delicious vegetarian soup",
+					"image": "../../assets/photos/Veg/1__Veg-Soups/5__Minestrone_Soup.webp",
 					"category": "veg"
 				},
 				{
@@ -58,8 +53,7 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "/static/media/6__Lentil_Soup.69aacf5968bf335b3fa8.webp",
-					"description": "This is a delicious vegetarian soup",
+					"image": "../../assets/photos/Veg/1__Veg-Soups/6__Lentil_Soup.webp",
 					"category": "veg"
 				},
 				{
@@ -68,8 +62,7 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "/static/media/7__Spinach_Soup.b998adad412e7fbcb22f.webp",
-					"description": "This is a delicious vegetarian soup",
+					"image": "../../assets/photos/Veg/1__Veg-Soups/7__Spinach_Soup.webp",
 					"category": "veg"
 				},
 				{
@@ -78,8 +71,7 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "/static/media/8__Carrot_and_Ginger_Soup.513bcaf69f4cd05e23c0.webp",
-					"description": "This is a delicious vegetarian soup",
+					"image": "../../assets/photos/Veg/1__Veg-Soups/8__Carrot_and_Ginger_Soup.webp",
 					"category": "veg"
 				},
 				{
@@ -88,8 +80,7 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "/static/media/9__Broccoli_and_Almond_Soup.45cdbcbeec6dbb2e94af.webp",
-					"description": "This is a delicious vegetarian soup",
+					"image": "../../assets/photos/Veg/1__Veg-Soups/9__Broccoli_and_Almond_Soup.webp",
 					"category": "veg"
 				},
 				{
@@ -98,8 +89,7 @@
 					"price": 120,
 					"rating": 4.5,
 					"isAvailable": true,
-					"image": "/static/media/10__Hot_and_Sour_Soup.ea745ed71ded2878e7c4.webp",
-					"description": "This is a delicious vegetarian soup",
+					"image": "../../assets/photos/Veg/1__Veg-Soups/10__Hot_and_Sour_Soup.webp",
 					"category": "veg"
 				}
 			]

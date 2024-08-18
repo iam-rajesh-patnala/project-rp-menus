@@ -109,10 +109,9 @@
     transition: all 0.3s ease-in-out;
 }
 
-.input:focus~.cross-icon,
 .input:not(:placeholder-shown)~.cross-icon {
     display: block;
-    /* Show cross icon when input is focused */
+    /* Show cross icon only when input has content */
 }
 
 /* Handling the header sticky when search bar focus and stickey */

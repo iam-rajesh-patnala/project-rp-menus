@@ -85,6 +85,13 @@ require.context(
 	true
 );
 
+
+// const images = require.context("../../assets/photos/Veg/1__Veg-Soups", true);
+// const imageList = images.keys().map((image) => images(image));
+// imageList.map((image) => console.log(image));
+
+
+
 // ----------------------------------------------------------------
 const ItemCard = ({
 	image,
@@ -96,10 +103,13 @@ const ItemCard = ({
 }) => {
 	// Javascript code Goes here
 
+	const img = require(`/${image}`).default;
+
 	return (
 		<div className="card">
 			<img
-				src={image || defaultImage}
+				// src={require(image) || defaultImage}
+				src={img}
 				alt="img"
 				className="item-img"
 				loading="lazy"

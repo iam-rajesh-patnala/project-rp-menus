@@ -36,3 +36,6 @@ yarn-error.log*
 /.vscode
 
 fonts.txt
+ConvertToJson.js
+framer-motion-animations.txt
+
