@@ -1,0 +1,228 @@
+[
+	{
+		"id": 1,
+		"name": "Soups",
+		"route": "/categories/veg/soups",
+		"category": "veg",
+		"count" : 10
+	},
+	{
+		"id": 2,
+		"name": "Starters",
+		"route": "/categories/veg/starters",
+		"category": "veg",
+		"count" : 10
+	},
+	{
+		"id": 3,
+		"name": "Salads",
+		"route": "/categories/veg/salads",
+		"category": "veg",
+		"count" : 10
+	},
+	{
+		"id": 4,
+		"name": "Naans & Breads",
+		"route": "/categories/veg/naans-breads",
+		"category": "veg",
+		"count" : 10
+	},
+	{
+		"id": 5,
+		"name": "Curries",
+		"route": "/categories/veg/curries",
+		"category": "veg",
+		"count" : 11
+	},
+	{
+		"id": 6,
+		"name": "Rice",
+		"route": "/categories/veg/rice",
+		"category": "veg",
+		"count" : 10
+	},
+	{
+		"id": 7,
+		"name": "Fried Rice",
+		"route": "/categories/veg/fried-rice",
+		"category": "veg",
+		"count" : 8
+	},
+	{
+		"id": 8,
+		"name": "Biryani",
+		"route": "/categories/veg/biryani",
+		"category": "veg",
+		"count" : 6
+	},
+	{
+		"id": 9,
+		"name": "Noodles",
+		"route": "/categories/veg/noodles",
+		"category": "veg",
+		"count" : 10
+	},
+	{
+		"id": 10,
+		"name": "Pizza & Burgers",
+		"route": "/categories/veg/pizzas-burgers",
+		"category": "veg",
+		"count" : 16
+	},
+	{
+		"id": 11,
+		"name": "Soups",
+		"route": "/categories/nonVeg/soups",
+		"category": "nonVeg",
+		"count" : 1
+	},
+	{
+		"id": 12,
+		"name": "Starters",
+		"route": "/categories/nonVeg/starters",
+		"category": "nonVeg",
+		"count" : 1
+	},
+	{
+		"id": 13,
+		"name": "Curries",
+		"route": "/categories/nonVeg/curries",
+		"category": "nonVeg",
+		"count" : 1
+	},
+	{
+		"id": 14,
+		"name": "Fired Rice",
+		"route": "/categories/nonVeg/fired-rice",
+		"category": "nonVeg",
+		"count" : 1
+	},
+	{
+		"id": 15,
+		"name": "Biryani",
+		"route": "/categories/nonVeg/biryani",
+		"category": "nonVeg",
+		"count" : 1
+	},
+	{
+		"id": 16,
+		"name": "Noodles",
+		"route": "/categories/nonVeg/noodles",
+		"category": "nonVeg",
+		"count" : 1
+	},
+	{
+		"id": 17,
+		"name": "Pizza & Burgers",
+		"route": "/categories/nonVeg/pizza-burgers",
+		"category": "nonVeg",
+		"count" : 1
+	},
+	{
+		"id": 18,
+		"name": "Sweets",
+		"route": "/categories/desserts/sweets",
+		"category": "desserts",
+		"count" : 1
+	},
+	{
+		"id": 19,
+		"name": "Pastries",
+		"route": "/categories/desserts/pastries",
+		"category": "desserts",
+		"count" : 1
+	},
+	{
+		"id": 20,
+		"name": "Cakes",
+		"route": "/categories/desserts/cakes",
+		"category": "desserts",
+		"count" : 1
+	},
+	{
+		"id": 21,
+		"name": "Ice Creams",
+		"route": "/categories/desserts/ice-creams",
+		"category": "desserts",
+		"count" : 1
+	},
+	{
+		"id": 22,
+		"name": "Juices",
+		"route": "/categories/beverages/juices",
+		"category": "beverages",
+		"count" : 1
+	},
+	{
+		"id": 23,
+		"name": "Soft Drinks",
+		"route": "/categories/beverages/soft-drinks",
+		"category": "beverages",
+		"count" : 1
+	},
+	{
+		"id": 24,
+		"name": "Mocktails",
+		"route": "/categories/beverages/mocktails",
+		"category": "beverages",
+		"count" : 1
+	},
+	{
+		"id": 25,
+		"name": "Smoothies",
+		"route": "/categories/beverages/smoothies",
+		"category": "beverages",
+		"count" : 1
+	},
+	{
+		"id": 26,
+		"name": "Milkshakes",
+		"route": "/categories/beverages/milkshakes",
+		"category": "beverages",
+		"count" : 1
+	},
+	{
+		"id": 27,
+		"name": "Iced Tea",
+		"route": "/categories/beverages/iced-tea",
+		"category": "beverages",
+		"count" : 1
+	},
+	{
+		"id": 28,
+		"name": "Iced Coffee",
+		"route": "/categories/beverages/iced-coffee",
+		"category": "beverages",
+		"count" : 1
+	},
+	{
+		"id": 29,
+		"name": "Cold Extras",
+		"route": "/categories/beverages/cold-extras",
+		"category": "beverages",
+		"count" : 1
+	},
+	{
+		"id": 30,
+		"name": "Tea",
+		"route": "/categories/beverages/tea",
+		"category": "beverages",
+		"count" : 1
+	},
+	
+	{
+		"id": 31,
+		"name": "Coffee",
+		"route": "/categories/beverages/coffee",
+		"category": "beverages",
+		"count" : 1
+	},
+	
+	{
+		"id": 32,
+		"name": "Hot Extras",
+		"route": "/categories/beverages/hot-extras",
+		"category": "beverages",
+		"count" : 1
+	}
+]

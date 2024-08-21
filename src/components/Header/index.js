@@ -3,7 +3,7 @@ import { Link, Outlet } from "react-router-dom";
 import "./style.css";
 import logo from "../../assets/icons/logo.png";
 
-const Header = ({ data, placeholder, searchHandler, clearSearch }) => {
+const Header = ({ data, placeholder, searchHandler }) => {
 	useEffect(() => {
 		const handleScroll = () => {
 			const header = document.querySelector(".header");
@@ -39,6 +39,7 @@ const Header = ({ data, placeholder, searchHandler, clearSearch }) => {
 	const clearInput = () => {
 		const input = document.querySelector(".input");
 		input.value = "";
+		searchHandler({ target: { value: "" } });
 	};
 
 	return (
@@ -99,10 +100,7 @@ const Header = ({ data, placeholder, searchHandler, clearSearch }) => {
 							width="24"
 							xmlns="http://www.w3.org/2000/svg"
 							className="cross-icon"
-							onClick={() => {
-								clearSearch();
-								clearInput();
-							}}
+							onClick={clearInput}
 						>
 							<g fill="#141414" fillRule="nonzero">
 								<path d="m12 22c5.5228475 0 10-4.4771525 10-10s-4.4771525-10-10-10-10 4.4771525-10 10 4.4771525 10 10 10zm0 2c-6.627417 0-12-5.372583-12-12s5.372583-12 12-12 12 5.372583 12 12-5.372583 12-12 12z" />

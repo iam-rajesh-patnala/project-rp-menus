@@ -1,41 +1,28 @@
-import React, { useState, useEffect } from "react";
 import "./style.css";
+import React, { useState, useEffect } from "react";
 import { v4 as uuid } from "uuid";
 
-//Database
+// Importing Data
 import menuDB from "../../../data/MenuData/menu.json";
-
-//NonVegDB
 import nonVegSearchData from "../../../data/SearchableData/nonVegSearch.json";
 
-//Header Component
+// Importing Components
 import Header from "../../../components/Header";
-
-// Back Button
 import BackToCategories from "../../../utils/BackToCategories";
-
-// Menu Card Component
 import MenuCard from "../../../components/MenuCard";
-
-// Component for Displaying No Data Message
 import NoDataMessage from "../../../components/NoDataMessage";
-
-// Component to display No Search Results
 import NoSearchResults from "../../../components/NoSearchResults";
-
-// Item Card
 import ItemCard from "../../../components/ItemCard";
 
 // ----------------------------------------------------------------
-
-// Main Veg Component
+// Main NonVeg Component
 const NonVeg = () => {
 	const [data, setData] = useState([]);
+	// const [hasLoaded, setHasLoaded] = useState(false);
 	const [searchQuery, setSearchQuery] = useState("");
 	const [filteredData, setFilteredData] = useState([]);
 
 	// Extracting veg data from the JSON data ---------
-
 	useEffect(() => {
 		const nonVegData = menuDB.reduce((accumulator, currentItem) => {
 			if (currentItem.nonVeg) {
@@ -66,7 +53,7 @@ const NonVeg = () => {
 
 	return (
 		<section className="veg-menu-page">
-			<Header data={true} searchHandler={searchHandler} />
+			<Header data={true} searchHandler={searchHandler} placeholder={"Ex: Chicken, Prawns"}/>
 
 			{/* Checking if data is available else displaying no data message */}
 			{searchQuery.length > 0 ? (
@@ -82,8 +69,8 @@ const NonVeg = () => {
 									viewButtonClick={() =>
 										console.log(item.item_name)
 									}
-									category={"non-veg"}
-									image={item.image}
+									category={"nonVeg"}
+									imagePath={item.imagePath}
 								/>
 							))}
 						</div>

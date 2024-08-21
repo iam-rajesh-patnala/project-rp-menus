@@ -84,6 +84,7 @@
     -webkit-box-shadow: rgba(0, 0, 0, 0.623) 0px 5px 15px 0px;
     overflow: hidden;
     position: relative;
+    background-color: #c2c2c2;
 }
 
 .category-btn:hover {
@@ -128,22 +129,11 @@
 
 /* Page Fade-in Fade-out Animation */
 
-/* Initial state for fade-in */
-.fade-in {
+.fade-in-transition {
     opacity: 0;
-    transition: opacity 0.5s ease-in-out;
+    transition: opacity 1s ease-in-out;
 }
 
-.fade-in-loaded {
+.fade-in-transition.active {
     opacity: 1;
-}
-
-/* Fade-out transition */
-.fade-out {
-    opacity: 1;
-    transition: opacity 0.5s ease-in-out;
-}
-
-.fade-out-leaving {
-    opacity: 0;
 }

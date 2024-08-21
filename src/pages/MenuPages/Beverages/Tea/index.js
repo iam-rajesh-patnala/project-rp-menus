@@ -3,7 +3,7 @@ import DisplayData from "../../../../components/DisplayData";
 
 const SoftDrinks = () => {
 	return (
-		<DisplayData dbCategory={"beverages"} itemCategory={"Tea"} />
+		<DisplayData dbCategory={"beverages"} itemCategory={"Tea"} placeholder={"Ex: Green Tea"}/>
 	);
 };
 

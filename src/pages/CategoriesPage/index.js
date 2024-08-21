@@ -11,63 +11,48 @@ import Loading from "../../components/Loading";
 
 // images
 import veg from "../../assets/photos/CategoryPage/veg.webp";
-import nonVeg from "../../assets/photos/CategoryPage/non-veg.webp";
+import nonVeg from "../../assets/photos/CategoryPage/nonVeg.webp";
 import desserts from "../../assets/photos/CategoryPage/desserts.webp";
 import beverages from "../../assets/photos/CategoryPage/beverages.webp";
 
-// Default image
-import defaultImage from "../../assets/main-default.webp";
+// Placeholder image
+import placeholder from "../../assets/photos/PlaceHolders/placeholder-1.webp";
 
 const CategoriesPage = () => {
 	const [loading, setLoading] = useState(true);
+	const [imagesLoaded, setImagesLoaded] = useState({
+		veg: false,
+		nonVeg: false,
+		desserts: false,
+		beverages: false,
+	});
 
-	// Function to check if all images are loaded
-	const checkImagesLoaded = (images, callback) => {
-		let loadedImages = 0;
-		const totalImages = images.length;
+	const [fadeIn, setFadeIn] = useState(false);
 
-		images.forEach((img) => {
-			const image = new Image();
-			image.src = img.src;
-			image.onload = () => {
-				loadedImages += 1;
-				if (loadedImages === totalImages) {
-					callback();
-				}
-			};
-			image.onerror = () => {
-				loadedImages += 1;
-				if (loadedImages === totalImages) {
-					callback();
-				}
-			};
-		});
+	const handleImageLoad = (name) => {
+		setImagesLoaded((prev) => ({ ...prev, [name]: true }));
 	};
 
 	useEffect(() => {
-		const images = [
-			{ src: veg },
-			{ src: nonVeg },
-			{ src: desserts },
-			{ src: beverages },
-		];
+		const imageSources = [veg, nonVeg, desserts, beverages];
 
-		// Start with a delay of 1.5 seconds
+		const imageLoadPromises = imageSources.map((src) => {
+			return new Promise((resolve, reject) => {
+				const img = new Image();
+				img.src = src;
+				img.onload = resolve;
+				img.onerror = resolve; // Resolve even on error to avoid blocking
+			});
+		});
+
 		const minimumLoadingTime = 1500;
+		const timeoutPromise = new Promise((resolve) =>
+			setTimeout(resolve, minimumLoadingTime)
+		);
 
-		// Track when image loading completes
-		const imageLoadPromise = new Promise((resolve) => {
-			checkImagesLoaded(images, resolve);
-		});
-
-		// Use Promise.all to ensure minimum loading time is respected
-		const timeoutPromise = new Promise((resolve) => {
-			setTimeout(resolve, minimumLoadingTime);
-		});
-
-		// Show loader until either images are loaded or the minimum loading time is reached
-		Promise.all([imageLoadPromise, timeoutPromise]).then(() => {
+		Promise.all([...imageLoadPromises, timeoutPromise]).then(() => {
 			setLoading(false);
+			setFadeIn(true); // Trigger fade-in transition
 		});
 	}, []);
 
@@ -75,7 +60,11 @@ const CategoriesPage = () => {
 		<>
 			{loading && <Loading />}
 			{!loading && (
-				<section className="categories-page fade-in">
+				<section
+					className={`categories-page fade-in-transition ${
+						fadeIn ? "active" : ""
+					}`}
+				>
 					<Header />
 					<div className="categories-page-background-container">
 						{/* Title Container */}
@@ -88,21 +77,27 @@ const CategoriesPage = () => {
 							<Link to={"/categories/veg"}>
 								<button className="category-btn">
 									<img
-										src={veg || defaultImage}
+										src={
+											imagesLoaded.veg ? veg : placeholder
+										}
 										alt="Veg"
 										className="bg-img"
-										loading="lazy"
+										onLoad={() => handleImageLoad("veg")}
 									/>
 									<span className="category-text">Veg</span>
 								</button>
 							</Link>
-							<Link to={"/categories/non-veg"}>
+							<Link to={"/categories/nonVeg"}>
 								<button className="category-btn non-veg">
 									<img
-										src={nonVeg || defaultImage}
+										src={
+											imagesLoaded.nonVeg
+												? nonVeg
+												: placeholder
+										}
 										alt="Non-Veg"
 										className="bg-img"
-										loading="lazy"
+										onLoad={() => handleImageLoad("nonVeg")}
 									/>
 									<span className="category-text">
 										Non-Veg
@@ -112,10 +107,16 @@ const CategoriesPage = () => {
 							<Link to={"/categories/desserts"}>
 								<button className="category-btn desserts">
 									<img
-										src={desserts || defaultImage}
+										src={
+											imagesLoaded.desserts
+												? desserts
+												: placeholder
+										}
 										alt="Desserts"
 										className="bg-img"
-										loading="lazy"
+										onLoad={() =>
+											handleImageLoad("desserts")
+										}
 									/>
 									<span className="category-text">
 										Desserts
@@ -125,10 +126,16 @@ const CategoriesPage = () => {
 							<Link to={"/categories/beverages"}>
 								<button className="category-btn beverages">
 									<img
-										src={beverages || defaultImage}
+										src={
+											imagesLoaded.beverages
+												? beverages
+												: placeholder
+										}
 										alt="Beverages"
 										className="bg-img"
-										loading="lazy"
+										onLoad={() =>
+											handleImageLoad("beverages")
+										}
 									/>
 									<span className="category-text">
 										Beverages

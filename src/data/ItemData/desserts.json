@@ -1,132 +1,118 @@
 {
-    "desserts" : [
+	"desserts": [
 		{
 			"Sweets": [
 				{
 					"id": 191,
 					"item_name": "Gulab Jamun",
 					"price": 120,
-					"rating": 4.5,
 					"isAvailable": true,
-					"image": "/static/media/1__Gulab_Jamun.297c3d7cb00eac2dc8f4.webp",
-					"description": ""
+					"imagePath": "Desserts/1__Sweets/1__Gulab_Jamun.webp",
+					"category": "desserts"
 				},
 				{
 					"id": 192,
 					"item_name": "Rasgulla",
 					"price": 120,
-					"rating": 4.5,
 					"isAvailable": true,
-					"image": "/static/media/2__Rasgulla.738566ce63359619da3a.webp",
-					"description": ""
+					"imagePath": "Desserts/1__Sweets/2__Rasgulla.webp",
+					"category": "desserts"
 				},
 				{
 					"id": 193,
 					"item_name": "Jalebi",
 					"price": 120,
-					"rating": 4.5,
 					"isAvailable": true,
-					"image": "/static/media/3__Jalebi.a13075d0725ba001df70.webp",
-					"description": ""
+					"imagePath": "Desserts/1__Sweets/3__Jalebi.webp",
+					"category": "desserts"
 				},
 				{
 					"id": 194,
 					"item_name": "Kheer",
 					"price": 120,
-					"rating": 4.5,
 					"isAvailable": true,
-					"image": "/static/media/4__Kheer.68df529ab6528114a95c.webp",
-					"description": ""
+					"imagePath": "Desserts/1__Sweets/4__Kheer.webp",
+					"category": "desserts"
 				},
 				{
 					"id": 195,
 					"item_name": "Gajar ka Halwa",
 					"price": 120,
-					"rating": 4.5,
 					"isAvailable": true,
-					"image": "/static/media/5__Gajar_ka_Halwa.9c4e086048802f4aa1cd.webp",
-					"description": ""
+					"imagePath": "Desserts/1__Sweets/5__Gajar_ka_Halwa.webp",
+					"category": "desserts"
 				},
 				{
 					"id": 196,
 					"item_name": "Ladoo",
 					"price": 120,
-					"rating": 4.5,
 					"isAvailable": true,
-					"image": "/static/media/6__Ladoo.3c6bebf8774b6676386c.webp",
-					"description": ""
+					"imagePath": "Desserts/1__Sweets/6__Ladoo.webp",
+					"category": "desserts"
 				},
 				{
 					"id": 197,
 					"item_name": "Barfi",
 					"price": 120,
-					"rating": 4.5,
 					"isAvailable": true,
-					"image": "/static/media/7__Barfi.c2f4026f881916f4f524.webp",
-					"description": ""
+					"imagePath": "Desserts/1__Sweets/7__Barfi.webp",
+					"category": "desserts"
 				},
 				{
 					"id": 198,
 					"item_name": "Sandesh",
 					"price": 120,
-					"rating": 4.5,
 					"isAvailable": true,
-					"image": "/static/media/8__Sandesh.3fa183822a2163cc2d1d.webp",
-					"description": ""
+					"imagePath": "Desserts/1__Sweets/8__Sandesh.webp",
+					"category": "desserts"
 				},
 				{
 					"id": 199,
 					"item_name": "Peda",
 					"price": 120,
-					"rating": 4.5,
 					"isAvailable": true,
-					"image": "/static/media/9__Peda.50abc81846ed34a2004c.webp",
-					"description": ""
+					"imagePath": "Desserts/1__Sweets/9__Peda.webp",
+					"category": "desserts"
 				},
 				{
 					"id": 200,
 					"item_name": "Ras Malai",
 					"price": 120,
-					"rating": 4.5,
 					"isAvailable": true,
-					"image": "/static/media/10__Ras_Malai.5ac6ff9a3bac659ce6b6.webp",
-					"description": ""
+					"imagePath": "Desserts/1__Sweets/10__Ras_Malai.webp",
+					"category": "desserts"
 				},
 				{
 					"id": 201,
 					"item_name": "Kalakand",
 					"price": 120,
-					"rating": 4.5,
 					"isAvailable": true,
-					"image": "/static/media/11__Kalakand .d42731a1603e6f48d72f.webp",
-					"description": ""
+					"imagePath": "Desserts/1__Sweets/11__Kalakand .webp",
+					"category": "desserts"
 				},
 				{
 					"id": 202,
 					"item_name": "Payasam",
 					"price": 120,
-					"rating": 4.5,
 					"isAvailable": true,
-					"image": "/static/media/12__Payasam.b9a27d8da1491bdfe346.webp",
-					"description": ""
+					"imagePath": "Desserts/1__Sweets/12__Payasam.webp",
+					"category": "desserts"
 				},
 				{
 					"id": 203,
 					"item_name": "Mysore Pak",
 					"price": 120,
-					"rating": 4.5,
 					"isAvailable": true,
-					"image": "/static/media/13__Mysore_Pak.b4e4cec3489087e2108d.webp",
-					"description": ""
+					"imagePath": "Desserts/1__Sweets/13__Mysore_Pak.webp",
+					"category": "desserts"
 				},
 				{
 					"id": 204,
 					"item_name": "Malpua",
 					"price": 120,
-					"rating": 4.5,
 					"isAvailable": true,
-					"image": "/static/media/14__Malpua.c8d25aa718fea63deadb.webp",
-					"description": ""
+					"imagePath": "Desserts/1__Sweets/14__Malpua.webp",
+					"category": "desserts"
 				}
 			]
 		},
@@ -136,100 +122,89 @@
 					"id": 205,
 					"item_name": "Chocolate Pastry",
 					"price": 120,
-					"rating": 4.5,
 					"isAvailable": true,
-					"image": "/static/media/1__Chocolate_Pastry.5a03c7beba7c8e43284d.webp",
-					"description": ""
+					"imagePath": "Desserts/2__Pastries/1__Chocolate_Pastry.webp",
+					"category": "desserts"
 				},
 				{
 					"id": 206,
 					"item_name": "Brownie",
 					"price": 120,
-					"rating": 4.5,
 					"isAvailable": true,
-					"image": "/static/media/2__Brownie.a6f7a9ad5450d1796468.webp",
-					"description": ""
+					"imagePath": "Desserts/2__Pastries/2__Brownie.webp",
+					"category": "desserts"
 				},
 				{
 					"id": 207,
 					"item_name": "Death By Chocolate",
 					"price": 120,
-					"rating": 4.5,
 					"isAvailable": true,
-					"image": "/static/media/3__Death_By_Chocolate.5476850e41bee67382d1.webp",
-					"description": ""
+					"imagePath": "Desserts/2__Pastries/3__Death_By_Chocolate.webp",
+					"category": "desserts"
 				},
 				{
 					"id": 208,
 					"item_name": "Kiwi Pastry",
 					"price": 120,
-					"rating": 4.5,
 					"isAvailable": true,
-					"image": "/static/media/4__Kiwi_Pastry.2f61342f9f6501c26266.webp",
-					"description": ""
+					"imagePath": "Desserts/2__Pastries/4__Kiwi_Pastry.webp",
+					"category": "desserts"
 				},
 				{
 					"id": 209,
 					"item_name": "Chocolate Chip Pastry",
 					"price": 120,
-					"rating": 4.5,
 					"isAvailable": true,
-					"image": "/static/media/5__Chocolate_Chip_Pastry.1a39b5e6be637ae50e6e.webp",
-					"description": ""
+					"imagePath": "Desserts/2__Pastries/5__Chocolate_Chip_Pastry.webp",
+					"category": "desserts"
 				},
 				{
 					"id": 210,
 					"item_name": "Black Forest Pastry",
 					"price": 120,
-					"rating": 4.5,
 					"isAvailable": true,
-					"image": "/static/media/6__Black_Forest_Pastry.476dd21bb2192cf21106.webp",
-					"description": ""
+					"imagePath": "Desserts/2__Pastries/6__Black_Forest_Pastry.webp",
+					"category": "desserts"
 				},
 				{
 					"id": 211,
 					"item_name": "Black Current",
 					"price": 120,
-					"rating": 4.5,
 					"isAvailable": true,
-					"image": "/static/media/7__Black_Current.d63fc0e23af119e6cc65.webp",
-					"description": ""
+					"imagePath": "Desserts/2__Pastries/7__Black_Current.webp",
+					"category": "desserts"
 				},
 				{
 					"id": 212,
 					"item_name": "Pineapple Pastry",
 					"price": 120,
-					"rating": 4.5,
 					"isAvailable": true,
-					"image": "/static/media/8__Pineapple_Pastry.7326a8ad1e6d9c4df53b.webp",
-					"description": ""
+					"imagePath": "Desserts/2__Pastries/8__Pineapple_Pastry.webp",
+					"category": "desserts"
 				},
 				{
 					"id": 213,
 					"item_name": "Butterscotch Pastry",
 					"price": 120,
-					"rating": 4.5,
 					"isAvailable": true,
-					"image": "/static/media/9__Butterscotch_Pastry.e19cda60f893a3e0f5a5.webp",
-					"description": ""
+					"imagePath": "Desserts/2__Pastries/9__Butterscotch_Pastry.webp",
+					"category": "desserts"
 				},
 				{
 					"id": 214,
 					"item_name": "Mango Pastry",
 					"price": 120,
-					"rating": 4.5,
 					"isAvailable": true,
-					"image": "/static/media/10__Mango_Pastry.52bd158968112641b362.webp",
-					"description": ""
+					"imagePath": "Desserts/2__Pastries/10__Mango_Pastry.webp",
+					"category": "desserts"
 				},
 				{
 					"id": 215,
 					"item_name": "Red Velvet Pastry",
 					"price": 120,
-					"rating": 4.5,
 					"isAvailable": true,
-					"image": "/static/media/11__Red_Velvet_Pastry.edac7291bad45a5ff095.webp",
-					"description": ""
+					"imagePath": "Desserts/2__Pastries/11__Red_Velvet_Pastry.webp",
+					"category": "desserts"
 				}
 			]
 		},
@@ -239,100 +214,89 @@
 					"id": 216,
 					"item_name": "Apricot Delight",
 					"price": 120,
-					"rating": 4.5,
 					"isAvailable": true,
-					"image": "/static/media/1__Apricot_Delight.66711fae442a1daaaedc.webp",
-					"description": ""
+					"imagePath": "Desserts/3__Ice_Creams/1__Apricot_Delight.webp",
+					"category": "desserts"
 				},
 				{
 					"id": 217,
 					"item_name": "Ice Cream Sundae",
 					"price": 120,
-					"rating": 4.5,
 					"isAvailable": true,
-					"image": "/static/media/2__Ice_Cream_Sundae.8acd11e0113f6711ba64.webp",
-					"description": ""
+					"imagePath": "Desserts/3__Ice_Creams/2__Ice_Cream_Sundae.webp",
+					"category": "desserts"
 				},
 				{
 					"id": 218,
 					"item_name": "Fruit Salad",
 					"price": 120,
-					"rating": 4.5,
 					"isAvailable": true,
-					"image": "/static/media/3__Fruit_Salad.9d0976709c2b4652aff9.webp",
-					"description": ""
+					"imagePath": "Desserts/3__Ice_Creams/3__Fruit_Salad.webp",
+					"category": "desserts"
 				},
 				{
 					"id": 219,
 					"item_name": "Butterscotch",
 					"price": 120,
-					"rating": 4.5,
 					"isAvailable": true,
-					"image": "/static/media/4__Butterscotch.b9d2dfc9a726bc7c5b7d.webp",
-					"description": ""
+					"imagePath": "Desserts/3__Ice_Creams/4__Butterscotch.webp",
+					"category": "desserts"
 				},
 				{
 					"id": 220,
 					"item_name": "Chocolate",
 					"price": 120,
-					"rating": 4.5,
 					"isAvailable": true,
-					"image": "/static/media/5__Chocolate.10f614d5e085bf855c23.webp",
-					"description": ""
+					"imagePath": "Desserts/3__Ice_Creams/5__Chocolate.webp",
+					"category": "desserts"
 				},
 				{
 					"id": 221,
 					"item_name": "Mango",
 					"price": 120,
-					"rating": 4.5,
 					"isAvailable": true,
-					"image": "/static/media/6__Mango.6d73cd9be670f74ac556.webp",
-					"description": ""
+					"imagePath": "Desserts/3__Ice_Creams/6__Mango.webp",
+					"category": "desserts"
 				},
 				{
 					"id": 222,
 					"item_name": "Vanilla ",
 					"price": 120,
-					"rating": 4.5,
 					"isAvailable": true,
-					"image": "/static/media/7__Vanilla.12df611b808a93679069.webp",
-					"description": ""
+					"imagePath": "Desserts/3__Ice_Creams/7__Vanilla.webp",
+					"category": "desserts"
 				},
 				{
 					"id": 223,
 					"item_name": "Pineapple",
 					"price": 120,
-					"rating": 4.5,
 					"isAvailable": true,
-					"image": "/static/media/8__Pineapple.776f5157e28e4accc9b0.webp",
-					"description": ""
+					"imagePath": "Desserts/3__Ice_Creams/8__Pineapple.webp",
+					"category": "desserts"
 				},
 				{
 					"id": 224,
 					"item_name": "Pista",
 					"price": 120,
-					"rating": 4.5,
 					"isAvailable": true,
-					"image": "/static/media/9__Pista.d25f66ad4ea1f7d8a849.webp",
-					"description": ""
+					"imagePath": "Desserts/3__Ice_Creams/9__Pista.webp",
+					"category": "desserts"
 				},
 				{
 					"id": 225,
 					"item_name": "Dragon Fruit",
 					"price": 120,
-					"rating": 4.5,
 					"isAvailable": true,
-					"image": "/static/media/10__Dragon_Fruit.0ac0e938f631c4d0236c.webp",
-					"description": ""
+					"imagePath": "Desserts/3__Ice_Creams/10__Dragon_Fruit.webp",
+					"category": "desserts"
 				},
 				{
 					"id": 226,
 					"item_name": "Kulfi",
 					"price": 120,
-					"rating": 4.5,
 					"isAvailable": true,
-					"image": "/static/media/11__Kulfi.a0641f514b3789cd0065.webp",
-					"description": ""
+					"imagePath": "Desserts/3__Ice_Creams/11__Kulfi.webp",
+					"category": "desserts"
 				}
 			]
 		},
@@ -342,37 +306,33 @@
 					"id": 227,
 					"item_name": "Tutti Frutti Cake",
 					"price": 120,
-					"rating": 4.5,
 					"isAvailable": true,
-					"image": "/static/media/1__Tutti_Frutti_Cake.8dbeb16c48a820820acc.webp",
-					"description": ""
+					"imagePath": "Desserts/4__Cakes/1__Tutti_Frutti_Cake.webp",
+					"category": "desserts"
 				},
 				{
 					"id": 228,
 					"item_name": "Cupcake",
 					"price": 120,
-					"rating": 4.5,
 					"isAvailable": true,
-					"image": "/static/media/2__Cupcake.f059dbf6da4c5698fd82.webp",
-					"description": ""
+					"imagePath": "Desserts/4__Cakes/2__Cupcake.webp",
+					"category": "desserts"
 				},
 				{
 					"id": 229,
 					"item_name": "Banana Cake",
 					"price": 120,
-					"rating": 4.5,
 					"isAvailable": true,
-					"image": "/static/media/3__Banana_Cake.68d6c1060e27128d1111.webp",
-					"description": ""
+					"imagePath": "Desserts/4__Cakes/3__Banana_Cake.webp",
+					"category": "desserts"
 				},
 				{
 					"id": 230,
 					"item_name": "Banana Muffins",
 					"price": 120,
-					"rating": 4.5,
 					"isAvailable": true,
-					"image": "/static/media/4__Banana_Muffins.3b0b55d586234d2bcfe8.webp",
-					"description": ""
+					"imagePath": "Desserts/4__Cakes/3__Banana_Cake.webp",
+					"category": "desserts"
 				}
 			]
 		}

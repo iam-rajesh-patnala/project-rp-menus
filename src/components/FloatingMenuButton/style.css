@@ -1,0 +1,28 @@
+.floating-menu-button {
+    /* position: fixed; */
+    bottom: 20px;
+    /* Adjust as per your requirement */
+    right: 20px;
+    /* Adjust as per your requirement */
+    width: 60px;
+    height: 60px;
+    background-color: #ff4d4d;
+    /* Customize color */
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.floating-menu-button:hover {
+    background-color: #ff1a1a;
+    /* Hover effect color */
+}
+
+.floating-menu-button:focus {
+    outline: none;
+}

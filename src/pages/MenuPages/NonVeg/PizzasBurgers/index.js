@@ -4,8 +4,9 @@ import DisplayData from "../../../../components/DisplayData";
 const PizzasBurgers = () => {
 	return (
 		<DisplayData
-			dbCategory={"non-veg"}
+			dbCategory={"nonVeg"}
 			itemCategory={"Pizzas & Burgers & Wraps"}
+			placeholder={"Ex: Chicken Pizza"}
 		/>
 	);
 };

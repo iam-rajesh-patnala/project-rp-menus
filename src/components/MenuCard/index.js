@@ -1,38 +1,61 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import PropTypes from "prop-types"; // Import PropTypes
 import "./style.css";
+import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
+
+import PropTypes from "prop-types"; // Import PropTypes
 
 import defaultImage from "../../assets/default.webp";
 
-// Importing Images
-require.context("../../assets/photos/MenuPage/Veg", true);
-require.context("../../assets/photos/MenuPage/NonVeg", true);
-require.context("../../assets/photos/MenuPage/Desserts", true);
-require.context("../../assets/photos/MenuPage/Beverages", true);
 
+import SvgImgPlaceholder from "../../utils/MenuImgPlaceholder";
+
+// Function to get image from path
+const getImage = (imagePath) => {
+	try {
+		return require(`../../assets/photos/${imagePath}`);
+	} catch (error) {
+		console.error("Image not found:", imagePath);
+		return defaultImage; // Fallback to a default image
+	}
+};
 
 // ----------------------------------------------------------------
 
 // Menu Card Component
 const MenuCard = ({ item }) => {
 	// Javascript code Goes here
+	const { link, imagePath, name } = item;
 
-	const { link, image, name } = item;
+	// const [imgSrc, setImgSrc] = useState(placeholderImage);
+	const [imgSrc, setImgSrc] = useState(
+		`data:image/svg+xml;base64,${btoa(SvgImgPlaceholder)}`
+	);
+	const img = getImage(imagePath);
+
+	useEffect(() => {
+		const imgElement = new Image();
+		imgElement.src = img;
+		imgElement.onload = () => {
+			setImgSrc(img);
+		};
+		imgElement.onerror = (e) => {
+			setImgSrc(defaultImage);
+			e.target.onerror = null; // Prevent infinite loop in case the image fails to load properly.
+		};
+	}, [img]);
 
 	return (
 		<div className="menu-card">
 			<Link to={link} className="card-item">
-				<img
-					className="card-img"
-					loading="lazy"
-					src={image || defaultImage} // Ensure you have a valid path for the default image
-					alt={name || "Veg Menu Item"}
-					onError={(e) => {
-						e.target.src = defaultImage; // Set the fallback image
-						e.target.onerror = null; // Prevent infinite loop in case the fallback image fails
-					}}
-				/>
+				<div className="image-container">
+					<img
+						className="card-img"
+						// loading="lazy"
+						src={imgSrc} // Ensure you have a valid path for the default image
+						alt={name || "Item Image"}
+					/>
+				</div>
+
 				<span className="card-text">{name || "Unnamed Item"}</span>
 			</Link>
 		</div>
@@ -42,7 +65,7 @@ const MenuCard = ({ item }) => {
 MenuCard.propTypes = {
 	item: PropTypes.shape({
 		link: PropTypes.string,
-		image: PropTypes.string,
+		imagePath: PropTypes.string,
 		name: PropTypes.string,
 	}).isRequired,
 };

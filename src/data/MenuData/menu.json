@@ -4,233 +4,243 @@
 			{
 				"id": 1,
 				"name": "Soups",
-				"image": "/static/media/Tomato_Basil_Soup.61bb3ec1ad8e0fa683d2.webp",
+				"imagePath": "MenuPage/Veg/Tomato_Basil_Soup.webp",
 				"link": "/categories/veg/soups",
-				"category": "Veg"
+				"category": "veg"
 			},
 			{
 				"id": 2,
 				"name": "Starters",
-				"image": "/static/media/Vegetable_Spring_Rolls.5654bf6ed6b33a397768.webp",
+				"imagePath": "MenuPage/Veg/Vegetable_Spring_Rolls.webp",
 				"link": "/categories/veg/starters",
-				"category": "Veg"
+				"category": "veg"
 			},
 			{
 				"id": 3,
 				"name": "Salads",
-				"image": "/static/media/Garden_Salad.41b1e643381b534770a1.webp",
+				"imagePath": "MenuPage/Veg/Garden_Salad.webp",
 				"link": "/categories/veg/salads",
-				"category": "Veg"
+				"category": "veg"
 			},
 			{
 				"id": 4,
 				"name": "Naans & Breads",
-				"image": "/static/media/Plain_Naan.43c7bb5ad72e283978ff.webp",
+				"imagePath": "MenuPage/Veg/Plain_Naan.webp",
 				"link": "/categories/veg/naans-breads",
-				"category": "Veg"
+				"category": "veg"
 			},
 			{
 				"id": 5,
 				"name": "Curries",
-				"image": "/static/media/Mutter_Panner.8d4f3af9705a448ed599.webp",
+				"imagePath": "MenuPage/Veg/Mutter_Panner.webp",
 				"link": "/categories/veg/curries",
-				"category": "Veg"
+				"category": "veg"
 			},
 			{
 				"id": 6,
 				"name": "Rice",
-				"image": "/static/media/Lemon_Rice.6bb71649cc302b107093.webp",
+				"imagePath": "MenuPage/Veg/Lemon_Rice.webp",
 				"link": "/categories/veg/rice",
-				"category": "Veg"
+				"category": "veg"
 			},
 			{
 				"id": 7,
 				"name": "Fired Rice",
-				"image": "/static/media/Veg_Fried_Rice.30bad074e552afe72ff3.webp",
+				"imagePath": "MenuPage/Veg/Veg_Fried_Rice.webp",
 				"link": "/categories/veg/fried-rice",
-				"category": "Veg"
+				"category": "veg"
 			},
 			{
 				"id": 8,
 				"name": "Biryani",
-				"image": "/static/media/Vegetable_Biryani.72336f79be5e6ad71015.webp",
+				"imagePath": "MenuPage/Veg/Vegetable_Biryani.webp",
 				"link": "/categories/veg/biryani",
-				"category": "Veg"
+				"category": "veg"
 			},
 			{
 				"id": 9,
 				"name": "Noodles",
-				"image": "/static/media/Egg_Noodles.72b8cd64b4ba7d6cb247.webp",
+				"imagePath": "MenuPage/Veg/Egg_Noodles.webp",
 				"link": "/categories/veg/noodles",
-				"category": "Veg"
+				"category": "veg"
 			},
 			{
 				"id": 10,
 				"name": "Pizzas & Burgers",
-				"image": "/static/media/Pepperoni_Pizza.8f5d944776d34594456b.webp",
+				"imagePath": "MenuPage/Veg/Pepperoni_Pizza.webp",
 				"link": "/categories/veg/pizzas-burgers",
-				"category": "Veg"
+				"category": "veg"
 			}
 		],
 		"nonVeg": [
 			{
 				"id": 11,
 				"name": "Soups",
-				"image": "/static/media/Chicken_Manchow_Soup.0ebde043dd18ec12f6fe.webp",
-				"link": "/categories/non-veg/soups",
-				"category": "Non-Veg"
+				"imagePath": "MenuPage/NonVeg/Chicken_Manchow_Soup.webp",
+				"link": "/categories/nonVeg/soups",
+				"category": "nonVeg"
 			},
 			{
 				"id": 12,
 				"name": "Starters",
-				"image": "/static/media/Chilli_Chicken.72b6a1fef6dada422cad.webp",
-				"link": "/categories/non-veg/starters",
-				"category": "Non-Veg"
+				"imagePath": "MenuPage/NonVeg/Chilli_Chicken.webp",
+				"link": "/categories/nonVeg/starters",
+				"category": "nonVeg"
 			},
 			{
 				"id": 13,
 				"name": "Curries",
-				"image": "/static/media/Kadai_Chicken.a6c44344b6592095eb88.webp",
-				"link": "/categories/non-veg/curries",
-				"category": "Non-Veg"
+				"imagePath": "MenuPage/NonVeg/Kadai_Chicken.webp",
+				"link": "/categories/nonVeg/curries",
+				"category": "nonVeg"
 			},
 			{
 				"id": 14,
 				"name": "Fired Rice",
-				"image": "/static/media/Prawns_Fired_Rice.f37638eec618a22bdf1e.webp",
-				"link": "/categories/non-veg/fired-rice",
-				"category": "Non-Veg"
+				"imagePath": "MenuPage/NonVeg/Prawns_Fired_Rice.webp",
+				"link": "/categories/nonVeg/fired-rice",
+				"category": "nonVeg"
 			},
 			{
 				"id": 15,
 				"name": "Biryani",
-				"image": "/static/media/Hyderabadi_Dum_Biryani.5cc2439288e5398bdca2.webp",
-				"link": "/categories/non-veg/biryani",
-				"category": "Non-Veg"
+				"imagePath": "MenuPage/NonVeg/Hyderabadi_Dum_Biryani.webp",
+				"link": "/categories/nonVeg/biryani",
+				"category": "nonVeg"
 			},
 			{
 				"id": 16,
 				"name": "Noodles",
-				"image": "/static/media/Chicken_Soft_Noodles.d51d98bdac55852e8033.webp",
-				"link": "/categories/non-veg/noodles",
-				"category": "Non-Veg"
+				"imagePath": "MenuPage/NonVeg/Chicken_Soft_Noodles.webp",
+				"link": "/categories/nonVeg/noodles",
+				"category": "nonVeg"
 			},
 			{
 				"id": 17,
 				"name": "Pizzas & Burgers",
-				"image": "/static/media/Chicken_Tikka_Pizza.34e1ca7a89b31ff3b6ed.webp",
-				"link": "/categories/non-veg/pizzas-burgers",
-				"category": "Non-Veg"
+				"imagePath": "MenuPage/NonVeg/Chicken_Tikka_Pizza.webp",
+				"link": "/categories/nonVeg/pizzas-burgers",
+				"category": "nonVeg"
 			}
 		],
 		"desserts": [
 			{
 				"id": 18,
 				"name": "Sweets",
-				"image": "/static/media/Gulab_Jamun.297c3d7cb00eac2dc8f4.webp",
+				"imagePath": "MenuPage/Desserts/Gulab_Jamun.webp",
 				"link": "/categories/desserts/sweets",
-				"category": "Desserts"
+				"category": "desserts"
 			},
 			{
 				"id": 19,
 				"name": "Pastries",
-				"image": "/static/media/Chocolate_Pastry.5a03c7beba7c8e43284d.webp",
+				"imagePath": "MenuPage/Desserts/Chocolate_Pastry.webp",
 				"link": "/categories/desserts/pastries",
-				"category": "Desserts"
+				"category": "desserts"
 			},
 			{
 				"id": 20,
 				"name": "Cakes",
-				"image": "/static/media/Tutti_Frutti_Cake.8dbeb16c48a820820acc.webp",
+				"imagePath": "MenuPage/Desserts/Tutti_Frutti_Cake.webp",
 				"link": "/categories/desserts/cakes",
-				"category": "Desserts"
+				"category": "desserts"
 			},
 			{
 				"id": 21,
 				"name": "Ice Creams",
-				"image": "/static/media/Ice_Cream_Sundae.8acd11e0113f6711ba64.webp",
+				"imagePath": "MenuPage/Desserts/Ice_Cream_Sundae.webp",
 				"link": "/categories/desserts/ice-creams",
-				"category": "Desserts"
+				"category": "desserts"
 			}
-			
 		],
 		"beverages": [
 			{
 				"id": 22,
 				"name": "Juices",
-				"image": "/static/media/Orange_Juice.653884709c480b7ffda5.webp",
+				"imagePath": "MenuPage/Beverages/Cold/Orange_Juice.webp",
 				"link": "/categories/beverages/juices",
-				"category": "cold"
+				"category": "beverages",
+				"subCategory": "cold"
 			},
 			{
 				"id": 23,
 				"name": "Soft Drinks",
-				"image": "/static/media/Coca-Cola.9b110d72f41693145598.webp",
+				"imagePath": "MenuPage/Beverages/Cold/Coca-Cola.webp",
 				"link": "/categories/beverages/soft-drinks",
-				"category": "cold"
+				"category": "beverages",
+				"subCategory": "cold"
 			},
 			{
 				"id": 24,
 				"name": "Mocktails",
-				"image": "/static/media/Blue_Lagoon.1fa1b5fd7cc2219bc0c2.webp",
+				"imagePath": "MenuPage/Beverages/Cold/Blue_Lagoon.webp",
 				"link": "/categories/beverages/mocktails",
-				"category": "cold"
+				"category": "beverages",
+				"subCategory": "cold"
 			},
 			{
 				"id": 25,
 				"name": "Smoothies",
-				"image": "/static/media/Mixed_Berry_Smoothie.6066be2967e9984c4756.webp",
+				"imagePath": "MenuPage/Beverages/Cold/Mixed_Berry_Smoothie.webp",
 				"link": "/categories/beverages/smoothies",
-				"category": "cold"
+				"category": "beverages",
+				"subCategory": "cold"
 			},
 			{
 				"id": 26,
 				"name": "Milkshakes",
-				"image": "/static/media/Banana_Milkshake.6b1f53d8f6a99a05f85f.webp",
+				"imagePath": "MenuPage/Beverages/Cold/Banana_Milkshake.webp",
 				"link": "/categories/beverages/milkshakes",
-				"category": "cold"
+				"category": "beverages",
+				"subCategory": "cold"
 			},
 			{
 				"id": 27,
 				"name": "Iced Tea",
-				"image": "/static/media/Lemon_Iced_Tea.239cef45d8abac5f1965.webp",
+				"imagePath": "MenuPage/Beverages/Cold/Lemon_Iced_Tea.webp",
 				"link": "/categories/beverages/iced-tea",
-				"category": "cold"
+				"category": "beverages",
+				"subCategory": "cold"
 			},
 			{
 				"id": 28,
 				"name": "Iced Coffee",
-				"image": "/static/media/Cold_Brew.9c54b3013facbc8a37b5.webp",
+				"imagePath": "MenuPage/Beverages/Cold/Cold_Brew.webp",
 				"link": "/categories/beverages/iced-coffee",
-				"category": "cold"
+				"category": "beverages",
+				"subCategory": "cold"
 			},
 			{
 				"id": 29,
 				"name": "Cold Extras",
-				"image": "/static/media/Lemonade.6518a1a37db4465d9a55.webp",
+				"imagePath": "MenuPage/Beverages/Cold/Lemonade.webp",
 				"link": "/categories/beverages/cold-extras",
-				"category": "cold"
+				"category": "beverages",
+				"subCategory": "cold"
 			},
 			{
 				"id": 30,
 				"name": "Tea",
-				"image": "/static/media/Chai.164c577e010daff3d3fd.webp",
+				"imagePath": "MenuPage/Beverages/Hot/Chai.webp",
 				"link": "/categories/beverages/tea",
-				"category": "hot"
+				"category": "beverages",
+				"subCategory": "hot"
 			},
 			{
 				"id": 31,
 				"name": "Coffee",
-				"image": "/static/media/Cappuccino.f68457999cf7d14bf2cc.webp",
+				"imagePath": "MenuPage/Beverages/Hot/Cappuccino.webp",
 				"link": "/categories/beverages/coffee",
-				"category": "hot"
+				"category": "beverages",
+				"subCategory": "hot"
 			},
 			{
 				"id": 32,
 				"name": "Hot Extras",
-				"image": "/static/media/Warm_Milk.f29fe8630ef1efda7c06.webp",
+				"imagePath": "MenuPage/Beverages/Hot/Warm_Milk.webp",
 				"link": "/categories/beverages/hot-extras",
-				"category": "hot"
+				"category": "beverages",
+				"subCategory": "hot"
 			}
 		]
 	}

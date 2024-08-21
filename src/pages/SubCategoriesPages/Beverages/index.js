@@ -58,15 +58,17 @@ const Beverages = () => {
 		setTimeout(() => {
 			let newData = [];
 			if (event.target.value === "cold") {
-				newData = data.filter((item) => item.category === "cold");
+				newData = data.filter((item) => item.subCategory === "cold");
 			} else if (event.target.value === "hot") {
-				newData = data.filter((item) => item.category === "hot");
+				newData = data.filter((item) => item.subCategory === "hot");
 			} else {
 				newData = data;
 			}
 			setRadioFilteredData(newData);
 			setTransitioning(false);
 		}, 200); // Delay for transition effect
+
+		console.log(data)
 	};
 
 	// Filtering the data using Search Handler
@@ -85,7 +87,7 @@ const Beverages = () => {
 
 	return (
 		<section className="veg-menu-page">
-			<Header data={true} searchHandler={searchHandler} />
+			<Header data={true} searchHandler={searchHandler} placeholder={"Ex: Chai, Mojito"}/>
 
 			{searchQuery.length > 0 ? (
 				<>
@@ -100,7 +102,7 @@ const Beverages = () => {
 									viewButtonClick={() =>
 										console.log(item.item_name)
 									}
-									image={item.image}
+									imagePath={item.imagePath}
 								/>
 							))}
 						</div>
@@ -112,8 +114,8 @@ const Beverages = () => {
 				<>
 					{/* Radio Buttons Container */}
 
-					<div class="radio-inputs">
-						<label htmlFor="all" class="radio">
+					<div className="radio-inputs">
+						<label htmlFor="all" className="radio">
 							<input
 								type="radio"
 								id="all"
@@ -122,10 +124,10 @@ const Beverages = () => {
 								defaultChecked
 								onChange={radioButtonOnChange}
 							/>
-							<span class="name all">All</span>
+							<span className="name all">All</span>
 						</label>
 
-						<label htmlFor="cold" class="radio">
+						<label htmlFor="cold" className="radio">
 							<input
 								type="radio"
 								id="cold"
@@ -133,10 +135,10 @@ const Beverages = () => {
 								value="cold"
 								onChange={radioButtonOnChange}
 							/>
-							<span class="name cold">Cold</span>
+							<span className="name cold">Cold</span>
 						</label>
 
-						<label htmlFor="hot" class="radio">
+						<label htmlFor="hot" className="radio">
 							<input
 								type="radio"
 								id="hot"
@@ -144,7 +146,7 @@ const Beverages = () => {
 								value="hot"
 								onChange={radioButtonOnChange}
 							/>
-							<span class="name hot">Hot</span>
+							<span className="name hot">Hot</span>
 						</label>
 					</div>
 					{radioFilteredData.length > 0 ? (

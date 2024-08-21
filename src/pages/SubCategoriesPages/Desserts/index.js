@@ -65,7 +65,11 @@ const Desserts = () => {
 
 	return (
 		<section className="veg-menu-page">
-			<Header data={true} searchHandler={searchHandler} />
+			<Header
+				data={true}
+				searchHandler={searchHandler}
+				placeholder={"Ex: Brownie, Kulfi"}
+			/>
 
 			{/* Checking if data is available else displaying no data message */}
 			{searchQuery.length > 0 ? (
@@ -82,7 +86,7 @@ const Desserts = () => {
 										console.log(item.item_name)
 									}
 									category={"desserts"}
-									image={item.image}
+									imagePath={item.imagePath}
 								/>
 							))}
 						</div>

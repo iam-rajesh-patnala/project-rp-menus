@@ -28,7 +28,7 @@ import VegBiryani from "../pages/MenuPages/Veg/Biryani";
 import VegNoodles from "../pages/MenuPages/Veg/Noodles";
 import VegPizzasBurgers from "../pages/MenuPages/Veg/PizzasBurgers";
 
-// Non-Veg Menu Pages
+// NonVeg Menu Pages
 import NonVegSoups from "../pages/MenuPages/NonVeg/Soups";
 import NonVegStarters from "../pages/MenuPages/NonVeg/Starters";
 import NonVegCurries from "../pages/MenuPages/NonVeg/Curries";
@@ -59,6 +59,9 @@ import HotExtras from "../pages/MenuPages/Beverages/HotExtras";
 
 // Page Transition Component
 import PageTransition from "../components/PageTransition";
+
+// Data Loader
+import VegDataLoader from "../pages/SubCategoriesPages/Veg/VegDataLoader";
 
 // Router
 const router = createBrowserRouter([
@@ -93,11 +96,12 @@ const router = createBrowserRouter([
 				<Veg />
 			</PageTransition>
 		),
+		loader: VegDataLoader,
 		errorElement: <ErrorPage />,
 	},
 
 	{
-		path: "/categories/non-veg",
+		path: "/categories/nonVeg",
 		element: (
 			<PageTransition>
 				<NonVeg />
@@ -219,7 +223,7 @@ const router = createBrowserRouter([
 	},
 	// NonVeg Menu Pages ---------------------------------
 	{
-		path: "/categories/non-veg/soups",
+		path: "/categories/nonVeg/soups",
 		element: (
 			<PageTransition>
 				<NonVegSoups />
@@ -228,7 +232,7 @@ const router = createBrowserRouter([
 		errorElement: <ErrorPage />,
 	},
 	{
-		path: "/categories/non-veg/starters",
+		path: "/categories/nonVeg/starters",
 		element: (
 			<PageTransition>
 				<NonVegStarters />
@@ -237,7 +241,7 @@ const router = createBrowserRouter([
 		errorElement: <ErrorPage />,
 	},
 	{
-		path: "/categories/non-veg/curries",
+		path: "/categories/nonVeg/curries",
 		element: (
 			<PageTransition>
 				<NonVegCurries />
@@ -246,7 +250,7 @@ const router = createBrowserRouter([
 		errorElement: <ErrorPage />,
 	},
 	{
-		path: "/categories/non-veg/fired-rice",
+		path: "/categories/nonVeg/fired-rice",
 		element: (
 			<PageTransition>
 				<NonVegFriedRice />
@@ -255,7 +259,7 @@ const router = createBrowserRouter([
 		errorElement: <ErrorPage />,
 	},
 	{
-		path: "/categories/non-veg/biryani",
+		path: "/categories/nonVeg/biryani",
 		element: (
 			<PageTransition>
 				<NonVegBiryani />
@@ -264,7 +268,7 @@ const router = createBrowserRouter([
 		errorElement: <ErrorPage />,
 	},
 	{
-		path: "/categories/non-veg/noodles",
+		path: "/categories/nonVeg/noodles",
 		element: (
 			<PageTransition>
 				<NonVegNoodles />
@@ -273,7 +277,7 @@ const router = createBrowserRouter([
 		errorElement: <ErrorPage />,
 	},
 	{
-		path: "/categories/non-veg/pizzas-burgers",
+		path: "/categories/nonVeg/pizzas-burgers",
 		element: (
 			<PageTransition>
 				<NonVegPizzasBurgers />

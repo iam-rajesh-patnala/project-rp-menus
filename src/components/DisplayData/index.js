@@ -1,55 +1,45 @@
-import React, { useState, useEffect } from "react";
 import "./style.css";
-
-// React Router Dom for Routing
+import React, { useState, useEffect } from "react";
 import { ScrollRestoration } from "react-router-dom";
-
-// Generates Unique ID
 import { v4 as uuid } from "uuid";
-
-// Back Button Component
-import BackToMenu from "../../utils/BackToMenu";
-
-// Header Component
+// Components
 import Header from "../../components/Header";
-
-// Component for Displaying No Data Message
-import NoDataMessage from "../../components/NoDataMessage";
-
-// Component to display list of Items
+import BackToMenu from "../../utils/BackToMenu";
 import ItemCard from "../../components/ItemCard";
-
-// No Search Results
+import FloatingMenuButton from "../../components/FloatingMenuButton";
+import ItemListModel from "../../components/ItemListModel";
+import NoDataMessage from "../../components/NoDataMessage";
 import NoSearchResults from "../../components/NoSearchResults";
-
 // Data Base
 import vegDB from "../../data/ItemData/veg.json";
-import nonVegDB from "../../data/ItemData/non-veg.json";
+import nonVegDB from "../../data/ItemData/nonVeg.json";
 import dessertsDB from "../../data/ItemData/desserts.json";
 import beveragesDB from "../../data/ItemData/beverages.json";
 
-const DisplayData = ({ dbCategory, itemCategory, placeholder }) => {
-	// Javascript code Goes here
 
+const dbMap = {
+	veg: vegDB,
+	nonVeg: nonVegDB,
+	desserts: dessertsDB,
+	beverages: beveragesDB,
+};
+
+
+const DisplayData = ({ dbCategory, itemCategory, placeholder }) => {
 	const [data, setData] = useState([]);
 	const [searchQuery, setSearchQuery] = useState("");
-	const [searchFilteredData, setSearchFilteredData] = useState([]);
-
+	const [isLoading, setIsLoading] = useState(true);
+	
+	const [isModalOpen, setModalOpen] = useState(false);
+	
 	useEffect(() => {
-		const db = {
-			veg: vegDB,
-			"non-veg": nonVegDB,
-			desserts: dessertsDB,
-			beverages: beveragesDB,
-		};
-
 		// Fetching The data
-		const fetchedData = db[dbCategory];
+		const fetchedData = dbMap[dbCategory];
 
 		// Filtering the data
-		const filterData = fetchedData[dbCategory].reduce(
+		const filteredData = fetchedData[dbCategory].reduce(
 			(accumulator, currentItem) => {
-				// Check if the current item has a "db.category" property
+				// Check if the current item has a "itemCategory" property
 				if (currentItem[itemCategory]) {
 					let data = currentItem[itemCategory].map((item) => ({
 						...item,
@@ -62,32 +52,25 @@ const DisplayData = ({ dbCategory, itemCategory, placeholder }) => {
 			},
 			[]
 		);
-		setData(filterData);
+		setData(filteredData);
+		setIsLoading(false);
 	}, [dbCategory, itemCategory]);
 
-	// View Button Click
-	const viewButtonClick = ({ item_name }) => {
-		console.log(`View button clicked for ${item_name}`);
-	};
 
 	// Filtering the data using Search Handler
 	const searchHandler = (event) => {
 		const query = event.target.value.toLowerCase().trim();
 		setSearchQuery(query);
-
-		const newData = query
-			? data.filter((item) =>
-					item.item_name.toLowerCase().includes(query)
-			  )
-			: [];
-		setSearchFilteredData(newData);
 	};
 
-	// Search Bar Clear Handler
-	const clearSearch = () => {
-		setSearchQuery("");
-        setSearchFilteredData([]);
-	};
+	// Floating Menu Button Click handler
+	const handleMenuClick = () => setModalOpen(true);
+	const closeModal = () => setModalOpen(false);
+
+	// Filtering the data using Search Handler
+	const filteredData = searchQuery ? data.filter((item) =>
+		item.item_name.toLowerCase().includes(searchQuery)
+	) : data;
 
 	return (
 		<section className="page-background-container">
@@ -97,58 +80,71 @@ const DisplayData = ({ dbCategory, itemCategory, placeholder }) => {
 				data={true}
 				searchHandler={searchHandler}
 				placeholder={placeholder || "Search for food items..."}
-				clearSearch={clearSearch}
 			/>
 			{/* Checking if data is available else displaying no data message */}
 
-			{searchQuery.length > 0 ? (
+			{isLoading ? (
+				<h1>Loading...</h1>
+			) : filteredData.length > 0 ? (
 				<>
-					{searchFilteredData.length > 0 ? (
-						<div className="items-container">
-							{searchFilteredData.map((item) => (
-								<ItemCard
-									key={item.id}
-									item_name={item.item_name}
-									price={item.price}
-									isAvailable={item.isAvailable}
-									image={item.image}
-									viewButtonClick={viewButtonClick}
+					{!searchQuery && (
+						<div className="title-container">
+							<h1 className="title">{`Choose Your ${itemCategory}`}</h1>
+							<div className="back-btn-container">
+								<BackToMenu
+									viewUrl={`/categories/${dbCategory}`}
 								/>
-							))}
+							</div>
 						</div>
-					) : (
-						<NoSearchResults message={"No Search Results Found"} />
 					)}
-				</>
-			) : data.length > 0 ? (
-				<>
-					<div className="title-container">
-						<h1 className="title">{`Choose Your ${itemCategory}`}</h1>
-						<div className="back-btn-container">
-							<BackToMenu viewUrl={`/categories/${dbCategory}`} />
-						</div>
-					</div>
 
 					<div className="items-container">
-						{data.map((item) => (
+						{filteredData.map((item) => (
 							<ItemCard
 								key={item.id}
 								item_name={item.item_name}
 								price={item.price}
 								isAvailable={item.isAvailable}
-								image={item.image}
-								category={dbCategory}
-								viewButtonClick={viewButtonClick}
+								imagePath={item.imagePath}
+								viewButtonClick={() =>
+									console.log(
+										`View button clicked for ${item.item_name}`
+									)
+								}
 							/>
 						))}
 					</div>
 				</>
+			) : searchQuery ? (
+				<NoSearchResults message="No Search Results Found" />
 			) : (
+				// Ensure that this only appears when there is truly no data available
 				<NoDataMessage
 					message={`No ${itemCategory} Found`}
-					backTo={"Menu"}
+					backTo="Menu"
 					backUrlPath={`/categories/${dbCategory}`}
 				/>
+			)}
+
+
+
+
+
+
+
+
+
+			{/* Floating Menu Button */}
+			{data.length > 0 && searchQuery.length === 0 && (
+				<div className="floating-menu-container">
+					<FloatingMenuButton onClick={handleMenuClick} />
+					{isModalOpen && (
+						<ItemListModel
+							onClose={closeModal}
+							dataCategory={dbCategory}
+						/>
+					)}
+				</div>
 			)}
 		</section>
 	);
