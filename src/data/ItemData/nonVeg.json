@@ -85,7 +85,7 @@
 			]
 		},
 		{
-			"Staters": [
+			"Starters": [
 				{
 					"id": 113,
 					"item_name": "Chilli Chicken",
@@ -260,66 +260,66 @@
 				},
 				{
 					"id": 134,
-					"item_name": "Mixed Fired Rice",
+					"item_name": "Mixed Fried Rice",
 					"price": 120,
 					"isAvailable": true,
-					"imagePath": "Non-Veg/3__Fried_Rice/3__Mixed_Fired_Rice.webp",
+					"imagePath": "Non-Veg/3__Fried_Rice/3__Mixed_Fried_Rice.webp",
 					"category": "nonVeg"
 				},
 				{
 					"id": 135,
-					"item_name": "Classic nonVeg Fired Rice",
+					"item_name": "Classic NonVeg Fried Rice",
 					"price": 120,
 					"isAvailable": true,
-					"imagePath": "Non-Veg/3__Fried_Rice/4__Classic_Non_Veg_Fired_Rice.webp",
+					"imagePath": "Non-Veg/3__Fried_Rice/4__Classic_Non_Veg_Fried_Rice.webp",
 					"category": "nonVeg"
 				},
 				{
 					"id": 136,
-					"item_name": "Thai Chicken Fired Rice",
+					"item_name": "Thai Chicken Fried Rice",
 					"price": 120,
 					"isAvailable": true,
-					"imagePath": "Non-Veg/3__Fried_Rice/5__Thai_Chicken_Fired_Rice.webp",
+					"imagePath": "Non-Veg/3__Fried_Rice/5__Thai_Chicken_Fried_Rice.webp",
 					"category": "nonVeg"
 				},
 				{
 					"id": 137,
-					"item_name": "Shanghai Chicken Fired Rice",
+					"item_name": "Shanghai Chicken Fried Rice",
 					"price": 120,
 					"isAvailable": true,
-					"imagePath": "Non-Veg/3__Fried_Rice/6__Shanghai_Chicken_Fired_Rice.webp",
+					"imagePath": "Non-Veg/3__Fried_Rice/6__Shanghai_Chicken_Fried_Rice.webp",
 					"category": "nonVeg"
 				},
 				{
 					"id": 138,
-					"item_name": "Mutton Fired Rice",
+					"item_name": "Mutton Fried Rice",
 					"price": 120,
 					"isAvailable": true,
-					"imagePath": "Non-Veg/3__Fried_Rice/7__Mutton_Fired_Rice.webp",
+					"imagePath": "Non-Veg/3__Fried_Rice/7__Mutton_Fried_Rice.webp",
 					"category": "nonVeg"
 				},
 				{
 					"id": 139,
-					"item_name": "Prawns Fired Rice",
+					"item_name": "Prawns Fried Rice",
 					"price": 120,
 					"isAvailable": true,
-					"imagePath": "Non-Veg/3__Fried_Rice/8__Prawns_Fired_Rice.webp",
+					"imagePath": "Non-Veg/3__Fried_Rice/8__Prawns_Fried_Rice.webp",
 					"category": "nonVeg"
 				},
 				{
 					"id": 140,
-					"item_name": "Fish Fired Rice",
+					"item_name": "Fish Fried Rice",
 					"price": 120,
 					"isAvailable": true,
-					"imagePath": "Non-Veg/3__Fried_Rice/9__Fish_Fired_Rice.webp",
+					"imagePath": "Non-Veg/3__Fried_Rice/9__Fish_Fried_Rice.webp",
 					"category": "nonVeg"
 				},
 				{
 					"id": 141,
-					"item_name": "Schezwan Mixed Fired Rice",
+					"item_name": "Schezwan Mixed Fried Rice",
 					"price": 120,
 					"isAvailable": true,
-					"imagePath": "Non-Veg/3__Fried_Rice/10__Schezwan_Mixed_Fired_Rice.webp",
+					"imagePath": "Non-Veg/3__Fried_Rice/10__Schezwan_Mixed_Fried_Rice.webp",
 					"category": "nonVeg"
 				}
 			]
@@ -609,7 +609,7 @@
 			]
 		},
 		{
-			"Pizzas & Burgers & Wraps": [
+			"Pizzas & Burgers": [
 				{
 					"id": 176,
 					"item_name": "Chicken Tikka Pizza",

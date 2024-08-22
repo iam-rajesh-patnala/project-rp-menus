@@ -15,8 +15,8 @@ import nonVeg from "../../assets/photos/CategoryPage/nonVeg.webp";
 import desserts from "../../assets/photos/CategoryPage/desserts.webp";
 import beverages from "../../assets/photos/CategoryPage/beverages.webp";
 
-// Placeholder image
-import placeholder from "../../assets/photos/PlaceHolders/placeholder-1.webp";
+// Placeholder SVG
+import SvgImgPlaceholder from "../../utils/MenuImgPlaceholder"; // Ensure this path is correct
 
 const CategoriesPage = () => {
 	const [loading, setLoading] = useState(true);
@@ -26,7 +26,6 @@ const CategoriesPage = () => {
 		desserts: false,
 		beverages: false,
 	});
-
 	const [fadeIn, setFadeIn] = useState(false);
 
 	const handleImageLoad = (name) => {
@@ -37,7 +36,7 @@ const CategoriesPage = () => {
 		const imageSources = [veg, nonVeg, desserts, beverages];
 
 		const imageLoadPromises = imageSources.map((src) => {
-			return new Promise((resolve, reject) => {
+			return new Promise((resolve) => {
 				const img = new Image();
 				img.src = src;
 				img.onload = resolve;
@@ -56,14 +55,16 @@ const CategoriesPage = () => {
 		});
 	}, []);
 
+
+	const placeholderImg = `data:image/svg+xml;base64,${btoa(SvgImgPlaceholder)}`;
+
 	return (
 		<>
 			{loading && <Loading />}
 			{!loading && (
 				<section
-					className={`categories-page fade-in-transition ${
-						fadeIn ? "active" : ""
-					}`}
+					className={`categories-page fade-in-transition ${fadeIn ? "active" : ""
+						}`}
 				>
 					<Header />
 					<div className="categories-page-background-container">
@@ -78,11 +79,17 @@ const CategoriesPage = () => {
 								<button className="category-btn">
 									<img
 										src={
-											imagesLoaded.veg ? veg : placeholder
+											imagesLoaded.veg
+												? veg
+												: placeholderImg
 										}
 										alt="Veg"
-										className="bg-img"
+										className={`bg-img ${imagesLoaded.veg
+												? "loaded"
+												: "loading"
+											}`}
 										onLoad={() => handleImageLoad("veg")}
+										loading="lazy"
 									/>
 									<span className="category-text">Veg</span>
 								</button>
@@ -93,10 +100,13 @@ const CategoriesPage = () => {
 										src={
 											imagesLoaded.nonVeg
 												? nonVeg
-												: placeholder
+												: placeholderImg
 										}
 										alt="Non-Veg"
-										className="bg-img"
+										className={`bg-img ${imagesLoaded.nonVeg
+												? "loaded"
+												: "loading"
+											}`}
 										onLoad={() => handleImageLoad("nonVeg")}
 									/>
 									<span className="category-text">
@@ -110,10 +120,13 @@ const CategoriesPage = () => {
 										src={
 											imagesLoaded.desserts
 												? desserts
-												: placeholder
+												: placeholderImg
 										}
 										alt="Desserts"
-										className="bg-img"
+										className={`bg-img ${imagesLoaded.desserts
+												? "loaded"
+												: "loading"
+											}`}
 										onLoad={() =>
 											handleImageLoad("desserts")
 										}
@@ -129,10 +142,13 @@ const CategoriesPage = () => {
 										src={
 											imagesLoaded.beverages
 												? beverages
-												: placeholder
+												: placeholderImg
 										}
 										alt="Beverages"
-										className="bg-img"
+										className={`bg-img ${imagesLoaded.beverages
+												? "loaded"
+												: "loading"
+											}`}
 										onLoad={() =>
 											handleImageLoad("beverages")
 										}

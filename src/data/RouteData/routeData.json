@@ -43,14 +43,14 @@
 	},
 	{
 		"id": 7,
-		"name": "Fried Rice",
+		"name": "Veg Fried Rice",
 		"route": "/categories/veg/fried-rice",
 		"category": "veg",
 		"count" : 8
 	},
 	{
 		"id": 8,
-		"name": "Biryani",
+		"name": "Veg Biryani",
 		"route": "/categories/veg/biryani",
 		"category": "veg",
 		"count" : 6
@@ -64,7 +64,7 @@
 	},
 	{
 		"id": 10,
-		"name": "Pizza & Burgers",
+		"name": "Pizza & Burgers & Wraps",
 		"route": "/categories/veg/pizzas-burgers",
 		"category": "veg",
 		"count" : 16
@@ -92,8 +92,8 @@
 	},
 	{
 		"id": 14,
-		"name": "Fired Rice",
-		"route": "/categories/nonVeg/fired-rice",
+		"name": "Fried Rice",
+		"route": "/categories/nonVeg/fried-rice",
 		"category": "nonVeg",
 		"count" : 1
 	},
@@ -113,8 +113,8 @@
 	},
 	{
 		"id": 17,
-		"name": "Pizza & Burgers",
-		"route": "/categories/nonVeg/pizza-burgers",
+		"name": "Pizzas & Burgers",
+		"route": "/categories/nonVeg/pizzas-burgers",
 		"category": "nonVeg",
 		"count" : 1
 	},

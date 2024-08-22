@@ -62,6 +62,9 @@ import PageTransition from "../components/PageTransition";
 
 // Data Loader
 import VegDataLoader from "../pages/SubCategoriesPages/Veg/VegDataLoader";
+import NonVegDataLoader from "../pages/SubCategoriesPages/NonVeg/NonVegDataLoader";
+import DessertsDataLoader from "../pages/SubCategoriesPages/Desserts/DessertsDataLoader";
+import BeveragesDataLoader from "../pages/SubCategoriesPages/Beverages/BeveragesDataLoader";
 
 // Router
 const router = createBrowserRouter([
@@ -107,6 +110,7 @@ const router = createBrowserRouter([
 				<NonVeg />
 			</PageTransition>
 		),
+		loader: NonVegDataLoader,
 		errorElement: <ErrorPage />,
 	},
 
@@ -117,6 +121,7 @@ const router = createBrowserRouter([
 				<Desserts />
 			</PageTransition>
 		),
+		loader: DessertsDataLoader,
 		errorElement: <ErrorPage />,
 	},
 
@@ -127,6 +132,7 @@ const router = createBrowserRouter([
 				<Beverages />
 			</PageTransition>
 		),
+		loader: BeveragesDataLoader,
 		errorElement: <ErrorPage />,
 	},
 
@@ -250,7 +256,7 @@ const router = createBrowserRouter([
 		errorElement: <ErrorPage />,
 	},
 	{
-		path: "/categories/nonVeg/fired-rice",
+		path: "/categories/nonVeg/fried-rice",
 		element: (
 			<PageTransition>
 				<NonVegFriedRice />

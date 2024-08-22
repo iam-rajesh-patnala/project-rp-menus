@@ -9,6 +9,12 @@
     align-items: center;
     justify-content: flex-start;
     text-align: center;
+    transition: background-color 0.3s ease;
+        /* Smooth transition for dimming */
+}
+
+.dim-background {
+    background-color: #00000055;
 }
 
 /* Title Container */

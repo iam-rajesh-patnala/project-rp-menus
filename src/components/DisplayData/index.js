@@ -2,6 +2,7 @@ import "./style.css";
 import React, { useState, useEffect } from "react";
 import { ScrollRestoration } from "react-router-dom";
 import { v4 as uuid } from "uuid";
+
 // Components
 import Header from "../../components/Header";
 import BackToMenu from "../../utils/BackToMenu";
@@ -10,12 +11,12 @@ import FloatingMenuButton from "../../components/FloatingMenuButton";
 import ItemListModel from "../../components/ItemListModel";
 import NoDataMessage from "../../components/NoDataMessage";
 import NoSearchResults from "../../components/NoSearchResults";
+
 // Data Base
 import vegDB from "../../data/ItemData/veg.json";
 import nonVegDB from "../../data/ItemData/nonVeg.json";
 import dessertsDB from "../../data/ItemData/desserts.json";
 import beveragesDB from "../../data/ItemData/beverages.json";
-
 
 const dbMap = {
 	veg: vegDB,
@@ -24,18 +25,17 @@ const dbMap = {
 	beverages: beveragesDB,
 };
 
-
 const DisplayData = ({ dbCategory, itemCategory, placeholder }) => {
 	const [data, setData] = useState([]);
 	const [searchQuery, setSearchQuery] = useState("");
 	const [isLoading, setIsLoading] = useState(true);
-	
 	const [isModalOpen, setModalOpen] = useState(false);
-	
+
 	useEffect(() => {
 		// Fetching The data
 		const fetchedData = dbMap[dbCategory];
 
+		console.log(fetchedData);
 		// Filtering the data
 		const filteredData = fetchedData[dbCategory].reduce(
 			(accumulator, currentItem) => {
@@ -52,10 +52,10 @@ const DisplayData = ({ dbCategory, itemCategory, placeholder }) => {
 			},
 			[]
 		);
+
 		setData(filteredData);
 		setIsLoading(false);
 	}, [dbCategory, itemCategory]);
-
 
 	// Filtering the data using Search Handler
 	const searchHandler = (event) => {
@@ -67,13 +67,23 @@ const DisplayData = ({ dbCategory, itemCategory, placeholder }) => {
 	const handleMenuClick = () => setModalOpen(true);
 	const closeModal = () => setModalOpen(false);
 
+	// Close modal when clicking outside of it
+	const handleBlur = (event) => {
+	};
+
 	// Filtering the data using Search Handler
-	const filteredData = searchQuery ? data.filter((item) =>
-		item.item_name.toLowerCase().includes(searchQuery)
-	) : data;
+	const filteredData = searchQuery
+		? data.filter((item) =>
+				item.item_name.toLowerCase().includes(searchQuery)
+		  )
+		: data;
 
 	return (
-		<section className="page-background-container">
+		<section
+			className={`page-background-container ${
+				isModalOpen ? "dim-background" : ""
+			}`}
+		>
 			{/* Automatic Scroll Restoration. */}
 			<ScrollRestoration />
 			<Header
@@ -81,8 +91,8 @@ const DisplayData = ({ dbCategory, itemCategory, placeholder }) => {
 				searchHandler={searchHandler}
 				placeholder={placeholder || "Search for food items..."}
 			/>
-			{/* Checking if data is available else displaying no data message */}
 
+			{/* Checking if data is available else displaying no data message */}
 			{isLoading ? (
 				<h1>Loading...</h1>
 			) : filteredData.length > 0 ? (
@@ -106,6 +116,7 @@ const DisplayData = ({ dbCategory, itemCategory, placeholder }) => {
 								price={item.price}
 								isAvailable={item.isAvailable}
 								imagePath={item.imagePath}
+								category={item.category}
 								viewButtonClick={() =>
 									console.log(
 										`View button clicked for ${item.item_name}`
@@ -116,7 +127,10 @@ const DisplayData = ({ dbCategory, itemCategory, placeholder }) => {
 					</div>
 				</>
 			) : searchQuery ? (
-				<NoSearchResults message="No Search Results Found" />
+				<NoSearchResults
+					message="No Search Results Found"
+					searchHandler={searchHandler}
+				/>
 			) : (
 				// Ensure that this only appears when there is truly no data available
 				<NoDataMessage
@@ -126,22 +140,17 @@ const DisplayData = ({ dbCategory, itemCategory, placeholder }) => {
 				/>
 			)}
 
-
-
-
-
-
-
-
-
 			{/* Floating Menu Button */}
 			{data.length > 0 && searchQuery.length === 0 && (
 				<div className="floating-menu-container">
-					<FloatingMenuButton onClick={handleMenuClick} />
-					{isModalOpen && (
+					{!isModalOpen ? (
+						<FloatingMenuButton onClick={handleMenuClick} />
+					) : (
 						<ItemListModel
-							onClose={closeModal}
+							onBlur={handleBlur}
+							closeModal={closeModal}
 							dataCategory={dbCategory}
+							currentCategory={itemCategory}
 						/>
 					)}
 				</div>

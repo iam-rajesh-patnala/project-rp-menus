@@ -1,12 +1,11 @@
 import "./style.css";
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-
 import PropTypes from "prop-types"; // Import PropTypes
 
 import defaultImage from "../../assets/default.webp";
 
-
+//Placeholder image
 import SvgImgPlaceholder from "../../utils/MenuImgPlaceholder";
 
 // Function to get image from path

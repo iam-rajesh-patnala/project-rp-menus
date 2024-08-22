@@ -1,26 +1,32 @@
 .no-results-message-container {
-    height: 60vh;
+    height:  100vh;
+    width: 100%;
+    max-width: 1100px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     padding: 20px;
     user-select: none;
 }
 
-.image-container {
+.no-results-image-container {
     width: 100%;
+    height: auto;
     max-width: 200px;
+    margin-top: 100px;
 }
 
 .no-results-found-img {
     width: inherit;
-    height: auto;
+}
+
+.text-container{
+    margin-top: 20px;
 }
 
 .no-results-message {
     font-size: min(28px, 6vw);
-    margin-top: 5px;
     color: #555555;
     text-align: center;
     font-family: "Merriwather", serif;
@@ -39,14 +45,9 @@
 /* Buttons Container */
 .button-container {
     margin-top: 40px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    row-gap: 20px;
 }
 
-.refresh-button {
+.go-back-button {
     width: 200px;
     padding: 10px 20px;
     border: 1px solid #00000066;
@@ -62,6 +63,6 @@
     -webkit-tap-highlight-color: transparent;
 }
 
-.refresh-button:hover {
+.go-back-button:hover {
     background-color: #4dc9da;
 }

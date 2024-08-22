@@ -13,6 +13,8 @@ import NoDataMessage from "../../../components/NoDataMessage";
 import NoSearchResults from "../../../components/NoSearchResults";
 import ItemCard from "../../../components/ItemCard";
 
+// ----------------------------------------------------------------
+// Main NonVeg Component
 const Veg = () => {
 	const rawVegData = useLoaderData(); // Access the pre-fetched data using useLoaderData
 
@@ -25,22 +27,27 @@ const Veg = () => {
 		}
 	}, [rawVegData]);
 
+	// Filtering the data using Search Handler
 	const filteredData = useMemo(() => {
-		if (!searchQuery) return vegData;
-
-		return vegSearchData.filter((item) =>
-			item.item_name.toLowerCase().includes(searchQuery)
-		);
+		const data = searchQuery
+			? vegSearchData.filter((item) =>
+					item.item_name.toLowerCase().includes(searchQuery)
+			  )
+			: vegData;
+		return data;
 	}, [searchQuery, vegData]);
 
+	// Search Query Handler
 	const searchHandler = (event) => {
 		setSearchQuery(event.target.value.toLowerCase().trim());
 	};
 
+	// Clear Search
 	const clearSearch = () => {
 		setSearchQuery("");
 	};
 
+	// Rendering the Items
 	const renderItems = (items) =>
 		items.map((item) => (
 			<ItemCard
@@ -49,7 +56,7 @@ const Veg = () => {
 				price={item.price}
 				isAvailable={item.isAvailable}
 				viewButtonClick={() => console.log(item.item_name)}
-				category={"veg"}
+				category={item.category}
 				imagePath={item.imagePath}
 			/>
 		));
@@ -59,7 +66,7 @@ const Veg = () => {
 			<Header
 				data={true}
 				searchHandler={searchHandler}
-				placeholder="Ex: Biryani, Chapathi"
+				placeholder={"Ex: Biryani, Chapathi"}
 				clearSearch={clearSearch}
 			/>
 
@@ -69,7 +76,7 @@ const Veg = () => {
 						{renderItems(filteredData)}
 					</div>
 				) : (
-					<NoSearchResults message="No Search Results Found" />
+					<NoSearchResults message="No Search Results Found" searchHandler={searchHandler} />
 				)
 			) : vegData.length > 0 ? (
 				<>
@@ -86,7 +93,10 @@ const Veg = () => {
 					</div>
 				</>
 			) : (
-				<NoDataMessage backTo="Categories" backUrlPath="/categories" />
+				<NoDataMessage
+					backTo={"Categories"}
+					backUrlPath={"/categories"}
+				/>
 			)}
 		</section>
 	);

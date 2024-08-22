@@ -1,21 +1,29 @@
 .no-data-message-container {
-    height: 60vh;
+    height: 100vh;
+    width: 100%;
+    max-width: 1100px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     padding: 20px;
     user-select: none;
 }
 
-.image-container {
+.no-data-image-container {
     width: 100%;
+    height: auto;
     max-width: 200px;
+    margin-top: 100px;
 }
+
 
 .no-data-found-img {
     width: inherit;
-    height: auto;
+}
+
+.no-data-text-container {
+    margin-top: 20px;
 }
 
 .no-data-message {
@@ -39,14 +47,9 @@
 /* Buttons Container */
 .button-container {
     margin-top: 40px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    row-gap: 20px;
 }
 
-.back-button {
+.back-to-menu-button {
     width: 200px;
     padding: 10px 20px;
     border: 1px solid #00000066;
@@ -62,6 +65,6 @@
     -webkit-tap-highlight-color: transparent;
 }
 
-.back-button:hover {
+.back-to-menu-button:hover {
     background-color: #4dc9da;
 }

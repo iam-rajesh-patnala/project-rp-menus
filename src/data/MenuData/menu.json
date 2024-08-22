@@ -45,7 +45,7 @@
 			},
 			{
 				"id": 7,
-				"name": "Fired Rice",
+				"name": "Fried Rice",
 				"imagePath": "MenuPage/Veg/Veg_Fried_Rice.webp",
 				"link": "/categories/veg/fried-rice",
 				"category": "veg"
@@ -96,9 +96,9 @@
 			},
 			{
 				"id": 14,
-				"name": "Fired Rice",
-				"imagePath": "MenuPage/NonVeg/Prawns_Fired_Rice.webp",
-				"link": "/categories/nonVeg/fired-rice",
+				"name": "Fried Rice",
+				"imagePath": "MenuPage/NonVeg/Prawns_Fried_Rice.webp",
+				"link": "/categories/nonVeg/fried-rice",
 				"category": "nonVeg"
 			},
 			{

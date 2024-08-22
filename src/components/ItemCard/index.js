@@ -1,13 +1,15 @@
 import "./style.css";
+import { useState, useEffect } from "react";
 import defaultImage from "../../assets/default.webp";
-
 
 // Icons
 import vegIcon from "../../assets/svg/Veg/veg.svg";
 import nonVegIcon from "../../assets/svg/Non-Veg/nonVeg.svg";
 
-// Importing Images
+// Placeholder image
+import SvgImgPlaceholder from "../../utils/MenuImgPlaceholder";
 
+// Importing Images
 const getImage = (imagePath) => {
 	try {
 		return require(`../../assets/photos/${imagePath}`);
@@ -18,6 +20,7 @@ const getImage = (imagePath) => {
 };
 
 // ----------------------------------------------------------------
+// Main ItemCard 
 const ItemCard = ({
 	imagePath,
 	item_name,
@@ -27,16 +30,47 @@ const ItemCard = ({
 	category,
 }) => {
 	// Javascript code Goes here
-	
+
+	// const [imgSrc, setImgSrc] = useState(placeholderImage);
+	const [imgSrc, setImgSrc] = useState(
+		`data:image/svg+xml;base64,${btoa(SvgImgPlaceholder)}`
+	);
+
 	const img = getImage(imagePath);
+
+	useEffect(() => {
+		const imgElement = new Image();
+		imgElement.src = img;
+		imgElement.onload = () => {
+			setImgSrc(img);
+		};
+		imgElement.onerror = (e) => {
+			setImgSrc(defaultImage);
+			e.target.onerror = null; // Prevent infinite loop in case the image fails to load properly.
+		};
+	}, [img]);
+
+
+	let icon = "";
+	switch (category) {
+		case "veg":
+			icon = vegIcon;
+			break;
+		case "nonVeg":
+			icon = nonVegIcon;
+			break;
+		default:
+			icon = vegIcon;
+			break;
+	}
 
 	return (
 		<div className="card">
 			<img
-				src={img}
+				src={imgSrc}
 				alt={item_name || "Item Image"}
 				className="item-img"
-				loading="lazy"
+				// loading="lazy"
 				onError={(e) => {
 					e.target.src = defaultImage;
 					e.target.onerror = null;
@@ -48,23 +82,7 @@ const ItemCard = ({
 			{/* Item Info Container Starts*/}
 			<div className="item-info-container">
 				<div className="item-info">
-					{category === "veg" ? (
-						<img
-							src={vegIcon}
-							alt="icon"
-							className="category-icon"
-							loading="lazy"
-						/>
-					) : category === "nonVeg" ? (
-						<img
-							src={nonVegIcon}
-							alt="icon"
-							className="category-icon"
-							loading="lazy"
-						/>
-					) : (
-						""
-					)}
+					<img src={icon} alt="icon" className="category-icon" />
 					<h3 className="item-title">{item_name}</h3>
 				</div>
 

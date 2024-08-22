@@ -253,7 +253,7 @@
 			]
 		},
 		{
-			"Naan & Bread": [
+			"Naans & Breads": [
 				{
 					"id": 31,
 					"item_name": "Plain Naan",
@@ -521,13 +521,13 @@
 			]
 		},
 		{
-			"Veg Fired Rice": [
+			"Veg Fried Rice": [
 				{
 					"id": 63,
 					"item_name": "Veg Fried Rice",
 					"price": 120,
 					"isAvailable": true,
-					"imagePath": "Veg/7__Veg-Fired-Rice/1__Veg_Fried_Rice.webp",
+					"imagePath": "Veg/7__Veg-Fried-Rice/1__Veg_Fried_Rice.webp",
 					"category": "veg"
 				},
 				{
@@ -535,7 +535,7 @@
 					"item_name": "Veg Schezwan Fried Rice",
 					"price": 120,
 					"isAvailable": true,
-					"imagePath": "Veg/7__Veg-Fired-Rice/2__Veg_Schezwan_Fried_Rice.webp",
+					"imagePath": "Veg/7__Veg-Fried-Rice/2__Veg_Schezwan_Fried_Rice.webp",
 					"category": "veg"
 				},
 				{
@@ -543,7 +543,7 @@
 					"item_name": "Paneer Fried Rice",
 					"price": 120,
 					"isAvailable": true,
-					"imagePath": "Veg/7__Veg-Fired-Rice/3__Paneer_Fried_Rice.webp",
+					"imagePath": "Veg/7__Veg-Fried-Rice/3__Paneer_Fried_Rice.webp",
 					"category": "veg"
 				},
 				{
@@ -551,7 +551,7 @@
 					"item_name": "Mushroom Fried Rice",
 					"price": 120,
 					"isAvailable": true,
-					"imagePath": "Veg/7__Veg-Fired-Rice/4__Mushroom_Fried_Rice.webp",
+					"imagePath": "Veg/7__Veg-Fried-Rice/4__Mushroom_Fried_Rice.webp",
 					"category": "veg"
 				},
 				{
@@ -559,7 +559,7 @@
 					"item_name": "Gobbi Fried Rice",
 					"price": 120,
 					"isAvailable": true,
-					"imagePath": "Veg/7__Veg-Fired-Rice/5__Gobbi_Fried_Rice.webp",
+					"imagePath": "Veg/7__Veg-Fried-Rice/5__Gobbi_Fried_Rice.webp",
 					"category": "veg"
 				},
 				{
@@ -567,7 +567,7 @@
 					"item_name": "Dal Kihichdi",
 					"price": 120,
 					"isAvailable": true,
-					"imagePath": "Veg/7__Veg-Fired-Rice/6__Dal_Kihichdi.webp",
+					"imagePath": "Veg/7__Veg-Fried-Rice/6__Dal_Kihichdi.webp",
 					"category": "veg"
 				},
 				{
@@ -575,7 +575,7 @@
 					"item_name": "Egg Fried Rice",
 					"price": 120,
 					"isAvailable": true,
-					"imagePath": "Veg/7__Veg-Fired-Rice/7__Egg_Fried_Rice.webp",
+					"imagePath": "Veg/7__Veg-Fried-Rice/7__Egg_Fried_Rice.webp",
 					"category": "veg"
 				},
 				{
@@ -583,7 +583,7 @@
 					"item_name": "Veg Mixed Fried Rice",
 					"price": 120,
 					"isAvailable": true,
-					"imagePath": "Veg/7__Veg-Fired-Rice/8__Veg_Mixed_Fried_Rice.webp",
+					"imagePath": "Veg/7__Veg-Fried-Rice/8__Veg_Mixed_Fried_Rice.webp",
 					"category": "veg"
 				}
 			]

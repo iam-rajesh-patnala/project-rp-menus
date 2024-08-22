@@ -1,11 +1,11 @@
 import menuDB from "../../../data/MenuData/menu.json";
 import { v4 as uuid } from "uuid";
 
-const VegDataLoader = async () => {
+const NonVegDataLoader = async () => {
 	// Simulate an API call or data fetching logic
-	const vegData = menuDB.reduce((accumulator, currentItem) => {
-		if (currentItem.veg) {
-			let itemsWithId = currentItem.veg.map((item) => ({
+	const nonVegData = menuDB.reduce((accumulator, currentItem) => {
+		if (currentItem.nonVeg) {
+			let itemsWithId = currentItem.nonVeg.map((item) => ({
 				...item,
 				id: uuid(),
 			}));
@@ -13,7 +13,7 @@ const VegDataLoader = async () => {
 		}
 		return accumulator;
 	}, []);
-	return vegData;
+	return nonVegData;
 };
 
-export default VegDataLoader;
+export default NonVegDataLoader;

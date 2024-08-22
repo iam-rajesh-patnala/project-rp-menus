@@ -1,9 +1,8 @@
 import "./style.css";
-import React, { useState, useEffect } from "react";
-import { v4 as uuid } from "uuid";
+import React, { useState, useEffect, useMemo } from "react";
+import { useLoaderData } from "react-router-dom";
 
 // Importing Data
-import menuDB from "../../../data/MenuData/menu.json";
 import nonVegSearchData from "../../../data/SearchableData/nonVegSearch.json";
 
 // Importing Components
@@ -17,68 +16,75 @@ import ItemCard from "../../../components/ItemCard";
 // ----------------------------------------------------------------
 // Main NonVeg Component
 const NonVeg = () => {
-	const [data, setData] = useState([]);
-	// const [hasLoaded, setHasLoaded] = useState(false);
+	const rawNonVegData = useLoaderData(); // Access the pre-fetched data using useLoaderData
+
+	const [nonVegData, setNonVegData] = useState(rawNonVegData || []);
 	const [searchQuery, setSearchQuery] = useState("");
-	const [filteredData, setFilteredData] = useState([]);
 
 	// Extracting veg data from the JSON data ---------
 	useEffect(() => {
-		const nonVegData = menuDB.reduce((accumulator, currentItem) => {
-			if (currentItem.nonVeg) {
-				let data = currentItem.nonVeg.map((item) => ({
-					...item,
-					id: uuid(),
-				}));
-				return accumulator.concat(data);
-			}
-			return accumulator;
-		}, []);
-		setData(nonVegData);
-	}, []);
+		if (rawNonVegData?.length) {
+			setNonVegData(rawNonVegData);
+		}
+	}, [rawNonVegData]);
 
 	// Filtering the data using Search Handler
-	const searchHandler = (event) => {
-		const query = event.target.value.toLowerCase().trim();
-		setSearchQuery(query);
-
-		const newData = query
+	const filteredData = useMemo(() => {
+		const data = searchQuery
 			? nonVegSearchData.filter((item) =>
-					item.item_name.toLowerCase().includes(query)
+					item.item_name.toLowerCase().includes(searchQuery)
 			  )
-			: [];
-		setFilteredData(newData);
-		// console.log(newData);
+			: nonVegData;
+		return data;
+	}, [searchQuery, nonVegData]);
+
+	// Search Query Handler
+	const searchHandler = (event) => {
+		setSearchQuery(event.target.value.toLowerCase().trim());
 	};
+
+	// Clear Search
+	const clearSearch = () => {
+		setSearchQuery("");
+	};
+
+	// Render Items
+	const renderItems = (items) =>
+		items.map((item) => (
+			<ItemCard
+				key={item.id}
+				item_name={item.item_name}
+				price={item.price}
+				isAvailable={item.isAvailable}
+				viewButtonClick={() => console.log(item.item_name)}
+				category={item.category}
+				imagePath={item.imagePath}
+			/>
+		));
 
 	return (
 		<section className="veg-menu-page">
-			<Header data={true} searchHandler={searchHandler} placeholder={"Ex: Chicken, Prawns"}/>
+			<Header
+				data={true}
+				searchHandler={searchHandler}
+				placeholder={"Ex: Chicken, Prawns"}
+				clearSearch={clearSearch}
+			/>
 
 			{/* Checking if data is available else displaying no data message */}
-			{searchQuery.length > 0 ? (
-				<>
-					{filteredData.length > 0 ? (
-						<div className="items-container">
-							{filteredData.map((item) => (
-								<ItemCard
-									key={item.id}
-									item_name={item.item_name}
-									price={item.price}
-									isAvailable={item.isAvailable}
-									viewButtonClick={() =>
-										console.log(item.item_name)
-									}
-									category={"nonVeg"}
-									imagePath={item.imagePath}
-								/>
-							))}
-						</div>
-					) : (
-						<NoSearchResults message={"No search results found"} />
-					)}
-				</>
-			) : data.length > 0 ? (
+
+			{searchQuery ? (
+				filteredData.length > 0 ? (
+					<div className="items-container">
+						{renderItems(filteredData)}
+					</div>
+				) : (
+					<NoSearchResults
+						message={"No search results found"}
+						searchHandler={searchHandler}
+					/>
+				)
+			) : nonVegData.length > 0 ? (
 				<>
 					<div className="title-container">
 						<h1 className="title">Choose Your Menu</h1>
@@ -86,10 +92,9 @@ const NonVeg = () => {
 							<BackToCategories />
 						</div>
 					</div>
-					{/* NonVeg Menu Cards */}
 					<div className="veg-menu-cards-container">
-						{data.map((item) => (
-							<MenuCard key={item.id || item.name} item={item} />
+						{nonVegData.map((item) => (
+							<MenuCard key={item.id} item={item} />
 						))}
 					</div>
 				</>
