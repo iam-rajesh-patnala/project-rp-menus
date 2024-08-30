@@ -1,38 +1,24 @@
-import React, { useEffect } from "react";
+// import React, { useEffect } from "react";
 import { Link, Outlet } from "react-router-dom";
 import "./style.css";
+import "./headermq.css";
 import logo from "../../assets/icons/logo.png";
 
 const Header = ({ data, placeholder, searchHandler }) => {
-	useEffect(() => {
-		const handleScroll = () => {
-			const header = document.querySelector(".header");
-			const scrollPosition = window.scrollY;
-
-			if (scrollPosition > 1) {
-				header.classList.add("scrolled");
-			} else {
-				header.classList.remove("scrolled");
-			}
-		};
-
-		window.addEventListener("scroll", handleScroll);
-
-		return () => {
-			window.removeEventListener("scroll", handleScroll);
-		};
-	}, []);
-
 	// Handling the header sticky when search bar focus and sticky
 	const handleFocus = () => {
 		const header = document.querySelector(".header");
-		header.classList.add("sticky-header");
+		if (header) {
+			header.classList.add("sticky-header");
+		}
 	};
 
 	// Handling the header sticky when search bar focus and sticky
 	const handleBlur = () => {
 		const header = document.querySelector(".header");
-		header.classList.remove("sticky-header");
+		if (header) {
+			header.classList.remove("sticky-header");
+		}
 	};
 
 	// Search Bar Clear Handler

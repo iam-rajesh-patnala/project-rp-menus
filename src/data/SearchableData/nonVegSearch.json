@@ -5,7 +5,11 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/1__Non-Veg-Soups/1__Chicken_Manchow_Soup.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"customizable": {
+			"Extra 1/2 Soup": "₹ 20.00",
+			"Extra 2/2 Soup": "₹ 40.00"
+		}
 	},
 	{
 		"id": 104,

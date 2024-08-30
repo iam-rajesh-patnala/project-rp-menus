@@ -1,0 +1,469 @@
+/* Initial Size */
+@media only screen and (max-width: 320px) {
+
+    /* Category Icon */
+    .bottom-symbol-icon {
+        width: 15px;
+        height: 15px;
+    }
+
+    /* Bottom Sheet Item Name and Price */
+    .bottom-sheet-item-name {
+        font-size: 14px;
+    }
+
+    .bottom-sheet-item-price {
+        font-size: 14px;
+    }
+
+    /* Stars */
+    .bottom-sheet-star {
+        width: 13px;
+        height: 13px;
+    }
+
+    /* Bottom Sheet Item Category */
+    .bottom-sheet-item-category {
+        font-size: 13px;
+    }
+
+
+    .extra-items-container {
+        margin-top: 5px;
+    }
+
+    /* Extra Items Section */
+    .extra-items-quantity {
+        font-size: 12px;
+    }
+
+    /* Radio Buttons Section */
+    .bottom-sheet-radio-label {
+        font-size: 12px;
+    }
+
+    .bottom-sheet-radio  {
+        width: 12px;
+        height: 12px;
+    }
+
+    /* Total Price Section */
+    .total-price-text {
+        font-size: 14px;
+    }
+
+    /* Close Icon Section */
+    .close-icon {
+        width: 15px;
+        height: 15px;
+    }
+}
+
+
+/* iPhone Screen Sizes and Media Queries */
+
+/* iPhone SE Screen Size: 320 x 568 pixels 326ppi */
+@media only screen and (min-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+
+    /* Category Icon */
+    .bottom-symbol-icon {
+        width: 15px;
+        height: 15px;
+    }
+
+    /* Bottom Sheet Item Name and Price */
+    .bottom-sheet-item-name {
+        font-size: 14px;
+    }
+
+    .bottom-sheet-item-price {
+        font-size: 14px;
+    }
+
+    /* Stars */
+    .bottom-sheet-star {
+        width: 13px;
+        height: 13px;
+    }
+
+    /* Bottom Sheet Item Category */
+    .bottom-sheet-item-category {
+        font-size: 13px;
+    }
+
+    .extra-items-container {
+        margin-top: 5px;
+    }
+
+    /* Extra Items Section */
+    .extra-items-quantity {
+        font-size: 12px;
+    }
+
+    /* Radio Buttons Section */
+    .bottom-sheet-radio-label {
+        font-size: 12px;
+    }
+
+    .bottom-sheet-radio  {
+        width: 12px;
+        height: 12px;
+    }
+
+    /* Total Price Section */
+    .total-price-text {
+        font-size: 14px;
+    }
+
+    /* Close Icon Section */
+    .close-icon {
+        width: 15px;
+        height: 15px;
+    }
+}
+
+/* iPhone SE 2020, iPhone 6s/7/8 (Retina) - Screen Size: 375 x 667 pixels 326ppi */
+@media only screen and (min-width: 375px) and (-webkit-min-device-pixel-ratio: 2) {
+
+    /* Category Icon */
+    .bottom-symbol-icon {
+        width: 16px;
+        height: 16px;
+    }
+
+    /* Bottom Sheet Item Name and Price */
+    .bottom-sheet-item-name {
+        font-size: 16px;
+    }
+
+    .bottom-sheet-item-price {
+        font-size: 16px;
+    }
+
+    /* Stars */
+    .bottom-sheet-star {
+        width: 15px;
+        height: 15px;
+    }
+
+    /* Bottom Sheet Item Category */
+    .bottom-sheet-item-category {
+        font-size: 15px;
+    }
+
+    .extra-items-container {
+        margin-top: 5px;
+    }
+
+    /* Extra Items Section */
+    .extra-items-quantity {
+        font-size: 14px;
+    }
+
+    /* Radio Buttons Section */
+    .bottom-sheet-radio-label {
+        font-size: 14px;
+    }
+
+    .bottom-sheet-radio  {
+        width: 14px;
+        height: 14px;
+    }
+
+    /* Total Price Section */
+    .total-price-text {
+        font-size: 16px;
+    }
+
+    /* Close Icon Section */
+    .close-icon {
+        width: 16px;
+        height: 16px;
+    }
+}
+
+/* iPhone X, iPhone XS, iPhone 11 Pro, iPhone 12 Mini, iPhone 13 Mini - Screen Size: 360 x 780 pixels */
+@media only screen and (min-width: 375px) and (-webkit-min-device-pixel-ratio: 3) {
+
+    /* Category Icon */
+    .bottom-symbol-icon {
+        width: 16px;
+        height: 16px;
+    }
+
+    /* Bottom Sheet Item Name and Price */
+    .bottom-sheet-item-name {
+        font-size: 16px;
+    }
+
+    .bottom-sheet-item-price {
+        font-size: 16px;
+    }
+
+    /* Stars */
+    .bottom-sheet-star {
+        width: 15px;
+        height: 15px;
+    }
+
+    /* Bottom Sheet Item Category */
+    .bottom-sheet-item-category {
+        font-size: 15px;
+    }
+
+    .extra-items-container {
+        margin-top: 5px;
+    }
+
+    /* Extra Items Section */
+    .extra-items-quantity {
+        font-size: 14px;
+    }
+
+    /* Radio Buttons Section */
+    .bottom-sheet-radio-label {
+        font-size: 14px;
+    }
+
+    .bottom-sheet-radio  {
+        width: 14px;
+        height: 14px;
+    }
+
+    /* Total Price Section */
+    .total-price-text {
+        font-size: 16px;
+    }
+
+    /* Close Icon Section */
+    .close-icon {
+        width: 16px;
+        height: 16px;
+    }
+}
+
+/*  iPhone 12/12 Pro, iPhone 13/13 Pro, iPhone 14,  - Screen Size: 390 x 844 pixels */
+@media only screen and (min-width: 390px) and (-webkit-min-device-pixel-ratio: 3) {}
+
+/* 20. iPhone 14 Pro, iPhone 15/15 Pro - Screen Size: 430 x 1290 pixels */
+@media only screen and (min-width: 393px) and (-webkit-min-device-pixel-ratio: 3) {}
+
+/* iPhone XR, iPhone 11 (Retina) - Screen Size: 414 x 896 pixels 326ppi*/
+@media only screen and (min-width: 414px) and (-webkit-min-device-pixel-ratio: 2) {
+
+    /* Category Icon */
+    .bottom-symbol-icon {
+        width: 18px;
+        height: 18px;
+    }
+
+    /* Bottom Sheet Item Name and Price */
+    .bottom-sheet-item-name {
+        font-size: 18px;
+    }
+
+    .bottom-sheet-item-price {
+        font-size: 18px;
+    }
+
+    /* Stars */
+    .bottom-sheet-star {
+        width: 17px;
+        height: 17px;
+    }
+
+    /* Bottom Sheet Item Category */
+    .bottom-sheet-item-category {
+        font-size: 17px;
+    }
+
+    .extra-items-container {
+        margin-top: 5px;
+    }
+
+    /* Extra Items Section */
+    .extra-items-quantity {
+        font-size: 16px;
+    }
+
+    /* Radio Buttons Section */
+    .bottom-sheet-radio-label {
+        font-size: 16px;
+    }
+
+    .bottom-sheet-radio  {
+        width: 16px;
+        height: 16px;
+    }
+
+    /* Total Price Section */
+    .total-price-text {
+        font-size: 18px;
+    }
+
+    /* Close Icon Section */
+    .close-icon {
+        width: 18px;
+        height: 18px;
+    }
+}
+
+/* 7.iPhone XS Max/11 Pro Max, iPhone 8 Plus, iPhone 7 Plus, iPhone 6s Plus (Super Retina) - Screen Size: 414 x 896 pixels */
+@media only screen and (min-width: 414px) and (-webkit-min-device-pixel-ratio: 3) {}
+
+/* 15. iPhone 12 Pro Max, iPhone 13 Pro Max, iPhone 14 Plus - Screen Size: 430 x 1100 pixels */
+@media only screen and (min-width: 428px) and (-webkit-min-device-pixel-ratio: 3) {}
+
+/* 21. iPhone 14 Pro Max, iPhone 15 Plus, iPhone 15 Pro Max  - Screen Size: 430 x 1290 pixels */
+@media only screen and (min-width: 430px) and (-webkit-min-device-pixel-ratio: 3) {}
+
+/* ----------------------------------------------------------------- */
+
+/* Media Queries ----------------------------------------- */
+
+/* 3. Small Tablets (480px): */
+@media only screen and (min-width: 480px) {
+
+    /* Styles for screens 480px and wider */
+
+    /* Category Icon */
+    .bottom-symbol-icon {
+        width: 18px;
+        height: 18px;
+    }
+
+    /* Bottom Sheet Item Name and Price */
+    .bottom-sheet-item-name {
+        font-size: 18px;
+    }
+
+    .bottom-sheet-item-price {
+        font-size: 18px;
+    }
+
+    /* Stars */
+    .bottom-sheet-star {
+        width: 17px;
+        height: 17px;
+    }
+
+    /* Bottom Sheet Item Category */
+    .bottom-sheet-item-category {
+        font-size: 17px;
+    }
+
+    .extra-items-container {
+        margin-top: 5px;
+    }
+
+    /* Extra Items Section */
+    .extra-items-quantity {
+        font-size: 16px;
+    }
+
+    /* Radio Buttons Section */
+    .bottom-sheet-radio-label {
+        font-size: 16px;
+    }
+
+    .bottom-sheet-radio  {
+        width: 16px;
+        height: 16px;
+    }
+
+    /* Total Price Section */
+    .total-price-text {
+        font-size: 18px;
+    }
+
+    /* Close Icon Section */
+    .close-icon {
+        width: 18px;
+        height: 18px;
+    }
+}
+
+/* 4. Tablets (600px): */
+@media only screen and (min-width: 600px) {
+
+    /* Styles for screens 600px and wider */
+}
+
+/* 5. Large Tablets (768px): */
+@media only screen and (min-width: 768px) {
+
+    /* Styles for screens 768px and wider */
+    /* Category Icon */
+    .bottom-symbol-icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    /* Bottom Sheet Item Name and Price */
+    .bottom-sheet-item-name {
+        font-size: 20px;
+    }
+
+    .bottom-sheet-item-price {
+        font-size: 20px;
+    }
+
+    /* Stars */
+    .bottom-sheet-star {
+        width: 18px;
+        height: 18px;
+    }
+
+    /* Bottom Sheet Item Category */
+    .bottom-sheet-item-category {
+        font-size: 19px;
+    }
+
+    .extra-items-container {
+        margin-top: 5px;
+    }
+
+    /* Extra Items Section */
+    .extra-items-quantity {
+        font-size: 18px;
+    }
+
+    /* Radio Buttons Section */
+    .bottom-sheet-radio-label {
+        font-size: 18px;
+    }
+
+    .bottom-sheet-radio  {
+        width: 18px;
+        height: 18px;
+    }
+
+    /* Total Price Section */
+    .total-price-text {
+        font-size: 20px;
+    }
+
+    /* Close Icon Section */
+    .close-icon {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+/* 6. Small Desktop Monitors (992px): */
+@media only screen and (min-width: 992px) {
+
+    /* Styles for screens 992px and wider */
+}
+
+/* 7. Medium Desktop Monitors (1200px): */
+@media only screen and (min-width: 1200px) {
+
+    /* Styles for screens 1200px and wider */
+}
+
+/* 8. Large Desktop Monitors (1400px): */
+@media only screen and (min-width: 1400px) {
+
+    /* Styles for screens 1400px and wider */
+}

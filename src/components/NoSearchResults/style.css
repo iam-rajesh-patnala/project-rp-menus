@@ -1,27 +1,26 @@
 .no-results-message-container {
-    height:  100vh;
     width: 100%;
     max-width: 1100px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    padding: 20px;
+    padding: 10px;
     user-select: none;
 }
 
 .no-results-image-container {
     width: 100%;
     height: auto;
-    max-width: 200px;
-    margin-top: 100px;
+    max-width: 280px;
+    overflow: hidden;
 }
 
 .no-results-found-img {
     width: inherit;
 }
 
-.text-container{
+.no-results-text-container {
     margin-top: 20px;
 }
 
@@ -29,7 +28,7 @@
     font-size: min(28px, 6vw);
     color: #555555;
     text-align: center;
-    font-family: "Merriwather", serif;
+    font-family: "Noto Serif", serif;
 }
 
 .no-results-sub-message {
@@ -37,7 +36,7 @@
     margin-top: 10px;
     color: #555555;
     text-align: center;
-    font-family: "Merriwather", serif;
+    font-family: "Noto Serif", serif;
     line-height: 1.2;
 }
 
@@ -48,7 +47,6 @@
 }
 
 .go-back-button {
-    width: 200px;
     padding: 10px 20px;
     border: 1px solid #00000066;
     background-color: #ffffff;
@@ -65,4 +63,357 @@
 
 .go-back-button:hover {
     background-color: #4dc9da;
+}
+
+
+/* -------------------Media Queries-------------------*/
+
+/* Initial Size */
+@media only screen and (max-width: 320px) {
+    .no-results-image-container {
+        max-width: 150px;
+        /* background-color: rgb(185, 185, 185); */
+    }
+
+    .no-results-message {
+        font-size: min(28px, 6vw);
+    }
+
+    .no-results-sub-message {
+        margin-top: 10px;
+        font-size: min(14px, 5vw);
+    }
+
+    .go-back-button-button {
+        padding: 10px 20px;
+        font-size: min(14px, 6vw);
+    }
+}
+
+
+/* iPhone Screen Sizes and Media Queries */
+
+/* iPhone SE Screen Size: 320 x 568 pixels 326ppi */
+@media only screen and (min-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+
+    .no-results-image-container {
+        margin-top: 40px;
+        max-width: 150px;
+        /* background-color: pink; */
+    }
+
+    .no-results-message {
+        font-size: min(28px, 6vw);
+    }
+
+    .no-results-sub-message {
+        margin-top: 15px;
+        font-size: min(14px, 5vw);
+    }
+
+    .go-back-button-button {
+        padding: 10px 20px;
+        font-size: min(14px, 6vw);
+    }
+}
+
+/* iPhone SE 2020, iPhone 6s/7/8 (Retina) - Screen Size: 375 x 667 pixels 326ppi */
+@media only screen and (min-width: 375px) and (-webkit-min-device-pixel-ratio: 2) {
+    .no-results-image-container {
+        margin-top: 80px;
+        max-width: 160px;
+        /* background-color: #f18295;     */
+    }
+
+    .no-results-message {
+        font-size: min(28px, 6vw);
+    }
+
+    .no-results-sub-message {
+        margin-top: 15px;
+        font-size: min(15px, 6vw);
+    }
+
+    .go-back-button-button {
+        padding: 10px 20px;
+        font-size: min(15px, 6vw);
+    }
+}
+
+/* iPhone X, iPhone XS, iPhone 11 Pro, iPhone 12 Mini, iPhone 13 Mini - Screen Size: 360 x 780 pixels */
+@media only screen and (min-width: 375px) and (-webkit-min-device-pixel-ratio: 3) {
+    .no-results-image-container {
+        margin-top: 90px;
+        max-width: 165px;
+        /* background-color: #82f1b4;     */
+    }
+
+    .no-results-message {
+        font-size: min(28px, 6vw);
+    }
+
+    .no-results-sub-message {
+        margin-top: 15px;
+        font-size: min(16px, 6vw);
+    }
+
+    .go-back-button-button {
+        padding: 10px 20px;
+        font-size: min(16px, 6vw);
+    }
+}
+
+/*  iPhone 12/12 Pro, iPhone 13/13 Pro, iPhone 14,  - Screen Size: 390 x 844 pixels */
+@media only screen and (min-width: 390px) and (-webkit-min-device-pixel-ratio: 3) {
+    .no-results-image-container {
+        margin-top: 90px;
+        max-width: 170px;
+        /* background-color: #a382f1; */
+    }
+
+    .no-results-message {
+        font-size: min(28px, 6vw);
+    }
+
+    .no-results-sub-message {
+        margin-top: 15px;
+        font-size: min(17px, 6vw);
+    }
+
+    .go-back-button-button {
+        padding: 10px 20px;
+        font-size: min(16px, 6vw);
+    }
+}
+
+/* 20. iPhone 14 Pro, iPhone 15/15 Pro - Screen Size: 430 x 1290 pixels */
+@media only screen and (min-width: 393px) and (-webkit-min-device-pixel-ratio: 3) {
+    .no-results-image-container {
+        margin-top: 100px;
+        max-width: 170px;
+        /* background-color: #a382f1; */
+    }
+
+    .no-results-message {
+        font-size: min(28px, 6vw);
+    }
+
+    .no-results-sub-message {
+        margin-top: 15px;
+        font-size: min(17px, 6vw);
+    }
+
+    .go-back-button-button {
+        padding: 10px 20px;
+        font-size: min(16px, 6vw);
+    }
+}
+
+/* iPhone XR, iPhone 11 (Retina) - Screen Size: 414 x 896 pixels 326ppi*/
+@media only screen and (min-width: 414px) and (-webkit-min-device-pixel-ratio: 2) {
+    .no-results-image-container {
+        margin-top: 100px;
+        max-width: 180px;
+        /* background-color: #f1d382; */
+    }
+
+    .no-results-message {
+        font-size: min(30px, 6vw);
+    }
+
+    .no-results-sub-message {
+        margin-top: 15px;
+        font-size: min(18px, 6vw);
+    }
+
+    .go-back-button-button {
+        padding: 10px 20px;
+        font-size: min(17px, 6vw);
+    }
+}
+
+/* 7.iPhone XS Max/11 Pro Max, iPhone 8 Plus, iPhone 7 Plus, iPhone 6s Plus (Super Retina) - Screen Size: 414 x 896 pixels */
+@media only screen and (min-width: 414px) and (-webkit-min-device-pixel-ratio: 3) {
+    .no-results-image-container {
+        margin-top: 100px;
+        max-width: 180px;
+        /* background-color: #f1d382; */
+    }
+
+    .no-results-message {
+        font-size: min(30px, 6vw);
+    }
+
+    .no-results-sub-message {
+        margin-top: 15px;
+        font-size: min(18px, 6vw);
+    }
+
+    .go-back-button-button {
+        padding: 10px 20px;
+        font-size: min(17px, 6vw);
+    }
+}
+
+/* 15. iPhone 12 Pro Max, iPhone 13 Pro Max, iPhone 14 Plus - Screen Size: 430 x 1100 pixels */
+@media only screen and (min-width: 428px) and (-webkit-min-device-pixel-ratio: 3) {
+    .no-results-image-container {
+        margin-top: 100px;
+        max-width: 185px;
+        /* background-color: #e882f1; */
+    }
+
+    .no-results-message {
+        font-size: min(30px, 6vw);
+    }
+
+    .no-results-sub-message {
+        margin-top: 15px;
+        font-size: min(18px, 6vw);
+    }
+
+    .go-back-button-button {
+        padding: 10px 20px;
+        font-size: min(17px, 6vw);
+    }
+}
+
+/* 21. iPhone 14 Pro Max, iPhone 15 Plus, iPhone 15 Pro Max  - Screen Size: 430 x 1290 pixels */
+@media only screen and (min-width: 430px) and (-webkit-min-device-pixel-ratio: 3) {
+    .no-results-image-container {
+        margin-top: 100px;
+        max-width: 185px;
+        /* background-color: #e882f1; */
+    }
+
+    .no-results-message {
+        font-size: min(30px, 6vw);
+    }
+
+    .no-results-sub-message {
+        margin-top: 15px;
+        font-size: min(18px, 6vw);
+    }
+
+    .go-back-button-button {
+        padding: 10px 20px;
+        font-size: min(17px, 6vw);
+    }
+}
+
+/* ----------------------------------------------------------------- */
+
+/* Media Queries ----------------------------------------- */
+
+/* 3. Small Tablets (480px): */
+@media only screen and (min-width: 480px) {
+
+    /* Styles for screens 480px and wider */
+    .no-results-image-container {
+        margin-top: 100px;
+        max-width: 185px;
+        /* background-color: #e882f1; */
+    }
+
+    .no-results-message {
+        font-size: min(30px, 6vw);
+    }
+
+    .no-results-sub-message {
+        margin-top: 15px;
+        font-size: min(18px, 6vw);
+    }
+
+    .go-back-button-button {
+        padding: 10px 20px;
+        font-size: min(17px, 6vw);
+    }
+}
+
+/* 4. Tablets (600px): */
+@media only screen and (min-width: 600px) {
+
+    /* Styles for screens 600px and wider */
+    .no-results-image-container {
+        margin-top: 100px;
+        max-width: 200px;
+        /* background-color: #9a82f1; */
+    }
+
+    .no-results-message {
+        font-size: min(30px, 6vw);
+    }
+
+    .no-results-sub-message {
+        margin-top: 15px;
+        font-size: min(20px, 6vw);
+    }
+
+    .go-back-button-button {
+        padding: 10px 20px;
+        font-size: min(20px, 6vw);
+    }
+}
+
+/* 5. Large Tablets (768px): */
+@media only screen and (min-width: 768px) {
+
+    /* Styles for screens 768px and wider */
+    .no-results-image-container {
+        margin-top: 150px;
+        max-width: 220px;
+        /* background-color: #82f1c6; */
+    }
+
+    .no-results-message {
+        font-size: min(30px, 6vw);
+    }
+
+    .no-results-sub-message {
+        margin-top: 15px;
+        font-size: min(20px, 6vw);
+    }
+
+    .go-back-button-button {
+        padding: 10px 20px;
+        font-size: min(20px, 6vw);
+    }
+}
+
+/* 6. Small Desktop Monitors (992px): */
+@media only screen and (min-width: 992px) {
+
+    /* Styles for screens 992px and wider */
+    .no-results-image-container {
+        margin-top: 170px;
+        max-width: 240px;
+        /* background-color: #7a294f; */
+    }
+
+    .no-results-message {
+        font-size: min(28px, 6vw);
+    }
+
+    .no-results-sub-message {
+        margin-top: 15px;
+        font-size: min(18px, 6vw);
+    }
+
+    .go-back-button-button {
+        margin-top: 40px;
+        padding: 10px 20px;
+        font-size: min(20px, 6vw);
+    }
+}
+
+/* 7. Medium Desktop Monitors (1200px): */
+@media only screen and (min-width: 1200px) {
+
+    /* Styles for screens 1200px and wider */
+}
+
+/* 8. Large Desktop Monitors (1400px): */
+@media only screen and (min-width: 1400px) {
+
+    /* Styles for screens 1400px and wider */
 }

@@ -1,4 +1,5 @@
 import "./style.css";
+import "./mcmq.css"
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types"; // Import PropTypes
@@ -44,18 +45,15 @@ const MenuCard = ({ item }) => {
 	}, [img]);
 
 	return (
-		<div className="menu-card">
-			<Link to={link} className="card-item">
-				<div className="image-container">
-					<img
-						className="card-img"
-						// loading="lazy"
-						src={imgSrc} // Ensure you have a valid path for the default image
-						alt={name || "Item Image"}
-					/>
-				</div>
-
-				<span className="card-text">{name || "Unnamed Item"}</span>
+		<div className="menu-card-container">
+			<Link to={link} className="menu-card-item">
+				<img
+					className="menu-card-img"
+					// loading="lazy"
+					src={imgSrc} // Ensure you have a valid path for the default image
+					alt={name || "Item Image"}
+				/>
+				<span className="menu-card-text">{name || "Unnamed Item"}</span>
 			</Link>
 		</div>
 	);

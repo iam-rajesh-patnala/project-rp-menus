@@ -1,5 +1,6 @@
-import "./style.css";
-import React, { useState, useEffect, useMemo } from "react";
+import "../style.css";
+import "../scpmq.css";
+import { useState, useEffect, useMemo, useRef } from "react";
 import { useLoaderData } from "react-router-dom";
 
 // Importing Data
@@ -7,11 +8,12 @@ import nonVegSearchData from "../../../data/SearchableData/nonVegSearch.json";
 
 // Importing Components
 import Header from "../../../components/Header";
-import BackToCategories from "../../../utils/BackToCategories";
+import BackButton from "../../../components/BackButton";
 import MenuCard from "../../../components/MenuCard";
-import NoDataMessage from "../../../components/NoDataMessage";
-import NoSearchResults from "../../../components/NoSearchResults";
 import ItemCard from "../../../components/ItemCard";
+import BottomSheet from "../../../components/BottomSheet";
+import NoSearchResults from "../../../components/NoSearchResults";
+import NoDataMessage from "../../../components/NoDataMessage";
 
 // ----------------------------------------------------------------
 // Main NonVeg Component
@@ -20,15 +22,20 @@ const NonVeg = () => {
 
 	const [nonVegData, setNonVegData] = useState(rawNonVegData || []);
 	const [searchQuery, setSearchQuery] = useState("");
+	const [isBottomSheetVisible, setIsBottomSheetVisible] = useState(false); // State to manage the bottom sheet visibility
+	const [selectedItem, setSelectedItem] = useState(null); // State to store the selected item
 
-	// Extracting veg data from the JSON data ---------
+	// -------------------Refs for bottom sheet content-------------------
+	const bottomSheetRef = useRef(null);
+
+	//--------------------Assigning Data-------------------------
 	useEffect(() => {
 		if (rawNonVegData?.length) {
 			setNonVegData(rawNonVegData);
 		}
 	}, [rawNonVegData]);
 
-	// Filtering the data using Search Handler
+	// -------------------Filtering the data using Search Handler-------------------
 	const filteredData = useMemo(() => {
 		const data = searchQuery
 			? nonVegSearchData.filter((item) =>
@@ -38,17 +45,17 @@ const NonVeg = () => {
 		return data;
 	}, [searchQuery, nonVegData]);
 
-	// Search Query Handler
+	// -------------------Search Query Handler-------------------
 	const searchHandler = (event) => {
 		setSearchQuery(event.target.value.toLowerCase().trim());
 	};
 
-	// Clear Search
+	// -------------------Clear Search Handler-------------------
 	const clearSearch = () => {
 		setSearchQuery("");
 	};
 
-	// Render Items
+	// -------------------Rendering Items-------------------
 	const renderItems = (items) =>
 		items.map((item) => (
 			<ItemCard
@@ -56,14 +63,45 @@ const NonVeg = () => {
 				item_name={item.item_name}
 				price={item.price}
 				isAvailable={item.isAvailable}
-				viewButtonClick={() => console.log(item.item_name)}
-				category={item.category}
 				imagePath={item.imagePath}
+				category={item.category}
+				customizable={item.customizable || false}
+				handleViewClick={() => handleViewClick(item)}
 			/>
 		));
 
+	//-------------------View Button Click handler-------------------
+	const handleViewClick = (item) => {
+		setIsBottomSheetVisible(true); // Open the bottom sheet
+		document.body.style.overflow = "hidden"; // Disable scrolling on body when modal is open
+		setSelectedItem(item);
+		/* console.log(item); */
+	};
+
+	const handleCloseClick = () => {
+		setIsBottomSheetVisible(false); // Close the bottom sheet
+		document.body.style.overflow = "auto"; // Enable scrolling on body when modal is closed
+	};
+
+	// Close bottom sheet when clicking outside of it
+	const handleBottomSheetBackgroundClick = (event) => {
+		if (
+			bottomSheetRef.current &&
+			!bottomSheetRef.current.contains(event.target)
+		) {
+			handleCloseClick();
+		}
+	};
+
+	//-------------------Scroll Restoration-------------------
+	useEffect(() => {
+		// Scroll to top when search query changes or the component mounts
+		window.scrollTo(0, 0);
+	}, [searchQuery]);
+
+	/* --------------------------------------------------------------------------------- */
 	return (
-		<section className="veg-menu-page">
+		<section className="menu-page">
 			<Header
 				data={true}
 				searchHandler={searchHandler}
@@ -72,12 +110,28 @@ const NonVeg = () => {
 			/>
 
 			{/* Checking if data is available else displaying no data message */}
-
 			{searchQuery ? (
 				filteredData.length > 0 ? (
-					<div className="items-container">
-						{renderItems(filteredData)}
-					</div>
+					<>
+						<div className="searched-items-container">
+							{renderItems(filteredData)}
+						</div>
+
+						{/* Conditionally render BottomSheet */}
+						{isBottomSheetVisible && (
+							<div
+								className="bottom-sheet-bg-container-open"
+								onClick={handleBottomSheetBackgroundClick}
+							>
+								<BottomSheet
+									isVisible={isBottomSheetVisible}
+									onClose={handleCloseClick}
+									content={selectedItem}
+									ref={bottomSheetRef}
+								/>
+							</div>
+						)}
+					</>
 				) : (
 					<NoSearchResults
 						message={"No search results found"}
@@ -86,13 +140,13 @@ const NonVeg = () => {
 				)
 			) : nonVegData.length > 0 ? (
 				<>
-					<div className="title-container">
-						<h1 className="title">Choose Your Menu</h1>
-						<div className="back-btn-container">
-							<BackToCategories />
+					<div className="menu-page-title-container">
+						<h1 className="menu-page-title">Choose Your Menu</h1>
+						<div className="menu-page-back-btn-container">
+							<BackButton viewUrl={"/categories"} />
 						</div>
 					</div>
-					<div className="veg-menu-cards-container">
+					<div className="menu-cards-bg-container">
 						{nonVegData.map((item) => (
 							<MenuCard key={item.id} item={item} />
 						))}

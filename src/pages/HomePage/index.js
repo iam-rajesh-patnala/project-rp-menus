@@ -16,19 +16,19 @@ const HomePage = () => {
 				</div>
 
 				{/* Text Container */}
-				<div className="text-container">
-					<h1 className="welcome-text">
+				<div className="home-page-text-container">
+					<h1 className="home-page-welcome-text">
 						Welcome to
 						<br /> ABC Multicuisine Restaurant
 					</h1>
-					<p className="sub-text">
+					<p className="home-page-sub-text">
 						Discover our delicious and exquisite dishes.
 					</p>
 				</div>
 
 				{/* Button - Container */}
-				<div className="button-container">
-					<Link to="/categories" className="link">
+				<div className="home-page-button-container">
+					<Link to="/categories" className="home-page-link">
 						<OrderNowBtn />
 					</Link>
 				</div>

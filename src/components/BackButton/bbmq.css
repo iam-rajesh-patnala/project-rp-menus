@@ -1,0 +1,251 @@
+/* Initial Size */
+@media only screen and (max-width: 320px) {
+
+    .back-btn {
+        padding: 3px 2px;
+        /* background-color: #616161; */
+    }
+
+    .back-icon {
+        width: 11px;
+    }
+
+    .back-text {
+        font-size: 10px;
+    }
+}
+
+
+/* iPhone Screen Sizes and Media Queries */
+
+/* iPhone SE Screen Size: 320 x 568 pixels 326ppi */
+@media only screen and (min-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+
+    .back-btn {
+        padding: 3px;
+        /* background-color: #004646; */
+    }
+
+    .back-icon {
+        width: 16px;
+    }
+
+    .back-text {
+        font-size: 12px;
+    }
+}
+
+/* iPhone SE 2020, iPhone 6s/7/8 (Retina) - Screen Size: 375 x 667 pixels 326ppi */
+@media only screen and (min-width: 375px) and (-webkit-min-device-pixel-ratio: 2) {
+    .back-btn {
+        padding: 4px;
+        /* background-color: #96b2ff; */
+    }
+
+    .back-icon {
+        width: 18px;
+    }
+
+    .back-text {
+        font-size: 16px;
+    }
+}
+
+/* iPhone X, iPhone XS, iPhone 11 Pro, iPhone 12 Mini, iPhone 13 Mini - Screen Size: 360 x 780 pixels */
+@media only screen and (min-width: 375px) and (-webkit-min-device-pixel-ratio: 3) {
+    .back-btn {
+        padding: 4px;
+        /* background-color: #ffae7e; */
+    }
+
+    .back-icon {
+        width: 18px;
+    }
+
+    .back-text {
+        font-size: 16px;
+    }
+}
+
+/*  iPhone 12/12 Pro, iPhone 13/13 Pro, iPhone 14,  - Screen Size: 390 x 844 pixels */
+@media only screen and (min-width: 390px) and (-webkit-min-device-pixel-ratio: 3) {
+    .back-btn {
+        padding: 4px;
+        /* background-color: #d17cff; */
+    }
+
+    .back-icon {
+        width: 20px;
+    }
+
+    .back-text {
+        font-size: 16px;
+    }
+}
+
+/* 20. iPhone 14 Pro, iPhone 15/15 Pro - Screen Size: 430 x 1290 pixels */
+@media only screen and (min-width: 393px) and (-webkit-min-device-pixel-ratio: 3) {
+    .back-btn {
+        padding: 4px;
+        /* background-color: #9bff7c; */
+    }
+
+    .back-icon {
+        width: 20px;
+    }
+
+    .back-text {
+        font-size: 16px;
+    }
+}
+
+/* iPhone XR, iPhone 11 (Retina) - Screen Size: 414 x 896 pixels 326ppi*/
+@media only screen and (min-width: 414px) and (-webkit-min-device-pixel-ratio: 2) {
+    .back-btn {
+        padding: 5px;
+        /* background-color: #9b9000; */
+    }
+
+    .back-icon {
+        width: 22px;
+    }
+
+    .back-text {
+        font-size: 16px;
+    }
+}
+
+/* 7.iPhone XS Max/11 Pro Max, iPhone 8 Plus, iPhone 7 Plus, iPhone 6s Plus (Super Retina) - Screen Size: 414 x 896 pixels */
+@media only screen and (min-width: 414px) and (-webkit-min-device-pixel-ratio: 3) {
+    .back-btn {
+        padding: 5px;
+        /* background-color: #9b4600; */
+    }
+
+    .back-icon {
+        width: 22px;
+    }
+
+    .back-text {
+        font-size: 16px;
+    }
+}
+
+/* 15. iPhone 12 Pro Max, iPhone 13 Pro Max, iPhone 14 Plus - Screen Size: 430 x 1100 pixels */
+@media only screen and (min-width: 428px) and (-webkit-min-device-pixel-ratio: 3) {
+    .back-btn {
+        padding: 5px;
+        /* background-color: #7c62a5; */
+    }
+
+    .back-icon {
+        width: 22px;
+    }
+
+    .back-text {
+        font-size: 16px;
+    }
+}
+
+/* 21. iPhone 14 Pro Max, iPhone 15 Plus, iPhone 15 Pro Max  - Screen Size: 430 x 1290 pixels */
+@media only screen and (min-width: 430px) and (-webkit-min-device-pixel-ratio: 3) {
+    .back-btn {
+        padding: 5px;
+        /* background-color: #4b9289; */
+    }
+
+    .back-icon {
+        width: 22px;
+    }
+
+    .back-text {
+        font-size: 16px;
+    }
+}
+
+/* ----------------------------------------------------------------- */
+
+/* Media Queries ----------------------------------------- */
+/* 3. Small Tablets (480px): */
+@media only screen and (min-width: 480px) {
+
+    /* Styles for screens 480px and wider */
+    .back-btn {
+        padding: 5px 6px;
+        /* background-color: #ff9696; */
+    }
+
+    .back-icon {
+        width: 22px;
+    }
+
+    .back-text {
+        font-size: 18px;
+    }
+}
+
+/* 4. Tablets (600px): */
+@media only screen and (min-width: 600px) {
+
+    /* Styles for screens 600px and wider */
+    .back-btn {
+        padding: 6px;
+        /* background-color: #00ac72; */
+    }
+
+    .back-icon {
+        width: 24px;
+    }
+
+    .back-text {
+        font-size: 20px;
+    }
+}
+
+/* 5. Large Tablets (768px): */
+@media only screen and (min-width: 768px) {
+
+    /* Styles for screens 768px and wider */
+    .back-btn {
+        padding: 6px 7px;
+        /* background-color: #ac6200; */
+    }
+
+    .back-icon {
+        width: 24px;
+    }
+
+    .back-text {
+        font-size: 20px;
+    }
+}
+
+/* 6. Small Desktop Monitors (992px): */
+@media only screen and (min-width: 992px) {
+
+    /* Styles for screens 992px and wider */
+    .back-btn {
+        padding: 6px 7px;
+        /* background-color: #ac6200; */
+    }
+
+    .back-icon {
+        width: 25px;
+    }
+
+    .back-text {
+        font-size: 20px;
+    }
+}
+
+/* 7. Medium Desktop Monitors (1200px): */
+@media only screen and (min-width: 1200px) {
+
+    /* Styles for screens 1200px and wider */
+}
+
+/* 8. Large Desktop Monitors (1400px): */
+@media only screen and (min-width: 1400px) {
+
+    /* Styles for screens 1400px and wider */
+}

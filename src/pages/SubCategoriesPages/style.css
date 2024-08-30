@@ -1,4 +1,13 @@
-.page-background-container {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+/* Menu Page Container */
+.menu-page {
     background-color: antiquewhite;
     min-height: 100vh;
     width: 100%;
@@ -9,29 +18,28 @@
     align-items: center;
     justify-content: flex-start;
     text-align: center;
-    overflow: hidden;
 }
 
 /* Title Container */
-.title-container {
+.menu-page-title-container {
     width: 100%;
     max-width: 1100px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* background-color: pink; */
+    /* background-color: pink;  */
+    margin-top: 30px;
 }
 
-.title {
+.menu-page-title {
     font-family: "Noto Serif", serif;
-    font-size: min(30px, 5vw);
+    font-size: min(30px, 5.5vw);
     color: #000000;
     margin-left: 20px;
-    text-align: left;
 }
 
 /* Back Button Container */
-.back-btn-container {
+.menu-page-back-btn-container {
     position: fixed;
     width: 100%;
     max-width: 1100px;
@@ -39,10 +47,26 @@
     align-items: center;
     justify-content: flex-end;
     z-index: 999;
-    /* background-color: #1100ff66; */
+    /* background-color: #4b3eff50; */
 }
 
-.items-container {
+
+/* Cards Container */
+.menu-cards-bg-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 38px;
+    padding: 0 15px 20px 15px;
+    /* background-color: #00000066; */
+}
+
+
+/* Searched Items Container */
+.searched-items-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -54,53 +78,30 @@
 }
 
 
-/* Floating Menu Container */
-.floating-menu-container {
-    width: 100%;
-    max-width: 1100px;
-    z-index: 999;
-    transition: background-color 0.3s ease-in-out;
-}
-
-.floating-menu-open {
-    background-color: rgba(0, 0, 0, 0.33);
-    position: fixed;
-    width: 100%;
-    max-width: 1100px;
-    min-height: 100vh;
-    z-index: 1000;
-    transition: background-color 0.3s ease-in-out;
-}
-
 /* Bottom Sheet Container */
-
-/* Add keyframe to fadeIn bottom sheet background color  */
-@keyframes fadeIn {
-    from {
-        background-color: rgba(0, 0, 0, 0);
-    }
-    to {
-        background-color: rgba(0, 0, 0, 0.33);
-    }
-}
-
-.bottom-sheet-bg-container-open {
-    position: fixed;
-    bottom: 0;
-    min-height: 100vh;
+.bottom-sheet-bg-container {
     width: 100%;
     max-width: 1100px;
     z-index: 10001;
-    animation-name: fadeIn;
-    animation-duration: 0.3s;
+    transition: background-color 0.3s ease-in-out;
 }
 
+.bottom-sheet-bg-container-open {
+    background-color: #00000055;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    max-width: 1100px;
+    min-height: 100vh;
+    z-index: 10001;
+    transition: background-color 0.3s ease-in-out;
+}
 
 
 /* -------------------Media Queries------------------------- */
 
 @media only screen and (min-width: 768px) {
-    .items-container {
+    .searched-items-container {
         padding: 0 30px 20px 30px;
     }
 }

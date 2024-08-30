@@ -16,7 +16,10 @@
 					"price": 120,
 					"isAvailable": true,
 					"imagePath": "Non-Veg/1__Non-Veg-Soups/2__Chicken_Sweet_Corn_Soup.webp",
-					"category": "nonVeg"
+					"category": "nonVeg",
+					"customizable": {
+						"Extra 1/2 Soup": 20.0
+					}
 				},
 				{
 					"id": 105,
@@ -32,7 +35,10 @@
 					"price": 120,
 					"isAvailable": true,
 					"imagePath": "Non-Veg/1__Non-Veg-Soups/4__Chicken_Pepper_Lemon_Soup.webp",
-					"category": "nonVeg"
+					"category": "nonVeg",
+					"customizable": {
+						"Extra 1/2 Soup": 20.0
+					}
 				},
 				{
 					"id": 107,
@@ -48,7 +54,10 @@
 					"price": 120,
 					"isAvailable": true,
 					"imagePath": "Non-Veg/1__Non-Veg-Soups/6__Chicken_Lung_Fung_Soup.webp",
-					"category": "nonVeg"
+					"category": "nonVeg",
+					"customizable": {
+						"Extra 1/2 Soup": 20.0
+					}
 				},
 				{
 					"id": 109,

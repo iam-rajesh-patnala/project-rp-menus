@@ -5,7 +5,7 @@ const PizzasBurgers = () => {
 	return (
 		<DisplayData
 			dbCategory={"veg"}
-			itemCategory={"Pizza & Burgers & Wraps"}
+			itemCategory={"Pizzas & Burgers"}
 			placeholder={"Ex: Veg Wraps"}
 		/>
 	);

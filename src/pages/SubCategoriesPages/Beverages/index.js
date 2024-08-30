@@ -1,44 +1,40 @@
+import "../style.css";
 import "./style.css";
-import { useState, useEffect, useMemo } from "react";
+import "../scpmq.css";
+import { useState, useEffect, useMemo, useRef } from "react";
 import { useLoaderData } from "react-router-dom";
 // Importing Data
 import beveragesSearchData from "../../../data/SearchableData/beveragesSearch.json";
 
 // Importing Components
 import Header from "../../../components/Header";
-import BackToCategories from "../../../utils/BackToCategories";
+import BackButton from "../../../components/BackButton";
 import MenuCard from "../../../components/MenuCard";
-import NoDataMessage from "../../../components/NoDataMessage";
-import NoSearchResults from "../../../components/NoSearchResults";
 import ItemCard from "../../../components/ItemCard";
+import BottomSheet from "../../../components/BottomSheet";
+import NoSearchResults from "../../../components/NoSearchResults";
+import NoDataMessage from "../../../components/NoDataMessage";
 
 // ----------------------------------------------------------------
 // Main Beverages Component
 const Beverages = () => {
-	const rawBeveragesData = useLoaderData();
+	const rawBeveragesData = useLoaderData(); // Access the pre-fetched data using useLoaderData
 
 	const [beveragesData, setBeveragesData] = useState(rawBeveragesData || []);
 	const [searchQuery, setSearchQuery] = useState("");
 
+	// State to manage the Radio Buttons
 	const [radioFilteredData, setRadioFilteredData] = useState([]);
+	// State to manage the transition effect when filtering
 	const [transitioning, setTransitioning] = useState(false);
 
-	// Extracting beverages data from the JSON data and setting initial state
-	// useEffect(() => {
-	// 	const beveragesData = menuDB.reduce((accumulator, currentItem) => {
-	// 		if (currentItem.beverages) {
-	// 			let data = currentItem.beverages.map((item) => ({
-	// 				...item,
-	// 				id: uuid(),
-	// 			}));
-	// 			return accumulator.concat(data);
-	// 		}
-	// 		return accumulator;
-	// 	}, []);
-	// 	setData(beveragesData);
-	// 	setRadioFilteredData(beveragesData);
-	// }, []);
+	const [isBottomSheetVisible, setIsBottomSheetVisible] = useState(false); // State to manage the bottom sheet visibility
+	const [selectedItem, setSelectedItem] = useState(null); // State to store the selected item
 
+	// ------------------- Refs for bottom sheet content -------------------
+	const bottomSheetRef = useRef(null);
+
+	//-------------------- Assigning Data -------------------
 	useEffect(() => {
 		if (rawBeveragesData?.length) {
 			setBeveragesData(rawBeveragesData);
@@ -46,6 +42,7 @@ const Beverages = () => {
 		}
 	}, [rawBeveragesData]);
 
+	// ------------------- Filtering the data using Search Handler -------------------
 	const filteredData = useMemo(() => {
 		const data = searchQuery
 			? beveragesSearchData.filter((item) =>
@@ -56,17 +53,17 @@ const Beverages = () => {
 		return data;
 	}, [searchQuery, beveragesData]);
 
-	// Filtering the data using Search Handler
+	// ------------------- Search Query Handler -------------------
 	const searchHandler = (event) => {
 		setSearchQuery(event.target.value.toLowerCase().trim());
 	};
 
-	// Clear Search
+	// ------------------- Clear Search Handler -------------------
 	const clearSearch = () => {
 		setSearchQuery("");
 	};
 
-	// Rendering the Items
+	// ------------------- Rendering the Items -------------------
 	const renderItems = (items) =>
 		items.map((item) => (
 			<ItemCard
@@ -74,13 +71,37 @@ const Beverages = () => {
 				item_name={item.item_name}
 				price={item.price}
 				isAvailable={item.isAvailable}
-				viewButtonClick={() => console.log(item.item_name)}
-				category={item.category}
 				imagePath={item.imagePath}
+				category={item.category}
+				customizable={item.customizable || false}
+				handleViewClick={() => handleViewClick(item)}
 			/>
 		));
 
-	// Filtering the data based on the selected Radio Button with transition
+	//-------------------View Button Click handler-------------------
+	const handleViewClick = (item) => {
+		setIsBottomSheetVisible(true); // Open the bottom sheet
+		document.body.style.overflow = "hidden"; // Disable scrolling on body when modal is open
+		setSelectedItem(item);
+		/* console.log(item); */
+	};
+
+	const handleCloseClick = () => {
+		setIsBottomSheetVisible(false); // Close the bottom sheet
+		document.body.style.overflow = "auto"; // Enable scrolling on body when modal is closed
+	};
+
+	// Close bottom sheet when clicking outside of it
+	const handleBottomSheetBackgroundClick = (event) => {
+		if (
+			bottomSheetRef.current &&
+			!bottomSheetRef.current.contains(event.target)
+		) {
+			handleCloseClick();
+		}
+	};
+
+	// -------------------Filtering the data based on the selected Radio Button with transition-------------------
 	const radioButtonOnChange = (event) => {
 		setTransitioning(true);
 		setTimeout(() => {
@@ -99,8 +120,15 @@ const Beverages = () => {
 		// console.log(data);
 	};
 
+	//------------------- Scroll Restoration -------------------
+	useEffect(() => {
+		// Scroll to top when search query changes or the component mounts
+		window.scrollTo(0, 0);
+	}, [searchQuery]);
+
+	/* ---------------------------------------------------------------------------- */
 	return (
-		<section className="veg-menu-page">
+		<section className="menu-page">
 			<Header
 				data={true}
 				searchHandler={searchHandler}
@@ -111,9 +139,26 @@ const Beverages = () => {
 			{searchQuery ? (
 				<>
 					{filteredData.length > 0 ? (
-						<div className="items-container">
-							{renderItems(filteredData)}
-						</div>
+						<>
+							<div className="searched-items-container">
+								{renderItems(filteredData)}
+							</div>
+
+							{/* Conditionally render BottomSheet */}
+							{isBottomSheetVisible && (
+								<div
+									className="bottom-sheet-bg-container-open"
+									onClick={handleBottomSheetBackgroundClick}
+								>
+									<BottomSheet
+										isVisible={isBottomSheetVisible}
+										onClose={handleCloseClick}
+										content={selectedItem}
+										ref={bottomSheetRef}
+									/>
+								</div>
+							)}
+						</>
 					) : (
 						<NoSearchResults
 							message={"No search results found"}
@@ -162,14 +207,16 @@ const Beverages = () => {
 					{/* Menu Cards Container */}
 					{radioFilteredData.length > 0 ? (
 						<>
-							<div className="title-container">
-								<h1 className="title">Choose Your Menu</h1>
-								<div className="back-btn-container">
-									<BackToCategories />
+							<div className="menu-page-title-container">
+								<h1 className="menu-page-title">
+									Choose Your Menu
+								</h1>
+								<div className="menu-page-back-btn-container">
+									<BackButton viewUrl={"/categories"} />
 								</div>
 							</div>
 							<div
-								className={`veg-menu-cards-container ${
+								className={`menu-cards-bg-container ${
 									transitioning ? "fade-out" : "fade-in"
 								}`}
 							>

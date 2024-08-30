@@ -1,5 +1,7 @@
 import "./style.css";
+import "./icmq.css";
 import { useState, useEffect } from "react";
+// import { FaLeaf } from 'react-icons/fa'; // You can use any icon library
 import defaultImage from "../../assets/default.webp";
 
 // Icons
@@ -20,18 +22,18 @@ const getImage = (imagePath) => {
 };
 
 // ----------------------------------------------------------------
-// Main ItemCard 
+// Main ItemCard
 const ItemCard = ({
 	imagePath,
 	item_name,
 	isAvailable,
 	price,
-	viewButtonClick,
 	category,
+	customizable,
+	handleViewClick,
 }) => {
 	// Javascript code Goes here
 
-	// const [imgSrc, setImgSrc] = useState(placeholderImage);
 	const [imgSrc, setImgSrc] = useState(
 		`data:image/svg+xml;base64,${btoa(SvgImgPlaceholder)}`
 	);
@@ -50,7 +52,6 @@ const ItemCard = ({
 		};
 	}, [img]);
 
-
 	let icon = "";
 	switch (category) {
 		case "veg":
@@ -65,7 +66,7 @@ const ItemCard = ({
 	}
 
 	return (
-		<div className="card">
+		<div className={`card ${!isAvailable ? "disabled" : ""}`}>
 			<img
 				src={imgSrc}
 				alt={item_name || "Item Image"}
@@ -88,28 +89,43 @@ const ItemCard = ({
 
 				<div className="price-info">
 					<div>
-						<p className="starts">Starts From</p>
+						<p className="starts">
+							{customizable ? "Starts From" : "Price of"}
+						</p>
 						<p className="item-price">
 							<span className="currency">₹</span>
 							{price}
 						</p>
 					</div>
 
-					<div>
-						<button
-							type="button"
-							className="card-btn"
-							onClick={(e) => {
-								e.preventDefault();
-								return viewButtonClick({ item_name });
-							}}
-						>
-							View
-						</button>
-						<p className="customizable-text">Customizable</p>
-					</div>
+					{customizable ? (
+						<div>
+							<button
+								type="button"
+								className="card-btn"
+								onClick={handleViewClick}
+								disabled={!isAvailable}
+							>
+								View
+							</button>
+							<p className="customizable-text">Customizable</p>
+						</div>
+					) : (
+						// <div>
+						// 	{/* Placeholder Icon */}
+						// 	<FaLeaf className="placeholder-icon" />
+						// </div>
+						<div className="animated-placeholder"></div>
+					)}
 				</div>
 			</div>
+
+			{/* Item Unavailable Overlay */}
+			{!isAvailable && (
+				<div className="overlay">
+					<span>Not Available</span>
+				</div>
+			)}
 		</div>
 	);
 };

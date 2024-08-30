@@ -9,19 +9,19 @@
         /* background-color: #8f7b39; */
     }
 
-    .text-container {
+    .home-page-text-container {
         margin-top: 60px;
     }
 
-    .welcome-text {
+    .home-page-welcome-text {
         font-size: 20px;
     }
 
-    .sub-text {
+    .home-page-sub-text {
         font-size: 16px;
     }
 
-    .button-container {
+    .home-page-button-container {
         margin-top: 50px;
     }
 }
@@ -36,19 +36,19 @@
         /* background-color: #3aa0ff; */
     }
 
-    .text-container {
+    .home-page-text-container {
         margin-top: 60px;
     }
 
-    .welcome-text {
+    .home-page-welcome-text {
         font-size: 22px;
     }
 
-    .sub-text {
+    .home-page-sub-text {
         font-size: 16px;
     }
 
-    .button-container {
+    .home-page-button-container {
         margin-top: 60px;
     }
 }
@@ -62,19 +62,19 @@
         /* background-color: #653aff; */
     }
 
-    .text-container {
+    .home-page-text-container {
         margin-top: 60px;
     }
 
-    .welcome-text {
+    .home-page-welcome-text {
         font-size: 24px;
     }
 
-    .sub-text {
+    .home-page-sub-text {
         font-size: 16px;
     }
 
-    .button-container {
+    .home-page-button-container {
         margin-top: 65px;
     }
 }
@@ -88,19 +88,19 @@
         /* background-color: #834f72; */
     }
 
-    .text-container {
+    .home-page-text-container {
         margin-top: 62px;
     }
 
-    .welcome-text {
+    .home-page-welcome-text {
         font-size: 26px;
     }
 
-    .sub-text {
+    .home-page-home-page-sub-text {
         font-size: 16px;
     }
 
-    .button-container {
+    .home-page-button-container {
         margin-top: 65px;
     }
 }
@@ -114,19 +114,19 @@
         /* background-color: #4f8360; */
     }
 
-    .text-container {
+    .home-page-text-container {
         margin-top: 64px;
     }
 
-    .welcome-text {
+    .home-page-welcome-text {
         font-size: 26px;
     }
 
-    .sub-text {
+    .home-page-home-page-sub-text {
         font-size: 17px;
     }
 
-    .button-container {
+    .home-page-button-container {
         margin-top: 66px;
     }
 }
@@ -140,19 +140,19 @@
         /* background-color: #ff7a7a; */
     }
 
-    .text-container {
+    .home-page-text-container {
         margin-top: 65px;
     }
 
-    .welcome-text {
+    .home-page-welcome-text {
         font-size: 26px;
     }
 
-    .sub-text {
+    .home-page-home-page-sub-text {
         font-size: 17px;
     }
 
-    .button-container {
+    .home-page-button-container {
         margin-top: 68px;
     }
 }
@@ -166,19 +166,19 @@
         /* background-color: #ccff7a; */
     }
 
-    .text-container {
+    .home-page-text-container {
         margin-top: 65px;
     }
 
-    .welcome-text {
+    .home-page-welcome-text {
         font-size: 27px;
     }
 
-    .sub-text {
+    .home-page-home-page-sub-text {
         font-size: 17px;
     }
 
-    .button-container {
+    .home-page-button-container {
         margin-top: 68px;
     }
 }
@@ -192,19 +192,19 @@
         /* background-color: #ff0000; */
     }
 
-    .text-container {
+    .home-page-text-container {
         margin-top: 66px;
     }
 
-    .welcome-text {
+    .home-page-welcome-text {
         font-size: 28px;
     }
 
-    .sub-text {
+    .home-page-home-page-sub-text {
         font-size: 18px;
     }
 
-    .button-container {
+    .home-page-button-container {
         margin-top: 70px;
     }
 }
@@ -218,19 +218,19 @@
         /* background-color: #220072; */
     }
 
-    .text-container {
+    .home-page-text-container {
         margin-top: 67px;
     }
 
-    .welcome-text {
+    .home-page-welcome-text {
         font-size: 30px;
     }
 
-    .sub-text {
+    .home-page-home-page-sub-text {
         font-size: 18px;
     }
 
-    .button-container {
+    .home-page-button-container {
         margin-top: 72px;
     }
 }
@@ -261,19 +261,19 @@
         /* background-color: palegreen; */
     }
 
-    .text-container {
+    .home-page-text-container {
         margin-top: 82px;
     }
 
-    .welcome-text {
+    .home-page-welcome-text {
         font-size: 28px;
     }
 
-    .sub-text {
+    .home-page-home-page-sub-text {
         font-size: 18px;
     }
 
-    .button-container {
+    .home-page-button-container {
         margin-top: 90px;
     }
 
@@ -289,19 +289,19 @@
         /* background-color: violet; */
     }
 
-    .text-container {
+    .home-page-text-container {
         margin-top: 80px;
     }
 
-    .welcome-text {
+    .home-page-welcome-text {
         font-size: 29px;
     }
 
-    .sub-text {
+    .home-page-home-page-sub-text {
         font-size: 16px;
     }
 
-    .button-container {
+    .home-page-button-container {
         margin-top: 90px;
     }
 }
@@ -316,19 +316,19 @@
         /* background-color: palegreen; */
     }
 
-    .text-container {
+    .home-page-text-container {
         margin-top: 85px;
     }
 
-    .welcome-text {
+    .home-page-welcome-text {
         font-size: 32px;
     }
 
-    .sub-text {
+    .home-page-home-page-sub-text {
         font-size: 17px;
     }
 
-    .button-container {
+    .home-page-button-container {
         margin-top: 95px;
     }
 }
@@ -343,19 +343,19 @@
         /* background-color: aqua; */
     }
 
-    .text-container {
+    .home-page-text-container {
         margin-top: 90px;
     }
 
-    .welcome-text {
+    .home-page-welcome-text {
         font-size: 34px;
     }
 
-    .sub-text {
+    .home-page-home-page-sub-text {
         font-size: 18px;
     }
 
-    .button-container {
+    .home-page-button-container {
         margin-top: 100px;
     }
 }
@@ -370,19 +370,19 @@
         /* background-color: burlywood; */
     }
 
-    .text-container {
+    .home-page-text-container {
         margin-top: 95px;
     }
 
-    .welcome-text {
+    .home-page-welcome-text {
         font-size: 34px;
     }
 
-    .sub-text {
+    .home-page-home-page-sub-text {
         font-size: 19px;
     }
 
-    .button-container {
+    .home-page-button-container {
         margin-top: 110px;
     }
 }
@@ -397,19 +397,19 @@
         /* background-color: chocolate; */
     }
 
-    .text-container {
+    .home-page-text-container {
         margin-top: 100px;
     }
 
-    .welcome-text {
+    .home-page-welcome-text {
         font-size: 36px;
     }
 
-    .sub-text {
+    .home-page-home-page-sub-text {
         font-size: 20px;
     }
 
-    .button-container {
+    .home-page-button-container {
         margin-top: 120px;
     }
 }

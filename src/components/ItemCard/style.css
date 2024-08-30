@@ -1,3 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 
 /* Card Section Start*/
 .card {
@@ -8,7 +17,62 @@
     background-color: #ffffff;
     border-radius: 8px;
     transition: all 0.3s ease-in-out;
+    overflow: hidden;
+    position: relative;
+    user-select: none;
 }
+
+
+/* Disabled Card Section Start */
+
+.card.disabled .item-info-container {
+    opacity: 0.5;
+    filter: grayscale(100%);
+}
+
+.card.disabled .item-img {
+    opacity: 0.5;
+    filter: grayscale(100%);
+}
+
+.card .overlay {
+    content: "Not Available";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.397);
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.overlay span {
+    backdrop-filter: blur(5px);
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    font-family: "Noto Serif", serif;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: #7c0000;
+    /* transition: color 0.3s ease-in-out, transform 0.3s ease-in-out, border 0.3s ease-in-out; */
+    transition: all 0.3s ease-in-out;
+}
+
+.overlay:hover span {
+    pointer-events: none;
+    transform: translateY(-50px);
+    color: #ffffff;
+    border-color: #7c0000;
+}
+
+/* Disabled Card Section End */
+
 
 .card:hover {
     box-shadow: 0 15px 25px #00000033;
@@ -17,11 +81,9 @@
 .item-img {
     width: 100%;
     border-radius: 8px 8px 0 0;
-    display: block;
 }
 
 /* Item Info Container Starts*/
-
 .item-info-container {
     display: flex;
     flex-direction: column;
@@ -46,9 +108,19 @@
 
 .item-title {
     font-size: 16px;
+    font-family: "Noto Serif", serif;
     font-weight: 600;
     text-align: left;
-    line-height: 1;
+    line-height: 1.1;
+    padding: 2px 0;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    line-clamp: 2;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
 }
 
 /* Price Info Starts */
@@ -66,10 +138,13 @@
 .starts {
     font-size: 10px;
     color: #535353;
+    font-family: "Noto Serif", serif;
 }
 
 .currency {
-    margin-right: .2rem;
+    font-family: "Noto Serif", serif;
+    margin-right: 2px;
+    text-align: left;
 }
 
 .item-price {
@@ -77,10 +152,13 @@
     font-size: 24px;
     font-weight: bold;
     color: #000000;
+    text-align: left;
 }
+
 
 .card-btn {
     font-size: 12px;
+    font-family: "Merriweather", serif;
     font-weight: 600;
     padding: 6px 20px;
     border: 1px solid #ff6969;
@@ -100,5 +178,37 @@
     color: #535353;
     margin-top: 7px;
     font-size: 10px;
+    font-family: "Noto Serif", serif;
     text-align: center;
 }
+
+
+/* Placeholder - v1 */
+/* .placeholder-icon {
+    font-size: 24px;
+    color: #00af66;
+    margin-top: 16px;
+} */
+
+/* Placeholder - v2 */
+.animated-placeholder {
+    width: min(58px, 12vw);
+    height: min(25px, 5vw);
+    background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+    background-size: 200% 100%;
+    border-radius: 3px;
+    animation: shimmer 1.5s infinite;
+    margin-bottom: 5px;
+}
+
+@keyframes shimmer {
+    0% {
+        background-position: 200% 0;
+    }
+
+    100% {
+        background-position: -200% 0;
+    }
+}
+
+/* Placeholder - v3 */

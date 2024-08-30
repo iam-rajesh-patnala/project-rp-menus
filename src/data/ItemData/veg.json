@@ -8,15 +8,22 @@
 					"price": 120,
 					"isAvailable": true,
 					"imagePath": "Veg/1__Veg-Soups/1__Tomato_Basil_Soup.webp",
-					"category": "veg"
+					"category": "veg",
+					"customizable": {
+						"Extra 1/2 Soup": 20.0,
+						"Extra 2/2 Soup": 40.0
+					}
 				},
 				{
 					"id": 2,
 					"item_name": "Cream of Mushroom Soup",
 					"price": 120,
-					"isAvailable": true,
+					"isAvailable": false,
 					"imagePath": "Veg/1__Veg-Soups/2__Cream_of_Mushroom_Soup.webp",
-					"category": "veg"
+					"category": "veg",
+					"customizable": {
+						"Extra 1/2 Soup": 20.0
+					}
 				},
 				{
 					"id": 3,
@@ -24,7 +31,10 @@
 					"price": 120,
 					"isAvailable": true,
 					"imagePath": "Veg/1__Veg-Soups/3__Vegetable_Clear_Soup.webp",
-					"category": "veg"
+					"category": "veg",
+					"customizable": {
+						"Extra 1/2 Soup": 20.0
+					}
 				},
 				{
 					"id": 4,
@@ -32,15 +42,21 @@
 					"price": 120,
 					"isAvailable": true,
 					"imagePath": "Veg/1__Veg-Soups/4__Sweet_Corn_Soup.webp",
-					"category": "veg"
+					"category": "veg",
+					"customizable": {
+						"Extra 1/2 Soup": 20.0
+					}
 				},
 				{
 					"id": 5,
 					"item_name": "Minestrone Soup",
 					"price": 120,
-					"isAvailable": true,
+					"isAvailable": false,
 					"imagePath": "Veg/1__Veg-Soups/5__Minestrone_Soup.webp",
-					"category": "veg"
+					"category": "veg",
+					"customizable": {
+						"Extra 1/2 Soup": 20.0
+					}
 				},
 				{
 					"id": 6,
@@ -48,7 +64,10 @@
 					"price": 120,
 					"isAvailable": true,
 					"imagePath": "Veg/1__Veg-Soups/6__Lentil_Soup.webp",
-					"category": "veg"
+					"category": "veg",
+					"customizable": {
+						"Extra 1/2 Soup": 20.0
+					}
 				},
 				{
 					"id": 7,
@@ -56,7 +75,10 @@
 					"price": 120,
 					"isAvailable": true,
 					"imagePath": "Veg/1__Veg-Soups/7__Spinach_Soup.webp",
-					"category": "veg"
+					"category": "veg",
+					"customizable": {
+						"Extra 1/2 Soup": 20.0
+					}
 				},
 				{
 					"id": 8,
@@ -100,7 +122,10 @@
 					"price": 120,
 					"isAvailable": true,
 					"imagePath": "Veg/2__Veg-Starters/2__Paneer_Tikka.webp",
-					"category": "veg"
+					"category": "veg",
+					"customizable": {
+						"Extra 1/2 Starters": 50.0
+					}
 				},
 				{
 					"id": 13,
@@ -164,7 +189,10 @@
 					"price": 120,
 					"isAvailable": true,
 					"imagePath": "Veg/2__Veg-Starters/10__Stuffed_Mushrooms.webp",
-					"category": "veg"
+					"category": "veg",
+					"customizable": {
+						"Extra 1/2 Starters": 20.0
+					}
 				}
 			]
 		},
@@ -725,7 +753,7 @@
 			]
 		},
 		{
-			"Pizza & Burgers & Wraps": [
+			"Pizzas & Burgers": [
 				{
 					"id": 87,
 					"item_name": "Margherita Pizza",
