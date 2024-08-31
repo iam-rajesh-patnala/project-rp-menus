@@ -187,8 +187,8 @@
 					"price": 120,
 					"isAvailable": true,
 					"imagePath": "Beverages/Non-Alcoholic Beverages/Cold/1__Juices/1__Orange_Juice.webp",
-					"category": "beverages"
-,					"subCategory": "cold"
+					"category": "beverages",
+					"subCategory": "cold"
 				},
 				{
 					"id": 247,
@@ -196,17 +196,20 @@
 					"price": 120,
 					"isAvailable": true,
 					"imagePath": "Beverages/Non-Alcoholic Beverages/Cold/1__Juices/2__Apple_Juice.webp",
-					"category": "beverages"
-,					"subCategory": "cold"
+					"category": "beverages",
+					"subCategory": "cold"
 				},
 				{
 					"id": 248,
 					"item_name": "Mango Juice",
-					"price": 120,
+					"price": 60,
 					"isAvailable": true,
 					"imagePath": "Beverages/Non-Alcoholic Beverages/Cold/1__Juices/3__Mango_Juice.webp",
-					"category": "beverages"
-,					"subCategory": "cold"
+					"category": "beverages",
+					"subCategory": "cold",
+					"customizable": {
+						"Extra 1/2 Juice": 30.0
+					}
 				},
 				{
 					"id": 249,
@@ -214,8 +217,8 @@
 					"price": 120,
 					"isAvailable": true,
 					"imagePath": "Beverages/Non-Alcoholic Beverages/Cold/1__Juices/4__Grape_Juice.webp",
-					"category": "beverages"
-,					"subCategory": "cold"
+					"category": "beverages",
+					"subCategory": "cold"
 				},
 				{
 					"id": 250,
@@ -223,8 +226,8 @@
 					"price": 120,
 					"isAvailable": true,
 					"imagePath": "Beverages/Non-Alcoholic Beverages/Cold/1__Juices/5__Pineapple_Juice.webp",
-					"category": "beverages"
-,					"subCategory": "cold"
+					"category": "beverages",
+					"subCategory": "cold"
 				},
 				{
 					"id": 251,
@@ -232,8 +235,8 @@
 					"price": 120,
 					"isAvailable": true,
 					"imagePath": "Beverages/Non-Alcoholic Beverages/Cold/1__Juices/6__Watermelon_Juice.webp",
-					"category": "beverages"
-,					"subCategory": "cold"
+					"category": "beverages",
+					"subCategory": "cold"
 				},
 				{
 					"id": 252,
@@ -241,8 +244,8 @@
 					"price": 120,
 					"isAvailable": true,
 					"imagePath": "Beverages/Non-Alcoholic Beverages/Cold/1__Juices/7__Pomegranate_Juice.webp",
-					"category": "beverages"
-,					"subCategory": "cold"
+					"category": "beverages",
+					"subCategory": "cold"
 				},
 				{
 					"id": 253,
@@ -250,8 +253,8 @@
 					"price": 120,
 					"isAvailable": true,
 					"imagePath": "Beverages/Non-Alcoholic Beverages/Cold/1__Juices/8__Cranberry_Juice.webp",
-					"category": "beverages"
-,					"subCategory": "cold"
+					"category": "beverages",
+					"subCategory": "cold"
 				},
 				{
 					"id": 254,
@@ -259,8 +262,8 @@
 					"price": 120,
 					"isAvailable": true,
 					"imagePath": "Beverages/Non-Alcoholic Beverages/Cold/1__Juices/9__Carrot_Juice.webp",
-					"category": "beverages"
-,					"subCategory": "cold"
+					"category": "beverages",
+					"subCategory": "cold"
 				}
 			],
 			"Soft Drinks": [
@@ -270,8 +273,8 @@
 					"price": 120,
 					"isAvailable": true,
 					"imagePath": "Beverages/Non-Alcoholic Beverages/Cold/2__Soft_Drinks/1__Coca-Cola.webp",
-					"category": "beverages"
-,					"subCategory": "cold"
+					"category": "beverages",
+					"subCategory": "cold"
 				},
 				{
 					"id": 256,
@@ -279,8 +282,8 @@
 					"price": 120,
 					"isAvailable": true,
 					"imagePath": "Beverages/Non-Alcoholic Beverages/Cold/2__Soft_Drinks/2__Pepsi.webp",
-					"category": "beverages"
-,					"subCategory": "cold"
+					"category": "beverages",
+					"subCategory": "cold"
 				},
 				{
 					"id": 257,
@@ -288,8 +291,8 @@
 					"price": 120,
 					"isAvailable": true,
 					"imagePath": "Beverages/Non-Alcoholic Beverages/Cold/2__Soft_Drinks/3__Sprite.webp",
-					"category": "beverages"
-,					"subCategory": "cold"
+					"category": "beverages",
+					"subCategory": "cold"
 				},
 				{
 					"id": 258,
@@ -297,8 +300,8 @@
 					"price": 120,
 					"isAvailable": true,
 					"imagePath": "Beverages/Non-Alcoholic Beverages/Cold/2__Soft_Drinks/4__Thums_Up.webp",
-					"category": "beverages"
-,					"subCategory": "cold"
+					"category": "beverages",
+					"subCategory": "cold"
 				},
 				{
 					"id": 259,
@@ -306,8 +309,8 @@
 					"price": 120,
 					"isAvailable": true,
 					"imagePath": "Beverages/Non-Alcoholic Beverages/Cold/2__Soft_Drinks/5__Lemon-Lime_Soda.webp",
-					"category": "beverages"
-,					"subCategory": "cold"
+					"category": "beverages",
+					"subCategory": "cold"
 				},
 				{
 					"id": 260,
@@ -315,8 +318,8 @@
 					"price": 120,
 					"isAvailable": true,
 					"imagePath": "Beverages/Non-Alcoholic Beverages/Cold/2__Soft_Drinks/6__Root_Beer.webp",
-					"category": "beverages"
-,					"subCategory": "cold"
+					"category": "beverages",
+					"subCategory": "cold"
 				},
 				{
 					"id": 261,
@@ -324,8 +327,8 @@
 					"price": 120,
 					"isAvailable": true,
 					"imagePath": "Beverages/Non-Alcoholic Beverages/Cold/2__Soft_Drinks/7__Ginger_Ale.webp",
-					"category": "beverages"
-,					"subCategory": "cold"
+					"category": "beverages",
+					"subCategory": "cold"
 				}
 			],
 			"Mocktails": [
@@ -335,8 +338,8 @@
 					"price": 120,
 					"isAvailable": true,
 					"imagePath": "Beverages/Non-Alcoholic Beverages/Cold/3__Mocktails/1__Virgin_Mojito.webp",
-					"category": "beverages"
-,					"subCategory": "cold"
+					"category": "beverages",
+					"subCategory": "cold"
 				},
 				{
 					"id": 263,
@@ -344,8 +347,8 @@
 					"price": 120,
 					"isAvailable": true,
 					"imagePath": "Beverages/Non-Alcoholic Beverages/Cold/3__Mocktails/2__Shirley_Temple.webp",
-					"category": "beverages"
-,					"subCategory": "cold"
+					"category": "beverages",
+					"subCategory": "cold"
 				},
 				{
 					"id": 264,
@@ -353,8 +356,8 @@
 					"price": 120,
 					"isAvailable": true,
 					"imagePath": "Beverages/Non-Alcoholic Beverages/Cold/3__Mocktails/3__Mojito.webp",
-					"category": "beverages"
-,					"subCategory": "cold"
+					"category": "beverages",
+					"subCategory": "cold"
 				},
 				{
 					"id": 265,
@@ -362,8 +365,8 @@
 					"price": 120,
 					"isAvailable": true,
 					"imagePath": "Beverages/Non-Alcoholic Beverages/Cold/3__Mocktails/4__Virgin_Mary.webp",
-					"category": "beverages"
-,					"subCategory": "cold"
+					"category": "beverages",
+					"subCategory": "cold"
 				},
 				{
 					"id": 266,
@@ -371,8 +374,8 @@
 					"price": 120,
 					"isAvailable": true,
 					"imagePath": "Beverages/Non-Alcoholic Beverages/Cold/3__Mocktails/5__Pina_Colada.webp",
-					"category": "beverages"
-,					"subCategory": "cold"
+					"category": "beverages",
+					"subCategory": "cold"
 				},
 				{
 					"id": 267,
@@ -380,8 +383,8 @@
 					"price": 120,
 					"isAvailable": true,
 					"imagePath": "Beverages/Non-Alcoholic Beverages/Cold/3__Mocktails/6__Fruit_Punch.webp",
-					"category": "beverages"
-,					"subCategory": "cold"
+					"category": "beverages",
+					"subCategory": "cold"
 				},
 				{
 					"id": 268,
@@ -389,8 +392,8 @@
 					"price": 120,
 					"isAvailable": true,
 					"imagePath": "Beverages/Non-Alcoholic Beverages/Cold/3__Mocktails/7__Blue_Lagoon.webp",
-					"category": "beverages"
-,					"subCategory": "cold"
+					"category": "beverages",
+					"subCategory": "cold"
 				}
 			],
 			"Smoothies": [
@@ -400,8 +403,8 @@
 					"price": 120,
 					"isAvailable": true,
 					"imagePath": "Beverages/Non-Alcoholic Beverages/Cold/4__Smoothies/1__Mixed_Berry_Smoothie.webp",
-					"category": "beverages"
-,					"subCategory": "cold"
+					"category": "beverages",
+					"subCategory": "cold"
 				},
 				{
 					"id": 270,
@@ -409,8 +412,8 @@
 					"price": 120,
 					"isAvailable": true,
 					"imagePath": "Beverages/Non-Alcoholic Beverages/Cold/4__Smoothies/2__Rainbow_Smoothie.webp",
-					"category": "beverages"
-,					"subCategory": "cold"
+					"category": "beverages",
+					"subCategory": "cold"
 				},
 				{
 					"id": 271,
@@ -418,8 +421,8 @@
 					"price": 120,
 					"isAvailable": true,
 					"imagePath": "Beverages/Non-Alcoholic Beverages/Cold/4__Smoothies/3__Strawberry_Smoothie.webp",
-					"category": "beverages"
-,					"subCategory": "cold"
+					"category": "beverages",
+					"subCategory": "cold"
 				},
 				{
 					"id": 272,
@@ -427,8 +430,8 @@
 					"price": 120,
 					"isAvailable": true,
 					"imagePath": "Beverages/Non-Alcoholic Beverages/Cold/4__Smoothies/4__Mango_Smoothies.webp",
-					"category": "beverages"
-,					"subCategory": "cold"
+					"category": "beverages",
+					"subCategory": "cold"
 				}
 			],
 			"Milkshakes": [
@@ -438,8 +441,8 @@
 					"price": 120,
 					"isAvailable": true,
 					"imagePath": "Beverages/Non-Alcoholic Beverages/Cold/5__Milkshakes/1__Chocolate_Milkshake.webp",
-					"category": "beverages"
-,					"subCategory": "cold"
+					"category": "beverages",
+					"subCategory": "cold"
 				},
 				{
 					"id": 274,
@@ -447,8 +450,8 @@
 					"price": 120,
 					"isAvailable": true,
 					"imagePath": "Beverages/Non-Alcoholic Beverages/Cold/5__Milkshakes/2__Vanilla_Milkshake.webp",
-					"category": "beverages"
-,					"subCategory": "cold"
+					"category": "beverages",
+					"subCategory": "cold"
 				},
 				{
 					"id": 275,
@@ -456,8 +459,8 @@
 					"price": 120,
 					"isAvailable": true,
 					"imagePath": "Beverages/Non-Alcoholic Beverages/Cold/5__Milkshakes/3__Strawberry_Milkshake.webp",
-					"category": "beverages"
-,					"subCategory": "cold"
+					"category": "beverages",
+					"subCategory": "cold"
 				},
 				{
 					"id": 276,
@@ -465,8 +468,8 @@
 					"price": 120,
 					"isAvailable": true,
 					"imagePath": "Beverages/Non-Alcoholic Beverages/Cold/5__Milkshakes/4__Banana_Milkshak.webp",
-					"category": "beverages"
-,					"subCategory": "cold"
+					"category": "beverages",
+					"subCategory": "cold"
 				}
 			],
 			"Iced Tea": [
@@ -476,8 +479,8 @@
 					"price": 120,
 					"isAvailable": true,
 					"imagePath": "Beverages/Non-Alcoholic Beverages/Cold/6__Iced_Tea/1__Lemon_Iced_Tea.webp",
-					"category": "beverages"
-,					"subCategory": "cold"
+					"category": "beverages",
+					"subCategory": "cold"
 				},
 				{
 					"id": 278,
@@ -485,8 +488,8 @@
 					"price": 120,
 					"isAvailable": true,
 					"imagePath": "Beverages/Non-Alcoholic Beverages/Cold/6__Iced_Tea/2__Peach_Iced_Tea.webp",
-					"category": "beverages"
-,					"subCategory": "cold"
+					"category": "beverages",
+					"subCategory": "cold"
 				},
 				{
 					"id": 279,
@@ -494,8 +497,8 @@
 					"price": 120,
 					"isAvailable": true,
 					"imagePath": "Beverages/Non-Alcoholic Beverages/Cold/6__Iced_Tea/3__Green_Iced_Tea.webp",
-					"category": "beverages"
-,					"subCategory": "cold"
+					"category": "beverages",
+					"subCategory": "cold"
 				},
 				{
 					"id": 280,
@@ -503,8 +506,8 @@
 					"price": 120,
 					"isAvailable": true,
 					"imagePath": "Beverages/Non-Alcoholic Beverages/Cold/6__Iced_Tea/4__Thai_Iced_Tea.webp",
-					"category": "beverages"
-,					"subCategory": "cold"
+					"category": "beverages",
+					"subCategory": "cold"
 				}
 			],
 			"Iced Coffee": [
@@ -514,8 +517,8 @@
 					"price": 120,
 					"isAvailable": true,
 					"imagePath": "Beverages/Non-Alcoholic Beverages/Cold/7__Iced_Coffee/1__Cold_Brew.webp",
-					"category": "beverages"
-,					"subCategory": "cold"
+					"category": "beverages",
+					"subCategory": "cold"
 				},
 				{
 					"id": 282,
@@ -523,8 +526,8 @@
 					"price": 120,
 					"isAvailable": true,
 					"imagePath": "Beverages/Non-Alcoholic Beverages/Cold/7__Iced_Coffee/2__Iced_Latte.webp",
-					"category": "beverages"
-,					"subCategory": "cold"
+					"category": "beverages",
+					"subCategory": "cold"
 				},
 				{
 					"id": 283,
@@ -532,8 +535,8 @@
 					"price": 120,
 					"isAvailable": true,
 					"imagePath": "Beverages/Non-Alcoholic Beverages/Cold/7__Iced_Coffee/3__Iced_Americano.webp",
-					"category": "beverages"
-,					"subCategory": "cold"
+					"category": "beverages",
+					"subCategory": "cold"
 				},
 				{
 					"id": 284,
@@ -541,8 +544,8 @@
 					"price": 120,
 					"isAvailable": true,
 					"imagePath": "Beverages/Non-Alcoholic Beverages/Cold/7__Iced_Coffee/4__Frappuccino.webp",
-					"category": "beverages"
-,					"subCategory": "cold"
+					"category": "beverages",
+					"subCategory": "cold"
 				}
 			],
 			"Cold Extras": [
@@ -552,8 +555,8 @@
 					"price": 120,
 					"isAvailable": true,
 					"imagePath": "Beverages/Non-Alcoholic Beverages/Cold/8__Extras/1__Lemonade.webp",
-					"category": "beverages"
-,					"subCategory": "cold"
+					"category": "beverages",
+					"subCategory": "cold"
 				},
 				{
 					"id": 286,
@@ -561,8 +564,8 @@
 					"price": 120,
 					"isAvailable": true,
 					"imagePath": "Beverages/Non-Alcoholic Beverages/Cold/8__Extras/2__Infused_Water.webp",
-					"category": "beverages"
-,					"subCategory": "cold"
+					"category": "beverages",
+					"subCategory": "cold"
 				},
 				{
 					"id": 287,
@@ -570,8 +573,8 @@
 					"price": 120,
 					"isAvailable": true,
 					"imagePath": "Beverages/Non-Alcoholic Beverages/Cold/8__Extras/3__Kombucha.webp",
-					"category": "beverages"
-,					"subCategory": "cold"
+					"category": "beverages",
+					"subCategory": "cold"
 				},
 				{
 					"id": 288,
@@ -579,8 +582,8 @@
 					"price": 120,
 					"isAvailable": true,
 					"imagePath": "Beverages/Non-Alcoholic Beverages/Cold/8__Extras/4__Coconut_Water.webp",
-					"category": "beverages"
-,					"subCategory": "cold"
+					"category": "beverages",
+					"subCategory": "cold"
 				}
 			]
 		}

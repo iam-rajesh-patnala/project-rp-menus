@@ -2,121 +2,162 @@
 	{
 		"id": 1,
 		"item_name": "Tomato Basil Soup",
-		"price": 120,
+		"price": 169,
 		"isAvailable": true,
 		"imagePath": "Veg/1__Veg-Soups/1__Tomato_Basil_Soup.webp",
 		"category": "veg",
+		"searchItemCategory": "Soups",
 		"customizable": {
-			"Extra 1/2 Soup": "₹ 20.00"
+			"Extra 1/2 Soup": 20.0,
+			"Extra 1 Soup": 40.0
 		}
 	},
 	{
 		"id": 2,
 		"item_name": "Cream of Mushroom Soup",
-		"price": 120,
-		"isAvailable": true,
+		"price": 240,
+		"isAvailable": false,
 		"imagePath": "Veg/1__Veg-Soups/2__Cream_of_Mushroom_Soup.webp",
 		"category": "veg",
+		"searchItemCategory": "Soups",
 		"customizable": {
-			"Extra 1/2 Soup": "₹ 20.00"
+			"Extra 1/2 Soup": 20.0,
+			"Extra 1 Soup": 40.0
 		}
 	},
 	{
 		"id": 3,
 		"item_name": "Vegetable Clear Soup",
-		"price": 120,
+		"price": 90,
 		"isAvailable": true,
 		"imagePath": "Veg/1__Veg-Soups/3__Vegetable_Clear_Soup.webp",
 		"category": "veg",
-		"customizable": {
-			"Extra 1/2 Soup": "₹ 20.00"
-		}
+		"searchItemCategory": "Soups",
+		"customizable": null
 	},
 	{
 		"id": 4,
 		"item_name": "Sweet Corn Soup",
-		"price": 120,
+		"price": 130,
 		"isAvailable": true,
 		"imagePath": "Veg/1__Veg-Soups/4__Sweet_Corn_Soup.webp",
 		"category": "veg",
+		"searchItemCategory": "Soups",
 		"customizable": {
-			"Extra 1/2 Soup": "₹ 20.00"
+			"Extra 1/2 Soup": 20.0,
+			"Extra 1 Soup": 40.0
 		}
 	},
 	{
 		"id": 5,
 		"item_name": "Minestrone Soup",
-		"price": 120,
+		"price": 350,
 		"isAvailable": true,
 		"imagePath": "Veg/1__Veg-Soups/5__Minestrone_Soup.webp",
 		"category": "veg",
+		"searchItemCategory": "Soups",
 		"customizable": {
-			"Extra 1/2 Soup": "₹ 20.00"
+			"Extra 1/2 Soup": 20.0,
+			"Extra 1 Soup": 40.0
 		}
 	},
 	{
 		"id": 6,
 		"item_name": "Lentil Soup (Dal Shorba)",
-		"price": 120,
+		"price": 220,
 		"isAvailable": true,
 		"imagePath": "Veg/1__Veg-Soups/6__Lentil_Soup.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Soups",
+		"customizable": {
+			"Extra 1/2 Soup": 20.0,
+			"Extra 1 Soup": 40.0
+		}
 	},
 	{
 		"id": 7,
 		"item_name": "Spinach Soup",
-		"price": 120,
-		"isAvailable": true,
+		"price": 250,
+		"isAvailable": false,
 		"imagePath": "Veg/1__Veg-Soups/7__Spinach_Soup.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Soups",
+		"customizable": {
+			"Extra 1/2 Soup": 20.0,
+			"Extra 1 Soup": 40.0
+		}
 	},
 	{
 		"id": 8,
 		"item_name": "Carrot and Ginger Soup",
-		"price": 120,
+		"price": 100,
 		"isAvailable": true,
 		"imagePath": "Veg/1__Veg-Soups/8__Carrot_and_Ginger_Soup.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Soups",
+		"customizable": null
 	},
 	{
 		"id": 9,
 		"item_name": "Broccoli and Almond Soup",
-		"price": 120,
+		"price": 280,
 		"isAvailable": true,
 		"imagePath": "Veg/1__Veg-Soups/9__Broccoli_and_Almond_Soup.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Soups",
+		"customizable": {
+			"Extra 1/2 Soup": 20.0,
+			"Extra 1 Soup": 40.0
+		}
 	},
 	{
 		"id": 10,
 		"item_name": "Hot and Sour Soup",
-		"price": 120,
+		"price": 160,
 		"isAvailable": true,
 		"imagePath": "Veg/1__Veg-Soups/10__Hot_and_Sour_Soup.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Soups",
+		"customizable": {
+			"Extra 1/2 Soup": 20.0,
+			"Extra 1 Soup": 40.0
+		}
 	},
 	{
 		"id": 11,
 		"item_name": "Vegetable Spring Rolls",
-		"price": 120,
+		"price": 210,
 		"isAvailable": true,
 		"imagePath": "Veg/2__Veg-Starters/1__Vegetable_Spring_Rolls.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Starters",
+		"customizable": {
+			"Extra 1/2 Starters": 50.0
+		}
 	},
 	{
 		"id": 12,
 		"item_name": "Paneer Tikka",
-		"price": 120,
+		"price": 160,
 		"isAvailable": true,
 		"imagePath": "Veg/2__Veg-Starters/2__Paneer_Tikka.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Starters",
+		"customizable": {
+			"Extra 1/2 Starters": 50.0
+		}
 	},
 	{
 		"id": 13,
 		"item_name": "Veg Manchurian",
-		"price": 120,
+		"price": 130,
 		"isAvailable": true,
 		"imagePath": "Veg/2__Veg-Starters/3__Veg_Manchurian.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Starters",
+		"customizable": {
+			"Extra 1/2 Starters": 40.0
+		}
 	},
 	{
 		"id": 14,
@@ -124,223 +165,327 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Veg/2__Veg-Starters/4__Gobi_Manchurian.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Starters",
+		"customizable": {
+			"Extra 1/2 Starters": 30.0
+		}
 	},
 	{
 		"id": 15,
 		"item_name": "Aloo Tikki",
-		"price": 120,
+		"price": 80,
 		"isAvailable": true,
 		"imagePath": "Veg/2__Veg-Starters/5__Aloo_Tikki.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Starters",
+		"customizable": {
+			"Extra 1/2 Starters": 40.0
+		}
 	},
 	{
 		"id": 16,
 		"item_name": "Paneer 65",
-		"price": 120,
+		"price": 150,
 		"isAvailable": true,
 		"imagePath": "Veg/2__Veg-Starters/6__Paneer_65.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Starters",
+		"customizable": null
 	},
 	{
 		"id": 17,
 		"item_name": "Baby Corn 65",
-		"price": 120,
+		"price": 139,
 		"isAvailable": true,
 		"imagePath": "Veg/2__Veg-Starters/7__Baby_Corn_65.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Starters",
+		"customizable": {
+			"Extra 1/2 Starters": 60.0
+		}
 	},
 	{
 		"id": 18,
 		"item_name": "Crispy Corn",
-		"price": 120,
+		"price": 210,
 		"isAvailable": true,
 		"imagePath": "Veg/2__Veg-Starters/8__Crispy_Corn.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Starters",
+		"customizable": {
+			"Extra 1/2 Starters": 70.0
+		}
 	},
 	{
 		"id": 19,
-		"item_name": "Veg Samosa",
-		"price": 120,
+		"item_name": "Veg Samosa - (6Pc)",
+		"price": 60,
 		"isAvailable": true,
 		"imagePath": "Veg/2__Veg-Starters/9__Veg_Samosa.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Starters",
+		"customizable": {
+			"Extra 1/2 Starters": 30.0
+		}
 	},
 	{
 		"id": 20,
 		"item_name": "Stuffed Mushrooms",
-		"price": 120,
+		"price": 270,
 		"isAvailable": true,
 		"imagePath": "Veg/2__Veg-Starters/10__Stuffed_Mushrooms.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Starters",
+		"customizable": {
+			"Extra 1/2 Starters": 60.0
+		}
 	},
 	{
 		"id": 21,
 		"item_name": "Caesar Salad (Vegetarian)",
-		"price": 120,
+		"price": 110,
 		"isAvailable": true,
 		"imagePath": "Veg/3__Veg-Salads/1__Caesar_Salad.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Salads",
+		"customizable": {
+			"Extra 1/2 Salad": 60.0
+		}
 	},
 	{
 		"id": 22,
 		"item_name": "Garden Salad",
-		"price": 120,
+		"price": 125,
 		"isAvailable": true,
 		"imagePath": "Veg/3__Veg-Salads/2__Garden_Salad.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Salads",
+		"customizable": null
 	},
 	{
 		"id": 23,
 		"item_name": "Caprese Salad",
-		"price": 120,
+		"price": 160,
 		"isAvailable": true,
 		"imagePath": "Veg/3__Veg-Salads/3__Caprese_Salad.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Salads",
+		"customizable": {
+			"Extra 1/2 Salad": 60.0
+		}
 	},
 	{
 		"id": 24,
 		"item_name": "Beetroot and Feta Salad",
-		"price": 120,
+		"price": 130,
 		"isAvailable": true,
 		"imagePath": "Veg/3__Veg-Salads/4__Beetroot_and_Feta_Salad.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Salads",
+		"customizable": {
+			"Extra 1/2 Salad": 60.0
+		}
 	},
 	{
 		"id": 25,
 		"item_name": "Waldorf Salad",
-		"price": 120,
+		"price": 140,
 		"isAvailable": true,
 		"imagePath": "Veg/3__Veg-Salads/5__Waldorf_Salad.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Salads",
+		"customizable": {
+			"Extra 1/2 Salad": 60.0
+		}
 	},
 	{
 		"id": 26,
 		"item_name": "Quinoa Salad",
-		"price": 120,
+		"price": 139,
 		"isAvailable": true,
 		"imagePath": "Veg/3__Veg-Salads/6__Quinoa_Salad.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Salads",
+		"customizable": {
+			"Extra 1/2 Salad": 60.0
+		}
 	},
 	{
 		"id": 27,
 		"item_name": "Chickpea Salad",
-		"price": 120,
+		"price": 169,
 		"isAvailable": true,
 		"imagePath": "Veg/3__Veg-Salads/7__Chickpea_Salad.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Salads",
+		"customizable": {
+			"Extra 1/2 Salad": 60.0
+		}
 	},
 	{
 		"id": 28,
 		"item_name": "Avocado Salad",
-		"price": 120,
+		"price": 250,
 		"isAvailable": true,
 		"imagePath": "Veg/3__Veg-Salads/8__Avocado_Salad.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Salads",
+		"customizable": null
 	},
 	{
 		"id": 29,
 		"item_name": "Cucumber and Tomato Salad",
-		"price": 120,
+		"price": 180,
 		"isAvailable": true,
 		"imagePath": "Veg/3__Veg-Salads/9__Cucumber_and_Tomato_Salad.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Salads",
+		"customizable": {
+			"Extra 1/2 Salad": 60.0
+		}
 	},
 	{
 		"id": 30,
 		"item_name": "Roasted Vegetable Salad",
-		"price": 120,
+		"price": 140,
 		"isAvailable": true,
 		"imagePath": "Veg/3__Veg-Salads/10__Roasted_Vegetable_Salad.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Salads",
+		"customizable": {
+			"Extra 1/2 Salad": 60.0
+		}
 	},
 	{
 		"id": 31,
-		"item_name": "Plain Naan",
-		"price": 120,
+		"item_name": "Plain Naan - (4Pc)",
+		"price": 140,
 		"isAvailable": true,
 		"imagePath": "Veg/4__Naan-&-Bread/1__Plain_Naan.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Naans & Breads",
+		"customizable": {
+			"Extra Naan": 20.0
+		}
 	},
 	{
 		"id": 32,
 		"item_name": "Butter Naan",
-		"price": 120,
+		"price": 160,
 		"isAvailable": true,
 		"imagePath": "Veg/4__Naan-&-Bread/2__Butter_Naan.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Naans & Breads",
+		"customizable": {
+			"Extra Naan": 30.0
+		}
 	},
 	{
 		"id": 33,
 		"item_name": "Garlic Naan",
-		"price": 120,
+		"price": 149,
 		"isAvailable": true,
 		"imagePath": "Veg/4__Naan-&-Bread/3__Garlic_Naan.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Naans & Breads",
+		"customizable": {
+			"Extra Naan": 40.0
+		}
 	},
 	{
 		"id": 34,
 		"item_name": "Cheese Naan",
-		"price": 120,
+		"price": 150,
 		"isAvailable": true,
 		"imagePath": "Veg/4__Naan-&-Bread/4__Cheese_Naan.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Naans & Breads",
+		"customizable": {
+			"Extra Naan": 40.0
+		}
 	},
 	{
 		"id": 35,
 		"item_name": "Paneer Keema Naan",
-		"price": 120,
+		"price": 169,
 		"isAvailable": true,
 		"imagePath": "Veg/4__Naan-&-Bread/5__Paneer_Keema_Naan.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Naans & Breads",
+		"customizable": {
+			"Extra Naan": 40.0
+		}
 	},
 	{
 		"id": 36,
 		"item_name": "Roti / Chapati",
-		"price": 120,
+		"price": 110,
 		"isAvailable": true,
 		"imagePath": "Veg/4__Naan-&-Bread/6__Roti_Chapati.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Naans & Breads",
+		"customizable": {
+			"Extra Roti/Chapati": 40.0
+		}
 	},
 	{
 		"id": 37,
 		"item_name": "Roomali Roti",
-		"price": 120,
+		"price": 160,
 		"isAvailable": true,
 		"imagePath": "Veg/4__Naan-&-Bread/7__Roomali_Roti.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Naans & Breads",
+		"customizable": {
+			"Extra Roti": 60.0
+		}
 	},
 	{
 		"id": 38,
-		"item_name": "Phulka",
-		"price": 120,
+		"item_name": "Phulka - (4Pc)",
+		"price": 40,
 		"isAvailable": true,
 		"imagePath": "Veg/4__Naan-&-Bread/8__Phulka.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Naans & Breads",
+		"customizable": null
 	},
 	{
 		"id": 39,
 		"item_name": "Missi Roti",
-		"price": 120,
+		"price": 100,
 		"isAvailable": true,
 		"imagePath": "Veg/4__Naan-&-Bread/9__Missi_Roti.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Naans & Breads",
+		"customizable": {
+			"Extra Roti": 20.0
+		}
 	},
 	{
 		"id": 40,
 		"item_name": "Aloo Paratha",
-		"price": 120,
+		"price": 80,
 		"isAvailable": true,
 		"imagePath": "Veg/4__Naan-&-Bread/10__Aloo_Paratha.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Naans & Breads",
+		"customizable": {
+			"Extra Paratha": 40.0
+		}
 	},
 	{
 		"id": 41,
 		"item_name": "Garlic Bread",
-		"price": 120,
+		"price": 140,
 		"isAvailable": true,
 		"imagePath": "Veg/4__Naan-&-Bread/11__Garlic_Bread.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Naans & Breads",
+		"customizable": {
+			"Extra Bread": 40.0
+		}
 	},
 	{
 		"id": 42,
@@ -348,7 +493,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Veg/5__Curries/1__Chana_Masala.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Curries"
 	},
 	{
 		"id": 43,
@@ -356,7 +502,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Veg/5__Curries/2__Palak_Paneer.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Curries"
 	},
 	{
 		"id": 44,
@@ -364,7 +511,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Veg/5__Curries/3__Paneer_Butter_Masala.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Curries"
 	},
 	{
 		"id": 45,
@@ -372,7 +520,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Veg/5__Curries/4__Kaju_Tomato_Curry.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Curries"
 	},
 	{
 		"id": 46,
@@ -380,7 +529,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Veg/5__Curries/5__Kadai_Paneer.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Curries"
 	},
 	{
 		"id": 47,
@@ -388,7 +538,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Veg/5__Curries/6__Kaju_Panner_Curry.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Curries"
 	},
 	{
 		"id": 48,
@@ -396,7 +547,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Veg/5__Curries/7__Mutter_Panner.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Curries"
 	},
 	{
 		"id": 49,
@@ -404,7 +556,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Veg/5__Curries/8__Malai_Kofta.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Curries"
 	},
 	{
 		"id": 50,
@@ -412,7 +565,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Veg/5__Curries/9__Methi_Chaman.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Curries"
 	},
 	{
 		"id": 51,
@@ -420,7 +574,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Veg/5__Curries/10__Vegetable_Kurma.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Curries"
 	},
 	{
 		"id": 52,
@@ -428,7 +583,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Veg/5__Curries/11__Aloo_Gobhi.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Curries"
 	},
 	{
 		"id": 53,
@@ -436,7 +592,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Veg/6__Rice/1__Lemon_Rice.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Rice"
 	},
 	{
 		"id": 54,
@@ -444,7 +601,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Veg/6__Rice/2__Tomato Rice.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Rice"
 	},
 	{
 		"id": 55,
@@ -452,7 +610,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Veg/6__Rice/3__Curd_Rice.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Rice"
 	},
 	{
 		"id": 56,
@@ -460,7 +619,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Veg/6__Rice/4__Tamarind_Rice.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Rice"
 	},
 	{
 		"id": 57,
@@ -468,7 +628,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Veg/6__Rice/5__Mint_Rice.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Rice"
 	},
 	{
 		"id": 58,
@@ -476,7 +637,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Veg/6__Rice/6__Mango_Rice.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Rice"
 	},
 	{
 		"id": 59,
@@ -484,7 +646,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Veg/6__Rice/7__Jeera_Rice.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Rice"
 	},
 	{
 		"id": 60,
@@ -492,7 +655,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Veg/6__Rice/8__Carrot_Rice.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Rice"
 	},
 	{
 		"id": 61,
@@ -500,7 +664,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Veg/6__Rice/9__Capsicum_Rice.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Rice"
 	},
 	{
 		"id": 62,
@@ -508,7 +673,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Veg/6__Rice/10__Beetroot_Rice.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Rice"
 	},
 	{
 		"id": 63,
@@ -516,7 +682,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Veg/7__Veg-Fried-Rice/1__Veg_Fried_Rice.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Veg Fried Rice"
 	},
 	{
 		"id": 64,
@@ -524,7 +691,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Veg/7__Veg-Fried-Rice/2__Veg_Schezwan_Fried_Rice.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Veg Fried Rice"
 	},
 	{
 		"id": 65,
@@ -532,7 +700,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Veg/7__Veg-Fried-Rice/3__Paneer_Fried_Rice.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Veg Fried Rice"
 	},
 	{
 		"id": 66,
@@ -540,7 +709,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Veg/7__Veg-Fried-Rice/4__Mushroom_Fried_Rice.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Veg Fried Rice"
 	},
 	{
 		"id": 67,
@@ -548,7 +718,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Veg/7__Veg-Fried-Rice/5__Gobbi_Fried_Rice.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Veg Fried Rice"
 	},
 	{
 		"id": 68,
@@ -556,7 +727,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Veg/7__Veg-Fried-Rice/6__Dal_Kihichdi.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Veg Fried Rice"
 	},
 	{
 		"id": 69,
@@ -564,7 +736,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Veg/7__Veg-Fried-Rice/7__Egg_Fried_Rice.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Veg Fried Rice"
 	},
 	{
 		"id": 70,
@@ -572,7 +745,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Veg/7__Veg-Fried-Rice/8__Veg_Mixed_Fried_Rice.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Veg Fried Rice"
 	},
 	{
 		"id": 71,
@@ -580,7 +754,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Veg/8__Veg-Biryani/1__Vegetable_Biryani.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Veg Biryani"
 	},
 	{
 		"id": 72,
@@ -588,7 +763,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Veg/8__Veg-Biryani/2__Paneer_Biryani.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Veg Biryani"
 	},
 	{
 		"id": 73,
@@ -596,7 +772,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Veg/8__Veg-Biryani/3__Mushroom_Biryani.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Veg Biryani"
 	},
 	{
 		"id": 74,
@@ -604,7 +781,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Veg/8__Veg-Biryani/4__Egg_Biryani.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Veg Biryani"
 	},
 	{
 		"id": 75,
@@ -612,7 +790,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Veg/8__Veg-Biryani/5__Kaju_Biryani.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Veg Biryani"
 	},
 	{
 		"id": 76,
@@ -620,7 +799,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Veg/8__Veg-Biryani/6__Ulavacharu_Biryani.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Veg Biryani"
 	},
 	{
 		"id": 77,
@@ -628,7 +808,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Veg/9__Noodles/1__Veg_Noodles.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Noodles"
 	},
 	{
 		"id": 78,
@@ -636,7 +817,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Veg/9__Noodles/2__Egg_Noodles.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Noodles"
 	},
 	{
 		"id": 79,
@@ -644,7 +826,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Veg/9__Noodles/3__Chilli_Garlic_Veg_Noodles.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Noodles"
 	},
 	{
 		"id": 80,
@@ -652,7 +835,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Veg/9__Noodles/4__Veg_Schezwan_Noodles.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Noodles"
 	},
 	{
 		"id": 81,
@@ -660,7 +844,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Veg/9__Noodles/5_Veg_Manchurian_Noodles.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Noodles"
 	},
 	{
 		"id": 82,
@@ -668,7 +853,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Veg/9__Noodles/6__Sweet_Potato_Noodles.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Noodles"
 	},
 	{
 		"id": 83,
@@ -676,7 +862,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Veg/9__Noodles/7__Gobi_Noodles.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Noodles"
 	},
 	{
 		"id": 84,
@@ -684,7 +871,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Veg/9__Noodles/8__Mushroom_Noodles.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Noodles"
 	},
 	{
 		"id": 85,
@@ -692,7 +880,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Veg/9__Noodles/9__Paneer_Noodles.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Noodles"
 	},
 	{
 		"id": 86,
@@ -700,15 +889,22 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Veg/9__Noodles/10__Veg_Mixed_Noodles.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Noodles"
 	},
 	{
 		"id": 87,
 		"item_name": "Margherita Pizza",
-		"price": 120,
+		"price": 150,
 		"isAvailable": true,
 		"imagePath": "Veg/10__Pizza_& _Burgers_&_Wraps/1__Margherita_Pizza.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Pizzas & Burgers",
+		"customizable": {
+			"Small": 150.0,
+			"Medium": 240.0,
+			"Large": 320.0
+		}
 	},
 	{
 		"id": 88,
@@ -716,23 +912,41 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Veg/10__Pizza_& _Burgers_&_Wraps/2__Pepperoni_Pizza.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Pizzas & Burgers",
+		"customizable": {
+			"Small": 120.0,
+			"Medium": 240.0,
+			"Large": 320.0
+		}
 	},
 	{
 		"id": 89,
 		"item_name": "Paneer Pizza",
-		"price": 120,
+		"price": 140,
 		"isAvailable": true,
 		"imagePath": "Veg/10__Pizza_& _Burgers_&_Wraps/3__Paneer_Pizza.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Pizzas & Burgers",
+		"customizable": {
+			"Small": 140.0,
+			"Medium": 240.0,
+			"Large": 320.0
+		}
 	},
 	{
 		"id": 90,
 		"item_name": "Corn & Cheese Pizza",
-		"price": 120,
+		"price": 160,
 		"isAvailable": true,
 		"imagePath": "Veg/10__Pizza_& _Burgers_&_Wraps/4__Corn_&_Cheese_Pizza.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Pizzas & Burgers",
+		"customizable": {
+			"Small": 160.0,
+			"Medium": 240.0,
+			"Large": 320.0
+		}
 	},
 	{
 		"id": 91,
@@ -740,7 +954,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Veg/10__Pizza_& _Burgers_&_Wraps/5__Classic_Cheese_Burger.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Pizzas & Burgers"
 	},
 	{
 		"id": 92,
@@ -748,7 +963,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Veg/10__Pizza_& _Burgers_&_Wraps/6__Veggie_Burger.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Pizzas & Burgers"
 	},
 	{
 		"id": 93,
@@ -756,7 +972,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Veg/10__Pizza_& _Burgers_&_Wraps/7__Double_Patty_Burger.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Pizzas & Burgers"
 	},
 	{
 		"id": 94,
@@ -764,7 +981,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Veg/10__Pizza_& _Burgers_&_Wraps/8__Paneer_Grilled_Sandwich.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Pizzas & Burgers"
 	},
 	{
 		"id": 95,
@@ -772,7 +990,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Veg/10__Pizza_& _Burgers_&_Wraps/9__Veg_Grilled_Sandwich.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Pizzas & Burgers"
 	},
 	{
 		"id": 96,
@@ -780,7 +999,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Veg/10__Pizza_& _Burgers_&_Wraps/10__Corn_Grilled_Sandwich.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Pizzas & Burgers"
 	},
 	{
 		"id": 97,
@@ -788,7 +1008,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Veg/10__Pizza_& _Burgers_&_Wraps/11__Veg_Wrap.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Pizzas & Burgers"
 	},
 	{
 		"id": 98,
@@ -796,7 +1017,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Veg/10__Pizza_& _Burgers_&_Wraps/12__Egg_Wrap.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Pizzas & Burgers"
 	},
 	{
 		"id": 99,
@@ -804,7 +1026,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Veg/10__Pizza_& _Burgers_&_Wraps/13__French_Fries.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchsearchItemCategory": "Pizzas & Burgers"
 	},
 	{
 		"id": 100,
@@ -812,7 +1035,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Veg/10__Pizza_& _Burgers_&_Wraps/14__Periperi_Fries.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Pizzas & Burgers"
 	},
 	{
 		"id": 101,
@@ -820,7 +1044,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Veg/10__Pizza_& _Burgers_&_Wraps/15__Veg_Pasta.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Pizzas & Burgers"
 	},
 	{
 		"id": 102,
@@ -828,6 +1053,7 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Veg/10__Pizza_& _Burgers_&_Wraps/16__Creamy_Mushroom_Pasta.webp",
-		"category": "veg"
+		"category": "veg",
+		"searchItemCategory": "Pizzas & Burgers"
 	}
 ]

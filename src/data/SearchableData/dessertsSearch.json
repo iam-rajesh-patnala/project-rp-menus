@@ -5,7 +5,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Desserts/1__Sweets/1__Gulab_Jamun.webp",
-		"category": "desserts"
+		"category": "desserts",
+		"searchItemCategory": "Sweets"
 	},
 	{
 		"id": 192,
@@ -13,7 +14,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Desserts/1__Sweets/2__Rasgulla.webp",
-		"category": "desserts"
+		"category": "desserts",
+		"searchItemCategory": "Sweets"
 	},
 	{
 		"id": 193,
@@ -21,7 +23,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Desserts/1__Sweets/3__Jalebi.webp",
-		"category": "desserts"
+		"category": "desserts",
+		"searchItemCategory": "Sweets"
 	},
 	{
 		"id": 194,
@@ -29,7 +32,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Desserts/1__Sweets/4__Kheer.webp",
-		"category": "desserts"
+		"category": "desserts",
+		"searchItemCategory": "Sweets"
 	},
 	{
 		"id": 195,
@@ -37,7 +41,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Desserts/1__Sweets/5__Gajar_ka_Halwa.webp",
-		"category": "desserts"
+		"category": "desserts",
+		"searchItemCategory": "Sweets"
 	},
 	{
 		"id": 196,
@@ -45,7 +50,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Desserts/1__Sweets/6__Ladoo.webp",
-		"category": "desserts"
+		"category": "desserts",
+		"searchItemCategory": "Sweets"
 	},
 	{
 		"id": 197,
@@ -53,7 +59,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Desserts/1__Sweets/7__Barfi.webp",
-		"category": "desserts"
+		"category": "desserts",
+		"searchItemCategory": "Sweets"
 	},
 	{
 		"id": 198,
@@ -61,7 +68,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Desserts/1__Sweets/8__Sandesh.webp",
-		"category": "desserts"
+		"category": "desserts",
+		"searchItemCategory": "Sweets"
 	},
 	{
 		"id": 199,
@@ -69,7 +77,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Desserts/1__Sweets/9__Peda.webp",
-		"category": "desserts"
+		"category": "desserts",
+		"searchItemCategory": "Sweets"
 	},
 	{
 		"id": 200,
@@ -77,7 +86,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Desserts/1__Sweets/10__Ras_Malai.webp",
-		"category": "desserts"
+		"category": "desserts",
+		"searchItemCategory": "Sweets"
 	},
 	{
 		"id": 201,
@@ -85,7 +95,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Desserts/1__Sweets/11__Kalakand .webp",
-		"category": "desserts"
+		"category": "desserts",
+		"searchItemCategory": "Sweets"
 	},
 	{
 		"id": 202,
@@ -93,7 +104,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Desserts/1__Sweets/12__Payasam.webp",
-		"category": "desserts"
+		"category": "desserts",
+		"searchItemCategory": "Sweets"
 	},
 	{
 		"id": 203,
@@ -101,7 +113,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Desserts/1__Sweets/13__Mysore_Pak.webp",
-		"category": "desserts"
+		"category": "desserts",
+		"searchItemCategory": "Sweets"
 	},
 	{
 		"id": 204,
@@ -109,7 +122,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Desserts/1__Sweets/14__Malpua.webp",
-		"category": "desserts"
+		"category": "desserts",
+		"searchItemCategory": "Sweets"
 	},
 	{
 		"id": 205,
@@ -117,7 +131,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Desserts/2__Pastries/1__Chocolate_Pastry.webp",
-		"category": "desserts"
+		"category": "desserts",
+		"searchItemCategory": "Pastries"
 	},
 	{
 		"id": 206,
@@ -125,7 +140,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Desserts/2__Pastries/2__Brownie.webp",
-		"category": "desserts"
+		"category": "desserts",
+		"searchItemCategory": "Pastries"
 	},
 	{
 		"id": 207,
@@ -133,7 +149,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Desserts/2__Pastries/3__Death_By_Chocolate.webp",
-		"category": "desserts"
+		"category": "desserts",
+		"searchItemCategory": "Pastries"
 	},
 	{
 		"id": 208,
@@ -141,7 +158,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Desserts/2__Pastries/4__Kiwi_Pastry.webp",
-		"category": "desserts"
+		"category": "desserts",
+		"searchItemCategory": "Pastries"
 	},
 	{
 		"id": 209,
@@ -149,7 +167,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Desserts/2__Pastries/5__Chocolate_Chip_Pastry.webp",
-		"category": "desserts"
+		"category": "desserts",
+		"searchItemCategory": "Pastries"
 	},
 	{
 		"id": 210,
@@ -157,7 +176,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Desserts/2__Pastries/6__Black_Forest_Pastry.webp",
-		"category": "desserts"
+		"category": "desserts",
+		"searchItemCategory": "Pastries"
 	},
 	{
 		"id": 211,
@@ -165,7 +185,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Desserts/2__Pastries/7__Black_Current.webp",
-		"category": "desserts"
+		"category": "desserts",
+		"searchItemCategory": "Pastries"
 	},
 	{
 		"id": 212,
@@ -173,7 +194,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Desserts/2__Pastries/8__Pineapple_Pastry.webp",
-		"category": "desserts"
+		"category": "desserts",
+		"searchItemCategory": "Pastries"
 	},
 	{
 		"id": 213,
@@ -181,7 +203,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Desserts/2__Pastries/9__Butterscotch_Pastry.webp",
-		"category": "desserts"
+		"category": "desserts",
+		"searchItemCategory": "Pastries"
 	},
 	{
 		"id": 214,
@@ -189,7 +212,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Desserts/2__Pastries/10__Mango_Pastry.webp",
-		"category": "desserts"
+		"category": "desserts",
+		"searchItemCategory": "Pastries"
 	},
 	{
 		"id": 215,
@@ -197,7 +221,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Desserts/2__Pastries/11__Red_Velvet_Pastry.webp",
-		"category": "desserts"
+		"category": "desserts",
+		"searchItemCategory": "Pastries"
 	},
 	{
 		"id": 216,
@@ -205,7 +230,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Desserts/3__Ice_Creams/1__Apricot_Delight.webp",
-		"category": "desserts"
+		"category": "desserts",
+		"searchItemCategory": "Ice Creams"
 	},
 	{
 		"id": 217,
@@ -213,7 +239,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Desserts/3__Ice_Creams/2__Ice_Cream_Sundae.webp",
-		"category": "desserts"
+		"category": "desserts",
+		"searchItemCategory": "Ice Creams"
 	},
 	{
 		"id": 218,
@@ -221,7 +248,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Desserts/3__Ice_Creams/3__Fruit_Salad.webp",
-		"category": "desserts"
+		"category": "desserts",
+		"searchItemCategory": "Ice Creams"
 	},
 	{
 		"id": 219,
@@ -229,7 +257,11 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Desserts/3__Ice_Creams/4__Butterscotch.webp",
-		"category": "desserts"
+		"category": "desserts",
+		"searchItemCategory": "Ice Creams",
+		"customizable": {
+			"Extra 1/2 Ice Cream": 20.0
+		}
 	},
 	{
 		"id": 220,
@@ -237,7 +269,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Desserts/3__Ice_Creams/5__Chocolate.webp",
-		"category": "desserts"
+		"category": "desserts",
+		"searchItemCategory": "Ice Creams"
 	},
 	{
 		"id": 221,
@@ -245,7 +278,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Desserts/3__Ice_Creams/6__Mango.webp",
-		"category": "desserts"
+		"category": "desserts",
+		"searchItemCategory": "Ice Creams"
 	},
 	{
 		"id": 222,
@@ -253,7 +287,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Desserts/3__Ice_Creams/7__Vanilla.webp",
-		"category": "desserts"
+		"category": "desserts",
+		"searchItemCategory": "Ice Creams"
 	},
 	{
 		"id": 223,
@@ -261,7 +296,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Desserts/3__Ice_Creams/8__Pineapple.webp",
-		"category": "desserts"
+		"category": "desserts",
+		"searchItemCategory": "Ice Creams"
 	},
 	{
 		"id": 224,
@@ -269,7 +305,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Desserts/3__Ice_Creams/9__Pista.webp",
-		"category": "desserts"
+		"category": "desserts",
+		"searchItemCategory": "Ice Creams"
 	},
 	{
 		"id": 225,
@@ -277,7 +314,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Desserts/3__Ice_Creams/10__Dragon_Fruit.webp",
-		"category": "desserts"
+		"category": "desserts",
+		"searchItemCategory": "Ice Creams"
 	},
 	{
 		"id": 226,
@@ -285,7 +323,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Desserts/3__Ice_Creams/11__Kulfi.webp",
-		"category": "desserts"
+		"category": "desserts",
+		"searchItemCategory": "Ice Creams"
 	},
 	{
 		"id": 227,
@@ -293,7 +332,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Desserts/4__Cakes/1__Tutti_Frutti_Cake.webp",
-		"category": "desserts"
+		"category": "desserts",
+		"searchItemCategory": "Cakes"
 	},
 	{
 		"id": 228,
@@ -301,7 +341,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Desserts/4__Cakes/2__Cupcake.webp",
-		"category": "desserts"
+		"category": "desserts",
+		"searchItemCategory": "Cakes"
 	},
 	{
 		"id": 229,
@@ -309,7 +350,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Desserts/4__Cakes/3__Banana_Cake.webp",
-		"category": "desserts"
+		"category": "desserts",
+		"searchItemCategory": "Cakes"
 	},
 	{
 		"id": 230,
@@ -317,6 +359,7 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Desserts/4__Cakes/3__Banana_Cake.webp",
-		"category": "desserts"
+		"category": "desserts",
+		"searchItemCategory": "Cakes"
 	}
 ]

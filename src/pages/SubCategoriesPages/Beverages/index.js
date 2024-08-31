@@ -154,6 +154,9 @@ const Beverages = () => {
 										isVisible={isBottomSheetVisible}
 										onClose={handleCloseClick}
 										content={selectedItem}
+										itemCategory={
+											selectedItem.searchItemCategory
+										}
 										ref={bottomSheetRef}
 									/>
 								</div>

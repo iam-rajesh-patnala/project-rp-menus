@@ -240,7 +240,10 @@
 					"price": 120,
 					"isAvailable": true,
 					"imagePath": "Desserts/3__Ice_Creams/4__Butterscotch.webp",
-					"category": "desserts"
+					"category": "desserts",
+					"customizable": {
+						"Extra 1/2 Ice Cream": 20.0
+					}
 				},
 				{
 					"id": 220,

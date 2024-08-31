@@ -10,6 +10,7 @@ import NonVegIcon from "../../utils/NonVegIcon";
 
 const BottomSheet = forwardRef((props, ref) => {
 	const { isVisible, onClose, content = {}, itemCategory } = props;
+	console.log(itemCategory);
 	const {
 		item_name,
 		price = 0,
@@ -32,7 +33,17 @@ const BottomSheet = forwardRef((props, ref) => {
 
 	// Radio Button On Change handler
 	const radioButtonOnChange = (extraPrice) => {
-		setTotalPrice(price + Number(extraPrice));
+
+		// Exception for selected category
+		let categoryItems = ["Pizzas & Burgers"];
+
+		if (categoryItems.includes(itemCategory)) {
+			// Update with only	the total price
+			setTotalPrice(extraPrice);
+		} else {
+			// Add extraPrice to total price and update state
+			setTotalPrice(price + Number(extraPrice));
+		}
 	};
 
 	return (
@@ -68,7 +79,7 @@ const BottomSheet = forwardRef((props, ref) => {
 
 				<div className="bottom-sheet-customizable-container">
 					<div className="star-category-container">
-						<BsStars className="bottom-sheet-star"/>
+						<BsStars className="bottom-sheet-star" />
 						<p className="bottom-sheet-item-category">
 							{itemCategory}
 						</p>
@@ -79,7 +90,10 @@ const BottomSheet = forwardRef((props, ref) => {
 							<p className="extra-items-quantity">{key}</p>
 							<div className="price-with-radio-button">
 								{/* Label For Radio Button */}
-								<label className="bottom-sheet-radio-label" htmlFor={index}>
+								<label
+									className="bottom-sheet-radio-label"
+									htmlFor={index}
+								>
 									{`₹ ${value}.00`}
 								</label>
 								{/* Radio Button */}
@@ -112,7 +126,7 @@ BottomSheet.propTypes = {
 	content: PropTypes.shape({
 		item_name: PropTypes.string,
 		price: PropTypes.number,
-		category: PropTypes.oneOf(["veg", "nonVeg"]),
+		category: PropTypes.oneOf(["veg", "nonVeg", "desserts", "beverages"]),
 		customizable: PropTypes.objectOf(PropTypes.number),
 	}),
 	itemCategory: PropTypes.string.isRequired,

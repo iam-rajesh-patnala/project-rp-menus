@@ -556,7 +556,7 @@
 					"item_name": "Chicken Hukka Noodles",
 					"price": 120,
 					"isAvailable": true,
-					"imagePath": "Non-Veg/6__Noodles/3__Chicken_Hukk_Noodles.webp",
+					"imagePath": "Non-Veg/6__Noodles/3__Chicken_Hukka_Noodles.webp",
 					"category": "nonVeg"
 				},
 				{
@@ -625,7 +625,12 @@
 					"price": 120,
 					"isAvailable": true,
 					"imagePath": "Non-Veg/7__Pizzas_&_Burgers/1__Chicken_Tikka_Pizza.webp",
-					"category": "nonVeg"
+					"category": "nonVeg",
+					"customizable": {
+						"Small": 140.0,
+						"Medium": 240.0,
+						"Large": 320.0
+					}
 				},
 				{
 					"id": 177,
@@ -633,7 +638,12 @@
 					"price": 120,
 					"isAvailable": true,
 					"imagePath": "Non-Veg/7__Pizzas_&_Burgers/2__Chicken_Majestic_Pizza.webp",
-					"category": "nonVeg"
+					"category": "nonVeg",
+					"customizable": {
+						"Small": 140.0,
+						"Medium": 240.0,
+						"Large": 320.0
+					}
 				},
 				{
 					"id": 178,
@@ -641,7 +651,12 @@
 					"price": 120,
 					"isAvailable": true,
 					"imagePath": "Non-Veg/7__Pizzas_&_Burgers/3__BBQ_Chicken_Pizza.webp",
-					"category": "nonVeg"
+					"category": "nonVeg",
+					"customizable": {
+						"Small": 140.0,
+						"Medium": 240.0,
+						"Large": 320.0
+					}
 				},
 				{
 					"id": 179,
@@ -649,7 +664,12 @@
 					"price": 120,
 					"isAvailable": true,
 					"imagePath": "Non-Veg/7__Pizzas_&_Burgers/4__Malai_Chicken_Pizza.webp",
-					"category": "nonVeg"
+					"category": "nonVeg",
+					"customizable": {
+						"Small": 140.0,
+						"Medium": 240.0,
+						"Large": 320.0
+					}
 				},
 				{
 					"id": 180,
@@ -657,7 +677,12 @@
 					"price": 120,
 					"isAvailable": true,
 					"imagePath": "Non-Veg/7__Pizzas_&_Burgers/5__Chicken_Overloaded_Pizza.webp",
-					"category": "nonVeg"
+					"category": "nonVeg",
+					"customizable": {
+						"Small": 140.0,
+						"Medium": 240.0,
+						"Large": 320.0
+					}
 				},
 				{
 					"id": 181,
@@ -665,7 +690,12 @@
 					"price": 120,
 					"isAvailable": true,
 					"imagePath": "Non-Veg/7__Pizzas_&_Burgers/6__Chicken_Pepperoni_Pizza.webp",
-					"category": "nonVeg"
+					"category": "nonVeg",
+					"customizable": {
+						"Small": 140.0,
+						"Medium": 240.0,
+						"Large": 320.0
+					}
 				},
 				{
 					"id": 182,

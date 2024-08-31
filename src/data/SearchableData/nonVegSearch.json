@@ -6,9 +6,9 @@
 		"isAvailable": true,
 		"imagePath": "Non-Veg/1__Non-Veg-Soups/1__Chicken_Manchow_Soup.webp",
 		"category": "nonVeg",
+		"searchItemCategory": "Soups",
 		"customizable": {
-			"Extra 1/2 Soup": "₹ 20.00",
-			"Extra 2/2 Soup": "₹ 40.00"
+			"Extra 1/2 Soup": 20.0
 		}
 	},
 	{
@@ -17,7 +17,11 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/1__Non-Veg-Soups/2__Chicken_Sweet_Corn_Soup.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Soups",
+		"customizable": {
+			"Extra 1/2 Soup": 20.0
+		}
 	},
 	{
 		"id": 105,
@@ -25,7 +29,11 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/1__Non-Veg-Soups/3__Chicken_Hot_&_Sour_Soup.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Soups",
+		"customizable": {
+			"Extra 1/2 Soup": 20.0
+		}
 	},
 	{
 		"id": 106,
@@ -33,7 +41,11 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/1__Non-Veg-Soups/4__Chicken_Pepper_Lemon_Soup.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Soups",
+		"customizable": {
+			"Extra 1/2 Soup": 20.0
+		}
 	},
 	{
 		"id": 107,
@@ -41,7 +53,11 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/1__Non-Veg-Soups/5__Chicken_Clear_Bamboo_Shoot_Soup.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Soups",
+		"customizable": {
+			"Extra 1/2 Soup": 20.0
+		}
 	},
 	{
 		"id": 108,
@@ -49,7 +65,11 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/1__Non-Veg-Soups/6__Chicken_Lung_Fung_Soup.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Soups",
+		"customizable": {
+			"Extra 1/2 Soup": 20.0
+		}
 	},
 	{
 		"id": 109,
@@ -57,7 +77,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/1__Non-Veg-Soups/7__Chicken_Thai_Tom_Yum_Soup.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Soups"
 	},
 	{
 		"id": 110,
@@ -65,7 +86,11 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/1__Non-Veg-Soups/8__Chicken_Thukpa_Soup.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Soups",
+		"customizable": {
+			"Extra 1/2 Soup": 20.0
+		}
 	},
 	{
 		"id": 111,
@@ -73,7 +98,11 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/1__Non-Veg-Soups/9__Mutton_Bone_Soup.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Soups",
+		"customizable": {
+			"Extra 1/2 Soup": 20.0
+		}
 	},
 	{
 		"id": 112,
@@ -81,7 +110,11 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/1__Non-Veg-Soups/10__Prawns_Manchow_Soup.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Soups",
+		"customizable": {
+			"Extra 1/2 Soup": 20.0
+		}
 	},
 	{
 		"id": 113,
@@ -89,7 +122,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/2__Non-Veg-Starters/1__Chilli_Chicken.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Starters"
 	},
 	{
 		"id": 114,
@@ -97,7 +131,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/2__Non-Veg-Starters/2__Chicken_65.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Starters"
 	},
 	{
 		"id": 115,
@@ -105,7 +140,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/2__Non-Veg-Starters/3__Chicken_Tikka_Kabab.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Starters"
 	},
 	{
 		"id": 116,
@@ -113,7 +149,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/2__Non-Veg-Starters/4__Chicken_Reshmi Kabab.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Starters"
 	},
 	{
 		"id": 117,
@@ -121,7 +158,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/2__Non-Veg-Starters/5__Chicken_Manchurian.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Starters"
 	},
 	{
 		"id": 118,
@@ -129,7 +167,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/2__Non-Veg-Starters/6__Chicken_Drumstick.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Starters"
 	},
 	{
 		"id": 119,
@@ -137,7 +176,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/2__Non-Veg-Starters/7__Chicken_Spring_Rolls.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Starters"
 	},
 	{
 		"id": 120,
@@ -145,7 +185,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/2__Non-Veg-Starters/8__Chicken_Kemma_Balls.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Starters"
 	},
 	{
 		"id": 121,
@@ -153,7 +194,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/2__Non-Veg-Starters/9__Lemon_Chicken.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Starters"
 	},
 	{
 		"id": 122,
@@ -161,7 +203,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/2__Non-Veg-Starters/10__Chicken_Lollipop.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Starters"
 	},
 	{
 		"id": 123,
@@ -169,7 +212,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/2__Non-Veg-Starters/11__Chicken_Nuggets.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Starters"
 	},
 	{
 		"id": 124,
@@ -177,7 +221,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/2__Non-Veg-Starters/12__Pepper_Chicken.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Starters"
 	},
 	{
 		"id": 125,
@@ -185,7 +230,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/2__Non-Veg-Starters/13__Mutton_Kabab.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Starters"
 	},
 	{
 		"id": 126,
@@ -193,7 +239,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/2__Non-Veg-Starters/14__Mutton_Cutlets.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Starters"
 	},
 	{
 		"id": 127,
@@ -201,7 +248,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/2__Non-Veg-Starters/15__Apollo_Fish.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Starters"
 	},
 	{
 		"id": 128,
@@ -209,7 +257,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/2__Non-Veg-Starters/16__Fish_Tacos.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Starters"
 	},
 	{
 		"id": 129,
@@ -217,7 +266,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/2__Non-Veg-Starters/17__Fish_Rost.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Starters"
 	},
 	{
 		"id": 130,
@@ -225,7 +275,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/2__Non-Veg-Starters/18__Prawns_65.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Starters"
 	},
 	{
 		"id": 131,
@@ -233,7 +284,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/2__Non-Veg-Starters/19__Garlic_Butter_Crablets.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Starters"
 	},
 	{
 		"id": 132,
@@ -241,7 +293,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/3__Fried_Rice/1__Chicken_Fried_Rice.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Fried Rice"
 	},
 	{
 		"id": 133,
@@ -249,7 +302,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/3__Fried_Rice/2__Schezwan_Chicken_Fried_Rice.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Fried Rice"
 	},
 	{
 		"id": 134,
@@ -257,7 +311,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/3__Fried_Rice/3__Mixed_Fried_Rice.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Fried Rice"
 	},
 	{
 		"id": 135,
@@ -265,7 +320,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/3__Fried_Rice/4__Classic_Non_Veg_Fried_Rice.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Fried Rice"
 	},
 	{
 		"id": 136,
@@ -273,7 +329,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/3__Fried_Rice/5__Thai_Chicken_Fried_Rice.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Fried Rice"
 	},
 	{
 		"id": 137,
@@ -281,7 +338,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/3__Fried_Rice/6__Shanghai_Chicken_Fried_Rice.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Fried Rice"
 	},
 	{
 		"id": 138,
@@ -289,7 +347,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/3__Fried_Rice/7__Mutton_Fried_Rice.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Fried Rice"
 	},
 	{
 		"id": 139,
@@ -297,7 +356,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/3__Fried_Rice/8__Prawns_Fried_Rice.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Fried Rice"
 	},
 	{
 		"id": 140,
@@ -305,7 +365,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/3__Fried_Rice/9__Fish_Fried_Rice.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Fried Rice"
 	},
 	{
 		"id": 141,
@@ -313,7 +374,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/3__Fried_Rice/10__Schezwan_Mixed_Fried_Rice.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Fried Rice"
 	},
 	{
 		"id": 142,
@@ -321,7 +383,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/4__Curries/1__Butter_Chicken.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Curries"
 	},
 	{
 		"id": 143,
@@ -329,7 +392,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/4__Curries/2__Kadai_Chicken.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Curries"
 	},
 	{
 		"id": 144,
@@ -337,7 +401,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/4__Curries/3__Chicken_Chatpata.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Curries"
 	},
 	{
 		"id": 145,
@@ -345,7 +410,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/4__Curries/4__Chicken_Tikka_Masala.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Curries"
 	},
 	{
 		"id": 146,
@@ -353,7 +419,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/4__Curries/5__Afghani_Chicken.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Curries"
 	},
 	{
 		"id": 147,
@@ -361,7 +428,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/4__Curries/6__Moghlai_Chicken_Curry.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Curries"
 	},
 	{
 		"id": 148,
@@ -369,7 +437,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/4__Curries/7__Andhra_Chicken_Curry.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Curries"
 	},
 	{
 		"id": 149,
@@ -377,7 +446,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/4__Curries/8__Mutton_Korama.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Curries"
 	},
 	{
 		"id": 150,
@@ -385,7 +455,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/4__Curries/9__Mutton_Boti.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Curries"
 	},
 	{
 		"id": 151,
@@ -393,7 +464,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/4__Curries/10__Fry_Fish_Curry.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Curries"
 	},
 	{
 		"id": 152,
@@ -401,7 +473,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/4__Curries/11__Prawns_Masala.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Curries"
 	},
 	{
 		"id": 153,
@@ -409,7 +482,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/5__Biryani/1__Hyderabadi_Dum_Biryani.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Biryani"
 	},
 	{
 		"id": 154,
@@ -417,7 +491,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/5__Biryani/2__Special_Chicken_Biryani.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Biryani"
 	},
 	{
 		"id": 155,
@@ -425,7 +500,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/5__Biryani/3__Chicken_Fry_Piece_Biryani.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Biryani"
 	},
 	{
 		"id": 156,
@@ -433,7 +509,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/5__Biryani/4__Chicken_Mughlai_Biryani.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Biryani"
 	},
 	{
 		"id": 157,
@@ -441,7 +518,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/5__Biryani/5__Mixed_Mughlai_Biryani.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Biryani"
 	},
 	{
 		"id": 158,
@@ -449,7 +527,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/5__Biryani/6__Tandoori_Chicken_Mandi.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Biryani"
 	},
 	{
 		"id": 159,
@@ -457,7 +536,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/5__Biryani/7__Pachi_Mirchi_Kodi_Pulao.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Biryani"
 	},
 	{
 		"id": 160,
@@ -465,7 +545,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/5__Biryani/8__Nalli_Gosht_Biryani.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Biryani"
 	},
 	{
 		"id": 161,
@@ -473,7 +554,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/5__Biryani/9__Mandi_Biryani_Full.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Biryani"
 	},
 	{
 		"id": 162,
@@ -481,7 +563,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/5__Biryani/10__Mutton_Keema_Biryani.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Biryani"
 	},
 	{
 		"id": 163,
@@ -489,7 +572,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/5__Biryani/11__Mutton_Fry_Piece_Biryani.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Biryani"
 	},
 	{
 		"id": 164,
@@ -497,7 +581,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/5__Biryani/12__Fish_Fry_Piece_Biryani.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Biryani"
 	},
 	{
 		"id": 165,
@@ -505,7 +590,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/5__Biryani/13__Prawns_Biryani.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Biryani"
 	},
 	{
 		"id": 166,
@@ -513,7 +599,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/6__Noodles/1__Chicken_Soft_Noodles.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Noodles"
 	},
 	{
 		"id": 167,
@@ -521,15 +608,17 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/6__Noodles/2__Chicken_Schezwan_Noodles.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Noodles"
 	},
 	{
 		"id": 168,
 		"item_name": "Chicken Hukka Noodles",
 		"price": 120,
 		"isAvailable": true,
-		"imagePath": "Non-Veg/6__Noodles/3__Chicken_Hukk_Noodles.webp",
-		"category": "nonVeg"
+		"imagePath": "Non-Veg/6__Noodles/3__Chicken_Hukka_Noodles.webp",
+		"category": "nonVeg",
+		"searchItemCategory": "Noodles"
 	},
 	{
 		"id": 169,
@@ -537,7 +626,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/6__Noodles/4__Chicken_Manchurian_Noodles.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Noodles"
 	},
 	{
 		"id": 170,
@@ -545,7 +635,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/6__Noodles/5__Chinese_Chopsuey_Noodles.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Noodles"
 	},
 	{
 		"id": 171,
@@ -553,7 +644,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/6__Noodles/6__American_Chopsuey_Noodles.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Noodles"
 	},
 	{
 		"id": 172,
@@ -561,7 +653,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/6__Noodles/7__Mixed_Noodles.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Noodles"
 	},
 	{
 		"id": 173,
@@ -569,7 +662,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/6__Noodles/8__Mutton_Noodles.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Noodles"
 	},
 	{
 		"id": 174,
@@ -577,7 +671,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/6__Noodles/9__Fish_Noodles.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Noodles"
 	},
 	{
 		"id": 175,
@@ -585,7 +680,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/6__Noodles/10__Prawns_Noodles.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Noodles"
 	},
 	{
 		"id": 176,
@@ -593,7 +689,13 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/7__Pizzas_&_Burgers/1__Chicken_Tikka_Pizza.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Pizzas & Burgers",
+		"customizable": {
+			"Small": 140.0,
+			"Medium": 240.0,
+			"Large": 320.0
+		}
 	},
 	{
 		"id": 177,
@@ -601,7 +703,13 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/7__Pizzas_&_Burgers/2__Chicken_Majestic_Pizza.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Pizzas & Burgers",
+		"customizable": {
+			"Small": 140.0,
+			"Medium": 240.0,
+			"Large": 320.0
+		}
 	},
 	{
 		"id": 178,
@@ -609,7 +717,13 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/7__Pizzas_&_Burgers/3__BBQ_Chicken_Pizza.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Pizzas & Burgers",
+		"customizable": {
+			"Small": 140.0,
+			"Medium": 240.0,
+			"Large": 320.0
+		}
 	},
 	{
 		"id": 179,
@@ -617,7 +731,13 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/7__Pizzas_&_Burgers/4__Malai_Chicken_Pizza.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Pizzas & Burgers",
+		"customizable": {
+			"Small": 140.0,
+			"Medium": 240.0,
+			"Large": 320.0
+		}
 	},
 	{
 		"id": 180,
@@ -625,7 +745,13 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/7__Pizzas_&_Burgers/5__Chicken_Overloaded_Pizza.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Pizzas & Burgers",
+		"customizable": {
+			"Small": 140.0,
+			"Medium": 240.0,
+			"Large": 320.0
+		}
 	},
 	{
 		"id": 181,
@@ -633,7 +759,13 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/7__Pizzas_&_Burgers/6__Chicken_Pepperoni_Pizza.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Pizzas & Burgers",
+		"customizable": {
+			"Small": 140.0,
+			"Medium": 240.0,
+			"Large": 320.0
+		}
 	},
 	{
 		"id": 182,
@@ -641,7 +773,13 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/7__Pizzas_&_Burgers/7__Crispy_Chicken_Burger.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Pizzas & Burgers",
+		"customizable": {
+			"Small": 140.0,
+			"Medium": 240.0,
+			"Large": 320.0
+		}
 	},
 	{
 		"id": 183,
@@ -649,7 +787,13 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/7__Pizzas_&_Burgers/8__Chicken_Double_Patty_Burger.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Pizzas & Burgers",
+		"customizable": {
+			"Small": 140.0,
+			"Medium": 240.0,
+			"Large": 320.0
+		}
 	},
 	{
 		"id": 184,
@@ -657,7 +801,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/7__Pizzas_&_Burgers/9__Classic_Chicken_Burger.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Pizzas & Burgers"
 	},
 	{
 		"id": 185,
@@ -665,7 +810,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/7__Pizzas_&_Burgers/10__Chicken_Maharaja_Mac_Burger.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Pizzas & Burgers"
 	},
 	{
 		"id": 186,
@@ -673,7 +819,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/7__Pizzas_&_Burgers/11__Chicken_Classic_Roll.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Pizzas & Burgers"
 	},
 	{
 		"id": 187,
@@ -681,7 +828,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/7__Pizzas_&_Burgers/12__Peri_Peri_Shawarma_Chicken_Roll.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Pizzas & Burgers"
 	},
 	{
 		"id": 188,
@@ -689,7 +837,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/7__Pizzas_&_Burgers/13__Tandoori_Grilled_Chicken_Shawarma.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Pizzas & Burgers"
 	},
 	{
 		"id": 189,
@@ -697,7 +846,8 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/7__Pizzas_&_Burgers/14__Fiery_Chicken_Wrap.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Pizzas & Burgers"
 	},
 	{
 		"id": 190,
@@ -705,6 +855,7 @@
 		"price": 120,
 		"isAvailable": true,
 		"imagePath": "Non-Veg/7__Pizzas_&_Burgers/15__Crunchy_Chicken_Taco.webp",
-		"category": "nonVeg"
+		"category": "nonVeg",
+		"searchItemCategory": "Pizzas & Burgers"
 	}
 ]

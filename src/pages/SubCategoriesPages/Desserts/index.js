@@ -128,6 +128,9 @@ const Desserts = () => {
 									isVisible={isBottomSheetVisible}
 									onClose={handleCloseClick}
 									content={selectedItem}
+									itemCategory={
+										selectedItem.searchItemCategory
+									}
 									ref={bottomSheetRef}
 								/>
 							</div>

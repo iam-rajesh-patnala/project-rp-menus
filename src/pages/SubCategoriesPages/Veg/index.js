@@ -75,7 +75,7 @@ const Veg = () => {
 		setIsBottomSheetVisible(true); // Open the bottom sheet
 		document.body.style.overflow = "hidden"; // Disable scrolling on body when modal is open
 		setSelectedItem(item);
-		/* console.log(item); */
+		// console.log(item);
 	};
 
 	const handleCloseClick = () => {
@@ -127,6 +127,9 @@ const Veg = () => {
 									isVisible={isBottomSheetVisible}
 									onClose={handleCloseClick}
 									content={selectedItem}
+									itemCategory={
+										selectedItem.searchItemCategory
+									}
 									ref={bottomSheetRef}
 								/>
 							</div>
