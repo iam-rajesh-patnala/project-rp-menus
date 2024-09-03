@@ -10,7 +10,7 @@ import NonVegIcon from "../../utils/NonVegIcon";
 
 const BottomSheet = forwardRef((props, ref) => {
 	const { isVisible, onClose, content = {}, itemCategory } = props;
-	console.log(itemCategory);
+	
 	const {
 		item_name,
 		price = 0,

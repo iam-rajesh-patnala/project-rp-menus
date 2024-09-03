@@ -1,5 +1,5 @@
 import "./style.css";
-import "./mcmq.css"
+import "./mcmq.css";
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types"; // Import PropTypes
@@ -19,6 +19,25 @@ const getImage = (imagePath) => {
 	}
 };
 
+// Caching Images
+const cacheImage = (imagePath, imgSrc) => {
+	try {
+		localStorage.setItem(imagePath, imgSrc);
+	} catch (error) {
+		console.error("Error caching image:", error);
+	}
+};
+
+// Retrieving Cached Images
+const getCachedImage = (imagePath) => {
+	try {
+		return localStorage.getItem(imagePath);
+	} catch (error) {
+		console.error("Error retrieving cached image:", error);
+		return null;
+	}
+};
+
 // ----------------------------------------------------------------
 
 // Menu Card Component
@@ -28,21 +47,31 @@ const MenuCard = ({ item }) => {
 
 	// const [imgSrc, setImgSrc] = useState(placeholderImage);
 	const [imgSrc, setImgSrc] = useState(
-		`data:image/svg+xml;base64,${btoa(SvgImgPlaceholder)}`
+		getCachedImage(imagePath) ||
+			`data:image/svg+xml;base64,${btoa(SvgImgPlaceholder)}`
 	);
+
 	const img = getImage(imagePath);
 
 	useEffect(() => {
-		const imgElement = new Image();
-		imgElement.src = img;
-		imgElement.onload = () => {
-			setImgSrc(img);
-		};
-		imgElement.onerror = (e) => {
-			setImgSrc(defaultImage);
-			e.target.onerror = null; // Prevent infinite loop in case the image fails to load properly.
-		};
-	}, [img]);
+		const cachedImage = getCachedImage(imagePath);
+
+		if (cachedImage) {
+			setImgSrc(cachedImage);
+		} else {
+			const imgElement = new Image();
+			imgElement.src = img;
+			imgElement.onload = () => {
+				const imgSrcUrl = imgElement.src;
+				setImgSrc(imgSrcUrl);
+				cacheImage(imagePath, imgSrcUrl);
+			};
+			imgElement.onerror = (e) => {
+				setImgSrc(defaultImage);
+				e.target.onerror = null; // Prevent infinite loop in case the image fails to load properly.
+			};
+		}
+	}, [img, imagePath]);
 
 	return (
 		<div className="menu-card-container">
