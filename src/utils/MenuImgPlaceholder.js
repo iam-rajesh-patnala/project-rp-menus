@@ -1,6 +1,4 @@
-
-	const svgPlaceholder = `<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="100%" viewBox="0 0 420 280" enable-background="new 0 0 420 280" xml:space="preserve">
+const svgPlaceholder = `<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%" viewBox="0 0 420 280" enable-background="new 0 0 420 280" xml:space="preserve">
 <path fill="#F6F6F6" opacity="1.000000" stroke="none" 
 	d="
 M232.000000,281.000000 
@@ -933,6 +931,5 @@ M143.070480,195.822968
 	C144.489365,198.715347 143.650787,197.408035 143.070480,195.822968 
 z"/>
 </svg>`;
-
 
 export default svgPlaceholder;
